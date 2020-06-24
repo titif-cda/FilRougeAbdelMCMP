@@ -1,0 +1,13 @@
+.btn{
+    display: block;
+    padding: $pm;
+    border:1px solid black;
+	@include background-image(linear-gradient($color1, $color2, $color3));
+	transition:background-color 0.5s; 
+	background-color:aquamarine; 
+	cursor: pointer;
+    &:hover{
+		@include background-image(linear-gradient($color3, $color2, $color1));
+		background-color:azure; 
+    }
+}

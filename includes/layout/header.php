@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2">
                     <div class="logo">
-                        <a href="./index.php"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.php"><img src="./img/logo2.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10">
@@ -49,6 +49,7 @@
                             <li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
                             <li><a href="./index.php?page=presentation" class="<?php echo $page == 'presentation' ? 'active' : ''; ?>">Présentation</a></li>
                             <li><a href="./index.php?page=activites" class="<?php echo $page == 'activites' ? 'active' : ''; ?>">Activite</a></li>
+
                             <li><a href="./index.php?page=blog" class="<?php echo $page == 'blog' ? 'active' : ''; ?>">Blog</a></li>
                             <li><a href="./index.php?page=contact" class="<?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
                             <li><a href="./index.php?page=elements" class="<?php echo $page == 'elements' ? 'active' : ''; ?>">Eléments</a></li>

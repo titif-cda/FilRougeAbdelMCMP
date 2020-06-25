@@ -5,8 +5,8 @@
 		"sass/main.scss"
 	],
 	"sourcesContent": [
-		""
+		"body {\r\n  scroll-behavior: smooth;\r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,eAAe,EAAE,MAAM;CACxB"
 }

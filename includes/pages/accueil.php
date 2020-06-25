@@ -136,9 +136,9 @@
                     <div class="col-lg-4">
                         <div class="boxes-item">
                             <div class="boxes-pic">
-                                <img src="img/box-1.jpg" alt="">
+                                <img src="./img/grosse-cylindree.jpg" alt="">
                                 <div class="boxes-text">
-                                    <h1>Crossfit</h1>
+                                    <h2>Grosses cylindrées</h2>
                                 </div>
                             </div>
                         </div>
@@ -146,9 +146,9 @@
                     <div class="col-lg-4">
                         <div class="boxes-item">
                             <div class="boxes-pic">
-                                <img src="img/box-2.jpg" alt="">
+                                <img src="./img/125.jpg" alt="">
                                 <div class="boxes-text">
-                                    <h1>WOD</h1>
+                                    <h2>125 cm3</h2>
                                 </div>
                             </div>
                         </div>
@@ -156,9 +156,9 @@
                     <div class="col-lg-4">
                         <div class="boxes-item">
                             <div class="boxes-pic">
-                                <img src="img/box-3.jpg" alt="">
+                                <img src="./img/solex.JPG" alt="">
                                 <div class="boxes-text">
-                                    <h1>Kids & Teens</h1>
+                                    <h2>Solex</h2>
                                 </div>
                             </div>
                         </div>

@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2">
                     <div class="logo">
-                        <a href="./index.php"><img src="./img/logo2.png" alt=""></a>
+                        <a href="./index.php"><img src="./img/logo3.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10">
@@ -54,7 +54,8 @@
                             <li><a href="./index.php?page=contact" class="<?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
                             <li><a href="./index.php?page=elements" class="<?php echo $page == 'elements' ? 'active' : ''; ?>">Eléments</a></li>
 
-                            <li class="phone-num"><i class="fa fa-phone"></i><span>+33 6 81 62 58 32</span></li>
+
+                            <li class="search-btn search-trigger"> <a href="./index.php?page=inscription" >Inscrivez-vous</a></li>
                             <li class="search-btn search-trigger"><i class="fa fa-search"></i></li>
                         </ul>
                     </nav>

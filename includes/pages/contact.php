@@ -55,6 +55,8 @@
     </section>
     <!-- Contact Section End -->
   <?php
+  include('./includes/tempt/register.php');
   include('./includes/tempt/carte.php');
+
   ?>
 </main>

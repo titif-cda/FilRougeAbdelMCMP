@@ -2,6 +2,11 @@
 
 include('./config/config.php');
 
+//Mes libtrairies php
+//Gestion
+include('./lib/formulaire.php');
+
+
 
 // Requete
 $reponse = $bdd->query('SELECT * FROM page');
@@ -11,7 +16,7 @@ $reponse = $bdd->query('SELECT * FROM page');
 $ar_pages_var = array();
 
 //Boucle les données récupérées
-while($donnees = $reponse -> fletch()){
+while($donnees = $reponse -> fetch()){
     $ar_pages_var[$donnees['key_file']] = $donnees;
 }
 

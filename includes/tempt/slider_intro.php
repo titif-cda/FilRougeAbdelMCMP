@@ -1,3 +1,4 @@
+<main>
 <div class="hero-slider">
     <div class="hero-items owl-carousel">
         <div class="single-hero-item set-bg" data-setbg="./img/millau.png">
@@ -50,3 +51,4 @@
 </div>
 <!-- Hero Section End -->
 <!-- Class Booking Section Begin -->
+</main>

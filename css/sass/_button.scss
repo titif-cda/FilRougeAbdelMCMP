@@ -8,6 +8,6 @@
 	cursor: pointer;
     &:hover{
 		@include background-image(linear-gradient($color3, $color2, $color1));
-		background-color:azure; 
+		background-color:var(--primary-color);
     }
 }

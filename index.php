@@ -8,6 +8,7 @@ include('./lib/formulaire.php');
 
 
 
+
 // Requete
 $reponse = $bdd->query('SELECT * FROM page');
 

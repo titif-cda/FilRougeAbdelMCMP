@@ -38,6 +38,10 @@
 <script src="./js/jquery.slicknav.js"></script> <!-- cercles page éléments -->
 <script src="./js/owl.carousel.min.js"></script><!-- caroussel accueil -->
 <script src="./js/circle-progress.min.js"></script> <!-- cercles page éléments -->
+<!-- Js Wysiwyg -->
+<script src="./js/highlight.min.js"></script>
+<script src="./js/wysiwyg.min.js"></script>
+
 
 <script src="./js/main.js"></script>
 </body>

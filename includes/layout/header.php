@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css">
+    <!-- Css Wysiwyg -->
+    <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
+
+
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
 
@@ -43,16 +47,22 @@
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-10">
+
                     <nav class="main-menu mobile-menu">
                         <ul>
+                            <?php
+                    foreach ($ar_pages_var as $key=>$value )
+                        if($ar_pages_var[$key]['id_page'] < 17)
+                        echo ('<li><a href="./index.php?page='.$ar_pages_var[$key]['key_file'].'">'.$ar_pages_var[$key]['key_file'] .'</a></li>');
 
-                            <li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
+                ?>
+                            <!--<li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
                             <li><a href="./index.php?page=presentation" class="<?php echo $page == 'presentation' ? 'active' : ''; ?>">Présentation</a></li>
                             <li><a href="./index.php?page=activites" class="<?php echo $page == 'activites' ? 'active' : ''; ?>">Activite</a></li>
 
                             <li><a href="./index.php?page=blog" class="<?php echo $page == 'blog' ? 'active' : ''; ?>">Blog</a></li>
                             <li><a href="./index.php?page=contact" class="<?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
-                            <li><a href="./index.php?page=elements" class="<?php echo $page == 'elements' ? 'active' : ''; ?>">Eléments</a></li>
+                            <li><a href="./index.php?page=elements" class="<?php echo $page == 'gallerie' ? 'active' : ''; ?>">Gallerie</a></li>-->
 
 
                             <li class="search-btn search-trigger"> <a href="./index.php?page=inscription" >Inscrivez-vous</a></li>

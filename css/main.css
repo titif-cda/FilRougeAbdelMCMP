@@ -1,28 +1,3 @@
-/* line 1, C:/wamp64/www/FilRougeMCMP/css/sass/_button.scss */
-.btn {
-  display: block;
-  padding: 15px;
-  border: 1px solid black;
-  background-image: -owg-linear-gradient(rgba(156, 125, 240, 0.9), #000000, rgba(100, 99, 100, 0.5));
-  background-image: -webkit-linear-gradient(rgba(156, 125, 240, 0.9), #000000, rgba(100, 99, 100, 0.5));
-  background-image: -moz-linear-gradient(rgba(156, 125, 240, 0.9), #000000, rgba(100, 99, 100, 0.5));
-  background-image: -o-linear-gradient(rgba(156, 125, 240, 0.9), #000000, rgba(100, 99, 100, 0.5));
-  background-image: linear-gradient(rgba(156, 125, 240, 0.9), #000000, rgba(100, 99, 100, 0.5));
-  transition: background-color 0.5s;
-  background-color: aquamarine;
-  cursor: pointer;
-}
-
-/* line 9, C:/wamp64/www/FilRougeMCMP/css/sass/_button.scss */
-.btn:hover {
-  background-image: -owg-linear-gradient(rgba(100, 99, 100, 0.5), #000000, rgba(156, 125, 240, 0.9));
-  background-image: -webkit-linear-gradient(rgba(100, 99, 100, 0.5), #000000, rgba(156, 125, 240, 0.9));
-  background-image: -moz-linear-gradient(rgba(100, 99, 100, 0.5), #000000, rgba(156, 125, 240, 0.9));
-  background-image: -o-linear-gradient(rgba(100, 99, 100, 0.5), #000000, rgba(156, 125, 240, 0.9));
-  background-image: linear-gradient(rgba(100, 99, 100, 0.5), #000000, rgba(156, 125, 240, 0.9));
-  background-color: var(--primary-color);
-}
-
 /* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/_header.scss */
 .header .inner-header .logo {
   padding: 10px 0;

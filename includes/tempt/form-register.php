@@ -8,7 +8,7 @@
                     <div class="booking-form">
 
                         <form action="./index.php?page=inscription" method="post" class="register-form">
-                            <input type="hidden" name="formulaire" value="register""/>
+                            <input type="hidden" name="formulaire" value="register"/>
 
                             <div class="row">
                                 <div class="col-sm-12">
@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
                             </div>
-                                <div class="row">
+                            <div class="row">
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <input type="text" id= "name" name="Prenom"  placeholder="Votre prénom"value="abdel prenom">
@@ -75,36 +75,36 @@
                                     </div>
                                 </div>
 
-                                    <div class="col-sm-6">
-                                        <label for="name" >Votre cylindrée</label>
-                                        <div class="row">
-                                            <div class="col-lg-4">
-                                                <label for="name" >125 cm3</label>
-                                                <input type="radio"  name="Cylindree"value="125 cm3" />
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <label for="name" >250 cm3</label>
-                                                <input type="radio"  name="Cylindree" value="250 cm3"/>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <label for="name" >> 250 cm3</label>
-                                                <input type="radio"  name="Cylindree"value="> 250 cm3" />
-                                            </div>
+                                <div class="col-sm-6">
+                                    <label for="name" >Votre cylindrée</label>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <label for="name" >125 cm3</label>
+                                            <input type="radio"  name="Cylindree"value="125 cm3" />
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <label for="name" >250 cm3</label>
+                                            <input type="radio"  name="Cylindree" value="250 cm3"/>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <label for="name" >> 250 cm3</label>
+                                            <input type="radio"  name="Cylindree"value="> 250 cm3" />
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
-                                        <div class="col-sm">
-                                            <input type="submit" value="S'enregistrer" class="submit-btn">
-                                        </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="col-sm">
+                                        <input type="submit" value="S'enregistrer" class="submit-btn">
                                     </div>
                                 </div>
                             </div>
                     </div>
-
-                    </form>
                 </div>
+
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
 </main>

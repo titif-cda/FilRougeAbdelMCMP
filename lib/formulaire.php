@@ -43,7 +43,61 @@ if(!empty($_POST)){
         echo "Query : ".$query;
 
         $bdd->query($query);
-
     }
 
-};
+    if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF'){
+
+var_dump($_POST);
+        $query1 = 'INSERT INTO activite(
+          
+            IntituleActivite,
+            DDebut,
+            DFin,
+            Description,
+            TarifAdherent,
+            TarifInvite,
+            DLimite,
+            IdAdherent,
+            IdType
+
+          
+            ) 
+            VALUES (
+          
+            "'.$_POST["IntituleActivite"].'",
+            "'.$_POST["DDebut"].'",
+            "'.$_POST["DFin"].'",
+            "'.$_POST["Description"].'",
+            "'.$_POST["TarifAdherent"].'",
+            "'.$_POST["TarifInvite"].'",
+            "'.$_POST["DLimite"].'",
+            "'.$_POST["IdAdherent"].'",
+            "'.$_POST["IdType"].'"
+           
+         
+            
+            )';
+        echo "Query : ".$query1;
+
+        $bdd->query($query1);
+
+
+    };
+    if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
+
+        var_dump($_POST);
+        $query2 = 'INSERT INTO type_activite(
+          
+            IntituleType
+            ) 
+            VALUES (
+          
+            "'.$_POST["IntituleType"].'"
+           
+            )';
+
+        echo "Query : ".$query2;
+
+        $bdd->query($query2);
+    };
+}

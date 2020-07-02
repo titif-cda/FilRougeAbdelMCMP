@@ -1,7 +1,7 @@
 <?php
 
 include('./includes/tempt/hero-section4.php');
-include('./includes/tempt/elements-section.php.php');
+include('./includes/tempt/elements-section.php');
 
 ?>
     <!-- Hero Section Begin -->

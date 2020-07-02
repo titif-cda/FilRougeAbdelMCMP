@@ -1,1 +1,28 @@
 @import 'config';
+.header {
+  .inner-header{
+    .logo {
+      padding: 10px 0;
+      img {
+
+        border-radius: 10%;
+      }
+
+
+    }
+    nav.main-menu mobile-menu{
+      ul{
+
+        li.inscr-btn {
+          background-color: red;
+          font-size: 20px;
+          /* padding: 30px 35px 31px 35px; */
+          background: var(--primary-color);
+          color: #ffffff;
+          cursor: pointer;
+          margin-right: 0;
+
+        }}
+    }
+  }
+}

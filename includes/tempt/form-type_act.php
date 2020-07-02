@@ -13,7 +13,7 @@
                             <div class="row">
 
                                 <div class="col-sm">
-                                    <input type="text" name="IntituleType" placeholder="Intitulé du type d'activité" value="">
+                                    <input type="text" name="INTITULETYPE" placeholder="Intitulé du type d'activité" value="">
                                 </div>
                                 <div class="col-sm">
                                     <input type="submit" value="Ajouter" class="submit-btn">

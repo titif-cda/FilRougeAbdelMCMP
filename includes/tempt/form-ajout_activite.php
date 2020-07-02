@@ -13,15 +13,15 @@
                         <div class="row">
 
                             <div class="col-sm">
-                                <input type="text" name="IntituleActivite" placeholder="Intitulé de l'activité" value="">
-                                <input type="date" id= "dbegin" name="DDebut" placeholder="Date de début d'activité" value="">
-                                <input type="date" id= "dend" name="DFin" placeholder="Date de fin d'activité" value="">
-                                <input type="text" id= "name" name="Description"  placeholder="Description de l'activité "value="">
-                                <input type="number" id= "number" name="TarifAdherent" placeholder ="Tarif Adherent " value="">
-                                <input type="number" id= "number" name="TarifInvite" placeholder ="Tarif Invité " value="">
-                                <input type="date" id= "dlimit" name="DLimite" placeholder="Date limite" value="">
-                                <input type="number" id= "id" name="IdAdherent" placeholder="Date limite" value="">
-                                <input type="number" id= "id" name="Idtype" placeholder="Id type" value="">
+                                <input type="text" name="INTITULEACTIVITE" placeholder="Intitulé de l'activité" value="">
+                                <input type="date" id= "dbegin" name="DDEBUT" placeholder="Date de début d'activité" value="">
+                                <input type="date" id= "dend" name="DFIN" placeholder="Date de fin d'activité" value="">
+                                <input type="text" id= "name" name="DESCRIPTION"  placeholder="Description de l'activité "value="">
+                                <input type="number" id= "number" name="TARIFADHERENT" placeholder ="Tarif Adherent " value="">
+                                <input type="number" id= "number" name="TARIFINVITE" placeholder ="Tarif Invité " value="">
+                                <input type="date" id= "dlimit" name="DLIMITEINSCRIPTION" placeholder="Date limite" value="">
+                                <input type="number" id= "id" name="IDADHERENT" placeholder="Date limite" value="">
+                                <input type="number" id= "id" name="IDTYPE" placeholder="Id type" value="">
                             <div class="col-sm-12">
                                 <div class="col-sm">
                                     <input type="submit" value="Ajouter" class="submit-btn">

@@ -1,3 +1,4 @@
+
 <?php
 
 include('./config/config.php');
@@ -10,7 +11,7 @@ include('./lib/formulaire.php');
 
 
 // Requete
-$reponse = $bdd->query('SELECT * FROM page');
+$reponse = $bdd->query('SELECT * FROM PAGE');
 
 
 //push tableau array() PHP
@@ -18,7 +19,7 @@ $ar_pages_var = array();
 
 //Boucle les données récupérées
 while($donnees = $reponse -> fetch()){
-    $ar_pages_var[$donnees['key_file']] = $donnees;
+    $ar_pages_var[$donnees['KEY_FILE']] = $donnees;
 }
 
 /*$ar_pages_var = array(
@@ -72,18 +73,18 @@ while($donnees = $reponse -> fetch()){
 );
 */
 
-if(isset($_GET['page']) AND !empty($_GET['page']) ){
 
-    $page = $_GET['page'];
+if(isset($_GET['PAGE']) AND !empty($_GET['PAGE']) ){
+
+    $page = $_GET['PAGE'];
 
 }else{
 
-    $page = 'accueil';
+    $page = 'ACCUEIL';
 }
-
-$description = $ar_pages_var[$page]['metadescription'];
-$title = $ar_pages_var[$page]['metatitle'];
-$keywords = $ar_pages_var[$page]['keywords'];
+$description = $ar_pages_var[$page]['METADESCRIPTION'];
+$title = $ar_pages_var[$page]['METATITLE'];
+$keywords = $ar_pages_var[$page]['KEYWORDS'];
 
 include('./includes/layout/header.php');
 

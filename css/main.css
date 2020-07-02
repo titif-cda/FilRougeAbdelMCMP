@@ -8,6 +8,17 @@
   border-radius: 10%;
 }
 
+/* line 15, C:/wamp64/www/FilRougeMCMP/css/sass/_header.scss */
+.header .inner-header nav.main-menu mobile-menu ul li.inscr-btn {
+  background-color: red;
+  font-size: 20px;
+  /* padding: 30px 35px 31px 35px; */
+  background: var(--primary-color);
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 0;
+}
+
 /* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
 .booking-classes h2 {
   text-align: center;
@@ -23,6 +34,27 @@
 .booking-classes .booking-form label {
   text-align: center;
   margin: 0 40px 20px;
+}
+
+/* line 4, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.header .inner-header .logo {
+  padding: 10px 0;
+}
+
+/* line 6, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.header .inner-header .logo img {
+  border-radius: 10%;
+}
+
+/* line 16, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.header .inner-header nav.main-menu mobile-menu ul li.inscr-btn {
+  background-color: red;
+  font-size: 20px;
+  /* padding: 30px 35px 31px 35px; */
+  background: var(--primary-color);
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,38 +6,39 @@ if(!empty($_POST)){
 
         var_dump($_POST);
 
-        $droit_image = $_POST["droit_image"] == 'on' ? 1 : 0;
+        $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
 
 
 
-        $query = 'INSERT INTO adherent(
-            Login,
-            Password,
-            Nom,
-            Prenom,
-            DNaiss,
-            Adresse1,
-            CdPost,
-            Ville,
-            Email,
-            Tel,
-            Certificat,
-            Droit_image,
-            Cylindree
+        $query = 'INSERT INTO	ADHERENT(
+            LOGIN,
+            PASSWORD,
+            NOM,
+            PRENOM,
+            DNAISSANCE,
+            ADRESSE1,
+            CDPOST,
+            VILLE,
+            EMAIL,
+            TELEPHONE,
+            CERTIFICAT,
+            DROITIMAGE,
+            CYLINDREE
+            
             ) VALUES (
-            "'.$_POST["Login"].'",
-            "'.$_POST["Password"].'",
-            "'.$_POST["Nom"].'",
-            "'.$_POST["Prenom"].'",
-            "'.$_POST["DNaiss"].'",
-            "'.$_POST["Adresse1"].'",
-            "'.$_POST["CdPost"].'",
-            "'.$_POST["Ville"].'",
-            "'.$_POST["Email"].'",
-            "'.$_POST["Tel"].'",
+            "'.$_POST["LOGIN"].'",
+            "'.$_POST["PASSWORD"].'",
+            "'.$_POST["NOM"].'",
+            "'.$_POST["PRENOM"].'",
+            "'.$_POST["DNAISSANCE"].'",
+            "'.$_POST["ADRESSE1"].'",
+            "'.$_POST["CDPOST"].'",
+            "'.$_POST["VILLE"].'",
+            "'.$_POST["EMAIL"].'",
+            "'.$_POST["TELEPHONE"].'",
             1,
             '.$droit_image.',
-            "'.$_POST["Cylindree"].'"
+            "'.$_POST["CYLINDREE"].'"
             )';
 
         echo "Query : ".$query;
@@ -48,31 +49,30 @@ if(!empty($_POST)){
     if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF'){
 
 var_dump($_POST);
-        $query1 = 'INSERT INTO activite(
-          
-            IntituleActivite,
-            DDebut,
-            DFin,
-            Description,
-            TarifAdherent,
-            TarifInvite,
-            DLimite,
-            IdAdherent,
-            IdType
+        $query1 = 'INSERT INTO ACTIVITE(
 
+            INTITULEACTIVITE,
+            DDEBUT,
+            DFIN,
+            DESCRIPTION,
+            TARIFADHERENT,
+            TARIFINVITE,
+            DLIMITEINSCRIPTION,
+            IDADHERENT,
+            IDTYPE
           
             ) 
             VALUES (
           
-            "'.$_POST["IntituleActivite"].'",
-            "'.$_POST["DDebut"].'",
-            "'.$_POST["DFin"].'",
-            "'.$_POST["Description"].'",
-            "'.$_POST["TarifAdherent"].'",
-            "'.$_POST["TarifInvite"].'",
-            "'.$_POST["DLimite"].'",
-            "'.$_POST["IdAdherent"].'",
-            "'.$_POST["IdType"].'"
+            "'.$_POST["INTITULEACTIVITE"].'",
+            "'.$_POST["DDEBUT"].'",
+            "'.$_POST["DFIN"].'",
+            "'.$_POST["DESCRIPTION"].'",
+            "'.$_POST["TARIFADHERENT"].'",
+            "'.$_POST["TARIFINVITE"].'",
+            "'.$_POST["DLIMITEINSCRIPTION"].'",
+            "'.$_POST["IDADHERENT"].'",
+            "'.$_POST["IDTYPE"].'"
            
          
             
@@ -86,13 +86,13 @@ var_dump($_POST);
     if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
 
         var_dump($_POST);
-        $query2 = 'INSERT INTO type_activite(
+        $query2 = 'INSERT INTO TYPE_ACTIVITE(
           
-            IntituleType
+            INTITULETYPE
             ) 
             VALUES (
           
-            "'.$_POST["IntituleType"].'"
+            "'.$_POST["INTITULETYPE"].'"
            
             )';
 

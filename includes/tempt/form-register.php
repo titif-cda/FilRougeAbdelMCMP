@@ -13,65 +13,65 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <input type="text" name="Login" placeholder="Identifiant">
+                                        <input type="text" name="LOGIN" placeholder="Identifiant">
                                     </div>
                                     <div class="col-sm">
-                                        <input type="password" id= "password" name="Password" placeholder="Votre Mot de passe" value="abdel mdp">
+                                        <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="abdel mdp">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "name" name="Prenom"  placeholder="Votre prénom"value="abdel prenom">
+                                        <input type="text" id= "name" name="PRENOM"  placeholder="Votre prénom"value="">
                                     </div>
                                     <div class="col-sm">
-                                        <input type="text" id= "name" name="Nom" placeholder ="Votre Nom" value="abdel nom">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="col-sm">
-                                        <input type="date" id= "birth" name="DNaiss" placeholder="Votre date de naissance" value="14/04/1982">
-                                    </div>
-                                    <div class="col-sm">
-                                        <input type="text" id= "adress" name="Adresse1" placeholder="Votre adresse" value=" rue des tulipes">
+                                        <input type="text" id= "name" name="NOM" placeholder ="Votre Nom" value="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "adress" name="Adresse2" placeholder="Votre adresse 2">
+                                        <input type="date" id= "birth" name="DNAISSANCE" placeholder="Votre date de naissance" value="">
+                                    </div>
+                                    <div class="col-sm">
+                                        <input type="text" id= "adress" name="ADRESSE1" placeholder="Votre adresse" value="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "zip" name="CdPost" placeholder="Votre code postal" value=" 12000">
+                                        <input type="text" id= "adress" name="ADRESSE2" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "city" name="Ville" placeholder="Votre ville" value="rodez">
+                                        <input type="text" id= "zip" name="CDPOST" placeholder="Votre code postal" value="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="email" id= "email" name="Email" placeholder="Votre email" value="cda03@gmail.com">
+                                        <input type="text" id= "city" name="VILLE" placeholder="Votre ville" value="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "mobile" name="Tel"  placeholder="Votre Téléphone" value="0681816256">
+                                        <input type="email" id= "email" name="EMAIL" placeholder="Votre email" value="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm">
+                                        <input type="text" id= "mobile" name="TELEPHONE"  placeholder="Votre Téléphone" value="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <label for="name" >Certificat Médical (-6mois)</label>
-                                        <input type="file" id= "certificat" name="Certificat"  placeholder="Téléchargez votre certificat médical">
+                                        <input type="file" id= "certificat" name="CERTIFICAT"  placeholder="Téléchargez votre certificat médical">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <label for="name"> Vous acceptez que votre image soit utilisée sur le site internet.</label>
-                                        <input type="checkbox" id= "droit" name="droit_image" placeholder="Vous acceptez que votre image soit utilisée sur le site internet">
+                                        <input type="checkbox" id= "droit" name="DROITIMAGE" placeholder="Vous acceptez que votre image soit utilisée sur le site internet">
                                     </div>
                                 </div>
 
@@ -80,15 +80,15 @@
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <label for="name" >125 cm3</label>
-                                            <input type="radio"  name="Cylindree"value="125 cm3" />
+                                            <input type="radio"  name="CYLINDREE"value="125 cm3" />
                                         </div>
                                         <div class="col-lg-4">
                                             <label for="name" >250 cm3</label>
-                                            <input type="radio"  name="Cylindree" value="250 cm3"/>
+                                            <input type="radio"  name="CYLINDREE" value="250 cm3"/>
                                         </div>
                                         <div class="col-lg-4">
                                             <label for="name" >> 250 cm3</label>
-                                            <input type="radio"  name="Cylindree"value="> 250 cm3" />
+                                            <input type="radio"  name="CYLINDREE"value="> 250 cm3" />
                                         </div>
                                     </div>
                                 </div>

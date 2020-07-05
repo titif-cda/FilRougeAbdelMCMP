@@ -27,7 +27,7 @@
 
 
     <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css?v=1.<?php echo time(); ?>" type="text/css">
 
 </head>
 
@@ -36,6 +36,9 @@
 <div id="preloder">
     <div class="loader"></div>
 </div>
+
+<?php include ('./includes/tempt/modal.php'); ?>
+
 <!-- Header Section Begin -->
 <header class="header-section">
     <div class="container-fluid">
@@ -43,7 +46,7 @@
             <div class="row">
                 <div class="col-sm-2 col-lg-2 col-md-2">
                     <div class="logo">
-                        <a href="./index.php"><img src="./img/logo3.png" alt=""></a>
+                        <a href="./index.php"><img src="./img/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-sm-10 col-lg-10 col-md-10">
@@ -52,10 +55,12 @@
                         <ul>
                             <?php
                     foreach ($ar_pages_var as $key=>$value )
+
                         if($ar_pages_var[$key]['PUBLIC'] ==1)
-                        echo ('<li><a href="./index.php?PAGE='.$ar_pages_var[$key]['KEY_FILE'].'">'.$ar_pages_var[$key]['KEY_FILE'] .' </a></li>');
+                        echo ('<li  ><a href="./index.php?PAGE='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>');
 
                 ?>
+
                             <!--<li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
                             <li><a href="./index.php?page=presentation" class="<?php echo $page == 'presentation' ? 'active' : ''; ?>">Présentation</a></li>
                             <li><a href="./index.php?page=activites" class="<?php echo $page == 'activites' ? 'active' : ''; ?>">Activite</a></li>
@@ -65,11 +70,11 @@
                             <li><a href="./index.php?page=elements" class="<?php echo $page == 'gallerie' ? 'active' : ''; ?>">Gallerie</a></li>-->
 
 
-                            <li class="inscr-btn"> <a href="./index.php?PAGE=INSCRIPTION" >Inscrivez-vous</a></li>
+                            <a href="./index.php?PAGE=INSCRIPTION" class="inscr-btn">Inscrivez-vous</a>
                             <li class="search-btn search-trigger"><i class="fa fa-search"></i></li>
                         </ul>
                     </nav>
-                    <div id="mobile-menu-wrap"></div>
+
                 </div>
             </div>
         </div>

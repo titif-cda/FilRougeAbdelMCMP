@@ -4,16 +4,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Formulaire d'inscription</h2>
+                    <h2><?php echo $title_register; ?></h2>
                     <div class="booking-form">
+                        <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form">
+                            <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
+                            <input type="hidden" name="IDADHERENT" value="<?php echo isset($id) ? $id : ''; ?>"/>
 
-                        <form action="./index.php?page=inscription" method="post" class="register-form">
-                            <input type="hidden" name="formulaire" value="register"/>
 
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <input type="text" name="LOGIN" placeholder="Identifiant">
+                                        <input type="text" name="LOGIN" value="<?php echo isset($identifiant) ? $identifiant : 'test identifiant' ?>" placeholder="" >
                                     </div>
                                     <div class="col-sm">
                                         <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="abdel mdp">
@@ -23,10 +24,10 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "name" name="PRENOM"  placeholder="Votre prénom"value="">
+                                        <input type="text" id= "name" name="PRENOM"  value="<?php echo isset($prenom) ? $prenom : 'test prenom' ?>" placeholder="" />
                                     </div>
                                     <div class="col-sm">
-                                        <input type="text" id= "name" name="NOM" placeholder ="Votre Nom" value="">
+                                        <input type="text" id= "name" name="NOM" value="<?php echo isset($nom) ? $nom : 'test nom' ?>" />
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -80,21 +81,21 @@
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <label for="name" >125 cm3</label>
-                                            <input type="radio"  name="CYLINDREE"value="125 cm3" />
+                                            <input type="radio"  name="CYLINDREE"value="125 cm3"  <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?>/>
                                         </div>
                                         <div class="col-lg-4">
                                             <label for="name" >250 cm3</label>
-                                            <input type="radio"  name="CYLINDREE" value="250 cm3"/>
+                                            <input type="radio"  name="CYLINDREE" value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?>/>
                                         </div>
                                         <div class="col-lg-4">
                                             <label for="name" >> 250 cm3</label>
-                                            <input type="radio"  name="CYLINDREE"value="> 250 cm3" />
+                                            <input type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <input type="submit" value="S'enregistrer" class="submit-btn">
+                                        <button type="submit" class="submit-btn" ><?php echo $btn_register; ?></button>
                                     </div>
                                 </div>
                             </div>

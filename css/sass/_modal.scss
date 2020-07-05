@@ -1,0 +1,34 @@
+.modal-content{
+  background: $color1;
+  .modal-header{
+    border: none;
+    h5{
+      text-align: center;
+      text-decoration: underline;
+      color: $color2;
+      font-size: 30px;
+    }
+    .close{
+      color: $color2;
+      font-size: 2.5rem;
+      opacity: 100%;
+    }
+  }
+  .modal-body{
+    p{
+      text-align: center;
+      color: $color2;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+  .modal-footer{
+    border: none;
+    .btn{
+      color: $color1;
+      background-color: $color2;
+      font-weight: bolder;
+    }
+  }
+
+}

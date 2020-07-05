@@ -1,0 +1,208 @@
+#abdel{
+  body {
+    text-align: center;
+    background: #fff;
+  }
+  figure {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 136px; height: 148px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+
+  /** Hexagon Mask **/
+  figure:before {
+    z-index: 3;
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url(https://leadergamer.com.tr/wp-content/themes/lgm/images/team-mask-1.png) no-repeat;
+    pointer-events: none;
+  }
+  figure img {
+    display: block;
+    width: auto; height: 100%;
+  }
+
+  /** Contact Links **/
+  figure .contact {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  .contact a {
+    background-image: url(https://leadergamer.com.tr/wp-content/themes/lgm/images/level-1-c.png);
+  }
+  figure .contact a {
+    position: absolute;
+    display: block;
+    width: 50%; height: 50%;
+    background-repeat: no-repeat;
+    transition: all .25s ease-in-out;
+  }
+  figure .contact .tw {
+    top: 0; left: 0;
+    background-color: rgba(0, 172, 238, .7);
+    background-position: 30px 32px;
+    transform: translate(-100%, -100%);
+  }
+  figure .contact .tw:hover {
+    background-color: rgba(0, 172, 238, 1);
+  }
+  figure .contact .fb {
+    top: 0; right: 0;
+    background-color: rgba(59, 89, 152, .7);
+    background-position: -42px 32px;
+    transform: translate(100%, -100%);
+  }
+  figure .contact .fb:hover {
+    background-color: rgba(59, 89, 152, 1);
+  }
+  figure .contact .gp {
+    bottom: 0; left: 0;
+    background-color: rgba(221, 75, 57, .7);
+    background-position: 30px -40px;
+    transform: translate(-100%, 100%);
+  }
+  figure .contact .gp:hover {
+    background-color: rgba(221, 75, 57, 1);
+  }
+  figure .contact .ma {
+    bottom: 0; right: 0;
+    background-color: rgba(153, 153, 153, .7);
+    background-position: -42px -40px;
+    transform: translate(100%, 100%);
+  }
+  figure .contact .ma:hover {
+    background-color: rgba(153, 153, 153, 1);
+  }
+  figure:hover .contact a {
+    transform: translate(0, 0);
+  }
+}
+/**************** gallery_part css start ****************/
+.gallery_part{
+
+  .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .single_gallery_item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    .single_gallery_item_iner{
+      &:after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: -1;
+        opacity: 0;
+        transform: scale(0.7);
+      }
+      .gallery_item_text{
+        position: absolute;
+        left: 50px;
+        bottom: 80px;
+        z-index: 5;
+        visibility: hidden;
+        opacity: 0;
+        width: 100%;
+        overflow: hidden;
+        h3{
+          color: white;
+          font-size: 20px;
+          padding-bottom: 10px;
+          margin-bottom: 5px;
+          position: relative;
+          display: block;
+          overflow: hidden;
+          &:after{
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: white;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+          }
+        }
+        p{
+          color: white;
+        }
+      }
+    }
+    &:hover{
+      .gallery_item_text{
+        opacity: 1;
+        visibility: visible;
+        bottom: 50px;
+      }
+      .single_gallery_item_iner:after{
+        opacity: 0.5;
+        transform: scale(1);
+      }
+    }
+  }
+
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  /* ---- grid-item ---- */
+
+  .grid-sizer,
+  .grid-item {
+    width: 20%;
+
+  }
+
+  .grid-item {
+    height: 430px;
+    float: left;
+    border: 5px solid white;
+    border-bottom: 5px solid #fff;
+  }
+
+  .grid-item--width2 {
+    width:  40%;
+    }
+
+  }
+  .grid-item--width3 {
+    width:  60%;
+
+    }
+
+  .grid-item--height1 {
+    height: 415px;
+  }
+  .grid-item--height2 {
+    height: 500px;
+  }
+  .grid-item--height3 {
+    height: 585px;
+  }
+  .bg_img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+

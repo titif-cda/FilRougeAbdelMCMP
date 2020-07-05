@@ -17,7 +17,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="lifestyle-img">
-                    <img src="img/lifestyle.jpg" alt="">
+                    <img src="./img/Logo.PNG" alt="">
                 </div>
             </div>
         </div>

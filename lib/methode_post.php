@@ -1,16 +1,19 @@
 <?php
 //test de la super global $_POST si elle n'est pas vide '!empty()'
-if(!empty($_POST)){
-
-    if (isset($_POST['formulaire']) && $_POST['formulaire'] == 'register'){
-
-        var_dump($_POST);
-
-        $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
+if(!empty($_POST)) {
 
 
+    if (isset($_POST['formulaire'])) {
 
-        $query = 'INSERT INTO	ADHERENT(
+        if ($_POST['formulaire'] == 'register') {
+
+            // var_dump($_POST);
+
+            $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
+            $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
+
+
+            $query = 'INSERT INTO	ADHERENT(
             LOGIN,
             PASSWORD,
             NOM,
@@ -26,29 +29,48 @@ if(!empty($_POST)){
             CYLINDREE
             
             ) VALUES (
-            "'.$_POST["LOGIN"].'",
-            "'.$_POST["PASSWORD"].'",
-            "'.$_POST["NOM"].'",
-            "'.$_POST["PRENOM"].'",
-            "'.$_POST["DNAISSANCE"].'",
-            "'.$_POST["ADRESSE1"].'",
-            "'.$_POST["CDPOST"].'",
-            "'.$_POST["VILLE"].'",
-            "'.$_POST["EMAIL"].'",
-            "'.$_POST["TELEPHONE"].'",
+            "' . $_POST["LOGIN"] . '",
+            "' . $_POST["PASSWORD"] . '",
+            "' . $_POST["NOM"] . '",
+            "' . $_POST["PRENOM"] . '",
+            "' . $_POST["DNAISSANCE"] . '",
+            "' . $_POST["ADRESSE1"] . '",
+            "' . $_POST["CDPOST"] . '",
+            "' . $_POST["VILLE"] . '",
+            "' . $_POST["EMAIL"] . '",
+            "' . $_POST["TELEPHONE"] . '",
             1,
-            '.$droit_image.',
-            "'.$_POST["CYLINDREE"].'"
+            ' . $droit_image . ',
+            "' . $_POST["CYLINDREE"] . '"
             )';
 
-        echo "Query : ".$query;
+            // echo "Query : ".$query;
 
-        $bdd->query($query);
+            $bdd->query($query);
+            //information modal html
+            $message_modal = 'Inscription prise en compte, nous vous recontacterons.';
+
+        } else if ($_POST['formulaire'] == 'update_profil') {
+
+            $query = 'UPDATE ADHERENT SET 
+              LOGIN = "' . $_POST["LOGIN"] . '",
+              PRENOM = "' . $_POST["PRENOM"] . '",
+              CYLINDREE = "' . $_POST["CYLINDREE"] . '"
+              WHERE IDADHERENT = ' . $_POST["IDADHERENT"];
+
+
+            $bdd->query($query);
+            //information modal html
+            $message_modal = 'Votre profil est mis à jour.' ;
+
+        }
+
     }
+}
 
     if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF'){
 
-var_dump($_POST);
+        var_dump($_POST);
         $query1 = 'INSERT INTO ACTIVITE(
 
             INTITULEACTIVITE,
@@ -83,6 +105,8 @@ var_dump($_POST);
 
 
     };
+
+
     if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
 
         var_dump($_POST);
@@ -99,5 +123,6 @@ var_dump($_POST);
         echo "Query : ".$query2;
 
         $bdd->query($query2);
-    };
-}
+
+    }
+

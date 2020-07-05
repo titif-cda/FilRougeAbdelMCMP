@@ -1,27 +1,28 @@
-.header {
+header {
+ .carousel-item{
+   height: 500px
+ ;
+ }
+
+  .hero-slider{
+
+  }
   .inner-header{
     .logo {
       padding: 10px 0;
-      img {
-
-        border-radius: 10%;
-      }
-
-
     }
-    nav.main-menu mobile-menu{
-      ul{
 
-        li.inscr-btn {
-          background-color: red;
-          font-size: 20px;
-          /* padding: 30px 35px 31px 35px; */
-          background: var(--primary-color);
-          color: #ffffff;
-          cursor: pointer;
-          margin-right: 0;
-
-        }}
+    .inscr-btn{
+      a {
+      font-size: 15px;
+      font-family: "Oswald", sans-serif;
+      font-weight: 500;
+      color: white;
+      text-transform: uppercase;
+      padding: 36px 20px;
+      position: relative;
+      z-index: 1;
+    }
     }
   }
 }

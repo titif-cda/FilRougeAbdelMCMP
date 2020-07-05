@@ -3,8 +3,8 @@
 $pm: 15px;
 $hc: 100px;
 
-$color1:rgba(156, 125, 240, 0.9);
-$color2:#000000;
+$color1: #800000;
+$color2: #ffffff;
 $color3:rgba(100, 99, 100, 0.5);
 $color4: #972aee;
 
@@ -17,3 +17,5 @@ $color4: #972aee;
 @import 'register';
 @import 'wysiwyg';
 @import 'gallerie';
+@import 'hero-section';
+@import 'modal';

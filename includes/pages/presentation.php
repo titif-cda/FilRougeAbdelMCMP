@@ -1,7 +1,7 @@
 
     <?php
 
-    include('./includes/tempt/hero-section5.php');
+    include('./includes/tempt/hero-section.php');
     include('./includes/tempt/about-us-section.php');
     include('./includes/tempt/about-counter.php');
     include('./includes/tempt/about-team.php');

@@ -1,6 +1,6 @@
 <?php
 
-include('./includes/tempt/hero-section2.php');
+include('./includes/tempt/hero-section.php');
 include('./includes/tempt/blog-section.php');
 include('./includes/tempt/callto-section.php');
 

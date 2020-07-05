@@ -1,4 +1,4 @@
-<section class="client-says set-bg" data-setbg="img/client-bg.jpg">
+<section class="client-says set-bg" data-setbg="./img/client-bg.png">
     <div class="container">
         <div class="row">
             <div class="col-lg-9">

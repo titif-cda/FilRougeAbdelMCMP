@@ -2,11 +2,9 @@
 
     <!-- Header End -->
     <!-- Hero Section Begin -->
-    <?php
-    include('./includes/tempt/slider_intro.php');
-    ?>
+    <?php include('./includes/tempt/slider_intro.php');     ?>
 
-    <btn="search-btn search-trigger"> <a href="./index.php?page=addactivite" >activité-ajouter</a></li>
+    <btn="search-btn search-trigger"> <a href="./index.php?page=ADDACTIVITE" >activité-ajouter</a></li>
     <?php
 
     include('./includes/tempt/booking-class.php');

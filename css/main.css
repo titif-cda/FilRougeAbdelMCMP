@@ -27,7 +27,7 @@ header .inner-header .logo {
 }
 
 /* line 16, C:/wamp64/www/FilRougeMCMP/css/sass/_header.scss */
-header .inner-header .inscr-btn a {
+header .inner-header .active a {
   font-size: 15px;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -36,6 +36,16 @@ header .inner-header .inscr-btn a {
   padding: 36px 20px;
   position: relative;
   z-index: 1;
+}
+
+/* line 27, C:/wamp64/www/FilRougeMCMP/css/sass/_header.scss */
+header .inner-header .active li:active {
+  color: blue;
+}
+
+/* line 33, C:/wamp64/www/FilRougeMCMP/css/sass/_header.scss */
+a:hover {
+  text-decoration: underline;
 }
 
 /* line 2, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
@@ -51,26 +61,53 @@ header .inner-header .inscr-btn a {
   float: none;
 }
 
-/* line 11, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
+/* line 9, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
+.footer-section .reserved p {
+  color: #858585;
+  font-size: 20px;
+}
+
+/* line 14, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
+.footer-section .reserved a {
+  color: #858585;
+}
+
+/* line 19, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
 .footer-section .social-links a {
   font-size: 30px;
+  color: #858585;
 }
 
-/* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
-.booking-classes h2 {
+/* line 26, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
+.footer-section .menu2 a {
+  color: #858585;
+}
+
+/* line 29, C:/wamp64/www/FilRougeMCMP/css/sass/_footer.scss */
+.footer-section .menu2 a:hover {
+  color: var(--primary-color);
+}
+
+/* line 4, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
+.booking-form {
+  height: max-content;
+  box-shadow: 8px 8px 12px #aaa;
+  background-color: whitesmoke;
+}
+
+/* line 8, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
+.booking-form h4 {
   text-align: center;
   padding-bottom: 30px;
+  color: var(--primary-color);
 }
 
-/* line 7, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
-.booking-classes .booking-form {
-  height: max-content;
-}
-
-/* line 12, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
-.booking-classes .booking-form label {
-  text-align: center;
-  margin: 0 40px 20px;
+/* line 13, C:/wamp64/www/FilRougeMCMP/css/sass/_register.scss */
+.booking-form .submit-btn {
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  width: 100%;
 }
 
 /* line 1, C:/wamp64/www/FilRougeMCMP/css/sass/_gallerie.scss */
@@ -353,7 +390,8 @@ header .inner-header .inscr-btn a {
 
 /* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/_hero-section.scss */
 .hero-section h1 {
-  color: white;
+  text-shadow: 8px 8px 8px var(--primary-color);
+  color: wheat;
   opacity: inherit;
   float: right;
   font-family: "Oswald", sans-serif;
@@ -361,7 +399,7 @@ header .inner-header .inscr-btn a {
 
 /* line 1, C:/wamp64/www/FilRougeMCMP/css/sass/_modal.scss */
 .modal-content {
-  background: #800000;
+  background: whitesmoke;
 }
 
 /* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/_modal.scss */
@@ -373,13 +411,13 @@ header .inner-header .inscr-btn a {
 .modal-content .modal-header h5 {
   text-align: center;
   text-decoration: underline;
-  color: #ffffff;
+  color: #800000;
   font-size: 30px;
 }
 
 /* line 11, C:/wamp64/www/FilRougeMCMP/css/sass/_modal.scss */
 .modal-content .modal-header .close {
-  color: #ffffff;
+  color: #800000;
   font-size: 2.5rem;
   opacity: 100%;
 }
@@ -387,7 +425,7 @@ header .inner-header .inscr-btn a {
 /* line 18, C:/wamp64/www/FilRougeMCMP/css/sass/_modal.scss */
 .modal-content .modal-body p {
   text-align: center;
-  color: #ffffff;
+  color: #800000;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -399,22 +437,130 @@ header .inner-header .inscr-btn a {
 
 /* line 27, C:/wamp64/www/FilRougeMCMP/css/sass/_modal.scss */
 .modal-content .modal-footer .btn {
-  color: #800000;
-  background-color: #ffffff;
+  color: whitesmoke;
+  background-color: #800000;
+  font-weight: bolder;
+}
+
+/* line 2, C:/wamp64/www/FilRougeMCMP/css/sass/_connexion.scss */
+#connexion .booking-form {
+  box-shadow: 8px 8px 12px #aaa;
+  background-color: whitesmoke;
+  margin: 50px auto;
+}
+
+/* line 7, C:/wamp64/www/FilRougeMCMP/css/sass/_connexion.scss */
+#connexion h4 {
+  margin-bottom: 30px;
+  text-align: center;
   font-weight: bolder;
 }
 
 /* line 3, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
-#member .col-lg-4, #member col-md-6 {
-  box-shadow: 2px 2px 8px #800000;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  margin-bottom: 20px;
+#my-modal {
+  background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 9, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
-#member h3 {
+/* line 7, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team {
   text-align: center;
+  position: relative;
+  color: #fff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 8px 8px 12px #aaa;
+  background-color: whitesmoke;
+}
+
+/* line 15, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team h3 a {
+  text-shadow: 8px 8px 8px var(--primary-color);
+  color: wheat;
+}
+
+/* line 21, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team img {
+  max-height: 30%;
+  border-radius: 50%;
+}
+
+/* line 28, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .content {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 45%;
+  transform: perspective(400px) rotateX(-90deg);
+  transform-origin: center top 0;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  border-radius: 50%;
+}
+
+/* line 43, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team:hover .content,
+.our-team.active .content {
+  opacity: 1;
+  transform: perspective(400px) rotateX(0deg);
+}
+
+/* line 48, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .content .title {
+  margin: 0 0 10px;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* line 54, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .content .post {
+  margin: 0 0 25px;
+  display: block;
+  font-size: 15px;
+}
+
+/* line 59, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 64, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .social li {
+  display: inline-block;
+}
+
+/* line 67, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .social li a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 0;
+  background-color: #F32248;
+  margin-right: 5px;
+  transition: all 0.5s ease 0s;
+  position: relative;
+}
+
+/* line 80, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+.our-team .social li a:hover, .our-team.active .social li a {
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 85, C:/wamp64/www/FilRougeMCMP/css/sass/main.scss */
+  .our-team {
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,17 +1,21 @@
-.booking-classes{
 
-h2{
-  text-align: center;
-  padding-bottom: 30px;
-}
-  .booking-form{
+
+
+  .booking-form {
     height: max-content;
-
-
-
-    label{
+    box-shadow: 8px 8px 12px #aaa;
+    background-color: whitesmoke;
+    h4{
       text-align: center;
-      margin: 0 40px 20px;
+      padding-bottom: 30px;
+      color: var(--primary-color);
     }
+    .submit-btn{
+      font-size: 20px;
+      margin: auto;
+      display: block;
+      width: 100%;
+
+    }
+
   }
-}

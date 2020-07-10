@@ -5,8 +5,19 @@
             <div class="col-lg-12">
                 <div class="footer-text">
                     <div class="reserved"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Crée avec <i class="fa fa-heart-o" aria-hidden="true"></i> par <a >Abdellatif EL JID</a>
+                        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Crée avec <i class="fa fa-heart-o" aria-hidden="true"></i> par <a >Abdellatif EL JID </a>
+                        </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+                    <div class="menu2">
+                    <?php
+                    foreach ($ar_pages_var as $key=>$value )
+
+                        if($ar_pages_var[$key]['PUBLIC'] ==0 )
+                            echo ('<li  ><a href="./index.php?PAGE='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>');
+
+                    ?>
+                    </div>
+
                     <div class="social-links">
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -33,12 +44,16 @@
 
 <!-- Js Plugins -->
 <script src="./js/jquery-3.3.1.min.js"></script>
+<!-- Mes plugins Plugins -->
+<script src="./js/popper.1.14-3.min.js"></script>
+<!-- -->
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/jquery.magnific-popup.min.js"></script><!-- cercles page éléments -->
 <script src="./js/jquery.slicknav.js"></script> <!-- cercles page éléments -->
 <script src="./js/owl.carousel.min.js"></script><!-- caroussel accueil -->
 <script src="./js/circle-progress.min.js"></script> <!-- cercles page éléments -->
 <!-- Js Wysiwyg -->
+<script src="./vendor/summernote-0.8.18-dist/summernote-bs4.js"></script>
 <script src="./js/highlight.min.js"></script>
 <script src="./js/wysiwyg.min.js"></script>
 

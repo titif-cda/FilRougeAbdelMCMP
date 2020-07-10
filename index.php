@@ -1,16 +1,20 @@
-
 <?php
-
+//Démarrage dede session
+session_start();
 include('./config/config.php');
 
 //Mes libtrairies php
-//Gestion  des formulaire type $_POST
-include('./lib/methode_post.php');
 
 
 //Gestion des données URL type $_GET
 //Affichage des pages
 include('./lib/methode_get.php');
+
+//Gestion  des formulaire type $_POST
+include('./lib/methode_post.php');
+
+
+
 
 
 

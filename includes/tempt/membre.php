@@ -1,26 +1,28 @@
-<div class=" col-lg-4 col-md-6">
-    <div class="team-member-pic">
-        <img class="responsive" src="./img/default_user.jpg" alt="">
-    </div>
 
-    <div class="team-member-desc">
+        <!-- end team member -->
 
-        <H3><a href="./index.php?PAGE=PROFIL&id=<?php echo $donnees['IDADHERENT']; ?>"><?php echo $donnees['PRENOM'].' '.$donnees['NOM']; ?></a></H3>
 
-        <span><?php echo $donnees['CYLINDREE']; ?></span>
 
-    </div>
-    <div class="team-member-certification">
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img  src="./img/team/member-1.jpg" alt="team member" class="img-responsive" width="300px" height="300px">
+                        </div>
+                        <div class="content">
+                            <!-- tp Le lien H5 à modifier, uniquement dispo en user_level = 2 'admin', proposer un lien alternative ?  -->
 
-        <h5>Certifications</h5>
-        <ul>
+                            <H3><a href="./index.php?page=profil&id=<?php echo $donnees['IDADHERENT']; ?>"><?php echo $donnees['PRENOM'].' '.$donnees['NOM']; ?></a></H3>
 
-            <li>CF Gymnastics</li>
-            <li>CF Movement & Mobility</li>
+                            <span><?php echo $donnees['CYLINDREE']; ?></span>
+                            < class="social">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-linkedin"></a></li>
+                                <?php if ($user_level == 2){?>
+                                <li><a href="./index.php?page=membres&action=delete&id=<?php echo $donnees['IDADHERENT']; ?>"alt="Supprimer" title="Supprimer">Supprimer<i class="fa fa-remove"></i></a></li>
+                            <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-            <li><a href="./index.php?PAGE=MEMBRES&action=delete&id=<?php echo $donnees['IDADHERENT']; ?>"><i class="fa fa-remove"></i>SUPPRIMER</a></li>
-        </ul>
-        <div>
-        </div>
-        </div>
-</div>

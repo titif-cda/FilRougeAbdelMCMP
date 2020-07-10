@@ -1,15 +1,15 @@
 .modal-content{
-  background: $color1;
+  background: whitesmoke;
   .modal-header{
     border: none;
     h5{
       text-align: center;
       text-decoration: underline;
-      color: $color2;
+      color: $color1;
       font-size: 30px;
     }
     .close{
-      color: $color2;
+      color: $color1;
       font-size: 2.5rem;
       opacity: 100%;
     }
@@ -17,7 +17,7 @@
   .modal-body{
     p{
       text-align: center;
-      color: $color2;
+      color: $color1;
       font-size: 20px;
       font-weight: bolder;
     }
@@ -25,8 +25,8 @@
   .modal-footer{
     border: none;
     .btn{
-      color: $color1;
-      background-color: $color2;
+      color: whitesmoke;
+      background-color: $color1;
       font-weight: bolder;
     }
   }

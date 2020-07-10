@@ -12,8 +12,22 @@ if(!empty($_POST)) {
             $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
             $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
 
+            if (empty($_POST["NOM"]) || empty($_POST["PRENOM"])) {
 
-            $query = 'INSERT INTO	ADHERENT(
+                $message_modal = 'Vous devez saisir un nom et un prénom.';
+
+            } else {
+                // if ($donnees['LOGIN'] = $_POST['LOGIN'] ){
+                // $message_modal = 'Login existe déjà, veuillez recommencer';
+
+                $unilog = $bdd->prepare("SELECT * FROM ADHERENT WHERE LOGIN =?");
+                $unilog -> execute(array($_POST['LOGIN']));
+                $logexist = $unilog->rowCount();
+                if ($logexist != 0 ){
+                    $message_modal = 'Login existe déjà, veuillez recommencer';
+                }else {
+
+                    $query = 'INSERT INTO	ADHERENT(
             LOGIN,
             PASSWORD,
             NOM,
@@ -44,13 +58,15 @@ if(!empty($_POST)) {
             "' . $_POST["CYLINDREE"] . '"
             )';
 
-            // echo "Query : ".$query;
+                    // echo "Query : ".$query;
 
-            $bdd->query($query);
-            //information modal html
-            $message_modal = 'Inscription prise en compte, nous vous recontacterons.';
+                    $bdd->query($query);
+                    //information modal html
+                    $message_modal = 'Inscription prise en compte, nous vous recontacterons.';
 
-        } else if ($_POST['formulaire'] == 'update_profil') {
+                }
+            }
+        }else if ($_POST['formulaire'] == 'update_profil') {
 
             $query = 'UPDATE ADHERENT SET 
               LOGIN = "' . $_POST["LOGIN"] . '",
@@ -63,15 +79,70 @@ if(!empty($_POST)) {
             //information modal html
             $message_modal = 'Votre profil est mis à jour.' ;
 
+        }else if($_POST['formulaire'] == 'connexion'){
+
+            if(isset($_POST['LOGIN']) AND isset($_POST['PASSWORD'])) {
+
+                //je teste si j'ai des données dans les $_POST
+                if (!empty($_POST['LOGIN']) and !empty($_POST['PASSWORD'])) {
+
+                    $query = 'SELECT IDADHERENT, NOM, PRENOM, ADMIN FROM ADHERENT WHERE LOGIN = "'. $_POST['LOGIN'] . '" AND PASSWORD = "' . $_POST['PASSWORD'] . '"';
+                    //lancement de la requete
+                    $reponse = $bdd->query($query);
+
+                    //permet de déterminer le nombre d'enregistrement
+                    if ($reponse->rowCount() == 1) {
+
+                        //boucle les données récupérées
+                        while ($donnees = $reponse->fetch()) {
+
+                            $nom = $donnees['NOM'];
+                            $prenom = $donnees['PRENOM'];
+
+
+                            $_SESSION['IDADHERENT'] =  $donnees['IDADHERENT'];
+                            $_SESSION['NOM'] = $nom;
+                            $_SESSION['PRENOM'] = $prenom;
+
+                            //ou 2 si admin (to be continued)
+
+                            $user_level = 1;
+                            if ($donnees['ADMIN'] == 1){
+                                $user_level = 2;
+                            }
+                            $_SESSION['user_level'] = $user_level;
+
+                            $message_modal = "Bravo ".$prenom." ".$nom." vous êtes connecté!";
+                            //Retour page par defaut
+                            $page =$homepage;
+
+                        }
+
+                    } else {
+                        $message_modal = "Identifiant ou mot de passe invalide!";
+                    };
+
+                    //var_dump('mot de passe OK et login OK');
+
+                }
+
+            }
+
+            //var_dump('vous essayer de vous connecter ?');
+
         }
 
+
+
     }
+
+
 }
 
-    if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF'){
+if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF'){
 
-        var_dump($_POST);
-        $query1 = 'INSERT INTO ACTIVITE(
+    var_dump($_POST);
+    $query1 = 'INSERT INTO ACTIVITE(
 
             INTITULEACTIVITE,
             DDEBUT,
@@ -99,18 +170,18 @@ if(!empty($_POST)) {
          
             
             )';
-        echo "Query : ".$query1;
+    echo "Query : ".$query1;
 
-        $bdd->query($query1);
-
-
-    };
+    $bdd->query($query1);
 
 
-    if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
+};
 
-        var_dump($_POST);
-        $query2 = 'INSERT INTO TYPE_ACTIVITE(
+
+if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
+
+    var_dump($_POST);
+    $query2 = 'INSERT INTO TYPE_ACTIVITE(
           
             INTITULETYPE
             ) 
@@ -120,9 +191,9 @@ if(!empty($_POST)) {
            
             )';
 
-        echo "Query : ".$query2;
+    echo "Query : ".$query2;
 
-        $bdd->query($query2);
+    $bdd->query($query2);
 
-    }
+}
 

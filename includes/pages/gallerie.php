@@ -6,44 +6,65 @@ include('./includes/tempt/elements-section.php');
 
 
 ?>
-    <!-- Hero Section Begin -->
+<!-- Hero Section Begin -->
 
-    <!-- Hero Section End -->
+<!-- Hero Section End -->
 <!-- Element Section Begin -->
 
 <!-- Element Section End -->
-<div id="abdel">
-<figure>
-    <img src="./img/team/moi.jpg">
-    <div class="contact">
-        <a href="" class="tw"></a>
-        <a href="" class="fb"></a>
-        <a href="" class="gp"></a>
-        <a href="" class="ma"></a>
-    </div>
-</figure>
+<div id="abdel" class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="president ">
+                <figure>
+                    <img src="./img/team/moi.jpg">
+                    <div class="contact">
+                        <a href="" class="tw"></a>
+                        <a href="" class="fb"></a>
+                        <a href="" class="gp"></a>
+                        <a href="" class="ma"></a>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                </figure>
+                <h3>Abdellatif ELJID</h3>
+                <p>Président</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="Tresorier ">
+                <figure>
+                    <img src="./img/team/image.png">
+                    <div class="contact">
+                        <a href="" class="tw"></a>
+                        <a href="" class="fb"></a>
+                        <a href="" class="gp"></a>
+                        <a href="" class="ma"></a>
+                    </div>
+                </figure>
+                <h3>James Bond</h3>
+                <p>Tresorier</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="Secretaire ">
+                <figure>
+                    <img src="https://leadergamer.com.tr/wp-content/themes/lgm/images/default_user.jpg">
+                    <div class="contact">
+                        <a href="" class="tw"></a>
+                        <a href="" class="fb"></a>
+                        <a href="" class="gp"></a>
+                        <a href="" class="ma"></a>
+                    </div>
+                </figure>
+                <h3>Michou</h3>
+                <p>Secretaire</p>
+            </div>
+        </div>
 
-<figure>
-    <img src="./img/team/image.png">
-    <div class="contact">
-        <a href="" class="tw"></a>
-        <a href="" class="fb"></a>
-        <a href="" class="gp"></a>
-        <a href="" class="ma"></a>
-    </div>
-</figure>
 
-<figure>
-    <img src="https://leadergamer.com.tr/wp-content/themes/lgm/images/default_user.jpg">
-    <div class="contact">
-        <a href="" class="tw"></a>
-        <a href="" class="fb"></a>
-        <a href="" class="gp"></a>
-        <a href="" class="ma"></a>
-    </div>
-</figure>
 
-</div>
+    </div>
 
 <!-- player info part start-->
 <section class="gallery_part">
@@ -147,4 +168,18 @@ include('./includes/tempt/elements-section.php');
         </div>
     </div>
 </section>
+
+
+    <div class="client-text">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <img src="./img/logo/logo2.png">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h2>“During the hard times, it’s important to focus on the things you can change in that moment
+                    instead of what you should have or could have done differently.” </h2>
+                <h4>Annie Thorisdottir,<span>Crossfit athlete</span></h4>
+            </div>
+        </div>
+    </div>
 <!-- about part start-->

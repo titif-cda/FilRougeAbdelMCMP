@@ -173,43 +173,56 @@ Created: colorlib
 
     }
 
+
     /*------------------
-           WYSIWYG
-    --------------------*/
+        WYSIWYG
+ --------------------*/
+    if($('#summernote').length){
 
-    $('#editControls a').click(function(e) {
-        e.preventDefault();
-        switch($(this).data('role')) {
-            case 'h1':
-            case 'h2':
-            case 'h3':
-            case 'p':
-                document.execCommand('formatBlock', false, $(this).data('role'));
-                break;
-            default:
-                document.execCommand($(this).data('role'), false, null);
-                break;
-        }
+        $('#summernote').summernote({
+            height: 300,                 // set editor height
+            minHeight: null,             // set minimum height of editor
+            maxHeight: null,             // set maximum height of editor
+            focus: true                  // set focus to editable area after initializing summernote
+        });
 
-        var textval = $("#editor").html();
-        $("#editorCopy").val(textval);
+    }
+
+
+    $('.wysiwyg .primary-btn').on('click', function(){
+
+
+        console.log('btn wysiwyg ready !');
+        var description = $('#summernote').summernote('code');
+
+        //methode Ajax
+        var request = $.ajax({
+            url: "./lib/methode_ajax.php",
+            method: "POST",
+            data: { informations : 1, description : description },
+            dataType: "html"
+        });
+
+        //reussite reponse 200 - Inclu le fait que vous avez pas les permissions requisent
+        request.done(function( msg ) {
+            //console.log(msg);
+            //afichage de la modal ave
+            $('#my-modal .modal-body p').html(msg);
+            $("#my-modal").show();
+            //$( "#log" ).html( msg );
+        });
+
+        //erreur 404 ou 500 - le serveur ne repond pas, erreur PHP ?
+        request.fail(function( jqXHR, textStatus ) {
+            console.log( "Request failed: " + textStatus );
+        });
+
+
+        //stopper le comportement normal d'une balise de type <a>
+        return false;
+
     });
-
-    $("#editor").keyup(function() {
-        var value = $(this).html();
-        $("#editorCopy").val(value);
-    }).keyup();
-
-    $('#checkIt').click(function(e) {
-        e.preventDefault();
-        alert($("#editorCopy").val());
-    });
-
-
-
-
 
 
 })(jQuery);
 
-$

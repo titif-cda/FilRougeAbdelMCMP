@@ -5,11 +5,29 @@
       opacity: 100%;
       font-size: 19px;
       text-align: center;
-float: none;
+      float: none;
+      p{
+        color: #858585;
+        font-size: 20px;
+
+      }
+      a{
+      color: #858585;
+    }
     }
     .social-links{
       a{
         font-size: 30px;
+        color: #858585;
+      }
+
+    }
+    .menu2{
+      a{
+      color: #858585;
+    }
+      a:hover{
+        color: var(--primary-color);
       }
     }
 }

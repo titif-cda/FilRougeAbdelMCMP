@@ -23,3 +23,7 @@
         </div>
     </div>
 </section>
+<?php
+
+    include('./includes/tempt/wysiwyg.php');
+ ?>

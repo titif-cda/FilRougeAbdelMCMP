@@ -52,6 +52,9 @@
                     </div>
                 </div>
                 <div class="col-sm-10 col-lg-10 col-md-10">
+<div class="row">
+    <div class="col">
+
 
                     <nav class="main-menu mobile-menu">
                         <ul>
@@ -103,7 +106,8 @@
                         </ul>
                     </nav>
 
-
+    </div>
+</div>
                 </div>
                 <div id="mobile-menu-wrap"></div>
             </div>

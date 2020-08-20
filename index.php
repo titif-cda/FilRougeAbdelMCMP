@@ -13,11 +13,6 @@ include('./lib/methode_get.php');
 //Gestion  des formulaire type $_POST
 include('./lib/methode_post.php');
 
-
-
-
-
-
 //les includes de contenu header
 include('./includes/layout/header.php');
 

@@ -197,3 +197,17 @@ if (isset($_POST['typact']) && $_POST['typact'] == 't_act'){
 
 }
 
+if($_SERVER["REQUEST_METHOD"] =="POST"){
+    if (isset($_POST['action']) AND $_POST['action'] == 'sendmail'){
+        $expediteur = $_POST['email'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+        try {
+            \Lib\MailEngine::send($subject,$expediteur,$message);
+            \Lib\MailEngine::sendConfirmation($subject,$expediteur);
+        }
+        catch(Exception $e){
+            error_log($e ->getMessage());
+        }
+    }
+}

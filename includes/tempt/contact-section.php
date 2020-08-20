@@ -18,21 +18,8 @@
                 </div>
             </div>
             <div class="col-lg-8">
-                <form action="#" class="contact-form">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <input type="text" placeholder="Your Name">
-                        </div>
-                        <div class="col-lg-6">
-                            <input type="email" placeholder="Your E-mail">
-                        </div>
-                        <div class="col-lg-12">
-                            <input type="text" placeholder="Subject">
-                            <textarea placeholder="Message"></textarea>
-                            <input type="submit" class="submit-btn contact-btn" value="Send">
-                        </div>
-                    </div>
-                </form>
+                <?php  include ('./includes/tempt/contact-form.php');?>
+
             </div>
         </div>
     </div>

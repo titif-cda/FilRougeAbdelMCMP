@@ -2,9 +2,6 @@
 
 namespace Components;
 
-require_once './includes/Core/component.php';
-
-use \Core\Component;
 
 
 class ContactFormComponent extends Component

@@ -2,7 +2,7 @@
 
 namespace Lib;
 
-require_once "./Vendor/PHPMailer-master/src/PHPMailer.php";
+require_once "./vendor/PHPMailer-master/src/PHPMailer.php";
 require_once "./config/ConfigPhpMailer.php";
 
 use PHPMailer\PHPMailer\Exception;
@@ -52,7 +52,7 @@ class MailEngine{
         $mail->addReplyTo(Configuration::smtpConfig['From']['Address']);
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = $subject;
-        $message = '<p>Votre question (' .$subject .' ) est bien prise en compte par nos services.</p>' ;
+        $message = '<p>Votre question concernant: ' .$subject .' a bien été prise en compte par nos services.</p>' ;
         $mail->Body    = $message;
         $mail->AltBody = strip_tags($message);
         try {

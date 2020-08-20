@@ -10,8 +10,8 @@ use PHPMailer\PHPMailer\SMTP;
 class Configuration{
 
     const smtpConfig = array(
-        'SMTPDebug' => SMTP::DEBUG_SERVER,
-    //'SMTPDebug' => SMTP::DEBUG_OFF,
+       // 'SMTPDebug' => SMTP::DEBUG_SERVER,
+    'SMTPDebug' => SMTP::DEBUG_OFF,
         'isSMTP' => true,
         'Host' => 'smtp.gmail.com.',
         // 'Host' => 'smtp-relay.sendinblue.com',
@@ -23,6 +23,6 @@ class Configuration{
         'SMTPSecure' => PHPMailer::ENCRYPTION_SMTPS,
         'Port' => 465,
         'From' => array('Address' => 'no-reply@mon-site.fr', 'Name' => 'Test PHPMailer'),
-        'Administrator' => array('Address' => 'eljid.a@gmail.com', 'Name' => 'Abdellatif EL JID'),
+        'Administrator' => array('Address' => 'abdellatif.eljid@2isa.org', 'Name' => 'Abdellatif EL JID'),
     );
 }

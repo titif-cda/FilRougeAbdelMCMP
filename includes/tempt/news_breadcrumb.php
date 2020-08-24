@@ -5,7 +5,8 @@
         </div>
         <div class="blog-text">
             <span class="blog-time"><?php echo $donnees['DPUBLICATION']?></span>
-            <h3><a href="./index.php?page=activites"> <?php echo $donnees['TITRE']?></a></h3>
+            <h4><a href="./index.php?page=information&id=<?php echo $donnees['IDNOUVELLE']; ?>"><?php echo $donnees['TITRE_NOUVELLE']; ?></a></h4>
+
             <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
                 convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
             <div class="blog-widget">

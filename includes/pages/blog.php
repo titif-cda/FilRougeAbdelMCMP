@@ -24,6 +24,8 @@
             </div>
         </div>
     </section>
+    <?php include('./includes/tempt/blog_detail.php');
+    ?>
 
 
     <?php

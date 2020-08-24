@@ -195,13 +195,13 @@ Created: colorlib
         console.log('btn wysiwyg ready !');
         var description = $('#summernote').summernote('code');
         var title = $('.wysiwyg input[name=titre]').val();
+       // var dpublication = $('.wysiwyg input[name=dpublication]').val();
 
         //methode Ajax
         var request = $.ajax({
             url: "./lib/methode_ajax.php",
             method: "POST",
-            data: { informations : 1,titre:title
-                , description : description },
+            data: { informations : 1,titre:title ,/*datep : dpublication ,*/ description : description },
             dataType: "html"
         });
 

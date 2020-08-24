@@ -16,12 +16,14 @@ if($user_level == 2){
 
                 $query =
                     'INSERT INTO NOUVELLE(
-                         TITRE,
+                         TITRE_NOUVELLE,
+                         /*DPUBLICATION,*/
                          DESCRIPTION
                     ) 
                     VALUES (
                         "'.$_POST["titre"].'",
-                        "'.$_POST["description"].'"            
+                        /*"'.$_POST["datep"].'",    */
+                        "'.$_POST["description"].'"       
                     )';
 
                 $bdd->query($query);

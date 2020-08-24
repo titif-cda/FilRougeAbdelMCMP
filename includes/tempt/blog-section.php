@@ -4,11 +4,7 @@
             <?php
 
             include('./includes/tempt/news_breadcrumb.php');
-            include('./includes/tempt/news_breadcrumb.php');
-            include('./includes/tempt/news_breadcrumb.php');
-            include('./includes/tempt/news_breadcrumb.php');
-            include('./includes/tempt/news_breadcrumb.php');
-            include('./includes/tempt/news_breadcrumb.php');
+
 
 
 

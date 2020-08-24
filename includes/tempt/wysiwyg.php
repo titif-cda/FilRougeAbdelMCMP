@@ -7,7 +7,7 @@
                     <input type="text" name="titre" placeholder="Titre de la nouvelle" value="">
                 </div>
                 <div class="col-sm-6">
-                    <input type="date" id= "dpublication" name="dpublication" placeholder="Date de la publication" value="date("d-m-Y")">
+                    <input type="date" id= "dpublication" name="dpublication" placeholder="Date de la publication" value="<?php echo date('d m Y '); ?>">
 
                 </div>
 

@@ -52,66 +52,53 @@
                     </div>
                 </div>
                 <div class="col-sm-10 col-lg-10 col-md-10">
-<div class="row">
-    <div class="col">
-
-
-                    <nav class="main-menu mobile-menu">
-                        <ul>
-                            <?php
-
-                            foreach ($ar_pages_var as $key=>$value ){
-
-                                if($ar_pages_var[$key]['PUBLIC'] ==1 ){
-                                    echo '<li  ><a href="./index.php?page='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
-
-                                }
-                            }
-
-                            ?>
-
-
-                            <!--<li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
+                    <div class="row">
+                        <div class="col">
+                            <nav class="main-menu mobile-menu">
+                                <ul>
+                                    <?php
+                                    foreach ($ar_pages_var as $key=>$value ){
+                                        if($ar_pages_var[$key]['PUBLIC'] ==1 ){
+                                            echo '<li  ><a href="./index.php?page='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
+                                        }
+                                    }
+                                    ?>
+                                    <!--<li><a href="./index.php" class="<?php echo $page == 'index' ? 'active' : ''; ?>">Accueil</a></li>
                             <li><a href="./index.php?page=presentation" class="<?php echo $page == 'presentation' ? 'active' : ''; ?>">Présentation</a></li>
                             <li><a href="./index.php?page=activites" class="<?php echo $page == 'activites' ? 'active' : ''; ?>">Activite</a></li>
 
                             <li><a href="./index.php?page=blog" class="<?php echo $page == 'blog' ? 'active' : ''; ?>">Blog</a></li>
                             <li><a href="./index.php?page=contact" class="<?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
                             <li><a href="./index.php?page=elements" class="<?php echo $page == 'gallerie' ? 'active' : ''; ?>">Gallerie</a></li>-->
-                            <?php if($user_level == 0){ ?>
-                                <li class="<?php echo $page == 'connexion' ? 'active' : ''; ?>"><a href="./index.php?page=connexion">Connexion</a></li>
-                            <?php } ?>
-                            <li>
-                            <?php if($user_level > 0){ ?>
-
-                                <div class="dropdown">
-                                    <button class="primary-btn signup-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <?php echo $_SESSION['PRENOM'].' '.$_SESSION['NOM'] ?>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="./index.php?page=profil&id=<?php echo $_SESSION['IDADHERENT'] ?>" class="primary-btn signup-btn">Mon profil</a>
-                                        <a class="dropdown-item" href="./index.php?page=membres">Liste des membres</a>
-                                        <?php if($user_level = 2){ ?>
-                                        <a class="dropdown-item" href="./index.php?page=informations&action=add">Ajouter news</a>
-                                        <?php } ?>
-                                        <a class="dropdown-item" href="./index.php?deconnexion=1">Deconnexion <span class="fa fa-sign-out"></span></a>
-                                    </div>
-                                </div>
-
-
-
-                            <?php }else{ ?>
-                                <a href="./index.php?page=inscription" class="primary-btn signup-btn">Inscription</a>
-                            <?php } ?></li>
-                        </ul>
-                    </nav>
-
-    </div>
-</div>
+                                    <?php if($user_level == 0){ ?>
+                                        <li class="<?php echo $page == 'connexion' ? 'active' : ''; ?>"><a href="./index.php?page=connexion">Connexion</a></li>
+                                    <?php } ?>
+                                    <li>
+                                        <?php if($user_level > 0){ ?>
+                                            <div class="dropdown">
+                                                <button class="primary-btn signup-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <?php echo $_SESSION['PRENOM'].' '.$_SESSION['NOM'] ?>
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="./index.php?page=profil&id=<?php echo $_SESSION['IDADHERENT'] ?>" class="primary-btn signup-btn">Mon profil</a>
+                                                    <a class="dropdown-item" href="./index.php?page=membres">Liste des membres</a>
+                                                    <?php if($user_level = 2){ ?>
+                                                        <a class="dropdown-item" href="./index.php?page=informations&action=add">Ajouter news</a>
+                                                    <?php } ?>
+                                                    <a class="dropdown-item" href="./index.php?deconnexion=1">Deconnexion <span class="fa fa-sign-out"></span></a>
+                                                </div>
+                                            </div>
+                                        <?php }else{ ?>
+                                            <a href="./index.php?page=inscription" class="primary-btn signup-btn">Inscription</a>
+                                        <?php } ?></li>
+                                </ul>
+                            </nav>
+                            <div id="mobile-menu-wrap"></div>
+                        </div>
+                    </div>
                 </div>
-                <div id="mobile-menu-wrap"></div>
-            </div>
 
+            </div>
         </div>
     </div>
     </div>

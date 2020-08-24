@@ -194,12 +194,14 @@ Created: colorlib
 
         console.log('btn wysiwyg ready !');
         var description = $('#summernote').summernote('code');
+        var title = $('.wysiwyg input[name=titre]').val();
 
         //methode Ajax
         var request = $.ajax({
             url: "./lib/methode_ajax.php",
             method: "POST",
-            data: { informations : 1, description : description },
+            data: { informations : 1,titre:title
+                , description : description },
             dataType: "html"
         });
 
@@ -218,7 +220,7 @@ Created: colorlib
         });
 
 
-        //stopper le comportement normal d'une balise de type <a>
+        //stopper le comportement normal d'une balise de type <a> pour pas executer le comportement type lien
         return false;
 
     });

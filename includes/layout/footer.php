@@ -12,8 +12,8 @@
                     <?php
                     foreach ($ar_pages_var as $key=>$value )
 
-                        if($ar_pages_var[$key]['PUBLIC'] ==0 )
-                            echo ('<li  ><a href="./index.php?PAGE='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>');
+
+                            echo ('<li  ><a href="./index.php?page='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>');
 
                     ?>
                     </div>
@@ -58,7 +58,7 @@
 <script src="./js/wysiwyg.min.js"></script>
 
 
-<script src="./js/main.js"></script>
+<script src="./js/main.js?v=1.<?php echo time()?>"></script>
 </body>
 
 </html>

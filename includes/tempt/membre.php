@@ -14,7 +14,7 @@
                             <H3><a href="./index.php?page=profil&id=<?php echo $donnees['IDADHERENT']; ?>"><?php echo $donnees['PRENOM'].' '.$donnees['NOM']; ?></a></H3>
 
                             <span><?php echo $donnees['CYLINDREE']; ?></span>
-                            < class="social">
+
                                 <li><a href="#" class="fa fa-facebook"></a></li>
                                 <li><a href="#" class="fa fa-twitter"></a></li>
                                 <li><a href="#" class="fa fa-linkedin"></a></li>

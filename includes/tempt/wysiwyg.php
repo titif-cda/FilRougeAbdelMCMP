@@ -1,19 +1,23 @@
 
 <section class="wysiwyg">
-    <div class="container">
+    <div class="container  single-blog-item">
         <div class="row">
-            <form action="">
-                <div class="col-sm-6">
-                    <input type="text" name="titre" placeholder="Titre de la nouvelle" value="">
+            <form id="add-news-form" method="POST" class="col-12">
+                <div class="col-sm-12">
+                    <input type="text" name="titre" placeholder="Titre de la nouvelle" value="" required>
                 </div>
-                <div class="col-sm-6">
-                    <input type="date" id= "dpublication" name="dpublication" placeholder="Date de la publication" value="<?php echo date('d m Y '); ?>">
+                    <div class="col-12">
+                        <textarea id="summernote" name="editordata" required></textarea>
+                    </div>
 
+                <div class="col-12 text-right">
+                    <button type="submit" id="addNews" class="primary-btn">Ajouter News</button>
                 </div>
 
             </form>
         </div>
     </div>
+    <!---
     <div class="container">
         <div class="row single-blog-item">
             <div class="col-12">
@@ -22,8 +26,9 @@
         </div>
         <div class="row single-blog-item">
             <div class="col-12 text-right">
-                <a href="#" class="primary-btn">Ajouter News</a>
+                <a id="addNews" href="#" class="primary-btn">Ajouter News</a>
             </div>
         </div>
     </div>
+    -->
 </section>

@@ -189,28 +189,60 @@ Created: colorlib
     }
 
 
-    $('.wysiwyg .primary-btn').on('click', function(){
+    $('#add-news-form').on('submit', function(event){
 
+        // var description = $('#summernote').summernote('code');
+        // var title = $('.wysiwyg input[name=titre]').val();
+        // var dpublication = $('.wysiwyg input[name=dpublication]').val();
+        var formElmt = document.getElementById("add-news-form");
 
-        console.log('btn wysiwyg ready !');
-        var description = $('#summernote').summernote('code');
-        var title = $('.wysiwyg input[name=titre]').val();
-       // var dpublication = $('.wysiwyg input[name=dpublication]').val();
+        if(!formElmt.checkValidity()) return false;
+
+        event.preventDefault();
+
+        var data = new FormData(formElmt);
 
         //methode Ajax
         var request = $.ajax({
             url: "./lib/methode_ajax.php",
             method: "POST",
-            data: { informations : 1,titre:title ,/*datep : dpublication ,*/ description : description },
-            dataType: "html"
+            data: { action : "ADD_NEWS", data: JSON.stringify(Object.fromEntries(data))},
+            dataType: "json"
         });
 
         //reussite reponse 200 - Inclu le fait que vous avez pas les permissions requisent
         request.done(function( msg ) {
             //console.log(msg);
-            //afichage de la modal ave
-            $('#my-modal .modal-body p').html(msg);
-            $("#my-modal").show();
+            //afichage de la modal
+            $('#my-modal .modal-body p').html(msg.data.modalMessage);
+            if(!msg.error) {
+                $('#news_breadcrumb').append(
+                    `
+                <div class="col-lg-3 col-md-6">
+                <div class="single-blog-item blog-item">
+                    <div class="blog-img">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <span class="blog-time">${msg.data.news.DPUBLICATION}</span>
+                        <h4><a href="./index.php?page=information&id=${msg.data.news.IDNOUVELLE}">${msg.data.news.TITRE_NOUVELLE}</a></h4>
+            
+                        <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
+                            convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
+                        <div class="blog-widget">
+                            <ul>
+                                <li><img src="img/like.png" alt=""> <span>15 Likes</span></li>
+                                <li><img src="img/chat.png" alt=""> <span>3 Comments</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `
+            );
+            }
+
+            $('#my-modal').show();
             //$( "#log" ).html( msg );
         });
 

@@ -75,6 +75,12 @@
                                         <input type="checkbox" id= "droit" name="DROITIMAGE" placeholder="Vous acceptez que votre image soit utilisée sur le site internet">
                                     </div>
                                 </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm">
+                                        <label for="name"> Telechargez une photo.</label>
+                                        <input type="file" name="image">
+                                    </div>
+                                </div>
 
                                 <div class="col-sm-6">
                                     <label for="name" >Votre cylindrée</label>

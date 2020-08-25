@@ -73,7 +73,10 @@
                                     <?php if($user_level == 0){ ?>
                                         <li class="<?php echo $page == 'connexion' ? 'active' : ''; ?>"><a href="./index.php?page=connexion">Connexion</a></li>
                                     <?php } ?>
+
+
                                     <li>
+
                                         <?php if($user_level > 0){ ?>
                                             <div class="dropdown">
                                                 <button class="primary-btn signup-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

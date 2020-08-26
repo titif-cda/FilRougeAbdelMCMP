@@ -14,25 +14,25 @@
             <div class="col-lg-3 col-md-6">
                 <div class="single-services">
                     <i class="flaticon-050-weightlifting"></i>
-                    <h4>Crossfit</h4>
+                    <h4>MOTARD(E)S</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-services">
                     <i class="flaticon-004-dumbbell"></i>
-                    <h4>Fitness</h4>
+                    <h4>CONVIVIALITE</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-services">
                     <i class="flaticon-045-fitness"></i>
-                    <h4>Climbing</h4>
+                    <h4>ACTIVITES</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-services">
                     <i class="flaticon-033-pump"></i>
-                    <h4>Cardio + Streching</h4>
+                    <h4>SORTIES</h4>
                 </div>
             </div>
         </div>

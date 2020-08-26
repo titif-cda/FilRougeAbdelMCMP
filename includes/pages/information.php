@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="about-text">
+                    <div class="about-text ">
                         <div class="section-title">
                             <h2><?php echo  $titleNouvelle ?></h2>
                         </div>
@@ -17,9 +17,12 @@
 
                     </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12  text-center">
                     <div class="about-img">
-                        <img src=" <?php echo $image?>" alt="">
+                        <?php
+                        $img = !empty($img) ? $img : 'upload_news_detail_default.jpg';
+                        ?>
+                        <img src=" <?php echo $directory_image_news.$img?>" alt="">
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -33,6 +36,11 @@
             <form action="./index.php?page=information&id=<?php echo $id; ?>" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="formulaire" value="update_news">
                 <input type="hidden" name="IdNouvelle" value="<?php echo $id; ?>">
+                <input type="text" name="titre" placeholder="Titre de la nouvelle" value="" required>
+                </div>
+                <div class="col-12">
+                    <textarea id="summernote" name="editordata" required></textarea>
+                </div>
                 <label> Changer l'image</label>
                 <input type="file" name="image">
 

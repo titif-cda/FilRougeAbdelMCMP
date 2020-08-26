@@ -10,7 +10,7 @@
                 //la requete
                 $reponse = $bdd->query('SELECT * FROM NOUVELLE');
                 //boucle les donneees recuperees
-                while($donnees = $reponse -> fetch()){
+                while($row = $reponse -> fetch()){
 
                     include('./includes/tempt/news_breadcrumb.php');
 

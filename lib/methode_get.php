@@ -110,7 +110,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                     $descriptionNouvelle = $donnees['DESCRIPTION'];
                     $datepublication = $donnees['DPUBLICATION'];
                     $level_diffusion = $donnees['DIFFUSION_LEVEL'];
-                    $image = $donnees['IMAGE'];
+                    $img = $donnees['IMAGE'];
                     //to be continued
 
                 }

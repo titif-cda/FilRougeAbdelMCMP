@@ -1,7 +1,11 @@
 <div class="col-lg-3 col-md-6">
     <div class="single-blog-item blog-item">
         <div class="blog-img">
-            <img src="img/blog/blog-1.jpg" alt="">
+            <?php
+            $img = !empty($row['IMAGE']) ? $row['IMAGE'] : 'upload_news_default.jpg';
+            ?>
+
+            <img src="<?php echo $directory_image_news.$img?>" alt="">
         </div>
         <div class="blog-text">
             <span class="blog-time"><?php echo $row['DPUBLICATION']; ?></span>

@@ -1,4 +1,4 @@
-<main><!-- Contact Section Begin -->
+<section><!-- Contact Section Begin -->
     <div class="booking-classes">
 
         <div class="container">
@@ -114,6 +114,6 @@
     </div>
     </div>
 
-</main>
+</section>
 
 

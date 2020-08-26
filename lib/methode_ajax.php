@@ -24,7 +24,7 @@ if($user_level == 2){
                     VALUES (
                         "'.$data->{"titre"}.'",
                      
-                        "'.$data->{"editordata"}.'"       
+                        "'.$bdd->quote($data->{"editordata"}).'"       
                     )';
 
                 $bdd->query($query);

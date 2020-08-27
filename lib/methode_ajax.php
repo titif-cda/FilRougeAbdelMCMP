@@ -15,19 +15,20 @@ if($user_level == 2){
             if(isset($_POST['data']) && !empty($_POST['data'])){
                 $data = json_decode($_POST['data']);
 
-                $query =
-                    'INSERT INTO NOUVELLE(
+                $query = 'INSERT INTO NOUVELLE(
                          TITRE_NOUVELLE,
                          /*DPUBLICATION,*/
                          DESCRIPTION
                     ) 
                     VALUES (
-                        "'.$data->{"titre"}.'",
-                     
-                        "'.$bdd->quote($data->{"editordata"}).'"       
+                        :titre,
+                        :description       
                     )';
-
-                $bdd->query($query);
+                $queryExec = $bdd->prepare($query);
+                $queryExec->execute([
+                    'titre' => $data->{"titre"},
+                    'description' => $data->{"editordata"}
+                ]);
 
                 //Récupère l'id crée automatiquement
                 $newId =  $bdd->lastInsertId();

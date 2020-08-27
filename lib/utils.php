@@ -6,8 +6,11 @@
  * @return string Retourne le nom du fichier final
  * @throws Exception
  */
-function saveFile($file, $directory){
+function saveFile($file, $directory, $methode = 'file'){
     //Code pour upload fichier
+    $fileType = '';
+    $binary = '';
+
 
     //les différentes clef de $_FILES
     $fileName = $file['name']; //01.02.JPG
@@ -44,8 +47,25 @@ function saveFile($file, $directory){
          throw  new Exception("Le fichier envoyé est trop volumineu limite de ". ($limitSize / 1000000) ."Mo");
      }
 
+
+
+
     //fonction d'upload sur le serveur
-    $result  = move_uploaded_file($fileTmp, $directory . $fileNameFinal);
+
+
+    if($methode == 'blob'){
+
+       $result= $binary = file_get_contents($fileTmp);
+        // et $fileType
+
+    }else{
+        //fonction d'upload sur le serveur
+        $result= move_uploaded_file($fileTmp, $directory . $fileNameFinal);
+
+    }
+
+
+
     if(!$result) {
         throw new Exception("Une erreur de déplacement du fichier est survenue");
     }
@@ -54,10 +74,5 @@ function saveFile($file, $directory){
     }
 }
 
-function removeFile($path){
-    //Code pour upload fichier
-
-    //1) Bon
-}
 
 ?>

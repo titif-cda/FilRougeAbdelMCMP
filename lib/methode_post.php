@@ -1,5 +1,5 @@
 <?php
-include ('./lib/utils.php');
+
 //test de la super global $_POST si elle n'est pas vide '!empty()'
 if(!empty($_POST)) {
 
@@ -80,42 +80,62 @@ if(!empty($_POST)) {
             //information modal html
             $message_modal = 'Votre profil est mis à jour.' ;
 
-        }else if ($_POST['formulaire'] == 'update_news') {
+        }else if ($user_level == 2) {
 
-            if(isset($_FILES['image']) && !empty($_FILES['image']))  {
+            if ($_POST['formulaire'] == 'update_news') {
 
-                try {
-                    $photoName = saveFile($_FILES['image'], $directory_image_news);
-                    //requete d'insertion dans la BD
-                    $query = 'UPDATE NOUVELLE SET 
-                          IMAGE = "' . $photoName . '",
-                          TITRE_NOUVELLE = "' . $_POST["titre"] . '",
-                          DESCRIPTION = "' .$bdd->quote($_POST["editordata"]). '"
+                if (isset($_FILES['image']) && !empty($_FILES['image']['name'])) {
+                    try {
+                        $photoName = saveFile($_FILES['image'], $directory_image_news);
+//                    //requete d'insertion dans la BD
+
+                        $query = 'UPDATE NOUVELLE SET 
                         
-                          WHERE IDNOUVELLE = ' . $_POST["IdNouvelle"];
-                    $bdd->query($query);
-                    $message_modal = "Mise à jour de votre nouvelle effectuée";
-                }catch(Exception $e) {
-                    $message_modal = $e->getMessage();
+                          IMAGE = :photoName ,
+                          TITRE_NOUVELLE = :titre,
+                          DESCRIPTION = :description
+                        
+                          WHERE IDNOUVELLE = :idNouvelle;';
+                        $queryExec = $bdd->prepare($query);
+
+                        $queryExec->execute(
+                            array(
+                                'photoName' => $photoName,
+                                'titre' => $_POST["titre"],
+                                'description' => $_POST["editordata"],
+                                'idNouvelle' => $_POST["IdNouvelle"]
+                            )
+                        );
+                        $message_modal = "Mise à jour de votre nouvelle effectuée";
+
+                    } catch (Exception $e) {
+                        $message_modal = $e->getMessage();
+                    }
+
+                } else {
+                    try {
+
+                        $query = 'UPDATE NOUVELLE SET 
+                          TITRE_NOUVELLE = :titre,
+                          DESCRIPTION = :description
+                          WHERE IDNOUVELLE = :idNouvelle;';
+                        $queryExec = $bdd->prepare($query);
+
+                        $queryExec->execute(array(
+                            'titre' => $_POST["titre"],
+                            'description' => $_POST["editordata"],
+                            'idNouvelle' => $_POST["IdNouvelle"]
+                        ));
+
+                        $message_modal = "Mise à jour de votre nouvelle effectuée";
+                    } catch (Exception $e) {
+                        $message_modal = $e->getMessage();
+                    }
                 }
-
-            }else {
-                try { $query = 'UPDATE NOUVELLE SET 
-                        
-                          IMAGE = "' .  $img . '",
-                          TITRE_NOUVELLE = "' . $_POST["titre"] . '",
-                          DESCRIPTION = "' .$bdd->quote($_POST["editordata"]). '"
-                        
-                          WHERE IDNOUVELLE = ' . $_POST["IdNouvelle"];
-
-
-                $bdd->query($query);
-                $message_modal = "Mise à jour de votre nouvelle effectuée";
-            }catch(Exception $e) {
-                $message_modal = $e->getMessage();
             }
-            }
-
+            else{
+                $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';
+        }
         }
         else if($_POST['formulaire'] == 'connexion'){
 
@@ -124,15 +144,18 @@ if(!empty($_POST)) {
                 //je teste si j'ai des données dans les $_POST
                 if (!empty($_POST['LOGIN']) and !empty($_POST['PASSWORD'])) {
 
-                    $query = 'SELECT IDADHERENT, NOM, PRENOM, ADMIN FROM ADHERENT WHERE LOGIN = "'. $_POST['LOGIN'] . '" AND PASSWORD = "' . $_POST['PASSWORD'] . '"';
-                    //lancement de la requete
-                    $reponse = $bdd->query($query);
+                    $query = $bdd->prepare('SELECT IDADHERENT, NOM, PRENOM, ADMIN FROM ADHERENT WHERE LOGIN = :login AND PASSWORD = :password');
+
+                    $query->execute(array(
+                        'login' => $_POST['LOGIN'],
+                        'password'=> $_POST['PASSWORD'],
+                    ));
 
                     //permet de déterminer le nombre d'enregistrement
-                    if ($reponse->rowCount() == 1) {
+                    if ($query->rowCount() == 1) {
 
                         //boucle les données récupérées
-                        while ($donnees = $reponse->fetch()) {
+                        while ($donnees = $query->fetch()) {
 
                             $nom = $donnees['NOM'];
                             $prenom = $donnees['PRENOM'];

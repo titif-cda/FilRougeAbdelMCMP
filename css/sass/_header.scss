@@ -1,27 +1,28 @@
 header {
- .carousel-item{
-   height: 500px
- ;
- }
-
+  .carousel-item{
+    height: 500px ;
+  }
   .hero-slider{
-
   }
   .inner-header{
     .logo {
-      padding: 10px 0;
+      padding: 16px 0;
+      -webkit-font-smoothing: antialiased;
+      image-rendering: optimizespeed;
+      width: 130px;
+      height: 100%;
     }
 
     .active{
       a {
-      font-size: 15px;
-      font-family: "Oswald", sans-serif;
-      font-weight: 500;
-      color: white;
-      text-transform: uppercase;
-      padding: 36px 20px;
-      position: relative;
-      z-index: 1;}
+        font-size: 15px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        color: white;
+        text-transform: uppercase;
+        padding: 36px 20px;
+        position: relative;
+        z-index: 1;}
 
 
       li:active{

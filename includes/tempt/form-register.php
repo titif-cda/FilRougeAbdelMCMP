@@ -6,12 +6,27 @@
                 <div class="col-lg-12">
                     <h2><?php echo $title_register; ?></h2>
                     <div class="booking-form">
-                        <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form">
+                        <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form" enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
                             <input type="hidden" name="IDADHERENT" value="<?php echo isset($id) ? $id : ''; ?>"/>
 
 
                             <div class="row">
+                                <div class="col-sm-12 text-center photoprofil img-fluid ">
+                                       <img class="text-center" src="./img/team/moi.jpg" ></img>
+                                        </div>
+                                <div class="col-sm-12 text-center ">
+                                    <label> Changer l'image</label>
+                                    <input type="file" name="image">
+                                </div>
+                                    <div class="col-sm-12 ">
+                                        <div class="row single-blog-item">
+                                            <div class="col-12 text-center">
+                                                <input type="submit" class="primary-btn" value="Changer photo profil " id="">
+                                                <a href="#" </a>
+                                            </div>
+                                    </div>
+                                </div>
                                 <div class="col-sm-12">
                                     <div class="col-sm">
                                         <input type="text" name="LOGIN" value="<?php echo isset($identifiant) ? $identifiant : 'test identifiant' ?>" placeholder="" >

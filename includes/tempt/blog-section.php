@@ -3,7 +3,7 @@
         <div class="row">
             <?php
 
-            include('./includes/tempt/news_breadcrumb.php');
+            include('./includes/tempt/single_news.php');
 
 
 

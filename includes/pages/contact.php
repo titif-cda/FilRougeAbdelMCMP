@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] =="POST"){
         }
     }
 }
-include('./includes/tempt/hero-section.php');
+include('./includes/tempt/entete.php');
 include('./includes/tempt/contact-section.php');
 
 include('./includes/tempt/carte.php');

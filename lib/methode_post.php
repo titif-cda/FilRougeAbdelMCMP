@@ -29,7 +29,7 @@ if(!empty($_POST)) {
                 }else {
 
                     $query = 'INSERT INTO	ADHERENT(
-            LOGIN,
+            LOGIN
             PASSWORD,
             NOM,
             PRENOM,
@@ -69,32 +69,70 @@ if(!empty($_POST)) {
             }
         }else if ($_POST['formulaire'] == 'update_profil') {
 
-            $query = 'UPDATE ADHERENT SET 
-              LOGIN = "' . $_POST["LOGIN"] . '",
-              PRENOM = "' . $_POST["PRENOM"] . '",
-              CYLINDREE = "' . $_POST["CYLINDREE"] . '"
-              WHERE IDADHERENT = ' . $_POST["IDADHERENT"];
+            list($error, $message_modal, $photoName, $binary, $fileType) = upload_img($directory_image_adherent, 'blob');
 
+            if(!$error){
+            $query = 'UPDATE ADHERENT SET AVATAR_BLOB = ?, AVATAR_TYPE = ? WHERE IDADHERENT = ?';
 
-            $bdd->query($query);
-            //information modal html
-            $message_modal = 'Votre profil est mis à jour.' ;
+            $response = $bdd->prepare($query);
+            $result = $response->execute(array($binary, $fileType, $_POST["IDADHERENT"]));
 
-        }else if ($user_level == 2) {
+            $message_modal = 'Votre profil est mis à jour.'; }
+
+//            if (isset($_FILES['image']) ) {
+//                try {
+//            $photoName = saveFile($_FILES['image'], $directory_image_adherent);
+//
+//            $query = 'UPDATE ADHERENT SET
+//
+//                          AVATAR = :photoName ,
+//                          LOGIN = :login,
+//                          NOM = :nom,
+//                          PRENOM = :prenom,
+//                          CYLINDREE = :cylindree
+//
+//                          WHERE IDADHERENT = :idAdherent;';
+//            $queryExec = $bdd->prepare($query);
+//
+//            $queryExec->execute(
+//                array(
+//                    'photoName' => $photoName,
+//                    'login' => $_POST["LOGIN"],
+//                    'nom' => $_POST["NOM"],
+//                    'prenom' => $_POST["PRENOM"],
+//                    'cylindree' => $_POST["CYLINDREE"],
+//                    'idAdherent' => $_POST["IDADHERENT"]
+//                )
+//            );
+//            //information modal html
+//            $message_modal = 'Votre profil est mis à jour.' ;
+//                } catch (Exception $e) {
+//                    $message_modal = $e->getMessage();
+//                }}
+//            else{
+//                $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';
+//
+//                }
+        }
+
+            else if ($user_level == 2) {
 
             if ($_POST['formulaire'] == 'update_news') {
 
-                if (isset($_FILES['image']) && !empty($_FILES['image']['name'])) {
-                    try {
-                        $photoName = saveFile($_FILES['image'], $directory_image_news);
-//                    //requete d'insertion dans la BD
+                list($error, $message_modal, $photoName) = upload_img($directory_image_news);
 
-                        $query = 'UPDATE NOUVELLE SET 
-                        
+                //equivalen de
+                //$error = $array[0];
+                //$message_modal = $array[1];
+
+                if(!$error){
+                    //requete d'insertion dans la BD
+                    $query = 'UPDATE NOUVELLE SET
+
                           IMAGE = :photoName ,
                           TITRE_NOUVELLE = :titre,
                           DESCRIPTION = :description
-                        
+
                           WHERE IDNOUVELLE = :idNouvelle;';
                         $queryExec = $bdd->prepare($query);
 
@@ -106,32 +144,56 @@ if(!empty($_POST)) {
                                 'idNouvelle' => $_POST["IdNouvelle"]
                             )
                         );
-                        $message_modal = "Mise à jour de votre nouvelle effectuée";
-
-                    } catch (Exception $e) {
-                        $message_modal = $e->getMessage();
-                    }
-
-                } else {
-                    try {
-
-                        $query = 'UPDATE NOUVELLE SET 
-                          TITRE_NOUVELLE = :titre,
-                          DESCRIPTION = :description
-                          WHERE IDNOUVELLE = :idNouvelle;';
-                        $queryExec = $bdd->prepare($query);
-
-                        $queryExec->execute(array(
-                            'titre' => $_POST["titre"],
-                            'description' => $_POST["editordata"],
-                            'idNouvelle' => $_POST["IdNouvelle"]
-                        ));
-
-                        $message_modal = "Mise à jour de votre nouvelle effectuée";
-                    } catch (Exception $e) {
-                        $message_modal = $e->getMessage();
-                    }
                 }
+
+//                if (isset($_FILES['image']) && !empty($_FILES['image']['name'])) {
+//                    try {
+//                        $photoName = saveFile($_FILES['image'], $directory_image_news);
+////                    //requete d'insertion dans la BD
+//
+//                        $query = 'UPDATE NOUVELLE SET
+//
+//                          IMAGE = :photoName ,
+//                          TITRE_NOUVELLE = :titre,
+//                          DESCRIPTION = :description
+//
+//                          WHERE IDNOUVELLE = :idNouvelle;';
+//                        $queryExec = $bdd->prepare($query);
+//
+//                        $queryExec->execute(
+//                            array(
+//                                'photoName' => $photoName,
+//                                'titre' => $_POST["titre"],
+//                                'description' => $_POST["editordata"],
+//                                'idNouvelle' => $_POST["IdNouvelle"]
+//                            )
+//                        );
+//                        $message_modal = "Mise à jour de votre nouvelle effectuée";
+//
+//                    } catch (Exception $e) {
+//                        $message_modal = $e->getMessage();
+//                    }
+//
+//                } else {
+//                    try {
+//
+//                        $query = 'UPDATE NOUVELLE SET
+//                          TITRE_NOUVELLE = :titre,
+//                          DESCRIPTION = :description
+//                          WHERE IDNOUVELLE = :idNouvelle;';
+//                        $queryExec = $bdd->prepare($query);
+//
+//                        $queryExec->execute(array(
+//                            'titre' => $_POST["titre"],
+//                            'description' => $_POST["editordata"],
+//                            'idNouvelle' => $_POST["IdNouvelle"]
+//                        ));
+//
+//                        $message_modal = "Mise à jour de votre nouvelle effectuée";
+//                    } catch (Exception $e) {
+//                        $message_modal = $e->getMessage();
+//                    }
+//                }
             }
             else{
                 $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';

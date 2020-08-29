@@ -1,5 +1,5 @@
 <main>
-    <?php include('./includes/tempt/hero-section.php');?>
+    <?php include('./includes/tempt/entete.php');?>
     <div class="container">
         <div class="row">
             <div id="connexion"  class="col-lg-12">

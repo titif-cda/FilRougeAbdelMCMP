@@ -47,7 +47,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
         }
 
         //gestion des pages
-        if ($page == 'profil') {
+        if ($page == 'profil_adherent') {
 
             if (isset($_GET['id']) && !empty($_GET['id'])) {
 
@@ -67,6 +67,17 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $prenom = $donnees['PRENOM'];
                         $login = $donnees['LOGIN'];
                         $cylindree = $donnees['CYLINDREE'];
+                        $dnaissance = $donnees['DNAISSANCE'];
+                        $adress1 = $donnees['ADRESSE1'];
+                        $adress2 = $donnees['ADRESSE2'];
+                        $cdpost = $donnees['CDPOST'];
+                        $ville = $donnees['VILLE'];
+                        $email = $donnees['EMAIL'];
+                        $tel = $donnees['TELEPHONE'];
+                        $adhesion = $donnees['DADHESION'];
+                        $organisateur = $donnees['ORGANISATEUR'];
+                        $certif = $donnees['ORGANISATEUR'];
+                        $image = $donnees['AVATAR'];
                         //to be continued
 
                     }
@@ -85,7 +96,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
             }
 
 
-        } else if ($page == 'informations') {
+        } else if ($page == 'nouvelles') {
 
             if (isset($_GET['action']) && !empty($_GET['action'])) {
 
@@ -95,7 +106,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                 }
             }
-        } else if ($page == 'information') {
+        } else if ($page == 'news') {
             if (isset($_GET['id']) && !empty($_GET['id'])) {
 
                 //la requete de la table page

@@ -7,7 +7,7 @@
                     <h2>Ajout activité</h2>
                     <div class="booking-form">
 
-                        <form action="./index.php?page=addactivite" method="post" class="register-form">
+                        <form action="./index.php?page=form-ajout_activite" method="post" class="register-form">
                             <input type="hidden" name="formact" value="activiteF"/>
 
                         <div class="row">

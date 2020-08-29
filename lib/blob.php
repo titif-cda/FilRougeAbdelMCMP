@@ -1,4 +1,3 @@
-
 <?php
 
 //démarage des sessions

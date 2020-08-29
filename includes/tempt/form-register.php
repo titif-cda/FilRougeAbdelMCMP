@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2><?php echo $title_register; ?></h2>
+                    <h2 class="text-center"><?php echo $title_register; ?></h2>
                     <div class="booking-form">
                         <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form" enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
@@ -13,25 +13,20 @@
 
                             <div class="row">
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
-                                       <img class="text-center" src="./img/team/moi.jpg" ></img>
-                                        </div>
-                                <div class="col-sm-12 text-center ">
-                                    <label> Changer l'image</label>
-                                    <input type="file" name="image">
+                                    <?php
+                                    $img = !empty($image) ? $image :'upload_adherent_detail_default.jpg';
+                                    ?>
+                                    <img src="./lib/blob.php?user=<?php echo $id; ?>" alt="">
                                 </div>
-                                    <div class="col-sm-12 ">
-                                        <div class="row single-blog-item">
-                                            <div class="col-12 text-center">
-                                                <input type="submit" class="primary-btn" value="Changer photo profil " id="">
-                                                <a href="#" </a>
-                                            </div>
-                                    </div>
-                                </div>
+
+
                                 <div class="col-sm-12">
                                     <div class="col-sm">
+                                        <label > Votre Identifiant</label>
                                         <input type="text" name="LOGIN" value="<?php echo isset($identifiant) ? $identifiant : 'test identifiant' ?>" placeholder="" >
                                     </div>
                                     <div class="col-sm">
+                                        <label > Votre mot de passe</label>
                                         <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="abdel mdp">
                                     </div>
                                 </div>
@@ -39,43 +34,53 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="col-sm">
+                                        <label > Votre Prenom </label>
                                         <input type="text" id= "name" name="PRENOM"  value="<?php echo isset($prenom) ? $prenom : 'test prenom' ?>" placeholder="" />
                                     </div>
                                     <div class="col-sm">
+                                        <label > Votre Nom </label>
                                         <input type="text" id= "name" name="NOM" value="<?php echo isset($nom) ? $nom : 'test nom' ?>" />
+
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="date" id= "birth" name="DNAISSANCE" placeholder="Votre date de naissance" value="">
+                                        <label > Votre date de naissance</label>
+                                        <input type="date" id= "birth" name="DNAISSANCE" placeholder="" value="<?php echo isset($dnaissance) ? $dnaissance : "1982-04-14" ?>">
                                     </div>
                                     <div class="col-sm">
-                                        <input type="text" id= "adress" name="ADRESSE1" placeholder="Votre adresse" value="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="col-sm">
-                                        <input type="text" id= "adress" name="ADRESSE2" placeholder="">
+                                        <label > Votre adresse </label>
+                                        <input type="text" id= "adress" name="ADRESSE1" placeholder="" value="<?php echo isset($adress1) ? $adress1 : 'rue des coquelicots' ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "zip" name="CDPOST" placeholder="Votre code postal" value="">
+                                        <label > Votre adresse 2 </label>
+                                        <input type="text" id= "adress" name="ADRESSE2" value="<?php echo isset($adress2) ? $adress2 : '' ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "city" name="VILLE" placeholder="Votre ville" value="">
+                                        <label > Votre code postal </label>
+                                        <input type="text" id= "zip" name="CDPOST" placeholder="" value="<?php echo isset($cdpost) ? $cdpost : '12100' ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="email" id= "email" name="EMAIL" placeholder="Votre email" value="">
+                                        <label > Votre ville </label>
+                                        <input type="text" id= "city" name="VILLE" placeholder="" value="<?php echo isset($ville) ? $ville : 'Millau' ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <input type="text" id= "mobile" name="TELEPHONE"  placeholder="Votre Téléphone" value="">
+                                        <label > Votre email </label>
+                                        <input type="email" id= "email" name="EMAIL" placeholder="" value="<?php echo isset($email) ? $email : 'votre@adresse.mail' ?>">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm">
+                                        <label > Votre téléphone </label>
+                                        <input type="text" id= "mobile" name="TELEPHONE"  placeholder="e" value="<?php echo isset($tel) ? $tel : '0606060606' ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -100,15 +105,15 @@
                                 <div class="col-sm-6">
                                     <label for="name" >Votre cylindrée</label>
                                     <div class="row">
-                                        <div class="col-lg-4">
+                                        <div class="col-sm-4">
                                             <label for="name" >125 cm3</label>
                                             <input type="radio"  name="CYLINDREE"value="125 cm3"  <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?>/>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-sm-4">
                                             <label for="name" >250 cm3</label>
                                             <input type="radio"  name="CYLINDREE" value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?>/>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-sm-4">
                                             <label for="name" >> 250 cm3</label>
                                             <input type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>/>
                                         </div>
@@ -116,7 +121,7 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <button type="submit" class="submit-btn" ><?php echo $btn_register; ?></button>
+                                        <button type="submit" class="submit-btn primary-btn" ><?php echo $btn_register; ?></button>
                                     </div>
                                 </div>
                             </div>

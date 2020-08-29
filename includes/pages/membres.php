@@ -1,5 +1,5 @@
 <main>
-    <?php include('./includes/tempt/hero-section.php'); ?>
+    <?php include('./includes/tempt/entete.php'); ?>
 
     <section id="member"  class="about-team spad">
         <div class="container">

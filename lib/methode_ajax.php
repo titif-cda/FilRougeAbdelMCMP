@@ -49,7 +49,7 @@ if($user_level == 2){
                 );
                 echo json_encode($retour);
 
-                //include ('../includes/tempt/news_breadcrumb.php');
+                //include ('../includes/tempt/single_news.php');
 
                // echo 'Ajout d\'une nouvelle.';
 

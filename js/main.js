@@ -216,7 +216,7 @@ Created: colorlib
             //afichage de la modal
             $('#my-modal .modal-body p').html(msg.data.modalMessage);
             if(!msg.error) {
-                $('#news_breadcrumb').append(
+                $('#single_news').append(
                     `
                 <div class="col-lg-3 col-md-6">
                 <div class="single-blog-item blog-item">
@@ -225,15 +225,12 @@ Created: colorlib
                     </div>
                     <div class="blog-text">
                         <span class="blog-time">${msg.data.news.DPUBLICATION}</span>
-                        <h4><a href="./index.php?page=information&id=${msg.data.news.IDNOUVELLE}">${msg.data.news.TITRE_NOUVELLE}</a></h4>
+                        <h4><a href="./index.php?page=news&id=${msg.data.news.IDNOUVELLE}">${msg.data.news.TITRE_NOUVELLE}</a></h4>
             
                         <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
                             convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
                         <div class="blog-widget">
-                            <ul>
-                                <li><img src="img/like.png" alt=""> <span>15 Likes</span></li>
-                                <li><img src="img/chat.png" alt=""> <span>3 Comments</span></li>
-                            </ul>
+                          
                         </div>
                     </div>
                 </div>

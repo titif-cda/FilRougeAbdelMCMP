@@ -1,6 +1,6 @@
 <main>
     <?php
-    include('./includes/tempt/hero-section.php');
+    include('./includes/tempt/entete.php');
 
     ?>
     <section class="blog-section spad">
@@ -12,7 +12,7 @@
                 //boucle les donneees recuperees
                 while($row = $reponse -> fetch()){
 
-                    include('./includes/tempt/news_breadcrumb.php');
+                    include('./includes/tempt/single_news.php');
 
                 }
                 ?>

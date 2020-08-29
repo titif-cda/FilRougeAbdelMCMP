@@ -86,4 +86,22 @@
       margin-bottom: 30px;
     }
   }
+.boxes-section{
+  .boxes-item {
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100%;
+    padding-bottom: 36px 0px;
+    padding: 36px 0px;
 
+  h2{
+    font-size: 36px;
+    font-weight: bolder;
+    /* text-shadow: 8px 8px 8px #800000; */
+    color: #800000;
+    /* opacity: inherit; */
+    float: left;
+    font-family: "Oswald", sans-serif;
+  }
+  }
+}

@@ -22,51 +22,44 @@ if(!empty($_POST)) {
                 // $message_modal = 'Login existe déjà, veuillez recommencer';
 
                 $unilog = $bdd->prepare("SELECT * FROM ADHERENT WHERE LOGIN =?");
-                $unilog -> execute(array($_POST['LOGIN']));
+                $unilog->execute(array($_POST['LOGIN']));
                 $logexist = $unilog->rowCount();
-                if ($logexist != 0 ){
+                if ($logexist != 0) {
                     $message_modal = 'Login existe déjà, veuillez recommencer';
-                }else {
+                } else {
+                    list($error, $message_modal, $photoName) = upload_img($directory_image_adherent);
+                    if (!$error) {
 
-                    $query = 'INSERT INTO	ADHERENT(
-            LOGIN
-            PASSWORD,
-            NOM,
-            PRENOM,
-            DNAISSANCE,
-            ADRESSE1,
-            CDPOST,
-            VILLE,
-            EMAIL,
-            TELEPHONE,
-            CERTIFICAT,
-            DROITIMAGE,
-            CYLINDREE
-            
-            ) VALUES (
-            "' . $_POST["LOGIN"] . '",
-            "' . $_POST["PASSWORD"] . '",
-            "' . $_POST["NOM"] . '",
-            "' . $_POST["PRENOM"] . '",
-            "' . $_POST["DNAISSANCE"] . '",
-            "' . $_POST["ADRESSE1"] . '",
-            "' . $_POST["CDPOST"] . '",
-            "' . $_POST["VILLE"] . '",
-            "' . $_POST["EMAIL"] . '",
-            "' . $_POST["TELEPHONE"] . '",
-            1,
-            ' . $droit_image . ',
-            "' . $_POST["CYLINDREE"] . '"
-            )';
+                        $query = ('insert into ADHERENT( LOGIN, PASSWORD, NOM, PRENOM, CDPOST, DNAISSANCE, ADRESSE1, ADRESSE2, VILLE, EMAIL, TELEPHONE, CERTIFICAT, DROITIMAGE, CYLINDREE, AVATAR) 
+                                    values (:login ,:password,:nom,:prenom,:cdpost,:dnaissance, :adress1, :adress2,:ville, :email, :tel, :certif, :droit, :cylindree, :avatar)');
 
-                    // echo "Query : ".$query;
+                        $queryExec = $bdd->prepare($query);
 
-                    $bdd->query($query);
-                    //information modal html
-                    $message_modal = 'Inscription prise en compte, nous vous recontacterons.';
+                        $queryExec->execute(
+                            array(
+                                'login' => $_POST["LOGIN"],
+                                'password' => $_POST["PASSWORD"],
+                                'nom' => $_POST["NOM"],
+                                'prenom' => $_POST["PRENOM"],
+                                'cdpost' => $_POST["CDPOST"],
+                                'dnaissance' => $_POST["DNAISSANCE"],
+                                'adress1' => $_POST["ADRESSE1"],
+                                'adress2' => $_POST["ADRESSE2"],
+                                'ville' => $_POST["VILLE"],
+                                'email' => $_POST["EMAIL"],
+                                'tel' => $_POST["TELEPHONE"],
+                                'certif' => 1,
+                                'droit' => $droit_image,
+                                'cylindree' => $_POST["CYLINDREE"],
+                                'avatar' => $photoName
+                            )
+
+                        );
+                    }
 
                 }
             }
+
         }else if ($_POST['formulaire'] == 'update_profil') {
 
             list($error, $message_modal, $photoName, $binary, $fileType) = upload_img($directory_image_adherent, 'blob');

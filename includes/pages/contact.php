@@ -25,13 +25,3 @@ include('./includes/tempt/carte.php');
 
 ?>
 
-
-
-
-<!-- Hero Section Begin -->
-
-<!-- Hero Section End -->
-<!-- Contact Section Begin -->
-
-<!-- Contact Section End -->
-

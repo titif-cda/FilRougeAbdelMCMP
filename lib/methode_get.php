@@ -6,7 +6,7 @@ if(isset($_GET['deconnexion']) && $_GET['deconnexion'] == 1){
     //on détruit la session
     session_destroy();
     //on redirige la page apres destroy
-    header("location:index?page=accueil");
+    header("location:page-accueil");
 
 }
 
@@ -78,6 +78,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $organisateur = $donnees['ORGANISATEUR'];
                         $certif = $donnees['ORGANISATEUR'];
                         $image = $donnees['AVATAR'];
+                        $idadherent = $donnees['IDADHERENT'];
                         //to be continued
 
                     }

@@ -59,7 +59,7 @@
                                     <?php
                                     foreach ($ar_pages_var as $key=>$value ){
                                         if($ar_pages_var[$key]['PUBLIC'] ==1 ){
-                                            echo '<li  ><a href="./index.php?page='.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
+                                            echo '<li  ><a href="page-'.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
                                         }
                                     }
                                     ?>
@@ -71,7 +71,7 @@
                             <li><a href="./index.php?page=contact" class="<?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
                             <li><a href="./index.php?page=elements" class="<?php echo $page == 'gallerie' ? 'active' : ''; ?>">Gallerie</a></li>-->
                                     <?php if($user_level == 0){ ?>
-                                        <li class="<?php echo $page == 'connexion' ? 'active' : ''; ?>"><a href="./index.php?page=connexion">Connexion</a></li>
+                                        <li class="<?php echo $page == 'connexion' ? 'active' : ''; ?>"><a href="page-connexion">Connexion</a></li>
                                     <?php } ?>
 
 
@@ -93,8 +93,9 @@
                                                 </div>
                                             </div>
                                         <?php }else{ ?>
-                                            <a href="./index.php?page=inscription" class="primary-btn signup-btn">Inscription</a>
+                                            <a href="page-inscription" class="primary-btn signup-btn">Inscription</a>
                                         <?php } ?></li>
+
                                 </ul>
                             </nav>
                             <div id="mobile-menu-wrap"></div>

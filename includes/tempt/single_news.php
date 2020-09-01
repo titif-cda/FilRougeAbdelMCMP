@@ -1,4 +1,4 @@
-<a href="./index.php?page=news&id=<?php echo $row['IDNOUVELLE']; ?>">
+<a href="page-news-<?php echo $row['IDNOUVELLE']; ?>">
 <div class="col-lg-3 col-md-6">
 
     <div class="single-blog-item blog-item">

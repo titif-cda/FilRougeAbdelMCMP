@@ -14,7 +14,6 @@ if(isset($_GET['user']) && !empty($_GET['user'])){
     $response = $bdd->prepare($query);
     $result = $response->execute(array($_GET['user']));
     $data = $response->fetch();
-
     header('Content-type:'.$data['AVATAR_TYPE']);
     echo $data['AVATAR_BLOB'];
 

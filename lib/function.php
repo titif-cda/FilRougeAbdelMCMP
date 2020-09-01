@@ -7,7 +7,7 @@ function upload_img($directory, $methode = 'file'){
     $fileType = '';
     $binary = '';
 
-    if(isset($_FILES['image'])) {
+    if(isset($_FILES['image']) && !empty($_FILES['image'])) {
 
         //les différentes clef de $_FILES
         $fileName = $_FILES['image']['name']; //01.02.JPG
@@ -71,4 +71,9 @@ function upload_img($directory, $methode = 'file'){
 
     return array($error, $message_modal, $photoName, $binary, $fileType);
 
+}
+
+
+function My_crypt($password){
+    return hash( 'sha256',$password);
 }

@@ -1,8 +1,8 @@
 <?php
 namespace Config;
-require_once "./Vendor/PHPMailer-master/src/PHPMailer.php";
-require_once "./Vendor/PHPMailer-master/src/SMTP.php";
-require_once "./Vendor/PHPMailer-master/src/Exception.php";
+require_once "./vendor/PHPMailer-master/src/PHPMailer.php";
+require_once "./vendor/PHPMailer-master/src/SMTP.php";
+require_once "./vendor/PHPMailer-master/src/Exception.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;

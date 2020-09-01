@@ -13,10 +13,17 @@
 
                             <div class="row">
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
-                                    <?php
-                                    $img = !empty($image) ? $image :'upload_adherent_detail_default.jpg';
-                                    ?>
-                                    <img src="./lib/blob.php?user=<?php echo $id; ?>" alt="">
+
+                                    --><?php
+                                    if(!empty($donnees['AVATAR_TYPE'])) { ?>
+                                        <img loading="lazy" src="/lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
+
+                                    <?php }else  {
+                                        echo '<img loading="lazy" src="/img/upload/adherent/upload_adherent_detail_default.jpg" alt="">';
+
+                                    }?>
+
+
                                 </div>
 
 
@@ -27,7 +34,7 @@
                                     </div>
                                     <div class="col-sm">
                                         <label > Votre mot de passe</label>
-                                        <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="abdel mdp">
+                                        <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="admin">
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +93,7 @@
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <label for="name" >Certificat Médical (-6mois)</label>
-                                        <input type="file" id= "certificat" name="CERTIFICAT"  placeholder="Téléchargez votre certificat médical">
+                                        <input type="file" id= "certificat" name="CERTIFICAT"  placeholder="Téléchargez votre certificat médical" value=0>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -95,11 +102,13 @@
                                         <input type="checkbox" id= "droit" name="DROITIMAGE" placeholder="Vous acceptez que votre image soit utilisée sur le site internet">
                                     </div>
                                 </div>
+                                <?php if($user_level > 0){ ?>
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <label for="name"> Telechargez une photo.</label>
                                         <input type="file" name="image">
                                     </div>
+                                    <?php } ?>
                                 </div>
 
                                 <div class="col-sm-6">

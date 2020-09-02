@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dea3c56b-10d6-461b-a670-4adf28a7d5bf" name="CD28" url="">
+        <fileTransfer accessType="SFTP" host="cda28.2isa.org" port="22" sshConfigId="d8291293-beb9-4329-bfed-00103d14bb48" sshConfig="CD28">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

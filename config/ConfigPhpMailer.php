@@ -11,7 +11,7 @@ class Configuration{
 
     const smtpConfig = array(
        // 'SMTPDebug' => SMTP::DEBUG_SERVER,
-    'SMTPDebug' => SMTP::DEBUG_OFF,
+    'SMTPDebug' => SMTP::DEBUG_SERVER,
         'isSMTP' => true,
         'Host' => 'smtp.gmail.com.',
         // 'Host' => 'smtp-relay.sendinblue.com',

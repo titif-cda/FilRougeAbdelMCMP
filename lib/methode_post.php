@@ -1,5 +1,7 @@
 <?php
-
+require_once './lib/function.php';
+require_once './lib/MailEngine.php';
+use Lib\MailEngine;
 //test de la super global $_POST si elle n'est pas vide '!empty()'
 if (!empty($_POST)) {
 
@@ -8,9 +10,93 @@ if (!empty($_POST)) {
 
         if ($_POST['formulaire'] == 'register') {
 
+                $errors = array();
+
+                if (empty($_POST['LOGIN']) || !preg_match('/^[a-zA-Z0-9_]+$/', $_POST['LOGIN'])){
+
+                    $errors['LOGIN'] = "Votre pseudo n'est pas valide";
+                }else{
+                    //verifie si login n'existe pas
+                    $unilog = $bdd->prepare("SELECT * FROM ADHERENT WHERE LOGIN =?");
+                    $unilog->execute(array($_POST['LOGIN']));
+                    $user = $unilog -> fetch();
+                    if ($user){
+                        $errors['LOGIN'] = 'Ce pseudo est déjà pris';
+                    }
+
+                }
+
+
+                //VERIF VALIDATION EMAIL
+                if (empty($_POST['EMAIL']) || !filter_var($_POST['EMAIL'], FILTER_VALIDATE_EMAIL)) {
+                    $errors['EMAIL'] = "Votre email n'est pas valide";
+                }else{
+                    //verifie si l'email n'existe pas
+                    $unimail = $bdd->prepare("SELECT * FROM ADHERENT WHERE EMAIL =?");
+                    $unimail->execute(array($_POST['EMAIL']));
+                    $user = $unimail -> fetch();
+                    if ($user){
+                        $errors['EMAIL'] = 'Cet email est déjà pris';
+                    }
+
+                }
+
+                if (empty($_POST['PASSWORD']) || $_POST['PASSWORD'] != $_POST['PASSWORD_CONFIRM']) {
+                    $errors['PASSWORD'] = "Vous devez rentrer un mot de passe valide";
+                }
+
+
+                $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
+                $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
+                $hashed_password = hash('sha256', $_POST["PASSWORD"]);
+
+                if (empty($errors)){
+                    $query = ('insert into ADHERENT( LOGIN, PASSWORD, NOM, PRENOM, CDPOST, DNAISSANCE, ADRESSE1, ADRESSE2, VILLE, EMAIL, TELEPHONE, CERTIFICAT, DROITIMAGE, CYLINDREE, VALIDATION_CLEF) 
+                                    values (:login ,:password,:nom, :prenom, :cdpost, :dnaissance, :adress1, :adress2,:ville, :email, :tel, :certif, :droit, :cylindree, :clef )');
+
+                    $queryExec = $bdd->prepare($query);
+                    $clefValidation = validationKey(60);
+
+                    $queryExec->execute(
+                        array(
+                            'login' => $_POST["LOGIN"],
+                            'password' => $hashed_password,
+                            'nom' => $_POST["NOM"],
+                            'prenom' => $_POST["PRENOM"],
+                            'cdpost' => $_POST["CDPOST"],
+                            'dnaissance' => $_POST["DNAISSANCE"],
+                            'adress1' => $_POST["ADRESSE1"],
+                            'adress2' => $_POST["ADRESSE2"],
+                            'ville' => $_POST["VILLE"],
+                            'email' => $_POST["EMAIL"],
+                            'tel' => $_POST["TELEPHONE"],
+                            'certif' => 1,
+                            'droit' => $droit_image,
+                            'cylindree' => $_POST["CYLINDREE"],
+                            'clef' => $clefValidation));
+
+                    $user_id= $bdd->lastInsertId();
+                    $from = 'abdellatif.eljid@2isa.net';
+                    $to = $_POST['EMAIL'];
+                    $subject = 'Validation de mail';
+                    $message = "Afin de valider votre compte , merci de cliquer sur le lien suivant: http://cda28.s1.2isa.test/index.php?page=confirmation&k=$clefValidation&id=$user_id";
+
+                    try {
+                        \Lib\MailEngine::send($subject, $from, $to, $message);
+                        header('Location: page-connection.php');
+                        $message_modal = 'Un email de confirmation vous a été envoyé pour valider votre compte.';
+                    }
+                    catch(Exception $e){
+                        error_log($e ->getMessage());
+                    }
+                }
+                debug($errors);
+
+
+
             // var_dump($_POST);
 
-            $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
+     /*       $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
             $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
 
             if (empty($_POST["NOM"]) || empty($_POST["PRENOM"])) {
@@ -58,7 +144,7 @@ if (!empty($_POST)) {
 
 
                 }
-            }
+            }*/
 
 
         } else if ($_POST['formulaire'] == 'update_profil') {
@@ -79,10 +165,12 @@ if (!empty($_POST)) {
                     //complétion de la requete update
                     $pass_string = 'PASSWORD = "' . $hashed_password . '",';
                 }
-                $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?, CYLINDREE = ? where IDADHERENT= ?';
+                $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
+ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?,   CYLINDREE = ? where IDADHERENT= ?';
                 $queryExec = $bdd->prepare($query);
 
-                $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"], $_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+                $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
+                    $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$_POST["DROITIMAGE"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
                 $message_modal = 'Votre profil est mis à jour.';
             }
 
@@ -130,40 +218,45 @@ if (!empty($_POST)) {
 
                     $hashed_password = My_crypt($_POST["PASSWORD"]);
 
-                    $query = $bdd->prepare('SELECT IDADHERENT, NOM, PRENOM, ADMIN FROM ADHERENT WHERE LOGIN = :login AND PASSWORD = :password');
+                    $query = $bdd->prepare('SELECT IDADHERENT, NOM, PRENOM, ADMIN, CONFIRMATION FROM ADHERENT WHERE LOGIN = :login AND PASSWORD = :password');
 
                     $query->execute(array(
                         'login' => $_POST['LOGIN'],
                         'password' => $hashed_password,
                     ));
+
                     var_dump($query);
                     //permet de déterminer le nombre d'enregistrement
                     if ($query->rowCount() == 1) {
 
                         //boucle les données récupérées
-                        while ($donnees = $query->fetch()) {
-
-                            $nom = $donnees['NOM'];
-                            $prenom = $donnees['PRENOM'];
-
-
-                            $_SESSION['IDADHERENT'] = $donnees['IDADHERENT'];
-                            $_SESSION['NOM'] = $nom;
-                            $_SESSION['PRENOM'] = $prenom;
-
-                            //ou 2 si admin (to be continued)
-
-                            $user_level = 1;
-                            if ($donnees['ADMIN'] == 1) {
-                                $user_level = 2;
-                            }
-                            $_SESSION['user_level'] = $user_level;
-
-                            $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
-                            //Retour page par defaut
-                            $page = $homepage;
-
+                       $donnees = $query->fetch();
+                        if($donnees['CONFIRMATION'] == 0) {
+                            //error
+                            $message_modal = "Veuillez activer votre compte !";
+                            return;
                         }
+                        $nom = $donnees['NOM'];
+                        $prenom = $donnees['PRENOM'];
+
+
+                        $_SESSION['IDADHERENT'] = $donnees['IDADHERENT'];
+                        $_SESSION['NOM'] = $nom;
+                        $_SESSION['PRENOM'] = $prenom;
+
+                        //ou 2 si admin (to be continued)
+
+                        $user_level = 1;
+                        if ($donnees['ADMIN'] == 1) {
+                            $user_level = 2;
+                        }
+                        $_SESSION['user_level'] = $user_level;
+
+                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
+                        //Retour page par defaut
+                        $page = $homepage;
+
+
 
                     } else {
                         $message_modal = "Identifiant ou mot de passe invalide!";

@@ -77,3 +77,16 @@ function upload_img($directory, $methode = 'file'){
 function My_crypt($password){
     return hash( 'sha256',$password);
 }
+
+
+function debug($variable){
+    echo '<pre>' . print_r($variable,true) . '</pre>';
+}
+
+function validationKey($length){
+    $alphabet = "0123456789azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN";
+    return substr(str_shuffle(str_repeat($alphabet,$length)),0,$length);
+   // substr recupere juste la taille "lenght qui correspond à 60
+    //str_shuffle  : melange la repetition
+   // str_repeat : retpete 60 fois $alphabet
+}

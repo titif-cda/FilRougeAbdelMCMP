@@ -29,10 +29,11 @@ class MailEngine{
         $mail -> setFrom(Configuration::smtpConfig['From']['Address'],Configuration::smtpConfig['From']['Name']);
         return $mail;
     }
-    public static function send(string $subject, string $expediteur, string $message){
+    public static function send(string $subject, string $from, string $to, string $message){
         $mail = MailEngine :: CreateMail();
-        $mail->addAddress(Configuration::smtpConfig['Administrator']['Address'],Configuration::smtpConfig['Administrator']['Name']);
-        $mail->addReplyTo($expediteur);
+        //Configuration::smtpConfig['Administrator']['Address'],Configuration::smtpConfig['Administrator']['Name']
+        $mail->addAddress($to);
+        $mail->addReplyTo($from);
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = $subject;
         $mail->Body    = "<p>". htmlspecialchars($message)."</p>" ;

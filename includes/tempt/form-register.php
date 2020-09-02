@@ -4,6 +4,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <?php
+                    if (!empty($errors)):?>
+                    <div class="alert alert-danger">
+                        <p>Vous n'avez pas rempli le formulaire corrrectement </p>
+                    <?php
+                    foreach ($errors as $error): ?>
+                       <ul>
+                           <li><?= $error; ?></li>
+                       </ul>
+                        <?php endforeach; ?>
+                    </div>
+                    <?php endif; ?>
+
                     <h2 class="text-center"><?php echo $title_register; ?></h2>
                     <div class="booking-form">
                         <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form" enctype="multipart/form-data">
@@ -14,7 +27,7 @@
                             <div class="row">
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
 
-                                    --><?php
+                                    <?php
                                     if(!empty($donnees['AVATAR_TYPE'])) { ?>
                                         <img loading="lazy" src="/lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
 
@@ -35,6 +48,10 @@
                                     <div class="col-sm">
                                         <label > Votre mot de passe</label>
                                         <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="admin">
+                                    </div>
+                                    <div class="col-sm">
+                                        <label > Confirmez votre mot de passe</label>
+                                        <input type="password_confirm" id= "PASSWORD" name="PASSWORD_CONFIRM" placeholder="Votre Mot de passe" value="admin">
                                     </div>
                                 </div>
                             </div>

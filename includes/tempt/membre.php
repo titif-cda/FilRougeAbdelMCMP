@@ -4,10 +4,10 @@
             <figure>
                 <?php
                 if(!empty($donnees['AVATAR_TYPE'])) { ?>
-                                 <img loading="lazy" src="/lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
+                                 <img loading="lazy" src="./lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
 
                 <?php }else  {
-                    echo '<img loading="lazy" src="/img/upload/adherent/upload_adherent_default.jpg" alt="">';
+                    echo '<img loading="lazy" src="./img/upload/adherent/upload_adherent_default.jpg" alt="">';
 
                 }?>
 

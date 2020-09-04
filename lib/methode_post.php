@@ -279,8 +279,13 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
 
 if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF') {
 
-    var_dump($_POST);
-    $query1 = 'INSERT INTO ACTIVITE(
+   if (isset($_FILES['image']) && !empty($_FILES['image'])) {
+
+        list($error, $message_modal, $photoName) = upload_img($directory_image_news);
+
+
+
+            $query1 = 'INSERT INTO ACTIVITE(
 
             INTITULEACTIVITE,
             DDEBUT,
@@ -289,8 +294,9 @@ if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF') {
             TARIFADHERENT,
             TARIFINVITE,
             DLIMITEINSCRIPTION,
-            IDADHERENT,
-            IDTYPE
+           
+            IDTYPE,
+            IMAGEACT
           
             ) 
             VALUES (
@@ -302,18 +308,19 @@ if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF') {
             "' . $_POST["TARIFADHERENT"] . '",
             "' . $_POST["TARIFINVITE"] . '",
             "' . $_POST["DLIMITEINSCRIPTION"] . '",
-            "' . $_POST["IDADHERENT"] . '",
-            "' . $_POST["IDTYPE"] . '"
-           
-         
-            
+          
+            "' . $_POST["IDTYPE"] . '",
+            "' . $photoName . '"
             )';
-    echo "Query : " . $query1;
-
-    $bdd->query($query1);
 
 
-};
+            $bdd->query($query1);
+            $message_modal='reussi';
+        }else{
+            $message_modal = 'erreur';
+
+
+}}
 
 
 if (isset($_POST['typact']) && $_POST['typact'] == 't_act') {

@@ -11,7 +11,7 @@ include('./includes/tempt/entete.php');
                         <h2>Oups! Page introuvable</h2>
                     </div>
                     <p>Vous avez tenté d’accéder à une page qui ne se trouve plus sur ce site. Veuillez revenir sur la page d'accueil afin de continuer votre navigation sur notre site. </p>
-                    <a href="page-accueil" class="primary-btn">Revenir à l'accueil/a>
+                    <a href="page-accueil" class="primary-btn">Revenir à l'accueil</a>
                 </div>
             </div>
             <div class="col-lg-6">

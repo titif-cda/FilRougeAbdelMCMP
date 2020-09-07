@@ -11,19 +11,19 @@ include('./includes/tempt/services.php');?>
             <div class="col-lg-12">
                 <div class="gallery-controls">
                     <ul>
-                        <li class="filter-button active" data-filter="all">All GALLERY</li>
-                        <li class="filter-button"  data-filter="crossfit">Crossfit</li>
-                        <li class="filter-button"  data-filter="workout">Workout</li>
-                        <li class="filter-button"  data-filter="gym">GYM</li>
+                        <li class="filter-button active" data-filter="all">Toutes les activités</li>
+                        <li class="filter-button"  data-filter="1">Sorties</li>
+                        <li class="filter-button"  data-filter="2">Repas</li>
+                        <li class="filter-button"  data-filter="3">Reunions</li>
                     </ul>
                 </div>
             </div>
                         <?php
                         //la requete
-                        $reponse = $bdd->query('SELECT * FROM ACTIVITE order by DFIN desc ');
+                        $reponse = $bdd->query('SELECT * FROM ACTIVITE order by DDEBUT desc ');
                         //boucle les donneees recuperees
                         while($row = $reponse -> fetch()){
-                            $row['DFIN'] = date("d-m-Y", strtotime($row['DFIN']));;
+                            $row['DDEBUT'] = date("d-m-Y", strtotime($row['DDEBUT']));;
 
                             include('./includes/tempt/single_activite.php');
 

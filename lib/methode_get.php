@@ -141,6 +141,48 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                 $page = $homepage;
             }
         }
+        else if ($page == 'activiteseule') {
+            if (isset($_GET['id']) && !empty($_GET['id'])) {
+
+                //la requete de la table page
+                $query = $bdd->prepare('SELECT * FROM ACTIVITE WHERE IDACTIVITE =  :idactivite ');
+
+                $query->execute(array(
+                    'idactivite' => $_GET['id']
+                ));
+
+
+                //boucle les données récupérées
+                while ($donnees = $query->fetch()) {
+
+                    $titleActivite = $donnees['INTITULEACTIVITE'];
+                    $datedebut = $donnees['DDEBUT'];
+                    $dateFin = $donnees['DFIN'];
+                    $descriptionA = $donnees['DESCRIPTION'];
+                    $tarifAdherent = $donnees['TARIFADHERENT'];
+                    $tarifInvite = $donnees['TARIFINVITE'];
+                    $datelimiteInscr = $donnees['DLIMITEINSCRIPTION'];
+                    $imageAct = $donnees['IMAGEACT'];
+                    $idadherent=$donnees['IDADHERENT'];
+                    $idType=$donnees['IDTYPE'];
+                    //to be continued
+
+                }
+
+
+                //je transforme le H1 prévu coté BD
+                $ar_pages_var[$page]['h1'] = $titleActivite;
+                $id = $_GET['id'];
+
+
+                $title_register = 'Mise à jour de votre profil';
+                $btn_register = 'Mettre à jour';
+                $action = 'update_profil';
+
+            } else {
+                $page = $homepage;
+            }
+        }
 
 
         //test sur les action de page
@@ -154,14 +196,31 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                     if ($page == 'membres') {
                         if ($user_level == 2) {
+                            if(isset($_GET['token']) && !empty($_GET['token'])){
+
+                                if($_GET['token'] == $_SESSION['token']){
 
 
-                            //lancement de la requete
-                            $bdd->query('DELETE FROM ADHERENT WHERE IDADHERENT = ' . $_GET['id']);
+                                    //lancement de la requete
+
+                                    $query = 'DELETE FROM ADHERENT WHERE IDADHERENT = ?';
+                                    $queryExec = $bdd->prepare($query);
+                                    $result = $queryExec->execute(array($_GET['id']));
+
+                                    //information modal html
+                                    $message_modal = 'Utilisateur '.$_GET['id'].' supprimé.';
 
 
-                            //information modal html
-                            $message_modal = 'Utilisateur ' . $_GET['id'] . ' supprimé.';
+                                }
+
+                            }else{
+                                $token = time();
+                                $_SESSION['token'] = $token;
+                                $message_modal = 'Confirmer suppression ? <a href="index.php?page=membres&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
+
+                            }
+
+
                         } else
                             $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';
 

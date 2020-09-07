@@ -16,6 +16,12 @@ if (!empty($_POST)) {
 
                     $errors['LOGIN'] = "Votre pseudo n'est pas valide";
                 }else{
+                    //clean $_POST;
+                    foreach ($_POST as $key => $value){
+
+                        $_POST[$key] = str_replace(array('<','>'),'?', $value);
+                    }
+
                     //verifie si login n'existe pas
                     $unilog = $bdd->prepare("SELECT * FROM ADHERENT WHERE LOGIN =?");
                     $unilog->execute(array($_POST['LOGIN']));
@@ -58,22 +64,11 @@ if (!empty($_POST)) {
                     $clefValidation = validationKey(60);
 
                     $queryExec->execute(
-                        array(
-                            'login' => $_POST["LOGIN"],
-                            'password' => $hashed_password,
-                            'nom' => $_POST["NOM"],
-                            'prenom' => $_POST["PRENOM"],
-                            'cdpost' => $_POST["CDPOST"],
-                            'dnaissance' => $_POST["DNAISSANCE"],
-                            'adress1' => $_POST["ADRESSE1"],
-                            'adress2' => $_POST["ADRESSE2"],
-                            'ville' => $_POST["VILLE"],
-                            'email' => $_POST["EMAIL"],
-                            'tel' => $_POST["TELEPHONE"],
-                            'certif' => 1,
-                            'droit' => $droit_image,
-                            'cylindree' => $_POST["CYLINDREE"],
-                            'clef' => $clefValidation));
+                        array('login' => $_POST["LOGIN"],'password' => $hashed_password,
+                            'nom' => $_POST["NOM"],'prenom' => $_POST["PRENOM"],'cdpost' => $_POST["CDPOST"],
+                            'dnaissance' => $_POST["DNAISSANCE"],'adress1' => $_POST["ADRESSE1"],
+                            'adress2' => $_POST["ADRESSE2"], 'ville' => $_POST["VILLE"],'email' => $_POST["EMAIL"],
+                            'tel' => $_POST["TELEPHONE"], 'certif' => 1,'droit' => $droit_image, 'cylindree' => $_POST["CYLINDREE"],'clef' => $clefValidation));
 
                     $user_id= $bdd->lastInsertId();
                     $from = 'abdellatif.eljid@2isa.net';
@@ -164,13 +159,21 @@ if (!empty($_POST)) {
                     $hashed_password = My_Crypt($_POST["PASSWORD"]);
                     //complétion de la requete update
                     $pass_string = 'PASSWORD = "' . $hashed_password . '",';
+                }else{
+                    $hashed_password =$_SESSION['PASSWORD'];
                 }
+
+
                 $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
 ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?,   CYLINDREE = ? where IDADHERENT= ?';
                 $queryExec = $bdd->prepare($query);
 
                 $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
                     $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$_POST["DROITIMAGE"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+
+                //Attention pensser à mettre a jour les infos de SESSION (fonction ?)
+                $_SESSION['password'] = $hashed_password;
+
                 $message_modal = 'Votre profil est mis à jour.';
             }
 
@@ -215,7 +218,7 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
 
                 //je teste si j'ai des données dans les $_POST
                 if (!empty($_POST['LOGIN']) and !empty($_POST['PASSWORD'])) {
-
+                    sleep(3);
                     $hashed_password = My_crypt($_POST["PASSWORD"]);
 
                     $query = $bdd->prepare('SELECT IDADHERENT, NOM, PRENOM, ADMIN, CONFIRMATION FROM ADHERENT WHERE LOGIN = :login AND PASSWORD = :password');
@@ -225,7 +228,7 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
                         'password' => $hashed_password,
                     ));
 
-                    var_dump($query);
+//                    var_dump($query);
                     //permet de déterminer le nombre d'enregistrement
                     if ($query->rowCount() == 1) {
 
@@ -243,6 +246,7 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
                         $_SESSION['IDADHERENT'] = $donnees['IDADHERENT'];
                         $_SESSION['NOM'] = $nom;
                         $_SESSION['PRENOM'] = $prenom;
+
 
                         //ou 2 si admin (to be continued)
 
@@ -269,6 +273,61 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
 
             //var_dump('vous essayer de vous connecter ?');
 
+        }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_activite'){
+            if (isset($_FILES['image']) && !empty($_FILES['image'])) {
+
+                list($error, $message_modal, $photoName) = upload_img($directory_image_activites);
+
+                $queryAct = ('insert into ACTIVITE( INTITULEACTIVITE, DDEBUT, DFIN,IDADHERENT, DESCRIPTION, TARIFADHERENT, TARIFINVITE, DLIMITEINSCRIPTION, IDTYPE, IMAGEACT) 
+                                    values (:intitule, :ddebut ,:dfin,:idadherent,:description, :tarifadherent, :tarifinvite, :dlimiteinscription, :idtype, :imageact )');
+
+                $queryExec = $bdd->prepare($queryAct);
+
+
+                $queryExec->execute(array('intitule' => $_POST["INTITULEACTIVITE"],'ddebut' =>$_POST["DDEBUT"] ,
+                    'dfin' => $_POST["DFIN"],'idadherent'=> $_SESSION['IDADHERENT'],'description' => $_POST["DESCRIPTION"],'tarifadherent' => $_POST["TARIFADHERENT"],
+                    'tarifinvite' => $_POST["TARIFINVITE"],'dlimiteinscription' => $_POST["DLIMITEINSCRIPTION"],
+                    'idtype' => $_POST["IDTYPE"], 'imageact' =>  $photoName));
+
+                $message_modal='reussi';
+            }else{
+                $message_modal = 'erreur';
+
+
+            }
+        }else if ($_POST['formulaire'] == 'update_activite') {
+
+            if ( $user_level == 2) {
+
+                list($error, $message_modal, $photoName) = upload_img($directory_image_news);
+
+                //equivalen de
+                //$error = $array[0];
+                //$message_modal = $array[1];
+
+                if (!$error) {
+                    //requete d'insertion dans la BD
+                    $query = 'UPDATE ACTIVITE SET
+                                INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite, TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype, IMAGEACT :imageact
+
+
+                          WHERE IDACTIVITE = :idActivite;';
+                    $queryExec = $bdd->prepare($query);
+
+                    $queryExec->execute(
+                        array(
+                            'photoName' => $photoName,
+                            'titre' => $_POST["titre"],
+                            'description' => $_POST["editordata"],
+                            'idNouvelle' => $_POST["IdNouvelle"]
+                        )
+                    );
+                }
+            } else {
+                $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';
+            }
+
+
         }
 
 
@@ -277,50 +336,7 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
 }
 
 
-if (isset($_POST['formact']) && $_POST['formact'] == 'activiteF') {
 
-   if (isset($_FILES['image']) && !empty($_FILES['image'])) {
-
-        list($error, $message_modal, $photoName) = upload_img($directory_image_news);
-
-
-
-            $query1 = 'INSERT INTO ACTIVITE(
-
-            INTITULEACTIVITE,
-            DDEBUT,
-            DFIN,
-            DESCRIPTION,
-            TARIFADHERENT,
-            TARIFINVITE,
-            DLIMITEINSCRIPTION,
-           
-            IDTYPE,
-            IMAGEACT
-          
-            ) 
-            VALUES (
-          
-            "' . $_POST["INTITULEACTIVITE"] . '",
-            "' . $_POST["DDEBUT"] . '",
-            "' . $_POST["DFIN"] . '",
-            "' . $_POST["DESCRIPTION"] . '",
-            "' . $_POST["TARIFADHERENT"] . '",
-            "' . $_POST["TARIFINVITE"] . '",
-            "' . $_POST["DLIMITEINSCRIPTION"] . '",
-          
-            "' . $_POST["IDTYPE"] . '",
-            "' . $photoName . '"
-            )';
-
-
-            $bdd->query($query1);
-            $message_modal='reussi';
-        }else{
-            $message_modal = 'erreur';
-
-
-}}
 
 
 if (isset($_POST['typact']) && $_POST['typact'] == 't_act') {

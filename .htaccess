@@ -15,6 +15,8 @@ RewriteRule	^page-([a-z]*)-([0-9]*)$   index.php?page=$1&id=$2	[L]
 
 RewriteRule ^page-([a-z0-9]*)$  index.php?page=$1  [L,NC]
 
+#RewriteRule ^img/upload/news/([0-9]*).jpg$  img/index.php?page=$1  [L,NC]
+
 php_flag log_errors on
 php_value error_reporting 32767
 php_value error_log "error_log.txt"

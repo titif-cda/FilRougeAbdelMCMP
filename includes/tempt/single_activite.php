@@ -1,26 +1,25 @@
-<div class="row gallery-filter">
-    <div class="col-lg-4 col-sm-6 filter  crossfit">
-        <div class="gallery-item">
-            <span class="blog-time"><?php echo $row['DFIN']; ?></span>
-            <h4><?php echo $row['INTITULEACTIVITE']; ?></h4>
+<a href="page-activiteseule-<?php echo $row['IDACTIVITE']; ?>">
+    <div class="col-lg-3 col-md-6 filter <?php echo $row['IDTYPE']; ?>">
+
+        <div class="single-blog-item blog-item">
+
             <div class="blog-img">
                 <?php
-                $img = !empty($row['IMAGE']) ? $row['IMAGE'] : 'upload_news_default.jpg';
+                $imageAct = !empty($row['IMAGEACT']) ? $row['IMAGEACT'] : 'upload_activité_default.jpg';
                 ?>
 
-                <img src="<?php echo $directory_image_news.$img?>" alt="">
+                <img src="<?php echo $directory_image_activites.$imageAct?>" alt="">
             </div>
-            <div class="gi-hover-warp">
-                <div class="gi-hover">
-                    <?php
-                    $img = !empty($row['IMAGE']) ? $row['IMAGE'] : 'upload_news_default.jpg';
-                    ?>
-                    <a href="<?php echo $directory_image_news.$img?>" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-chain"></i></a>
-                    <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
-                </div>
+            <div class="blog-text">
+                <span class="blog-time"><?php echo $row['DDEBUT']; ?></span>
+                <h4><?php echo $row['INTITULEACTIVITE']; ?></h4>
+
+                <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
+                    convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
+
             </div>
-        </div>
-    </div>
+</a>
 </div>
+</div>
+
 

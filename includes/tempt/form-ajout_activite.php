@@ -7,8 +7,8 @@
                     <h2>Ajout activité</h2>
                     <div class="booking-form">
 
-                        <form action="./index.php?page=addactivite" method="post" class="register-form">
-                            <input type="hidden" name="formact" value="activiteF"/>
+                        <form action="./index.php?page=addactivite" method="post" class="register-form" enctype="multipart/form-data">
+                            <input type="hidden" name="formulaire" value="ajout_activite"/>
 
                         <div class="row">
 
@@ -33,8 +33,8 @@
                                 <input type="number" id= "id" name="IDTYPE" placeholder="Id type" value="">
                                 <div class="col-sm-6">
                                     <div class="col-sm">
-                                        <label for="name"> Telechargez une photo.</label>
-                                        <input type="file" name="image">
+                                        <label for="name" > Telechargez une photo.</label>
+                                        <input type="file" name="image" value="$img" >
                                     </div>
                                 </div>
 

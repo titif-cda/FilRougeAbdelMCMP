@@ -18,6 +18,12 @@ include('./includes/tempt/services.php');?>
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="blog-section spad">
+        <div class="container-fluid">
+                <div id="single_act" class="row">
+
                         <?php
                         //la requete
                         $reponse = $bdd->query('SELECT * FROM ACTIVITE order by DDEBUT desc ');
@@ -29,8 +35,9 @@ include('./includes/tempt/services.php');?>
 
                         }
                         ?>
-                    </div>
-
+                </div>
         </div>
     </div>
+
+
 </section>

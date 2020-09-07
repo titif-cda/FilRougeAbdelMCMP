@@ -55,7 +55,7 @@
                                         <label> Date de fin l'activité</label>
                                         <input type="date" id= "dend" name="DFIN" placeholder="Date de fin d'activité" value=""<?php echo isset($dateFin) ? $dateFin : '' ?>">
                                         <label> Description de l'activité</label>
-                                        <input type="text" id= "name" name="DESCRIPTION"  placeholder="Description de l'activité "value=""<?php echo isset($descriptionA) ? $descriptionA : '' ?>">
+                                        <input type="text" id= "name" name="DESCRIPTION"  placeholder="Description de l'activité " value=""<?php echo isset($descriptionA) ? $descriptionA : '' ?>">
                                         <label> Tarif adherent</label>
                                         <input type="number" id= "number" name="TARIFADHERENT" placeholder ="Tarif Adherent " value=""<?php echo isset($tarifAdherent) ? $tarifAdherent : '' ?>">
                                         <label> Tarif non adhérent</label>
@@ -63,7 +63,7 @@
                                         <label> Date limite d'inscription</label>
                                         <input type="date" id= "dlimit" name="DLIMITEINSCRIPTION" placeholder="Date limite" value=""<?php echo isset($datelimiteInscr) ? $datelimiteInscr : '' ?>">
                                         <label> Identifiant de l'adhérent</label>
-                                        <input type="number" id= "id" name="IDADHERENT" placeholder="Date limite" value=""<?php echo isset($idadherent) ? $idadherent : '' ?>">
+                                        <input type="number" id= "id" name="IDADHERENT" placeholder="Identifiant adherent" value=""<?php echo isset($idadherent) ? $idadherent : '' ?>">
                                         <label> Type d'activité</label>
                                         <input type="number" id= "id" name="IDTYPE" placeholder="Id type" value=""<?php echo isset($idType) ? $idType : '' ?>">
                                         <div class="col-sm-6">

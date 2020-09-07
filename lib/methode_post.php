@@ -189,21 +189,12 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
 
                 if (!$error) {
                     //requete d'insertion dans la BD
-                    $query = 'UPDATE NOUVELLE SET
-
-                          IMAGE = :photoName ,
-                          TITRE_NOUVELLE = :titre,
-                          DESCRIPTION = :description
-
-                          WHERE IDNOUVELLE = :idNouvelle;';
+                    $query = 'UPDATE NOUVELLE SET IMAGE = :photoName ,TITRE_NOUVELLE = :titre,DESCRIPTION = :description WHERE IDNOUVELLE = :idNouvelle;';
                     $queryExec = $bdd->prepare($query);
 
                     $queryExec->execute(
                         array(
-                            'photoName' => $photoName,
-                            'titre' => $_POST["titre"],
-                            'description' => $_POST["editordata"],
-                            'idNouvelle' => $_POST["IdNouvelle"]
+                            'photoName' => $photoName, 'titre' => $_POST["titre"], 'description' => $_POST["editordata"],'idNouvelle' => $_POST["IdNouvelle"]
                         )
                     );
                 }
@@ -298,28 +289,26 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
         }else if ($_POST['formulaire'] == 'update_activite') {
 
             if ( $user_level == 2) {
-
-                list($error, $message_modal, $photoName) = upload_img($directory_image_news);
-
-                //equivalen de
-                //$error = $array[0];
-                //$message_modal = $array[1];
-
+                list($error, $message_modal, $photoName) = upload_img($directory_image_activites);
                 if (!$error) {
                     //requete d'insertion dans la BD
-                    $query = 'UPDATE ACTIVITE SET
-                                INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite, TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype, IMAGEACT :imageact
-
-
+                    $query = 'UPDATE ACTIVITE SET INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite, TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype, IMAGEACT ::photoName
                           WHERE IDACTIVITE = :idActivite;';
                     $queryExec = $bdd->prepare($query);
 
                     $queryExec->execute(
                         array(
-                            'photoName' => $photoName,
-                            'titre' => $_POST["titre"],
-                            'description' => $_POST["editordata"],
-                            'idNouvelle' => $_POST["IdNouvelle"]
+                            'intitule' => $_POST["INTITULEACTIVITE"],
+                            'ddebut' => $_POST["DDEBUT"],
+                            'dfin' => $_POST["DFIN"],
+                            'idadherent' => $_POST["IDADHERENT"],
+                            'description' => $_POST["DESCRIPTION"],
+                            'tarifadherent' => $_POST["TARIFADHERENT"],
+                            'tarifinvite' => $_POST["TARIFINVITE"],
+                            'dlimiteinscription' => $_POST["DLIMITEINSCRIPTION"],
+                            'idtype' => $_POST["IDTYPE"],
+                            'photoName' => $photoName
+
                         )
                     );
                 }

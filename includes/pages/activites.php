@@ -18,6 +18,7 @@ include('./includes/tempt/services.php');?>
                     </ul>
                 </div>
             </div>
+<<<<<<< HEAD
             <section class="blog-section spad">
                 <div  class="container-fluid">
                     <div id="single_news" class="row">
@@ -28,6 +29,17 @@ include('./includes/tempt/services.php');?>
                     $reponse = $bdd->query($query);
 
 
+=======
+        </div>
+    </div>
+    <div class="blog-section spad">
+        <div class="container-fluid">
+                <div id="single_act" class="row">
+
+                        <?php
+                        //la requete
+                        $reponse = $bdd->query('SELECT * FROM ACTIVITE order by DDEBUT desc ');
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
                         //boucle les donneees recuperees
                         while($row = $reponse -> fetch()){
                             $row['DDEBUT'] = date("d-m-Y", strtotime($row['DDEBUT']));;
@@ -36,11 +48,17 @@ include('./includes/tempt/services.php');?>
 
                         }
                         ?>
+<<<<<<< HEAD
                     </div>
                     </div>
         </div>
             </section>
 
+=======
+                </div>
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
         </div>
     </div>
+
+
 </section>

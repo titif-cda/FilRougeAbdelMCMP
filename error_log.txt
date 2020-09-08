@@ -436,6 +436,7 @@ Stack trace:
 #1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
 #2 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 290
+<<<<<<< HEAD
 [08-Sep-2020 08:43:52 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
 [08-Sep-2020 08:43:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:320
 Stack trace:
@@ -752,3 +753,87 @@ Stack trace:
 #1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
 #2 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+=======
+[07-Sep-2020 16:18:58 UTC] PHP Notice:  Undefined index: titre in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 321
+[07-Sep-2020 16:18:58 UTC] PHP Stack trace:
+[07-Sep-2020 16:18:58 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:18:58 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:18:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:328
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(328): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 328
+[07-Sep-2020 16:20:04 UTC] PHP Warning:  move_uploaded_file(./img/upload/activites/1599495604.png): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:20:04 UTC] PHP Stack trace:
+[07-Sep-2020 16:20:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:20:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:20:04 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:302
+[07-Sep-2020 16:20:04 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:20:04 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\phpA1F7.tmp' to './img/upload/activites/1599495604.png' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:20:04 UTC] PHP Stack trace:
+[07-Sep-2020 16:20:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:20:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:20:04 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:302
+[07-Sep-2020 16:20:04 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:20:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:328
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(328): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 328
+[07-Sep-2020 16:29:53 UTC] PHP Warning:  move_uploaded_file(./img/upload/activites/1599496193.png): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:29:53 UTC] PHP Stack trace:
+[07-Sep-2020 16:29:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:29:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:29:53 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 16:29:53 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:29:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\php9D49.tmp' to './img/upload/activites/1599496193.png' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:29:53 UTC] PHP Stack trace:
+[07-Sep-2020 16:29:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:29:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:29:53 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 16:29:53 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:29:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:310
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(310): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 310
+[07-Sep-2020 16:33:41 UTC] PHP Warning:  move_uploaded_file(./img/upload/activites/1599496421.png): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:33:41 UTC] PHP Stack trace:
+[07-Sep-2020 16:33:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:33:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:33:41 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 16:33:41 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:33:41 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\php179C.tmp' to './img/upload/activites/1599496421.png' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 16:33:41 UTC] PHP Stack trace:
+[07-Sep-2020 16:33:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 16:33:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 16:33:41 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 16:33:41 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 16:33:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:310
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(310): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 310
+[07-Sep-2020 19:28:20 UTC] PHP Warning:  move_uploaded_file(./img/upload/activites/1599506900.png): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 19:28:20 UTC] PHP Stack trace:
+[07-Sep-2020 19:28:20 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 19:28:20 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 19:28:20 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 19:28:20 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 19:28:20 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\php90C.tmp' to './img/upload/activites/1599506900.png' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 48
+[07-Sep-2020 19:28:20 UTC] PHP Stack trace:
+[07-Sep-2020 19:28:20 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[07-Sep-2020 19:28:20 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[07-Sep-2020 19:28:20 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:292
+[07-Sep-2020 19:28:20 UTC] PHP   4. move_uploaded_file() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:48
+[07-Sep-2020 19:28:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:310
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(310): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 310
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb

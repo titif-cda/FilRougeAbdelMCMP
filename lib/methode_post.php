@@ -189,21 +189,12 @@ if (!empty($_POST)) {
 
                 if (!$error) {
                     //requete d'insertion dans la BD
-                    $query = 'UPDATE NOUVELLE SET
-
-                          IMAGE = :photoName ,
-                          TITRE_NOUVELLE = :titre,
-                          DESCRIPTION = :description
-
-                          WHERE IDNOUVELLE = :idNouvelle;';
+                    $query = 'UPDATE NOUVELLE SET IMAGE = :photoName ,TITRE_NOUVELLE = :titre,DESCRIPTION = :description WHERE IDNOUVELLE = :idNouvelle;';
                     $queryExec = $bdd->prepare($query);
 
                     $queryExec->execute(
                         array(
-                            'photoName' => $photoName,
-                            'titre' => $_POST["titre"],
-                            'description' => $_POST["editordata"],
-                            'idNouvelle' => $_POST["IdNouvelle"]
+                            'photoName' => $photoName, 'titre' => $_POST["titre"], 'description' => $_POST["editordata"],'idNouvelle' => $_POST["IdNouvelle"]
                         )
                     );
                 }
@@ -301,10 +292,14 @@ if (!empty($_POST)) {
                 list($error, $message_modal, $photoName) = upload_img($directory_image_activites);
                 if (!$error) {
                     //requete d'insertion dans la BD
+<<<<<<< HEAD
                     $query = 'UPDATE ACTIVITE SET INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,
                             IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite,
                               TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype,
                                IMAGEACT= :photoName
+=======
+                    $query = 'UPDATE ACTIVITE SET INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite, TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype, IMAGEACT ::photoName
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
                           WHERE IDACTIVITE = :idActivite;';
                     $queryExec = $bdd->prepare($query);
 
@@ -319,9 +314,13 @@ if (!empty($_POST)) {
                             'tarifinvite' => $_POST["TARIFINVITE"],
                             'dlimiteinscription' => $_POST["DLIMITEINSCRIPTION"],
                             'idtype' => $_POST["IDTYPE"],
+<<<<<<< HEAD
                             'photoName' => $photoName,
                             'idActivite' => $_POST["IdActivite"]
 
+=======
+                            'photoName' => $photoName
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
 
                         )
                     );

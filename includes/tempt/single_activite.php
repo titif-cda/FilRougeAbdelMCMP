@@ -1,14 +1,14 @@
 <a href="page-activiteseule-<?php echo $row['IDACTIVITE']; ?>">
-    <div class="col-lg-3 col-md-6 filter <?php echo $row['IDTYPE']; ?>">
+    <div  class="col-lg-3 col-md-6 filter <?php echo $row['IDTYPE']; ?>">
 
-        <div class="single-blog-item blog-item">
+        <div id="activite" class="single-blog-item blog-item">
 
             <div class="blog-img">
                 <?php
-                $imageAct = !empty($row['IMAGEACT']) ? $row['IMAGEACT'] : 'upload_activité_default.jpg';
+                $img = !empty($row['IMAGEACT']) ? $row['IMAGEACT'] : 'upload_activité_default.jpg';
                 ?>
 
-                <img src="<?php echo $directory_image_activites.$imageAct?>" alt="">
+                <img src="<?php echo $directory_image_activites.$img?>" alt="">
             </div>
             <div class="blog-text">
                 <span class="blog-time"><?php echo $row['DDEBUT']; ?></span>
@@ -17,6 +17,10 @@
                 <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
                     convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
             </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
         </div>
     </div>
 </a>

@@ -165,7 +165,7 @@ if (!empty($_POST)) {
 
 
                 $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
-ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?,   CYLINDREE = ? where IDADHERENT= ?';
+                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?,   CYLINDREE = ? where IDADHERENT= ?';
                 $queryExec = $bdd->prepare($query);
 
                 $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
@@ -298,29 +298,72 @@ ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMA
         }else if ($_POST['formulaire'] == 'update_activite') {
 
             if ( $user_level == 2) {
-
-                list($error, $message_modal, $photoName) = upload_img($directory_image_news);
-
-                //equivalen de
-                //$error = $array[0];
-                //$message_modal = $array[1];
-
+                list($error, $message_modal, $photoName) = upload_img($directory_image_activites);
                 if (!$error) {
                     //requete d'insertion dans la BD
-                    $query = 'UPDATE ACTIVITE SET
-                                INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite, TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype, IMAGEACT :imageact
-
-
+                    $query = 'UPDATE ACTIVITE SET INTITULEACTIVITE = :intitule, DDEBUT= :ddebut, DFIN= :dfin,
+                            IDADHERENT= :idadherent, DESCRIPTION= :description, TARIFADHERENT= :tarifinvite,
+                              TARIFINVITE= :tarifadherent, DLIMITEINSCRIPTION = :dlimiteinscription, IDTYPE = :idtype,
+                               IMAGEACT= :photoName
                           WHERE IDACTIVITE = :idActivite;';
                     $queryExec = $bdd->prepare($query);
 
                     $queryExec->execute(
                         array(
+                            'intitule' => $_POST["INTITULEACTIVITE"],
+                            'ddebut' => $_POST["DDEBUT"],
+                            'dfin' => $_POST["DFIN"],
+                            'idadherent' => $_POST["IDADHERENT"],
+                            'description' => $_POST["DESCRIPTION"],
+                            'tarifadherent' => $_POST["TARIFADHERENT"],
+                            'tarifinvite' => $_POST["TARIFINVITE"],
+                            'dlimiteinscription' => $_POST["DLIMITEINSCRIPTION"],
+                            'idtype' => $_POST["IDTYPE"],
                             'photoName' => $photoName,
-                            'titre' => $_POST["titre"],
-                            'description' => $_POST["editordata"],
-                            'idNouvelle' => $_POST["IdNouvelle"]
+                            'idActivite' => $_POST["IdActivite"]
+
+
                         )
+                    );
+                }
+            } else {
+                $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';
+            }
+
+
+        }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_photo'){
+            if (isset($_FILES['NOMFICHIER']) && !empty($_FILES['NOMFICHIER'])) {
+
+                list($error, $message_modal, $photoName) = upload_img($directory_image_gallerie);
+
+                $queryphot = ('insert into PHOTO (TITREPHOTO, DPHOTO, IDACTIVITE,IDADHERENT,NOMFICHIER) 
+                                    values (:titre, :dphoto ,:idactivite,:idadherent,:nomphoto)');
+
+                $queryExec = $bdd->prepare($queryphot);
+
+
+                $queryExec->execute(array('titre' => $_POST["TITREPHOTO"],'dphoto' =>$_POST["DPHOTO"] ,
+                    'idactivite' => $_POST["IDACTIVITE"],'idadherent'=> $_SESSION['IDADHERENT'],'nomphoto' => $photoName));
+
+                $message_modal='reussi';
+            }else{
+                $message_modal = 'erreur';
+
+
+            }
+        }else if ($_POST['formulaire'] == 'update_photo') {
+
+            if ( $user_level == 2) {
+                list($error, $message_modal, $photoName) = upload_img($directory_image_gallerie);
+                if (!$error) {
+                    //requete d'insertion dans la BD
+                    $query = 'UPDATE PHOTO SET :titre,, :dphoto ,:idactivite,:idadherent,:nomphoto
+                              WHERE IDPHOTO = :idPhoto;';
+                    $queryExec = $bdd->prepare($query);
+
+                    $queryExec->execute(
+                        array('titre' => $_POST["TITREPHOTO"],'dphoto' =>$_POST["DPHOTO"] ,
+                            'idactivite' => $_POST["IDACTIVITE"],'idadherent'=> $_SESSION['IDADHERENT'],'nomphoto' => $photoName,'idPhoto'=>$_POST["IDPHOTO"] )
                     );
                 }
             } else {

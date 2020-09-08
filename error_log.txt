@@ -436,3 +436,319 @@ Stack trace:
 #1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
 #2 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 290
+[08-Sep-2020 08:43:52 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 08:43:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:320
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(320): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 09:22:13 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 09:22:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:320
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(320): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 09:22:22 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 09:22:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:320
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(320): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 320
+[08-Sep-2020 09:27:49 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:27:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:323
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(323): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:28:44 UTC] PHP Notice:  Undefined index: idActivite in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:28:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:323
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(323): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:29:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:323
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(323): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:32:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:323
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(323): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 323
+[08-Sep-2020 09:46:08 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 30
+[08-Sep-2020 09:49:14 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddate' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:36 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddate' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:42 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddte' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:44 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddte' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:48 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:49:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddte' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:50:03 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:50:25 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:50:51 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:54:10 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:54:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddate' in 'order clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:58:39 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:03 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:07 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:15 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 09:59:47 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:34:47 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:35:51 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:39:31 UTC] PHP Notice:  Undefined variable: datedebut in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:40 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:42 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:40:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:41:02 UTC] PHP Notice:  Undefined variable: datedebut in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:41:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:41:04 UTC] PHP Notice:  Undefined variable: datedebut in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 10:41:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:51:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:55:17 UTC] PHP Notice:  Undefined variable: datedebut in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:55:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:11 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:14 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:21 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:43 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:45 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:48 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:56:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:12 UTC] PHP Notice:  Undefined index: ACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:12 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:12 UTC] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 2 given in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:36 UTC] PHP Notice:  Use of undefined constant ACTIVITE - assumed 'ACTIVITE' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:36 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 11:58:36 UTC] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 2 given in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 12:05:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'eljid.a@gmail.c...', 'xsqxsxsqxsq')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 12:05:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'eljid.a@gmail.c...', 'xsqxsxsqxsq')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 12:05:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'eljid.a@gmail.c...', 'zsadezdezdez')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 12:43:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'eljid.a@gmail.c...', 'dvdsdsdccd')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:02:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'abdellatif.elji...', 'dfzdfdezfdzfdf')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:03:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'abdellatif.elji...', 'dfzdfdezfdzfdf')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:03:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'abdellatif.elji...', 'dfzdfdezfdzfdf')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:04:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('hello', 'eljid.a@gmail.c...', 'azerty')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:04:35 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 13:04:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 13:05:36 UTC] PHP Notice:  Undefined index: DDEBUT in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 13:05:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:29
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(29): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php on line 29
+[08-Sep-2020 13:30:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('zazzaz', 'eljid.a@gmail.c...', 'cvcbvcvc')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:31:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('zazzaz', 'eljid.a@gmail.c...', 'cvcbvcvc')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[08-Sep-2020 13:38:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('zazzaz', 'abdellatif.elji...', 'allo')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32

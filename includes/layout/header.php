@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="./vendor/summernote-0.8.18-dist/summernote-bs4.css" type="text/css">
+    <!-- Css open street map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
     <!-- Css Wysiwyg -->
     <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
 
@@ -85,6 +87,7 @@
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                     <a class="dropdown-item" href="./index.php?page=profil_adherent&id=<?php echo $_SESSION['IDADHERENT'] ?>" class="primary-btn signup-btn">Mon profil</a>
                                                     <a class="dropdown-item" href="./index.php?page=membres">Liste des membres</a>
+                                                    <a class="dropdown-item" href="./index.php?page=addphoto&action=add">Ajouter une Photo</a>
                                                     <?php if($user_level == 2){ ?>
                                                         <a class="dropdown-item" href="./index.php?page=nouvelles&action=add">Ajouter news</a>
                                                         <a class="dropdown-item" href="./index.php?page=addactivite&action=add">Ajouter Activité</a>

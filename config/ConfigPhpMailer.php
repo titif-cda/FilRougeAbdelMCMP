@@ -11,13 +11,13 @@ class Configuration{
 
     const smtpConfig = array(
        // 'SMTPDebug' => SMTP::DEBUG_SERVER,
-    'SMTPDebug' => SMTP::DEBUG_SERVER,
+        'SMTPDebug' => SMTP::DEBUG_SERVER,
         'isSMTP' => true,
         'Host' => 'smtp.gmail.com.',
         // 'Host' => 'smtp-relay.sendinblue.com',
         'SMTPAuth' => true,
-        'Username' => 'eljid.a@gmail.com',
-        'Password' => 'gouzouino',
+        'Username' => 'developpeurtitif@gmail.com',
+        'Password' => 'Gouzouino1',
         // 'Username' => 'davy.blavette@2isa.com',
         // 'Password' => 'kn2WvLmM7bNU0BE6',
         'SMTPSecure' => PHPMailer::ENCRYPTION_SMTPS,

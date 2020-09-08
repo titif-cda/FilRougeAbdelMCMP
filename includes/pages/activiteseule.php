@@ -1,51 +1,47 @@
 
-    <?php include('./includes/tempt/entete.php'); ?>
-    <section class="about-us-section spad">
+<?php include('./includes/tempt/entete.php'); ?>
+<section class="about-us-section spad">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="about-text ">
-                        <div class="section-title">
-                            <h2><?php echo $titleActivite ?></h2>
-                        </div>
-                        <span class="blog-time"> <?php echo $datedebut; ?></span><br>
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about-text ">
+                    <div class="section-title">
+                        <h2><?php echo $titleActivite ?></h2>
                     </div>
-                </div>
-                <div class="col-lg-12  text-center">
-                    <div class="about-img">
-                        <?php
-                        $imageAct = !empty($row['IMAGEACT']) ? $row['IMAGEACT'] : 'upload_activité_default.jpg';
-                        ?>
+                    <span class="blog-time"> <?php echo $datedebut; ?></span><br>
 
-                        <img src="<?php echo $directory_image_activites.$imageAct?>" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-12">
 
-                    <p><?php echo $descriptionA; ?></p>
                 </div>
             </div>
-        </div>
+            <div class="col-lg-12  text-center">
+                <div class="about-img">
+                    <?php
+                    $imageAct = !empty($imageAct) ? $imageAct : 'upload_activité_default.jpg';
+                    ?>
 
-        <?php if ($user_level == 2) { ?>
+                    <img src="<?php echo $directory_image_activites.$imageAct?>" alt="">
+                </div>
+            </div>
+            <div class="col-lg-12">
+
+                <p><?php echo $descriptionA; ?></p>
+            </div>
+        </div>
+    </div>
+
+    <?php if ($user_level == 2) { ?>
 
         <div class="booking-classes">
 
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 t">
-
                         <div class="booking-form">
-
                             <form action="./index.php?page=activiteseule&id=<?php echo $id; ?>" method="post" class="register-form" enctype="multipart/form-data">
                                 <input type="hidden" name="formulaire" value="update_activite">
                                 <input type="hidden" name="IdActivite" value="<?php echo $id; ?>">
-
                                 <div class="row">
-
                                     <div class="col-sm">
                                         <h2 class="text-center">Modifier l'activité</h2>
                                         <label> Titre de l'activité</label>
@@ -80,19 +76,15 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </form>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
- <?php
-                    } ?>
-    </section>
+        <?php
+    } ?>
+</section>
 
 
 

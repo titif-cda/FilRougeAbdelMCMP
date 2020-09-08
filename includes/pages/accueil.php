@@ -17,22 +17,5 @@
 
     ?>
 
-    <!-- Class Booking Section End -->
-    <!-- Services Section Begin -->
-
-    <!-- Services Section End -->
-    <!-- Client Says Section Begin -->
-
-    <!-- Client Says Section End -->
-    <!-- Lifestyles Section Begin -->
-
-    <!-- Lifestyles Section End -->
-    <!-- Boxes Section Begin -->
-
-    <!-- Boxes Section End -->
-    <!-- Call To Section Begin -->
-
-    <!-- Call To Section End -->
-
 
 

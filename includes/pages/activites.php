@@ -18,9 +18,16 @@ include('./includes/tempt/services.php');?>
                     </ul>
                 </div>
             </div>
-                        <?php
-                        //la requete
-                        $reponse = $bdd->query('SELECT * FROM ACTIVITE order by DDEBUT desc ');
+            <section class="blog-section spad">
+                <div  class="container-fluid">
+                    <div id="single_news" class="row">
+
+                    <?php
+                    //la requete
+                    $query = 'SELECT * FROM ACTIVITE order by DDEBUT asc' ;
+                    $reponse = $bdd->query($query);
+
+
                         //boucle les donneees recuperees
                         while($row = $reponse -> fetch()){
                             $row['DDEBUT'] = date("d-m-Y", strtotime($row['DDEBUT']));;
@@ -30,6 +37,9 @@ include('./includes/tempt/services.php');?>
                         }
                         ?>
                     </div>
+                    </div>
+        </div>
+            </section>
 
         </div>
     </div>

@@ -17,7 +17,7 @@
             <div class="col-lg-12  text-center">
                 <div class="about-img">
                     <?php
-                    $imageAct = !empty($imageAct) ? $imageAct : 'upload_activité_default.jpg';
+                    $imageAct = !empty($imageAct) ? $imageAct: 'upload_activité_default.jpg';
                     ?>
 
                     <img src="<?php echo $directory_image_activites.$imageAct?>" alt="">
@@ -30,7 +30,9 @@
         </div>
     </div>
 
-    <?php if ($user_level == 2) { ?>
+    <?php if ($user_level == 2) {
+
+        ?>
 
         <div class="booking-classes">
 
@@ -40,10 +42,12 @@
                         <div class="booking-form">
                             <form action="./index.php?page=activiteseule&id=<?php echo $id; ?>" method="post" class="register-form" enctype="multipart/form-data">
                                 <input type="hidden" name="formulaire" value="update_activite">
-                                <input type="hidden" name="IdActivite" value="<?php echo $id; ?>">
+
+                                <input type="hidden" id= "id" name="IDADHERENT"  value="<?php echo $_SESSION['IDADHERENT'] ?>">
                                 <div class="row">
                                     <div class="col-sm">
                                         <h2 class="text-center">Modifier l'activité</h2>
+
                                         <label> Titre de l'activité</label>
                                         <input type="text" name="INTITULEACTIVITE" placeholder="Intitulé de l'activité" value="<?php echo isset($titleActivite) ? $titleActivite : '' ?>">
                                         <label> Date de début de l'activité</label>
@@ -58,10 +62,17 @@
                                         <input type="number" id= "number" name="TARIFINVITE" placeholder ="Tarif Invité " value=""<?php echo isset($tarifInvite) ? $tarifInvite : '' ?>">
                                         <label> Date limite d'inscription</label>
                                         <input type="date" id= "dlimit" name="DLIMITEINSCRIPTION" placeholder="Date limite" value=""<?php echo isset($datelimiteInscr) ? $datelimiteInscr : '' ?>">
-                                        <label> Identifiant de l'adhérent</label>
-                                        <input type="number" id= "id" name="IDADHERENT" placeholder="Identifiant adherent" value=""<?php echo isset($idadherent) ? $idadherent : '' ?>">
-                                        <label> Type d'activité</label>
-                                        <input type="number" id= "id" name="IDTYPE" placeholder="Id type" value=""<?php echo isset($idType) ? $idType : '' ?>">
+
+
+                                        <label> Type d'activité</label><br>
+                                        <select name="IDTYPE" id=""><?php
+                                            $activitesType = $bdd->query('SELECT IDTYPE ,INTITULETYPE FROM TYPE_ACTIVITE  ');
+                                            while ($data = $activitesType-> fetch())
+
+                                            {echo'<option value="'.$data['IDTYPE'].'">'.$data['INTITULETYPE'].'</option>';}
+                                            ?>
+                                        </select>
+
                                         <div class="col-sm-6">
                                             <div class="col-sm">
                                                 <label for="name" > Telechargez une photo.</label>
@@ -74,8 +85,14 @@
                                         <div class="col-sm">
                                             <input type="submit" value="Modifier activité" class="submit-btn">
                                         </div>
+                                        <div class="col-sm-12">
+                                            <div class="col-sm">
+                                                <?php if ($user_level == 2) { ?>
+                                                    <button><a href="./index.php?page=activites&action=delete&id=<?php echo $_GET['id']; ?>"><span class="btn primary-btn">Supprimer</span></a></button>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
                             </form>
                         </div>
                     </div>

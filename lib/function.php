@@ -1,20 +1,19 @@
 <?php
 
-function upload_img($directory, $methode = 'file'){
+function upload_img($directory, $property = "image", $methode = 'file'){
 
     $error = true;
     $photoName = '';
     $fileType = '';
     $binary = '';
-
-    if(isset($_FILES['image']) && !empty($_FILES['image'])) {
+    if(isset($_FILES[$property]) && !empty($_FILES[$property]) && !empty($_FILES[$property]["name"]) ) {
 
         //les différentes clef de $_FILES
-        $fileName = $_FILES['image']['name']; //01.02.JPG
-        $fileType = $_FILES['image']['type'];//type de fichier dans l'entete du fichier = manipulable
-        $fileTmp = $_FILES['image']['tmp_name'];//nom temporaire du fichier sur le serveur APACHE avant traitement
-        $fileError = $_FILES['image']['error'];
-        $fileSize = $_FILES['image']['size'];
+        $fileName = $_FILES[$property]['name']; //01.02.JPG
+        $fileType = $_FILES[$property]['type'];//type de fichier dans l'entete du fichier = manipulable
+        $fileTmp = $_FILES[$property]['tmp_name'];//nom temporaire du fichier sur le serveur APACHE avant traitement
+        $fileError = $_FILES[$property]['error'];
+        $fileSize = $_FILES[$property]['size'];
 
         //mes variable de config
         $limitSize = 2097152;//votre limitte d'acception de la taille du fichier
@@ -35,8 +34,7 @@ function upload_img($directory, $methode = 'file'){
             $photoName = time() . "." . $extention;
 
             //la limite est elle valide ?
-            if ($limitSize > $fileSize) {
-
+            if ($limitSize > $fileSize && $fileError != 1) {
 
                 if($methode == 'blob'){
 
@@ -48,28 +46,22 @@ function upload_img($directory, $methode = 'file'){
                     move_uploaded_file($fileTmp, $directory . $photoName);
 
                 }
-                $error = false;
-                $message_modal = "News update";
 
             } else {
-
-                $message_modal = "extention non valide";
-
+                throw new Exception("Fichier trop gros (" . ($limitSize / 1000000) . " Mo max)");
             }
 
 
         } else {
-
-            $message_modal = "Fichier trop gros (" . ($limitSize / 1000000) . " Mo max)";
-
+            throw new Exception("extention non valide");
         }
 
     }else{
-        $message_modal = "Pas de fichier Upload";
+        throw new Exception("Pas de fichier Upload");
 
     }
 
-    return array($error, $message_modal, $photoName, $binary, $fileType);
+    return array($photoName, $binary, $fileType);
 
 }
 

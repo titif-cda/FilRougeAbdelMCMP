@@ -3,6 +3,7 @@
         <div class="team-member">
             <figure>
                 <?php
+
                 if(!empty($donnees['AVATAR_TYPE'])) { ?>
                                  <img loading="lazy" src="./lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
 

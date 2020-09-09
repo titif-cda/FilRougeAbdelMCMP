@@ -11,16 +11,15 @@
                 <img src="<?php echo $directory_image_activites.$img?>" alt="">
             </div>
             <div class="blog-text">
+
                 <span class="blog-time"><?php echo $row['DDEBUT']; ?></span>
                 <h4><?php echo $row['INTITULEACTIVITE']; ?></h4>
 
                 <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
                     convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
-            </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 1c4311c775cabe9ba721bda1c5d4b5b89e6385eb
+
+            </div>
         </div>
     </div>
 </a>

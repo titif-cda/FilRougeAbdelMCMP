@@ -60,8 +60,6 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
 
                     //boucle les données récupérées
-                    while ($donnees = $reponse->fetch()) {
-
                         $identifiant = $donnees['LOGIN'];
                         $nom = $donnees['NOM'];
                         $prenom = $donnees['PRENOM'];
@@ -78,10 +76,11 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $organisateur = $donnees['ORGANISATEUR'];
                         $certif = $donnees['ORGANISATEUR'];
                         $image = $donnees['AVATAR'];
+                        $type = $donnees['AVATAR_TYPE'];
                         $idadherent = $donnees['IDADHERENT'];
                         //to be continued
 
-                    }
+
                     //je transforme le H1 prévu coté BD
                     $ar_pages_var[$page]['h1'] = $prenom . ' ' . $nom;
                     $id = $_GET['id'];
@@ -225,6 +224,34 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                             $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';
 
                     } else if ('$page' == 'activites') {
+                        if ($user_level == 2) {
+                            if(isset($_GET['token']) && !empty($_GET['token'])){
+
+                                if($_GET['token'] == $_SESSION['token']){
+
+
+                                    //lancement de la requete
+
+                                    $query = 'DELETE FROM ACTIVITE WHERE IDACTIVITE = ?';
+                                    $queryExec = $bdd->prepare($query);
+                                    $result = $queryExec->execute(array($_GET['id']));
+
+                                    //information modal html
+                                    $message_modal = 'L\'activité '.$_GET['id'].' supprimé.';
+
+
+                                }
+
+                            }else{
+                                $token = time();
+                                $_SESSION['token'] = $token;
+                                $message_modal = 'Confirmer suppression ? <a href="index.php?page=activites&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
+
+                            }
+
+
+                        } else
+                            $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';
                     }
                 }
             }

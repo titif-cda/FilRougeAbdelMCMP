@@ -28,7 +28,7 @@
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
 
                                     <?php
-                                    if(!empty($donnees['AVATAR_TYPE'])) { ?>
+                                    if(!empty($type)) { ?>
                                         <img loading="lazy" src="/lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
 
                                     <?php }else  {

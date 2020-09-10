@@ -87,61 +87,6 @@ if (!empty($_POST)) {
             }
             debug($errors);
 
-
-
-            // var_dump($_POST);
-
-            /*       $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
-                   $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
-
-                   if (empty($_POST["NOM"]) || empty($_POST["PRENOM"])) {
-
-                       $message_modal = 'Vous devez saisir un nom et un prénom.';
-
-                   } else {
-                       // if ($donnees['LOGIN'] = $_POST['LOGIN'] ){
-                       // $message_modal = 'Login existe déjà, veuillez recommencer';
-
-                       $unilog = $bdd->prepare("SELECT * FROM ADHERENT WHERE LOGIN =?");
-                       $unilog->execute(array($_POST['LOGIN']));
-                       $logexist = $unilog->rowCount();
-                       if ($logexist != 0) {
-                           $message_modal = 'Login existe déjà, veuillez recommencer';
-                       } else {
-
-                           $hashed_password = hash('sha256', $_POST["PASSWORD"]);
-                           $query = ('insert into ADHERENT( LOGIN, PASSWORD, NOM, PRENOM, CDPOST, DNAISSANCE, ADRESSE1, ADRESSE2, VILLE, EMAIL, TELEPHONE, CERTIFICAT, DROITIMAGE, CYLINDREE)
-                                           values (:login ,:password,:nom,:prenom,:cdpost,:dnaissance, :adress1, :adress2,:ville, :email, :tel, :certif, :droit, :cylindree)');
-
-                           $queryExec = $bdd->prepare($query);
-
-                           $queryExec->execute(
-                               array(
-                                   'login' => $_POST["LOGIN"],
-                                   'password' => $hashed_password,
-                                   'nom' => $_POST["NOM"],
-                                   'prenom' => $_POST["PRENOM"],
-                                   'cdpost' => $_POST["CDPOST"],
-                                   'dnaissance' => $_POST["DNAISSANCE"],
-                                   'adress1' => $_POST["ADRESSE1"],
-                                   'adress2' => $_POST["ADRESSE2"],
-                                   'ville' => $_POST["VILLE"],
-                                   'email' => $_POST["EMAIL"],
-                                   'tel' => $_POST["TELEPHONE"],
-                                   'certif' => 1,
-                                   'droit' => $droit_image,
-                                   'cylindree' => $_POST["CYLINDREE"]
-                               )
-
-                           );
-
-                           $message_modal = "inscription enregistrée";
-
-
-                       }
-                   }*/
-
-
         } else if ($_POST['formulaire'] == 'update_profil') {
             if (isset($_FILES['image']) && !empty($_FILES['image'])) {
                 try {

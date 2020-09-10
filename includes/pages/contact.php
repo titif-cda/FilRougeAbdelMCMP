@@ -8,8 +8,9 @@ if($_SERVER["REQUEST_METHOD"] =="POST"){
         $expediteur = $_POST['email'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
+        $emmeteur = 'cda3elji@gmail.com';
         try {
-            \Lib\MailEngine::send($subject,$expediteur,$message);
+            \Lib\MailEngine::send($subject,$expediteur,$emmeteur,$message);
             \Lib\MailEngine::sendConfirmation($subject,$expediteur);
 
         }

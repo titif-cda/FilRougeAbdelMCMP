@@ -55,7 +55,19 @@ if($user_level == 2){
 
             }
 
-        }
+        }else  if (isset($_POST['action']) && $_POST['action'] == 'deleteMember'){
+
+                    //lancement de la requete
+
+                    $query = 'DELETE FROM ADHERENT WHERE IDADHERENT = ?';
+                    $queryExec = $bdd->prepare($query);
+                    $result = $queryExec->execute([$_POST['idMembre']]);
+
+                    //information modal html
+                    $message_modal = 'Utilisateur '.$_POST['idMembre'].' supprimé.';
+
+
+                }
 
     }
 

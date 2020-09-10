@@ -40,7 +40,7 @@
                 <div class="row">
                     <div class="col-lg-12 t">
                         <div class="booking-form">
-                            <form action="./index.php?page=activiteseule&id=<?php echo $id; ?>" method="post" class="register-form" enctype="multipart/form-data">
+                            <form action="./index.php?page=activiteseule&id=<?php echo $id; ?>&titre=<?php echo str_replace(" ", "", $donnees['INTITULEACTIVITE'])?>" method="post" class="register-form" enctype="multipart/form-data">
                                 <input type="hidden" name="formulaire" value="update_activite">
 
                                 <input type="hidden" id= "id" name="IDADHERENT"  value="<?php echo $_SESSION['IDADHERENT'] ?>">

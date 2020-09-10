@@ -1440,3 +1440,178 @@ Stack trace:
 [09-Sep-2020 14:33:55 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 50
 [09-Sep-2020 14:34:10 UTC] PHP Notice:  Undefined index: name in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 50
 [09-Sep-2020 14:34:28 UTC] PHP Notice:  Undefined index: INTITULEACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 50
+[10-Sep-2020 07:15:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('fruit', 'eljid.a@gmail.c...', 'test abdel')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[10-Sep-2020 07:16:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('fruit', 'eljid.a@gmail.c...', 'test abdel')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[10-Sep-2020 07:17:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 12 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(12): Lib\MailEngine::send('fruit', 'eljid.a@gmail.c...', 'test abdel')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[10-Sep-2020 08:17:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Lib\MailEngine::send(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php on line 13 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php:32
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\contact.php(13): Lib\MailEngine::send('fruit', 'eljid.a@gmail.c...', 'test')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\MailEngine.php on line 32
+[10-Sep-2020 08:35:50 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 20
+[10-Sep-2020 08:35:50 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 22
+[10-Sep-2020 08:35:50 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 24
+[10-Sep-2020 08:35:58 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 20
+[10-Sep-2020 08:35:58 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 22
+[10-Sep-2020 08:35:58 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 24
+[10-Sep-2020 08:42:18 UTC] PHP Notice:  Undefined variable: data in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 48
+[10-Sep-2020 08:43:15 UTC] PHP Notice:  Undefined variable: data in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 48
+[10-Sep-2020 08:43:15 UTC] PHP Notice:  Undefined variable: data in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 54
+[10-Sep-2020 08:43:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$nomAct' in 'where clause' in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:55
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php(55): PDO->query('SELECT IDACTIVI...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php(5): include('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#3 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 55
+[10-Sep-2020 08:57:46 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 21
+[10-Sep-2020 08:57:46 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 23
+[10-Sep-2020 08:57:46 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 25
+[10-Sep-2020 09:29:55 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 21
+[10-Sep-2020 09:29:55 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 23
+[10-Sep-2020 09:29:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 25
+[10-Sep-2020 09:31:42 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 21
+[10-Sep-2020 09:31:42 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 23
+[10-Sep-2020 09:31:42 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 25
+[10-Sep-2020 09:32:17 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 21
+[10-Sep-2020 09:32:17 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 23
+[10-Sep-2020 09:32:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 25
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 70
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 71
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 72
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 73
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 74
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: DNAISSANCE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 75
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: ADRESSE1 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 76
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: ADRESSE2 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 77
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: CDPOST in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 78
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: VILLE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 79
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: EMAIL in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 80
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: TELEPHONE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 81
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: DADHESION in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 82
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 83
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 84
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: AVATAR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 85
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: AVATAR_TYPE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 86
+[10-Sep-2020 09:48:31 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 87
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 72
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 73
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 74
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 75
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 76
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: DNAISSANCE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 77
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: ADRESSE1 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 78
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: ADRESSE2 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 79
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: CDPOST in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 80
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: VILLE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 81
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: EMAIL in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 82
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: TELEPHONE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 83
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: DADHESION in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 84
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 85
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 86
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: AVATAR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 87
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: AVATAR_TYPE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 88
+[10-Sep-2020 09:49:15 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 89
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 72
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: NOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 73
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: PRENOM in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 74
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: LOGIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 75
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 76
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: DNAISSANCE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 77
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: ADRESSE1 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 78
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: ADRESSE2 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 79
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: CDPOST in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 80
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: VILLE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 81
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: EMAIL in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 82
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: TELEPHONE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 83
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: DADHESION in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 84
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 85
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: ORGANISATEUR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 86
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: AVATAR in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 87
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: AVATAR_TYPE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 88
+[10-Sep-2020 09:50:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 89
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:25:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:33 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 10:28:44 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 1
+[10-Sep-2020 13:31:58 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55
+[10-Sep-2020 13:32:06 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55
+[10-Sep-2020 13:32:22 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55

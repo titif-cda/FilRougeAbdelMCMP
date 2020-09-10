@@ -10,7 +10,8 @@ Created: colorlib
 'use strict';
 
 (function ($) {
-    
+    CreateDialog();
+
     /*------------------
         Preloader
     --------------------*/
@@ -189,6 +190,48 @@ Created: colorlib
     }
 
 
+
+$('.deleteadh').on('click', function() {
+    console.log('btn ficheMembre ready !');
+    var name = $(this).data('id');
+
+    ShowDialog("Confirmation de suppression", "Êtes-vous sûr de vouloir supprimer?",
+        ()=> {
+
+
+        },
+        ()=> {
+
+        let request = $.ajax({
+            url: "./lib/methode_ajax.php",
+            method: "POST",
+            data: {action: "deleteMember", idMembre: name},
+            dataType: "json" //JSON = reponse attendu en array() ou HTML, reponse de type string
+        });
+
+        request.done(function( msg ) {
+            //console.log(msg);
+            //afichage de la modal ave
+            $('#my-modal .modal-body p').html(msg.modal);
+            $("#member-"+name).remove();
+            $("#my-modal").show();
+            //$( "#log" ).html( msg );
+        });
+
+        //erreur 404 ou 500 - le serveur ne repond pas, erreur PHP ?
+        request.fail(function( jqXHR, textStatus ) {
+            console.log( "Request failed: " + textStatus );
+        });
+
+    });
+
+    //stopper le comportement normal d'une balise de type <a>
+    return false;
+
+});
+
+
+
     $('#add-news-form').on('submit', function(event){
 
         // var description = $('#summernote').summernote('code');
@@ -276,6 +319,12 @@ Created: colorlib
     }
     $(this).addClass("active");
 
+// fermeture image galleries
+    $('.image-popup').magnificPopup({
+        type: 'image'
+    });
+
+
 //openstreetmap
     if($('#openmap').length) {
 // On initialise la latitude et la longitude de Paris (centre de la carte)
@@ -300,6 +349,66 @@ Created: colorlib
 
         }).addTo(macarte);
     }
+
+
+    function  CreateDialog() {
+        const tmp = `
+        <div id="my-dialog" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="dialogTitle"></h5>
+                        <button id="close-dialog" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="dialogMsg"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button id="confirm-dialog" type="button" class="btn btn-secondary">Confirmer</button>
+                        <button id="cancel-dialog" type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+        var dialog = document.createElement('div');
+        dialog.innerHTML=tmp;
+        document.body.appendChild(dialog);
+        $('#my-dialog').hide();
+    }
+
+    function  ShowDialog(title, msg, cancel, confirm) {
+        document.getElementById('dialogTitle').innerText=title;
+        document.getElementById('dialogMsg').innerText=msg;
+
+        const confirmHandle = ()=> {
+            confirm();
+            document.getElementById('cancel-dialog').removeEventListener('click', cancelHandle);
+            document.getElementById('confirm-dialog').removeEventListener('click', confirmHandle);
+            document.getElementById('close-dialog').removeEventListener('click', cancelHandle);
+            $('#my-dialog').hide();
+        }
+
+        const cancelHandle = () => {
+            cancel();
+            document.getElementById('cancel-dialog').removeEventListener('click', cancelHandle);
+            document.getElementById('confirm-dialog').removeEventListener('click', confirmHandle);
+            document.getElementById('close-dialog').removeEventListener('click', cancelHandle);
+
+            $('#my-dialog').hide();
+        }
+
+
+        document.getElementById('confirm-dialog').addEventListener('click', confirmHandle);
+        document.getElementById('cancel-dialog').addEventListener('click', cancelHandle);
+        document.getElementById('close-dialog').addEventListener('click', cancelHandle);
+        $('#my-dialog').show();
+    }
 })(jQuery);
+
+
+
 
 // Fonction d'initialisation de la carte

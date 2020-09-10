@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css?v=1.<?php echo time(); ?>" type="text/css">
 
+    <link rel="canonical" href="http://www.cda28.s1.2isa.test-<?php  echo $ar_pages_var[$page]['KEY_TITLE']; ?>-<?php echo isset($_GET['id']) ? $_GET['id']   : ""; ?>-<?php echo isset($_GET['titre'] ) ? "-" . $_GET['titre'] . ".html" : ""; ?>" />
+
+
+
+
 </head>
 
 <body>

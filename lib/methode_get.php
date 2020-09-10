@@ -56,10 +56,17 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
 
                     //la requete de la table page
-                    $reponse = $bdd->query('SELECT * FROM ADHERENT WHERE IDADHERENT = ' . $_GET['id']);
+
+                    $query = $bdd->prepare('SELECT * FROM ADHERENT WHERE IDADHERENT =  :idadherent ');
+
+                    $query->execute(array(
+                        'idadherent' => $_GET['id']
+                    ));
 
 
                     //boucle les données récupérées
+                    while ($donnees = $query->fetch()) {
+                        //boucle les données récupérées
                         $identifiant = $donnees['LOGIN'];
                         $nom = $donnees['NOM'];
                         $prenom = $donnees['PRENOM'];
@@ -79,6 +86,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $type = $donnees['AVATAR_TYPE'];
                         $idadherent = $donnees['IDADHERENT'];
                         //to be continued
+                    }
 
 
                     //je transforme le H1 prévu coté BD

@@ -15,6 +15,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                 </div>
+
                                 <div class="col-sm-12">
                                     <h5 class="text-left">Votre Nom:</h5>
                                     <h4 class="text-left"> <?php echo $_SESSION['NOM'] ?></h4>
@@ -22,18 +23,12 @@
                                     <h4 class="text-left"> <?php echo $_SESSION['PRENOM'] ?></h4>
                                     <h5 class="text-left">Votre Identifiant: </h5>
                                     <h4 class="text-left"><?php echo $_SESSION['IDADHERENT'] ?></h4>
-                                    <h5 class="text-left">Choisissez l'activité</h5><br>
+                                    <h5 class="text-left">Choisissez l'activité à venir</h5><br>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <select name="INTITULEACTIVITE" id ="INTITULEACTIVITE" >
-                                            <!--                                            {-->
-                                            <!--                                            font-size: 24px;-->
-                                            <!--                                            margin: 0;-->
-                                            <!--                                            color: #111111;-->
-                                            <!--                                            font-weight: 500;-->
-                                            <!--                                            font-family: "Oswald", sans-serif;-->
-                                            <!--                                            }-->
+                                        <select class="liste_deroulante" name="INTITULEACTIVITE" id ="INTITULEACTIVITE" >
+
                                             <?php
 
                                             $activites = $bdd->query('SELECT IDACTIVITE ,INTITULEACTIVITE FROM ACTIVITE  WHERE DLIMITEINSCRIPTION > NOW() order by DDEBUT asc');

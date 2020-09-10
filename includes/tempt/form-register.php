@@ -28,8 +28,9 @@
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
 
                                     <?php
+
                                     if(!empty($type)) { ?>
-                                        <img loading="lazy" src="/lib/blob.php?user=<?php echo $donnees['IDADHERENT']; ?>" alt="">
+                                        <img loading="lazy" src="/lib/blob.php?user=<?php echo $idadherent; ?>" alt="">
 
                                     <?php }else  {
                                         echo '<img loading="lazy" src="/img/upload/adherent/upload_adherent_detail_default.jpg" alt="">';

@@ -20,7 +20,7 @@
 
 
                                     <label> Activité</label><br>
-                                    <select name="IDACTIVITE" id ="INTITULEACTIVITE" >
+                                    <select class="liste_deroulante" name="IDACTIVITE" id ="INTITULEACTIVITE" >
                                     --><?php
 //
                                     $activites = $bdd->query('SELECT IDACTIVITE ,INTITULEACTIVITE FROM ACTIVITE  WHERE DLIMITEINSCRIPTION < NOW() order by DDEBUT asc');

@@ -188,7 +188,47 @@ Created: colorlib
         });
 
     }
+    $('.ajoutInscr').on('click', function() {
+        console.log('btn ajoutInscr ready !');
 
+        var idadherent = $('#ajoutInscription input[name=idadherent]').val();
+        var idact = $('#ajoutInscription input[name=IDACTIVITE]').val();
+        var nbinvit = $('#ajoutInscription input[name=nbpers]').val();
+
+        ShowDialog("Confirmation d'ajout", "Êtes-vous sûr de vouloir ajouter cette iscription?",
+            ()=> {
+
+
+            },
+            ()=> {
+
+                let request = $.ajax({
+                    url: "./lib/methode_ajax.php",
+                    method: "POST",
+                    data: {action: "inscriptionAct-form", idMembre: idadherent, idActivite: idact, nbInvite: nbinvit},
+                    dataType: "json" //JSON = reponse attendu en array() ou HTML, reponse de type string
+                });
+
+                request.done(function( msg ) {
+                    //console.log(msg);
+                    //afichage de la modal ave
+                    $('#my-modal .modal-body p').html(msg.modal);
+                    $("#member-"+name).remove();
+                    $("#my-modal").show();
+                    //$( "#log" ).html( msg );
+                });
+
+                //erreur 404 ou 500 - le serveur ne repond pas, erreur PHP ?
+                request.fail(function( jqXHR, textStatus ) {
+                    console.log( "Request failed: " + textStatus );
+                });
+
+            });
+
+        //stopper le comportement normal d'une balise de type <a>
+        return false;
+
+    });
 
 
 $('.deleteadh').on('click', function() {
@@ -324,6 +364,28 @@ $('.deleteadh').on('click', function() {
         type: 'image'
     });
 
+
+
+//append prepend modif news
+    $('.modif .btn').on("click",function(){
+
+        console.log("je click");
+
+        //to be continued pour optimiser
+
+        if($('.booking-classes:visible').length){
+
+            $('#wisi').hide();
+                           $(this).html('Modifiez votre news?');
+
+        }else if($('.booking-classes:hidden').length){
+
+            $('#wisi').show();
+                           $(this).html('Réduire');
+
+        }
+
+    });
 
 //openstreetmap
     if($('#openmap').length) {

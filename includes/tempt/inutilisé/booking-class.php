@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="col-sm-6">
 
-                                    <textarea name="text" id="" ></textarea>
+                                    <textarea name="text"  ></textarea>
                                     <input type="submit" value="Submit" class="submit-btn">
                                 </div>
                             </div>

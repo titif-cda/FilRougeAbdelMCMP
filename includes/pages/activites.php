@@ -51,7 +51,5 @@ include('./includes/tempt/services.php');?>
             </section>
         </div>
     </div>
-    </div>
-
 </section>
 

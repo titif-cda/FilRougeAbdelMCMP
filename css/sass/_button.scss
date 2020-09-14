@@ -1,20 +1,28 @@
 .primary-btn{
   cursor: pointer;
 }
-  .inscr-btn{
-    font-size: 30px;
-    background: var(--primary-color);
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-padding: 10px 10px;
-    margin-right: 0;
-    font-size: 20px;
-    font-family: "Oswald", sans-serif;
-      a{color: white;
+.btn_modif{
+  float: right;
+  cursor: pointer;
+}
+.btn_modif , .inscr-btn{
+  font-size: 20px;
+  background: var(--primary-color);
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 10px;
+  margin-right: 0;
+  font-family: "Oswald", sans-serif;
+  a{color: white;
+      }
+  .inscr-btn:hover{
+    color: gray;
+    border-color: gray;
 
-        }
   }
+
+}
 
 .liste_deroulante {
   font-size: 24px;
@@ -22,4 +30,18 @@ padding: 10px 10px;
   color: #111111;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: grey;
+  /* border-color: #0062cc; */
+}
+
+.blog-time{
+  width: 130px; height: 160px;
+  background: #fcfcfc;
+  background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
+  background: -webkit-linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
 }

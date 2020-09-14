@@ -42,7 +42,9 @@
 <body>
 <!-- Page Preloder -->
 <div id="preloder">
-    <div class="loader"></div>
+    <div class="loader">
+
+    </div>
 </div>
 
 <!-- modal:fenetre de message d'information-->
@@ -114,6 +116,6 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
+
+
 </header>

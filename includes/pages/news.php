@@ -9,7 +9,7 @@
                         <div class="section-title">
                             <h2><?php echo $titleNouvelle ?></h2>
                         </div>
-                        <span class="blog-time"> <?php echo $datepublication; ?></span><br>
+                        <span class="blog-time"> Date de publication:  <?php echo $datepublication; ?></span><br>
                         <?php echo $introduction; ?>
 
                     </div>
@@ -30,11 +30,24 @@
         </div>
         </hr>
         <?php if ($user_level == 2) { ?>
-        <div class="booking-classes">
-            <div class="container">
+
+        <div class="modif">
+            <div class="container ">
                 <div class="row">
+
                     <div class="col-lg-12">
-                        <form action="./index.php?page=news&id=<?php echo $id; ?>" method="post"
+            <button class="btn btn_modif btn-primary">Modifiez votre news?</button>
+        </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wisi" class="booking-classes " style="display: none">
+            <div class="container ">
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <form action="./index.php?page=news&id=<?php echo $id; ?>&titre=<?php echo str_replace(" ", "", $donnees['TITRE_NOUVELLE'])?>" method="post"
                               enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="update_news">
                             <input type="hidden" name="IdNouvelle" value="<?php echo $id; ?>">
@@ -63,6 +76,7 @@
                                 </div>
                         </form>
                     </div> <?php
+
                     } ?>
                 </div>
                 <div class="tag-share">
@@ -82,7 +96,7 @@
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
 
 

@@ -1615,3 +1615,111 @@ Stack trace:
 [10-Sep-2020 13:31:58 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55
 [10-Sep-2020 13:32:06 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55
 [10-Sep-2020 13:32:22 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 55
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:39:21 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 18
+[14-Sep-2020 09:53:43 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:53:43 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:53:43 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:53:43 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:53:43 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:54:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php:130
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php(130): PDOStatement->fetch()
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(16): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 130
+[14-Sep-2020 09:54:51 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:54:51 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:54:51 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:54:51 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:54:51 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:54:56 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:54:56 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:54:56 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:54:56 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:54:56 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:55:41 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:55:41 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:55:41 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:55:41 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:55:41 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:56:56 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:56:56 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:56:56 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:56:56 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:56:56 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:57:04 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:57:04 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:57:04 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:57:04 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:57:04 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:57:08 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 144
+[14-Sep-2020 09:57:08 UTC] PHP Notice:  Undefined variable: titleNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 10
+[14-Sep-2020 09:57:08 UTC] PHP Notice:  Undefined variable: datepublication in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 12
+[14-Sep-2020 09:57:08 UTC] PHP Notice:  Undefined variable: introduction in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 13
+[14-Sep-2020 09:57:08 UTC] PHP Notice:  Undefined variable: descriptionNouvelle in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\news.php on line 27
+[14-Sep-2020 09:57:18 UTC] PHP Parse error:  syntax error, unexpected 'les' (T_STRING) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 129
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 10:25:57 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 10:26:21 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 10:27:12 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:13:09 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:13:36 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\nouvelles.php on line 57
+[14-Sep-2020 12:13:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\nouvelles.php on line 57
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:19:03 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(./includes/tempt/client-says.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(): Failed opening './includes/tempt/client-says.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 12
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(./includes/tempt/booking-class.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[14-Sep-2020 12:49:23 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16

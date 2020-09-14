@@ -17,6 +17,7 @@
             <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
                 convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
             <div class="blog-widget">
+
                 <ul>
                     <li><img src="img/like.png" alt=""> <span>15 Likes</span></li>
                     <li><img src="img/chat.png" alt=""> <span>3 Comments</span></li>

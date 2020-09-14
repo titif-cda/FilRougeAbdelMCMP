@@ -17,6 +17,7 @@
                         <textarea id="summernote" name="editordata" required> </textarea>
                     </div>
                     <h5> Changer l'image</h5><br>
+
                     <input type="file" name="image">
                     <div class="col-12 text-right">
                         <button type="submit" id="addNews" class="primary-btn">Ajouter News</button>

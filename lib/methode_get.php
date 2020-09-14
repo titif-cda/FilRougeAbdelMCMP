@@ -118,16 +118,21 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
             if (isset($_GET['id']) && !empty($_GET['id'])) {
 
                 //la requete de la table page
-                $reponse = $bdd->query('SELECT * FROM NOUVELLE WHERE IDNOUVELLE = ' . $_GET['id']);
+//                $reponse = $bdd->query('SELECT * FROM NOUVELLE WHERE IDNOUVELLE = ' . $_GET['id']);
+
+                $query = 'SELECT * FROM NOUVELLE WHERE IDNOUVELLE = ?';
+                $queryExec = $bdd->prepare($query);
+                $result = $queryExec->execute(array($_GET['id']));
 
 
-                //boucle les données récupérées
-                while ($donnees = $reponse->fetch()) {
+
+//                boucle les données récupérées
+                while ($donnees = $queryExec->fetch()) {
 
                     $titleNouvelle = $donnees['TITRE_NOUVELLE'];
                     $introduction = $donnees['INTRODUCTION'];
                     $descriptionNouvelle = $donnees['DESCRIPTION'];
-                    $datepublication = $donnees['DPUBLICATION'];
+                    $datepublication = date("d-m-Y", strtotime($donnees['DPUBLICATION']));
                     $level_diffusion = $donnees['DIFFUSION_LEVEL'];
                     $img = $donnees['IMAGE'];
                     //to be continued
@@ -163,12 +168,12 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                 while ($donnees = $query->fetch()) {
 
                     $titleActivite = $donnees['INTITULEACTIVITE'];
-                    $datedebut = $donnees['DDEBUT'];
+                    $datedebut = date("d-m-Y", strtotime($donnees['DDEBUT']));
                     $dateFin = $donnees['DFIN'];
                     $descriptionA = $donnees['DESCRIPTION'];
                     $tarifAdherent = $donnees['TARIFADHERENT'];
                     $tarifInvite = $donnees['TARIFINVITE'];
-                    $datelimiteInscr = $donnees['DLIMITEINSCRIPTION'];
+                    $datelimiteInscr = date("d-m-Y", strtotime($donnees['DLIMITEINSCRIPTION']));
                     $imageAct = $donnees['IMAGEACT'];
                     $idadherent=$donnees['IDADHERENT'];
                     $idType=$donnees['IDTYPE'];

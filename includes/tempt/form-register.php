@@ -19,7 +19,7 @@
 
                     <h2 class="text-center"><?php echo $title_register; ?></h2>
                     <div class="booking-form">
-                        <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>" method="post" class="register-form" enctype="multipart/form-data">
+                        <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>&prenom=<?php echo str_replace(" ", "", $donnees['PRENOM']); ?>" method="post" class="register-form" enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
                             <input type="hidden" name="IDADHERENT" value="<?php echo isset($id) ? $id : ''; ?>"/>
 

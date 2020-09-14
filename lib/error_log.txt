@@ -230,3 +230,38 @@ Stack trace:
 #0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(64): PDOStatement->execute(Array)
 #1 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 64
+[14-Sep-2020 15:27:46 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[14-Sep-2020 15:27:46 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:27:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:27:53 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[14-Sep-2020 15:27:53 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:27:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:27:56 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[14-Sep-2020 15:27:56 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:27:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:28:13 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[14-Sep-2020 15:28:13 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:28:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:29:14 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[14-Sep-2020 15:29:14 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[14-Sep-2020 15:29:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83

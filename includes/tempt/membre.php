@@ -25,7 +25,7 @@
             </ul>
                 <ul class=" recup">
                 <li><?php echo $donnees['CYLINDREE']; ?></
-                ></li>
+                </li>
                 <li><?php echo $donnees['EMAIL']; ?></li>
                 <li><?php echo $donnees['TELEPHONE']; ?></li>
                 <li><?php echo $donnees['DADHESION']; ?></li>

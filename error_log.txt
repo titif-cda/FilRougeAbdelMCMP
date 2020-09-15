@@ -2095,3 +2095,1553 @@ Stack trace:
 [15-Sep-2020 15:34:20 UTC] PHP Warning:  include(): Failed opening './includes/tempt/booking-class.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 15
 [15-Sep-2020 15:34:20 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
 [15-Sep-2020 15:34:20 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 16
+[15-Sep-2020 16:11:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 14
+[15-Sep-2020 16:11:30 UTC] PHP Stack trace:
+[15-Sep-2020 16:11:31 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:11:31 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:11:31 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:31:28 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:31:28 UTC] PHP Stack trace:
+[15-Sep-2020 16:31:28 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:31:28 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:31:28 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:31:46 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:31:46 UTC] PHP Stack trace:
+[15-Sep-2020 16:31:46 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:31:46 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:31:46 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:31:52 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:31:52 UTC] PHP Stack trace:
+[15-Sep-2020 16:31:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:31:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:31:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:32:00 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:32:00 UTC] PHP Stack trace:
+[15-Sep-2020 16:32:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:32:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:32:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:36:17 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:36:17 UTC] PHP Stack trace:
+[15-Sep-2020 16:36:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:36:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:36:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:36:26 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:36:26 UTC] PHP Stack trace:
+[15-Sep-2020 16:36:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:36:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:36:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:38:01 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:38:01 UTC] PHP Stack trace:
+[15-Sep-2020 16:38:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:38:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:38:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 16:38:09 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 57
+[15-Sep-2020 16:38:09 UTC] PHP Stack trace:
+[15-Sep-2020 16:38:09 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 16:38:09 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 16:38:09 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 18:47:04 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:8
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(8): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:8
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(8): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 8
+[15-Sep-2020 18:47:12 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:8
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(8): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:8
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(8): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 8
+[15-Sep-2020 18:58:01 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 174
+[15-Sep-2020 19:01:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:01:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:02:37 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:02:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:02:43 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:04:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 181
+[15-Sep-2020 19:05:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 179
+[15-Sep-2020 19:07:02 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 179
+[15-Sep-2020 19:07:05 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 179
+[15-Sep-2020 19:07:06 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 179
+[15-Sep-2020 19:07:34 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 176
+[15-Sep-2020 19:08:56 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 176
+[15-Sep-2020 19:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 176
+[15-Sep-2020 19:11:06 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 169
+[15-Sep-2020 19:11:16 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 169
+[15-Sep-2020 19:12:31 UTC] PHP Parse error:  syntax error, unexpected 'row' (T_STRING) in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 47
+[15-Sep-2020 19:12:37 UTC] PHP Parse error:  syntax error, unexpected 'row' (T_STRING) in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 47
+[15-Sep-2020 19:12:56 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 170
+[15-Sep-2020 19:13:00 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 170
+[15-Sep-2020 19:13:05 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 170
+[15-Sep-2020 19:13:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 170
+[15-Sep-2020 19:15:13 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 167
+[15-Sep-2020 19:15:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 167
+[15-Sep-2020 19:16:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 137
+[15-Sep-2020 19:16:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 137
+[15-Sep-2020 19:16:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 137
+[15-Sep-2020 19:20:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php:34
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include()
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 34
+[15-Sep-2020 19:20:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php:34
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include()
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 34
+[15-Sep-2020 19:20:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php:34
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include()
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 34
+[15-Sep-2020 19:23:26 UTC] PHP Notice:  Undefined variable: date in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 35
+[15-Sep-2020 19:23:26 UTC] PHP Stack trace:
+[15-Sep-2020 19:23:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:23:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 19:23:28 UTC] PHP Notice:  Undefined variable: date in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 35
+[15-Sep-2020 19:23:28 UTC] PHP Stack trace:
+[15-Sep-2020 19:23:28 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:23:28 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 19:23:38 UTC] PHP Notice:  Undefined variable: date in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 35
+[15-Sep-2020 19:23:38 UTC] PHP Stack trace:
+[15-Sep-2020 19:23:38 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:23:38 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 19:24:35 UTC] PHP Notice:  Undefined variable: date in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 35
+[15-Sep-2020 19:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 19:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 19:25:38 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 234
+[15-Sep-2020 19:25:38 UTC] PHP Stack trace:
+[15-Sep-2020 19:25:38 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:25:38 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[15-Sep-2020 19:25:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'IDACTIVITE' cannot be null in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:235
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(235): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 235
+[15-Sep-2020 19:26:45 UTC] PHP Notice:  Undefined index: idactivite in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 234
+[15-Sep-2020 19:26:45 UTC] PHP Stack trace:
+[15-Sep-2020 19:26:45 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 19:26:45 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[15-Sep-2020 19:26:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'IDACTIVITE' cannot be null in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:235
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(235): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 235
+[15-Sep-2020 19:26:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_CORRESPOND` FOREIGN KEY (`IDACTIVITE`) REFERENCES `ACTIVITE` (`IDACTIVITE`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:235
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(235): PDOStatement->execute(Array)
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 235
+[15-Sep-2020 20:01:13 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 143
+[15-Sep-2020 20:01:32 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 143
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:21:59 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:21:59 UTC] PHP Stack trace:
+[15-Sep-2020 20:21:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:21:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:21:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:00 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:00 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:01 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:29 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:29 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:29 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:29 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:29 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:30 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:30 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:31 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:31 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:31 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:22:31 UTC] PHP Notice:  Undefined index: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:22:31 UTC] PHP Stack trace:
+[15-Sep-2020 20:22:31 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:22:31 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:22:31 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:52 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:52 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:52 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:52 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:52 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:52 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:52 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:52 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:52 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:52 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:23:53 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:23:53 UTC] PHP Stack trace:
+[15-Sep-2020 20:23:53 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:23:53 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:23:53 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:16 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:16 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:16 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:16 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:16 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:16 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:16 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:16 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:16 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:17 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:17 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:17 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:17 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:17 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:26 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:26 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:27 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:27 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:27 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:27 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:27 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:27 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:27 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:27 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:27 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:27 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:34 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:34 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:34 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:34 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:34 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:34 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:34 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:34 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:34 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:34 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:34 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:34 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:34 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:34 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:34 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:34 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:34 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:34 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:34 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:34 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:34 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:34 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:24:35 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 29
+[15-Sep-2020 20:24:35 UTC] PHP Stack trace:
+[15-Sep-2020 20:24:35 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:24:35 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:24:35 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:01 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:01 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:01 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:01 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:01 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:02 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:02 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:02 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:02 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:02 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:40 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:25:41 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:25:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:25:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:25:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:25:41 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:55 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:55 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:55 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:55 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:55 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:27:56 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 30
+[15-Sep-2020 20:27:56 UTC] PHP Stack trace:
+[15-Sep-2020 20:27:56 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:27:56 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:27:56 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:5
+[15-Sep-2020 20:31:41 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addactivite.php on line 6
+[15-Sep-2020 20:31:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:31:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:31:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:31:41 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addactivite.php on line 6
+[15-Sep-2020 20:31:41 UTC] PHP Stack trace:
+[15-Sep-2020 20:31:41 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[15-Sep-2020 20:31:41 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[15-Sep-2020 20:54:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 139
+[15-Sep-2020 20:56:44 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[15-Sep-2020 20:57:06 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[15-Sep-2020 20:57:09 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[15-Sep-2020 20:57:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[15-Sep-2020 20:57:41 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[15-Sep-2020 20:58:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144

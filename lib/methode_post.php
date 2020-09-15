@@ -223,18 +223,21 @@ if (!empty($_POST)) {
             //var_dump('vous essayer de vous connecter ?');
 
         }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_inscription'){
+            try{
+                $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBINVITES) 
+                                        values (:idadherent ,:idactivite, :nbinvit )');
 
-            $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBINVITES) 
-                                    values (:idadherent ,:idactivite, :nbinvit )');
-
-            $queryExec = $bdd->prepare($query);
+                $queryExec = $bdd->prepare($query);
 
 
-            $queryExec->execute(
-                array('idadherent' => $_POST['idadherent'],'idactivite' => $_POST['idactivite'],
-                    'nbinvit' => $_POST["nbpers"]));
-
+                $queryExec->execute(
+                    array('idadherent' => $_POST['idadherent'],'idactivite' => $_POST['idactivite'],'nbinvit' => $_POST["nbpers"]));
+                $message_modal= 'Inscription enregistrée';
+            }catch (Exception $e) {
+                $message_modal = $e->getMessage();
+            }
         }
+
 
 
 

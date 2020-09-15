@@ -365,7 +365,53 @@ $('.deleteadh').on('click', function() {
     });
 
 
+    //fonction prepend
+/*    function afficher(classBouton,par1,par2){
+        $('classBouton').on("click",function(){
 
+            console.log("je click");
+
+            //to be continued pour optimiser
+
+            if($('.par1:visible').length){
+
+                $('#par2').hide();
+                $(this).html('Modifiez votre activité?');
+
+            }else if($('.booking-classes:hidden').length){
+
+                $('#par2').show();
+                $(this).html('Réduire');
+
+            }
+        };*/
+
+
+//append prepend modif Activité
+
+
+
+
+
+    $('.modifAct .btn').on("click",function(){
+
+        console.log("je click");
+
+        //to be continued pour optimiser
+
+        if($('.booking-classes:visible').length){
+
+            $('#act').hide();
+            $(this).html('Modifiez votre activité?');
+
+        }else if($('.booking-classes:hidden').length){
+
+            $('#act').show();
+            $(this).html('Réduire');
+
+        }
+
+    });
 //append prepend modif news
     $('.modif .btn').on("click",function(){
 

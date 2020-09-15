@@ -2,7 +2,7 @@
 <?php
 
 include('./includes/tempt/entete.php');
-include('./includes/tempt/form_inscriptionActivite.php');
+
 include('./includes/tempt/services.php');?>
 
 
@@ -21,17 +21,7 @@ include('./includes/tempt/services.php');?>
             </div>
 
             <section class="blog-section spad">
-                <div  class="container-fluid">
-                    <div id="single_news" class="row">
 
-                        <?php
-                        //la requete
-                        $query = 'SELECT * FROM ACTIVITE order by DDEBUT asc' ;
-                        $reponse = $bdd->query($query);
-                        ?>
-
-                    </div>
-                </div>
                 <div class="blog-section spad">
                     <div class="container-fluid">
                         <div id="single_act" class="row">

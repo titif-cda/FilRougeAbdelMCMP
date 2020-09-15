@@ -92,8 +92,6 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                     //je transforme le H1 prévu coté BD
                     $ar_pages_var[$page]['h1'] = $prenom . ' ' . $nom;
                     $id = $_GET['id'];
-
-
                     $title_register = 'Mise à jour de votre profil';
                     $btn_register = 'Mettre à jour';
                     $action = 'update_profil';
@@ -166,7 +164,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                 //boucle les données récupérées
                 while ($donnees = $query->fetch()) {
-
+                    $idactivite=$donnees['IDACTIVITE'];
                     $titleActivite = $donnees['INTITULEACTIVITE'];
                     $datedebut = date("d-m-Y", strtotime($donnees['DDEBUT']));
                     $dateFin = $donnees['DFIN'];

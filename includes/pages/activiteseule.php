@@ -30,12 +30,18 @@
             </div>
         </div>
     </div>
+    <?php
+    if ($user_level == 2) {?>
+    <div class="modifAct">
+        <div class="container ">
+            <div class="row">
 
-    <?php if ($user_level == 2) {
-
-        ?>
-
-        <div class="booking-classes">
+                <div class="col-lg-12">
+                    <button class="btn btn_modif btn-primary">Modifiez l'activité?</button>
+                </div>
+            </div>
+        </div>
+        <div id="act" class="booking-classes" style="display: none">
 
             <div class="container">
                 <div class="row">
@@ -104,5 +110,34 @@
     } ?>
 </section>
 
-
-
+<?php
+//$date = date("d-m-Y");
+//
+//if ($user_level >0 && $date >= $datelimiteInscr )   {
+//    ?>
+<!--    <div id="ajoutInscription" class="booking-classes">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="booking-form">-->
+<!--                        <h2 class="text-center">S'inscrire</h2>-->
+<!--                        <form action="" method="post" >-->
+<!--                            <input type="hidden" name="formulaire" value="ajout_inscription"/>-->
+<!--                            <input type="hidden" name="idadherent" value="--><?php //echo $_SESSION['IDADHERENT']?><!--">-->
+<!--                            <input type="hidden" name="idactivite" value="--><?php //echo $_GET['id'] ?><!--">-->
+<!--                            <div class="row">-->
+<!--                                <br><input type="number" id= "id" name="nbpers" placeholder="Nombre de participants" value="" min="1" max="10">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-12">-->
+<!--                                <div class="col-sm">-->
+<!--                                    <input type="submit" value="Valider" class="submit-btn ajoutInscr">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!---->
+<?php}/**/?>

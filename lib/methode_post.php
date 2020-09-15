@@ -78,7 +78,7 @@ if (!empty($_POST)) {
 
                 try {
                     \Lib\MailEngine::send($subject, $from, $to, $message);
-                    header('Location: page-connection.php');
+                    header('Location: page-connection');
                     $message_modal = 'Un email de confirmation vous a été envoyé pour valider votre compte.';
                 }
                 catch(Exception $e){
@@ -222,7 +222,23 @@ if (!empty($_POST)) {
 
             //var_dump('vous essayer de vous connecter ?');
 
-        }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_activite'){
+        }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_inscription'){
+
+            $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBINVITES) 
+                                    values (:idadherent ,:idactivite, :nbinvit )');
+
+            $queryExec = $bdd->prepare($query);
+
+
+            $queryExec->execute(
+                array('idadherent' => $_POST['idadherent'],'idactivite' => $_POST['idactivite'],
+                    'nbinvit' => $_POST["nbpers"]));
+
+        }
+
+
+
+        else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_activite'){
             if (isset($_FILES['image']) && !empty($_FILES['image'])) {
                 try {
                     list($photoName) = upload_img($directory_image_activites);

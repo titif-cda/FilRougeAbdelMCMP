@@ -32,10 +32,24 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css?v=1.<?php echo time(); ?>" type="text/css">
 
-    <link rel="canonical" href="http://www.cda28.s1.2isa.test-<?php  echo $ar_pages_var[$page]['KEY_TITLE']; ?>-<?php echo isset($_GET['id']) ? $_GET['id']   : ""; ?>-<?php echo isset($_GET['titre'] ) ? "-" . $_GET['titre'] . ".html" : ""; ?>" />
+    <link rel="canonical" href="http://www.cda28.s1.2isa.test-<?php  echo $ar_pages_var[$page]['KEY_TITLE']; ?>-<?php echo isset($_GET['id']) ? $_GET['id']   : ""; ?><?php echo isset($_GET['titre'] ) ? "-" . $_GET['titre'] . ".html" : ""; ?>" />
 
 
-
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//cda28.s1.2isa.org/matomo/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
 
 </head>
 

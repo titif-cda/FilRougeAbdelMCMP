@@ -9,7 +9,7 @@
 
                         <h2 class="text-center">S'inscrire</h2>
 
-                        <form action="" method="post" class="inscriptionAct-form">
+                        <form action="" method="post" >
                             <input type="hidden" name="formulaire" value="ajout_inscription"/>
                             <input type="hidden" name="idadherent" value="<?php echo $_SESSION['IDADHERENT'] ?>">
                             <div class="row">
@@ -27,14 +27,14 @@
                                 </div>-->
                                 <div class="col-sm-12">
                                     <div class="col-sm">
-                                        <select class="liste_deroulante" name="IDACTIVITE" id ="INTITULEACTIVITE" >
+                                        <select class="liste_deroulante" name="idactivite" id ="INTITULEACTIVITE" >
 
                                             <?php
 
                                             $activites = $bdd->query('SELECT IDACTIVITE ,INTITULEACTIVITE FROM ACTIVITE  WHERE DLIMITEINSCRIPTION > NOW() order by DDEBUT asc');
                                             while ($data = $activites-> fetch())
 
-                                            {echo'<option value="'.$data['INTITULEACTIVITE'].'">'.$data['INTITULEACTIVITE'].'</option>';}
+                                            {echo'<option value="'.$data['IDACTIVITE'].'">'.$data['INTITULEACTIVITE'].'</option>';}
                                             ?>
 
                                         </select>

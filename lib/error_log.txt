@@ -265,3 +265,39 @@ Stack trace:
 #0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
 #1 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 14:48:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:65
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(65): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 65
+[15-Sep-2020 14:48:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:65
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(65): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 65
+[15-Sep-2020 14:49:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:65
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(65): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 65
+[15-Sep-2020 14:59:27 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[15-Sep-2020 14:59:27 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 14:59:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 15:01:38 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[15-Sep-2020 15:01:38 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 15:01:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 15:05:18 UTC] PHP Notice:  Undefined index: IDACTIVITE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 82
+[15-Sep-2020 15:05:18 UTC] PHP Notice:  Undefined index: nbpers in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83
+[15-Sep-2020 15:05:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:83
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(83): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 83

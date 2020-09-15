@@ -82,12 +82,7 @@ if($user_level == 2){
                 array('IDADHERENT' => $_SESSION['IDADHERENT'],'IDACTIVITE' => $_POST['IDACTIVITE'],
                     'NBINVITES' => $_POST["nbpers"]));
 
-            $query = 'insert FROM ADHERENT WHERE IDADHERENT = ?';
-            $queryExec = $bdd->prepare($query);
-            $result = $queryExec->execute([$_POST['idMembre']]);
 
-            //information modal html
-            $message_modal = 'Utilisateur '.$_POST['idMembre'].' supprimé.';
 
 
         }

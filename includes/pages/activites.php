@@ -5,6 +5,7 @@ include('./includes/tempt/entete.php');
 include('./includes/tempt/form_inscriptionActivite.php');
 include('./includes/tempt/services.php');?>
 
+
 <section class="gallery-section spad">
     <div class="container">
         <div class="row">

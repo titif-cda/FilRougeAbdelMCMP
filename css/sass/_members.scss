@@ -70,16 +70,42 @@ a{
     display: block;
 
   }
+  figure{
+
+  }
 
   figure:hover {
-    -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -o-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
-    transform: scale(1.1) rotate(1deg) translateY(12px);
-    -webkit-transition: all 0.18s ease-in-out;
-    -moz-transition: all 0.18s ease-in-out;
-    -o-transition: all 0.18s ease-in-out;
-    transition: all 0.18s ease-in-out;
+
+  }
+}
+
+.maj_profil{
+  .card{
+    padding-bottom: 100px;
+    .photoprofil{
+      padding-bottom: 100px;
+      padding-top: 20px;
+      img{
+        border-radius: 95%;
+        width:270px;
+        height:370px;
+      }
+
+    }
+
+    p {
+      padding-left: 196px;
+      font-size: 18px;
+      color: $color1;
+      font-family: "PT Sans", sans-serif;
+      //font-weight: bolder;
+      line-height: 28px;
+      margin: 0 0 15px 0;
+
+      span{
+        color: black;
+        font-weight:bolder;
+      }
+    }
   }
 }

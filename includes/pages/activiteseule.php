@@ -1,5 +1,6 @@
 
 <?php include('./includes/tempt/entete.php'); ?>
+
 <section class="about-us-section spad">
 
     <div class="container">

@@ -72,7 +72,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $prenom = $donnees['PRENOM'];
                         $login = $donnees['LOGIN'];
                         $cylindree = $donnees['CYLINDREE'];
-                        $dnaissance = $donnees['DNAISSANCE'];
+                        $dnaissance =  date("d-m-Y", strtotime($donnees['DNAISSANCE']));
                         $adress1 = $donnees['ADRESSE1'];
                         $adress2 = $donnees['ADRESSE2'];
                         $cdpost = $donnees['CDPOST'];
@@ -185,7 +185,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                 //je transforme le H1 prévu coté BD
                 $ar_pages_var[$page]['h1'] = $titleActivite;
                 $id = $_GET['id'];
-
+                $idAd = $_SESSION['IDADHERENT'];
 
                 $title_register = 'Mise à jour de votre profil';
                 $btn_register = 'Mettre à jour';

@@ -1,6 +1,4 @@
-.primary-btn{
-  cursor: pointer;
-}
+
 .btn_modif{
   float: right;
   cursor: pointer;
@@ -31,7 +29,11 @@
   font-weight: 500;
   font-family: "Oswald", sans-serif;
 }
-
+.btn-primary {
+  color: #fff;
+  background-color: $color1;
+  border-color: $color1;
+}
 .btn-primary:hover {
   color: #fff;
   background-color: grey;
@@ -44,4 +46,28 @@
   background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
   background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
   background: -webkit-linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
+}
+.maj{
+  .btn-primary {
+    display: block;
+    margin: auto;
+  }
+
+}
+.deleteadh {
+
+  padding: 5px 0px;
+  height: 34px;
+  display: block;
+  size: 10px;
+
+}
+.deleatadh_get{
+  background-color: darkblue;
+  padding: 5px 0px;
+  height: 34px;
+  display: block;
+  size: 10px;
+  text-align: center;
+
 }

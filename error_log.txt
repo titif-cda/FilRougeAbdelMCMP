@@ -3645,3 +3645,100 @@ Stack trace:
 [15-Sep-2020 20:57:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
 [15-Sep-2020 20:57:41 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
 [15-Sep-2020 20:58:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 144
+[16-Sep-2020 07:59:22 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 186
+[16-Sep-2020 08:42:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\membre.php on line 38
+[16-Sep-2020 09:27:15 UTC] PHP Notice:  Undefined variable: nbPlace in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 14
+[16-Sep-2020 09:27:41 UTC] PHP Notice:  Undefined variable: nbPlace in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 14
+[16-Sep-2020 10:03:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 132
+[16-Sep-2020 10:21:18 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activiteseule.php on line 124
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:43:31 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:43:54 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:44:20 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:44:22 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:45:04 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: prenom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 41
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:49:15 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: nom in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 38
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: email in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 44
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: tel in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 47
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: idadherent in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 50
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: dnaissance in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 53
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: adress1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 56
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: adress2 in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 59
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: cdpost in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 63
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: ville in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 66
+[16-Sep-2020 12:58:07 UTC] PHP Notice:  Undefined variable: cylindree in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 71
+[16-Sep-2020 14:42:43 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 186
+[16-Sep-2020 14:43:09 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 186
+[16-Sep-2020 14:45:54 UTC] PHP Warning:  include(./includes/pages/galerie.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 14:45:54 UTC] PHP Warning:  include(): Failed opening './includes/pages/galerie.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 14:47:55 UTC] PHP Warning:  include(./includes/pages/galerie.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 14:47:55 UTC] PHP Warning:  include(): Failed opening './includes/pages/galerie.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 14:49:35 UTC] PHP Warning:  include(./includes/pages/galerie.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 14:49:35 UTC] PHP Warning:  include(): Failed opening './includes/pages/galerie.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 24
+[16-Sep-2020 15:14:53 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addactivite.php on line 6
+[16-Sep-2020 15:14:53 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addactivite.php on line 6
+[16-Sep-2020 15:16:06 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[16-Sep-2020 15:16:06 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[16-Sep-2020 15:17:19 UTC] PHP Warning:  include(./includes/tempt/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[16-Sep-2020 15:17:19 UTC] PHP Warning:  include(): Failed opening './includes/tempt/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[16-Sep-2020 15:33:34 UTC] PHP Notice:  Undefined index: DROITIMAGE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 122

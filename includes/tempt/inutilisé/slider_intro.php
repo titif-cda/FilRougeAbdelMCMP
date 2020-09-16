@@ -1,33 +1,28 @@
-<main>
-
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/client-bg.png" alt="First slide">
-            </div>
-            <div class="carousel-item ">
-                <img class="d-block w-100" src="./img/slider/slide2.png" alt="First slide">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./img/slider/slide4.png" alt="Third slide">
-            </div>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/slider/slide1.png"  alt="First slide">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item ">
+            <img class="d-block w-100" src="./img/slider/slide2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slider/slide4.png" alt="Second slide">
+        </div>
 
     </div>
 
+</div>
+<div class="callto-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="callto-text">
+                    <h2>Rejoignez notre famille</h2>
 
-<!-- Hero Section End -->
-<!-- Class Booking Section Begin -->
-</main>
+                    <a href="page-inscription" class="btn btn-primary">Inscrivez-vous</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-
+<a href="./index.php?page=profil_adherent&id=<?php echo $donnees['IDADHERENT']; ?>">
     <div class="col-md-4" id="member-<?=  $donnees['IDADHERENT']; ?> ">
         <div id="ficheMembre" class="team-member">
             <figure>
@@ -15,9 +15,13 @@
 
 
             <h4 class="nameMember">
-                <a href="./index.php?page=profil_adherent&id=<?php echo $donnees['IDADHERENT']; ?>"><?php echo $donnees['PRENOM'] . ' ' . $donnees['NOM']; ?></a>
+
             </h4>
                 <div class="row">
+                    <div class="col-sm-12">
+                        <h4 ><?php echo $donnees['PRENOM'] . ' ' . $donnees['NOM']; ?></h4>
+                    </div>
+</a>
                 <div class="col-sm-12">
                     <p > <span >Email :</span> <?php echo $donnees['EMAIL'] ?></p>
                 </div>
@@ -30,6 +34,13 @@
                     <div class="col-sm-12">
                         <p > <span >Type de moto :</span> <?php echo $donnees['CYLINDREE']?></p>
                     </div>
+
+                    <?php   if ($donnees['ADMIN'] == 1) { ?>
+                    <div class="col-sm-12">
+                        <p>Administrateur</p>
+                    </div>
+                    <?php } ?>
+
                     <div class="col-sm-12">
                         <?php if ($user_level == 2) { ?>
                                              <a href="./index.php?page=membres&action=delete&id=<?php echo $donnees['IDADHERENT']; ?>"
@@ -39,11 +50,7 @@
 
                         <?php } ?>
 
-                        <?php if ($donnees['ORGANISATEUR'] == 1) { ?>
-                            <p>Organisateur</p>
-                        <?php }  if ($donnees['ADMIN'] == 1) { ?>
-                            <p>Administrateur</p>
-                        <?php } ?>
+
                     </div>
 
 

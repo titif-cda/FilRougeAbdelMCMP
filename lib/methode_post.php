@@ -224,7 +224,7 @@ if (!empty($_POST)) {
 
         }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_inscription'){
             try{
-                $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBINVITES) 
+                $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBPARTICIPANTS) 
                                         values (:idadherent ,:idactivite, :nbinvit )');
 
                 $queryExec = $bdd->prepare($query);

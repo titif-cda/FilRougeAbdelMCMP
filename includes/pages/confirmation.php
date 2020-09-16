@@ -14,7 +14,7 @@ if ($user && $user['VALIDATION_CLEF'] == $token){
 
     $requette = $bdd->prepare('UPDATE ADHERENT SET CONFIRMATION = 1 WHERE IDADHERENT = ?') ->execute([$user_id]);
     $_SESSION['auth'] = $user;
-    header('Location: gallerie.php');
+    header('Location: galerie.php');
 
 
 

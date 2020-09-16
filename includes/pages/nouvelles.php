@@ -8,20 +8,11 @@
         <div class="container-fluid">
             <div id="single_news" class="row">
                 <?php
-                if ($user_level == 1){
-
-                    $reponse = $bdd->prepare('SELECT * FROM NOUVELLE WHERE DIFFUSION_LEVEL = ? order by DPUBLICATION desc');
+                    $reponse = $bdd->prepare('SELECT * FROM NOUVELLE WHERE DIFFUSION_LEVEL <= :Ulevel order by DPUBLICATION desc');
 
                     $reponse->execute(array(
-                        0
+                       'Ulevel' => $user_level
                     ));
-
-
-                }else{
-                    $reponse = $bdd->query('SELECT * FROM NOUVELLE order by DPUBLICATION desc ');
-                    //boucle les donneees recuperees
-
-                }
                 while($row = $reponse -> fetch()){
                     $row['DPUBLICATION'] = date("d-m-Y", strtotime($row['DPUBLICATION']));;
 

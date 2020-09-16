@@ -151,7 +151,7 @@ Created: colorlib
             Mon JS
    --------------------*/
     $('.carousel-inner').carousel({
-        interval: 20000
+        interval: 5000
     })
 
 
@@ -366,54 +366,56 @@ $('.deleteadh').on('click', function() {
 
 
     //fonction prepend
-/*    function afficher(classBouton,par1,par2){
-        $('classBouton').on("click",function(){
+    function afficher(btnCls,par1,title) {
+        $(btnCls).on("click", function () {
 
             console.log("je click");
 
             //to be continued pour optimiser
 
-            if($('.par1:visible').length){
+            if ($(par1 + ':visible').length) {
 
-                $('#par2').hide();
-                $(this).html('Modifiez votre activité?');
+                $(par1).hide();
+                $(this).html(title);
 
-            }else if($('.booking-classes:hidden').length){
+            } else if ($(par1 + ':hidden').length) {
 
-                $('#par2').show();
+                $(par1).show();
                 $(this).html('Réduire');
 
             }
-        };*/
+        })
+    }
 
 
-//append prepend modif Activité
+//append prepend maj profil
+    afficher('.card_maj .btn', '#majProfil', 'Mettre à jour votre profil');
 
+//append prepend maj activité
+    afficher('.modifAct .btn', '#act', 'Modifiez votre activité?');
 
-
-
-
-    $('.modifAct .btn').on("click",function(){
-
-        console.log("je click");
-
-        //to be continued pour optimiser
-
-        if($('.booking-classes:visible').length){
-
-            $('#act').hide();
-            $(this).html('Modifiez votre activité?');
-
-        }else if($('.booking-classes:hidden').length){
-
-            $('#act').show();
-            $(this).html('Réduire');
-
-        }
-
-    });
+    // $('.modifAct .btn').on("click",function(){
+    //
+    //     console.log("je click");
+    //
+    //     //to be continued pour optimiser
+    //
+    //     if($('.booking-classes:visible').length){
+    //
+    //         $('#act').hide();
+    //         $(this).html('Modifiez votre activité?');
+    //
+    //     }else if($('.booking-classes:hidden').length){
+    //
+    //         $('#act').show();
+    //         $(this).html('Réduire');
+    //
+    //     }
+    //
+    // });
 //append prepend modif news
-    $('.modif .btn').on("click",function(){
+    afficher('.modif .btn',  '#wisi', 'Modifiez votre news?');
+    /*$('.modif .btn').on("click",function(){
 
         console.log("je click");
 
@@ -431,7 +433,7 @@ $('.deleteadh').on('click', function() {
 
         }
 
-    });
+    });*/
 
 //openstreetmap
     if($('#openmap').length) {

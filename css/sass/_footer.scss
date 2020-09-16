@@ -8,11 +8,17 @@
       float: none;
       p{
         color: #858585;
-        font-size: 20px;
+        font-size: 15px;
 
       }
+      li{
+        display: inline;}
       a{
-      color: #858585;
+
+        text-transform: uppercase;
+        padding: 6px 7px;
+        color: $color1;
+        font-size: 14px;
     }
     }
     .social-links{

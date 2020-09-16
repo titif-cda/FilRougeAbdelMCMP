@@ -4,15 +4,14 @@
             <div class="col-lg-4">
                 <div class="contact-text">
                     <div class="section-title">
-                        <h2>Get in touch</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas.</p>
+                        <h2>Contactez nous</h2>
+                        <p>Un renseignement, une intérrogation? , Venez nous rencontrer autour d'un verre de l'amitié.
+                            <br> Ou contactez nous par mail ou téléphone</p>
                     </div>
                     <div class="contact-widget">
                         <ul>
-                            <li>Main Str, no 23, <br />NY, New York PK 23589</li>
-                            <li>+546 990221 123 <br />contact@industryalinc.com</li>
+                            <li>95 Rue Molière,  <br />12100 Millau</li>
+                            <li>+33 5 65 42 45 45 42 <br />contact@cda3.s1.2isa.org</li>
                         </ul>
                     </div>
                 </div>

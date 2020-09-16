@@ -11,6 +11,7 @@
                         <h2><?php echo $titleActivite ?></h2>
                     </div>
                     <span class="blog-time"> <?php echo $datedebut; ?></span><br>
+                 <!--   <span class="blog-time"> <?php /*echo $nbPlace; */?></span><br>-->
 
 
                 </div>
@@ -106,38 +107,29 @@
                 </div>
             </div>
         </div>
-        <?php
+    </div>
+
+    <div class="listeInscrit">
+
+        <div id="inscriptionsListe"  style="display: none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 t">
+<?php
+                        $listeInscription = $bdd->prepare('SELECT I.IDACTIVITE, A.IDADHERENT, A.NOM, A.PRENOM FROM INSCRIPTION I JOIN ADHERENT A ON A.IDADHERENT =I.IDADHERENT WHERE I.IDACTIVITE = :idactivite');
+                                            $query->execute(array('idactivite' => $_GET['id']));
+                                            while ($data = $listeInscription-> fetch())
+
+                                            echo $data['IDADHERENT'];
+                                            var_dump($data);
+                                            ?>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+   <?php
     } ?>
 </section>
-
-<?php
-//$date = date("d-m-Y");
-//
-//if ($user_level >0 && $date >= $datelimiteInscr )   {
-//    ?>
-<!--    <div id="ajoutInscription" class="booking-classes">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-lg-12">-->
-<!--                    <div class="booking-form">-->
-<!--                        <h2 class="text-center">S'inscrire</h2>-->
-<!--                        <form action="" method="post" >-->
-<!--                            <input type="hidden" name="formulaire" value="ajout_inscription"/>-->
-<!--                            <input type="hidden" name="idadherent" value="--><?php //echo $_SESSION['IDADHERENT']?><!--">-->
-<!--                            <input type="hidden" name="idactivite" value="--><?php //echo $_GET['id'] ?><!--">-->
-<!--                            <div class="row">-->
-<!--                                <br><input type="number" id= "id" name="nbpers" placeholder="Nombre de participants" value="" min="1" max="10">-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-12">-->
-<!--                                <div class="col-sm">-->
-<!--                                    <input type="submit" value="Valider" class="submit-btn ajoutInscr">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </form>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!---->
-<?php}/**/?>

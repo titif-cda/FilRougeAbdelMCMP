@@ -36,8 +36,8 @@
                 <div class="row">
 
                     <div class="col-lg-12">
-            <button class="btn btn_modif btn-primary">Modifiez votre news?</button>
-        </div>
+                        <button class="btn btn_modif btn-primary">Modifiez votre news?</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,18 +47,15 @@
                 <div class="row">
 
                     <div class="col-lg-12">
-                        <form action="./index.php?page=news&id=<?php echo $id; ?>&titre=<?php echo str_replace(" ", "", $donnees['TITRE_NOUVELLE'])?>" method="post"
+                        <form action="index.php?page=news&id=<?php echo $id; ?>&titre=<?php echo str_replace(" ", "", $titleNouvelle)?>" method="post"
                               enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="update_news">
                             <input type="hidden" name="IdNouvelle" value="<?php echo $id; ?>">
                             <div class="row single-blog-item">
                                 <div class="col-12">
-
                                     <h5>Modifiez le titre de la nouvelle</h5><br>
                                     <input type="text" name="titre" placeholder="Titre de la nouvelle"
-                                           value="<?php echo isset($titleNouvelle) ? $titleNouvelle : 'titre de la nouvelle' ?>"
-                                           required>
-
+                                           value="<?php echo isset($titleNouvelle) ? $titleNouvelle : 'titre de la nouvelle' ?>"required>
                                 </div>
                                 <div class="col-12">
                                     <h5>Saisir votre texte </h5>
@@ -74,6 +71,7 @@
                                     <input type="submit" class="primary-btn" value="Modifier News " id="">
 
                                 </div>
+                            </div>
                         </form>
                     </div> <?php
 
@@ -96,8 +94,5 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-
 </main>

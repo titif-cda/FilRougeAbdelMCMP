@@ -11,14 +11,11 @@
                             <input type="hidden" name="formulaire" value="ajout_photo"/>
                             <input type="hidden" id= "id" name="IDADHERENT"  value="<?php echo $_SESSION['IDADHERENT'] ?>">
                             <div class="row">
-
                                 <div class="col-sm">
                                     <label> Titre de la photo</label>
                                     <input type="text" name="TITREPHOTO" placeholder="Intitulé de l'activité" value="">
 <!--                                    <label> Date de début de l'activité</label>-->
 <!--                                    <input type="date" id= "DPHOTO" name="DPHOTO" placeholder="Date de début d'activité" value="">-->
-
-
                                     <label> Activité</label><br>
                                     <select class="liste_deroulante" name="IDACTIVITE" id ="INTITULEACTIVITE" >
                                     --><?php
@@ -31,7 +28,7 @@
 
                                   ?>
                                     </select>
-
+                                </div>
                                     <div class="col-sm-6">
                                         <div class="col-sm"><br>
                                             <label for="name"> Telechargez une photo.</label>
@@ -55,6 +52,7 @@
             </div>
         </div>
     </div>
+
 
 
 </section>

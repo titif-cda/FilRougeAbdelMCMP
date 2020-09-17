@@ -9,20 +9,27 @@ ErrorDocument 404 /includes/pages/404
 #RewriteRule	^contact	index.php?page=contact	[L]
 
 #exemple avec une reecriture de type dynamique
-RewriteRule	^page-([a-z0-9]*)$ index.php?page=$1	[L]
+RewriteRule ^page-([a-z0-9_]*)$  index.php?page=$1  [L,NC]
 
-RewriteRule	^page-([a-z]*)-([0-9]*)$   index.php?page=$1&id=$2	[L]
+RewriteRule ^page-([a-z0-9_]*)$  index.php?action=$1  [L,NC]
 
-RewriteRule ^page-([a-z0-9]*)$  index.php?page=$1  [L,NC]
 
-RewriteRule ^page-([a-z]*)-([0-9]*)-([a-z0-9]*)$  index.php?page=$1&id=$2&titre=$3  [L,NC]
+RewriteRule	^page-([a-z_]*)-([0-9]*)$   index.php?page=$1&id=$2	[L]
+
+RewriteRule ^page-([a-z_]*)-([0-9]+)-([a-z0-9]*)$  index.php?page=$1&id=$2&titre=$3  [L,NC]
+
+RewriteRule ^page-([a-z_]*)-([a-z]*)$ index.php?page=$1&action=$2 [L,NC]
+
+RewriteRule ^page-([a-z_]*)-([a-z]*)-([a-z0-9]*)$ index.php?page=$1&action=$2&id=$3 [L,NC]
+
+RewriteRule ^page-([a-z_]*)-([0-9]+).*$ index.php?page=$1&id=$2 [L,NC]
+
+
+#RewriteRule ^page-([a-z_]*)-([0-9]*)-([a-z0-9]*)$  index.php?page=$1&id=$2&titre=$3  [L,NC]
 #RewriteRule ^img/upload/news/([0-9]*).jpg$  img/index.php?page=$1  [L,NC]
 
 php_flag log_errors on
 php_value error_reporting 32767
 php_value error_log "error_log.txt"
-
-
-RewriteRule ^page-([a-z]*)-([0-9]*)-([a-z0-9]*)$  index.php?page=$1&id=$2&titre=$3  [L,NC]
 
 

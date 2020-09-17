@@ -1,4 +1,4 @@
-<a href="./index.php?page=profil_adherent&id=<?php echo $donnees['IDADHERENT']; ?>">
+<a href="page-profil_adherent-<?php echo $donnees['IDADHERENT']; ?>-<?php echo $donnees['NOM']; ?>-<?php echo $donnees['PRENOM']; ?>">
     <div class="col-md-4" id="member-<?=  $donnees['IDADHERENT']; ?> ">
         <div id="ficheMembre" class="team-member">
             <figure>
@@ -29,7 +29,7 @@
                     <p > <span >Téléphone :</span> <?php echo $donnees['TELEPHONE']?></p>
                 </div>
                 <div class="col-sm-12">
-                    <p > <span >Date adhésion : <?php echo  date("d-m-Y", strtotime($donnees['DADHESION'] )) ?></p>
+                    <p > <span >Date adhésion : <?php echo  date("d-m-Y", strtotime($donnees['DADHESION'] )) ?></span></p>
                 </div>
                     <div class="col-sm-12">
                         <p > <span >Type de moto :</span> <?php echo $donnees['CYLINDREE']?></p>

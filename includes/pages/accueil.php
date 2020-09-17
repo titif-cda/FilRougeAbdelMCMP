@@ -1,4 +1,4 @@
-
+<main>
 
     <!-- Header End -->
     <!-- Hero Section Begin -->
@@ -27,3 +27,4 @@
 
 
 
+</main>

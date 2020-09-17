@@ -1,4 +1,4 @@
-
+<main>
     <?php
     $title_register = 'Formulaire d\'inscription';
     $btn_register = 's\'inscrire';
@@ -8,3 +8,4 @@
     include('./includes/tempt/form-register.php');
 
     ?>
+</main>

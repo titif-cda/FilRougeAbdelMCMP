@@ -91,7 +91,7 @@ if (!empty($_POST)) {
             if (isset($_FILES['image']) && !empty($_FILES['image'])) {
                 try {
                     list($photoName, $binary, $fileType) = upload_img($directory_image_adherent, "image",'blob');
-                    var_dump($binary);
+
 
                     $query = 'UPDATE ADHERENT SET AVATAR_BLOB = ?, AVATAR_TYPE = ? WHERE IDADHERENT = ?';
 
@@ -364,7 +364,7 @@ if (!empty($_POST)) {
 
 if (isset($_POST['typact']) && $_POST['typact'] == 't_act') {
 
-    var_dump($_POST);
+
     $query2 = 'INSERT INTO TYPE_ACTIVITE(
           
             INTITULETYPE

@@ -1,5 +1,5 @@
 
-<section class="wysiwyg">+
+<section class="wysiwyg">
     <div class="booking-classes">
         <div class="container  single-blog-item">
             <div class="row">
@@ -8,6 +8,16 @@
                 <h3 class="text-center">Ajouter une nouvelle</h3>
                                  </div>
                 <form id="add-news-form" method="POST" class="col-12">
+                    <div class="col-sm-12 form-check">
+                        <input class="form-check-input" type="radio" name="status" id="public"  <?php if (isset($_POST["status"])) { if ($_POST["status"] == "public") { echo "checked"; } } ?>value=0 >
+                        <label class="form-check-label" for="exampleRadios1">
+                            public
+                        </label>
+
+                        <input class="form-check-input" type="radio" name="status" id="prive" checked <?php if (isset($_POST["status"])) { if ($_POST["status"] == "prive") { echo "checked"; } } ?>value=1 >
+                        <label class="form-check-label" for="exampleRadios2">
+                            prive
+                        </label>
                     <div class="col-sm-12">
                         <h5 >Titre de la nouvelle</h5><br>
                         <input type="text" name="titre" placeholder="Titre de la nouvelle" value="" required>

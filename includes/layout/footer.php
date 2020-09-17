@@ -2,22 +2,24 @@
 <footer class="footer-section">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-3">
                 <img src="./img/logo3.png" alt="">
             </div>
-            <div class="col-lg-9">
+            <div class="col-9">
                 <div class="footer-text">
                     <div class="reserved"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Crée avec <i class="fa fa-heart-o" aria-hidden="true"></i> par <a >Abdellatif EL JID </a>
                         </p>
-                        <?php
+                        <ul>
+                            <?php
 
-                        foreach ($ar_pages_var as $key=>$value ){
-                            if($ar_pages_var[$key]['PUBLIC'] == 1 ){
-                                echo '<li  ><a href="page-'.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
+                            foreach ($ar_pages_var as $key=>$value ){
+                                if($ar_pages_var[$key]['PUBLIC'] == 1 ){
+                                    echo '<li><a href="page-'.$ar_pages_var[$key]['KEY_TITLE'].'">'.$ar_pages_var[$key]['KEY_TITLE'] .' </a></li>';
+                                }
                             }
-                        }
-                        ?>
+                            ?>
+                        </ul>
                     </div>
                     <div class="search-model">
                         <div class="h-100 d-flex align-items-center justify-content-center">

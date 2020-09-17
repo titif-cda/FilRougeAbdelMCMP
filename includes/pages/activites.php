@@ -1,4 +1,4 @@
-
+<main>
 <?php
 
 include('./includes/tempt/entete.php');
@@ -43,4 +43,4 @@ include('./includes/tempt/services.php');?>
         </div>
     </div>
 </section>
-
+</main>

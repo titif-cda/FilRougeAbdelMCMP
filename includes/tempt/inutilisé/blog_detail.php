@@ -1,5 +1,3 @@
-
-
 <!-- Blog Details Hero Section Begin -->
 <section class="blog-details-hero set-bg" data-setbg="img/blog/blog-detail-hero.jpg">
     <div class="container">

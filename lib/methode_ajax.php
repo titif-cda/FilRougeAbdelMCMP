@@ -18,18 +18,21 @@ if($user_level == 2){
                 $query = 'INSERT INTO NOUVELLE(
                          TITRE_NOUVELLE,
                          DIFFUSION_LEVEL,
+                         INTRODUCTION,
                          /*DPUBLICATION,*/
                          DESCRIPTION
                     ) 
                     VALUES (
                         :titre,
                         :publicDiffusion,
+                        :intro
                         :description       
                     )';
                 $queryExec = $bdd->prepare($query);
                 $queryExec->execute([
                     'titre' => $data->{"titre"},
-                    'publicDiffusion' => $data->{"status"},
+                   'publicDiffusion' => $data->{"status"},
+                'intro' => $data->{"introduction"},
                     'description' => $data->{"editordata"}
                 ]);
 

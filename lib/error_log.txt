@@ -322,3 +322,21 @@ Stack trace:
 [17-Sep-2020 14:18:22 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\lib\blob.php on line 7
 [17-Sep-2020 14:18:22 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\lib\blob.php on line 7
 [17-Sep-2020 14:18:22 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\lib\blob.php on line 7
+[18-Sep-2020 10:29:36 UTC] PHP Notice:  Undefined property: stdClass::$introduction in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 35
+[18-Sep-2020 10:29:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''<pre style=\"font-size: 14px; margin-bottom: 0px; padding: 0px; background-colo' at line 12 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:36
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 36
+[18-Sep-2020 10:29:43 UTC] PHP Notice:  Undefined property: stdClass::$introduction in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 35
+[18-Sep-2020 10:29:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''<pre style=\"font-size: 14px; margin-bottom: 0px; padding: 0px; background-colo' at line 12 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:36
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 36
+[18-Sep-2020 10:30:06 UTC] PHP Notice:  Undefined property: stdClass::$introduction in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 35
+[18-Sep-2020 10:30:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''<pre style=\"font-size: 14px; margin-bottom: 0px; padding: 0px; background-colo' at line 12 in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:36
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 36

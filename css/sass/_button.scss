@@ -25,9 +25,10 @@
 .liste_deroulante {
   font-size: 24px;
   margin: 0;
-  color: #111111;
+  color: #212529;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 25px;
 }
 .btn-primary {
   color: #fff;
@@ -70,4 +71,16 @@
   size: 10px;
   text-align: center;
 
+}
+.form-check {
+  margin: 20px 0;
+
+  label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+}
+
+input{
+  margin: 22px 0;
 }

@@ -6,7 +6,7 @@ if(isset($_GET['deconnexion']) && $_GET['deconnexion'] == 1){
     //on détruit la session
     session_destroy();
     //on redirige la page apres destroy
-    header("location:page-accueil");
+    header("location:index.php");
 
 }
 

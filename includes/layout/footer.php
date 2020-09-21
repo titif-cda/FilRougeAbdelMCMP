@@ -57,8 +57,8 @@
 <script src="./vendor/summernote-0.8.18-dist/summernote-bs4.js"></script>
 <script src="./js/highlight.min.js"></script>
 <script src="./js/wysiwyg.min.js"></script>
+<script src="./js/slick.min.js"></script>
 <!-- Js Aggrandissement photo -->
-
 
 
 <script src="./js/main.js?v=1.<?php echo time()?>"></script>

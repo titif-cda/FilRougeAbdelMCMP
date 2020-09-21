@@ -37,43 +37,43 @@
 
                                 </div>
 
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span >Nom :</span> <?php echo $nom ?></p>
                                 </div>
-                                <div class="col-6">
-                                    <p > <span >Prénom :</span> <?php echo isset($prenom) ?></p>
+                                <div class="col-sm-6">
+                                    <p > <span >Prénom :</span> <?php echo $prenom ?></p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span >Email : </span> <?php echo $email  ?></p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span >Téléphone : </span> <?php echo $tel  ?></p>
                                 </div>
-                                <div class="col-6">
-                                    <p > <span >N° adhérent : </span> <?php echo $idadherent  ?></p>
-                                </div>
-                                <div class="col-6">
+                                <div class="col-sm-12">
                                     <p > <span >Date de naissance :</span> <?php echo $dnaissance ?></p>
                                 </div>
-                                <div class="col-6">
+
+                                <div class="col-sm-12">
                                     <p > <span >Adresse :</span> <?php echo $adress1 ?></p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-12">
                                     <p > <span></span> <?php echo $adress2  ?></p>
                                 </div>
 
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span >Code Postal :</span> <?php echo $cdpost  ?></p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span>Ville : </span> <?php echo $ville  ?></p>
                                 </div>
 
 
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <p > <span class="font-weight-bolder">Cylindrée : </span> <?php echo $cylindree  ?></p>
                                 </div>
-
+                                <div class="col-sm-6">
+                                    <p > <span >N° adhérent : </span> <?php echo $idadherent  ?></p>
+                                </div>
                                 <div class="col-12 maj_btn" >
                                     <button class="btn btn-primary ">Mettre à jour votre profil</button>
                                 </div>

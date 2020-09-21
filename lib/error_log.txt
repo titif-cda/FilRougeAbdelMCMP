@@ -340,3 +340,8 @@ Stack trace:
 #0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(36): PDOStatement->execute(Array)
 #1 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 36
+[21-Sep-2020 07:25:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:71
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 71

@@ -2,7 +2,7 @@
 RewriteEngine On
 
 #mon fichier statique erreur 404
-ErrorDocument 404 /includes/pages/404
+ErrorDocument 404 /page-404
 
 #exemple avec une reecriture de type statique
 #RewriteRule	^informations	index.php?page=informations	[L]

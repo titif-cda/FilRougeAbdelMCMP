@@ -8,10 +8,14 @@
     <?php
     include('./includes/tempt/entete.php');
     include('./includes/tempt/lifestyle-section.php');
+
+    if($user_level == 0){
     include('./includes/tempt/inutilisé/slider_intro.php');
+    }
     include('./includes/tempt/inutilisé/callto-section.php');
-    include('./includes/tempt/inutilisé/client-says.php');
-    include('./includes/tempt/inutilisé/about-counter.php');
+
+
+    include('./includes/tempt/partenaires.php');
     include('./includes/tempt/inutilisé/about-team.php');
     include('./includes/tempt/inutilisé/activite.php');
 

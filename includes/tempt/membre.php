@@ -1,5 +1,5 @@
-<a href="page-profil_adherent-<?php echo $donnees['IDADHERENT']; ?>-<?php echo $donnees['NOM']; ?>-<?php echo $donnees['PRENOM']; ?>">
-    <div class="col-md-4" id="member-<?=  $donnees['IDADHERENT']; ?> ">
+<a href="page-profil_adherent-<?php echo $donnees['IDADHERENT']; ?>-<?php echo $donnees['NOM']; ?>-<?php echo $donnees['PRENOM']; ?> "   >
+    <div class="col-md-4 " id="member-<?=  $donnees['IDADHERENT']; ?> ">
         <div id="ficheMembre" class="team-member">
             <figure>
                 <?php
@@ -11,17 +11,13 @@
                     echo '<img loading="lazy" src="./img/upload/adherent/upload_adherent_default.jpg" alt="">';
 
                 }?>
-
-
-
-            <h4 class="nameMember">
-
-            </h4>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 ><?php echo $donnees['PRENOM'] . ' ' . $donnees['NOM']; ?></h4>
-                    </div>
 </a>
+                <div class="row ">
+
+                        <h4 class="col-sm-12 text-center"><?php echo $donnees['PRENOM'] . ' ' . $donnees['NOM']; ?></h4>
+
+
+
                 <div class="col-sm-12">
                     <p > <span >Email :</span> <?php echo $donnees['EMAIL'] ?></p>
                 </div>
@@ -29,15 +25,15 @@
                     <p > <span >Téléphone :</span> <?php echo $donnees['TELEPHONE']?></p>
                 </div>
                 <div class="col-sm-12">
-                    <p > <span >Date adhésion : <?php echo  date("d-m-Y", strtotime($donnees['DADHESION'] )) ?></span></p>
+                    <p > <span >Date adhésion :</span> <?php echo  date("d-m-Y", strtotime($donnees['DADHESION'] )) ?></p>
                 </div>
                     <div class="col-sm-12">
-                        <p > <span >Type de moto :</span> <?php echo $donnees['CYLINDREE']?></p>
+                        <p > <span >Type de moto :</span> <?php echo isset($donnees['CYLINDREE']) ? $donnees['CYLINDREE'] : 'Non définit' ?></p>
                     </div>
 
                     <?php   if ($donnees['ADMIN'] == 1) { ?>
                     <div class="col-sm-12">
-                        <p>Administrateur</p>
+                        <p class="text-center status">Administrateur</p>
                     </div>
                     <?php } ?>
 

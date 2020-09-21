@@ -17,7 +17,9 @@ function upload_img($directory, $property = "image", $methode = 'file'){
 
         //mes variable de config
         $limitSize = 2097152;//votre limitte d'acception de la taille du fichier
-
+        $type = mime_content_type($fileTmp);
+        preg_match('/^image\//', $type, $output_array);
+        $ok = count($output_array) > 0;
         $validExtention = array('png', 'jpeg', 'jpg', 'gif');
 
         //Trouver l'extention du fichier
@@ -25,6 +27,7 @@ function upload_img($directory, $property = "image", $methode = 'file'){
         $lastIndex = count($nameArray) - 1;//total des éléments (2) mais je veux trouver le dernier index
         //array[0] = "01"
         //array[1] = "JPG"
+
         $extention = strtolower($nameArray[$lastIndex]);//deux elements dans le tb, mais -1 pour l'index du dernier element car index commence a zero
 
         //est-ce que l'extention est dans le tableau de mes extentions

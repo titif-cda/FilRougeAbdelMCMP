@@ -8,6 +8,10 @@
   background-color: #fff;
   margin: 15px 0;
   padding: 0;
+  span{
+    color: black;
+    font-weight:bolder;
+  }
   h4{
     text-align: center;
     color:$color1;
@@ -48,8 +52,10 @@ width: 100%;
       font-weight: bolder;
       padding-bottom: 8px;
     }
+
   }
 
+}
   p {
     font-size: 16px;
   }
@@ -61,7 +67,12 @@ width: 100%;
     color: rgba(255, 255, 255, 0.6);
   }
 
-
+.text-center {
+  font-weight: bold;
+  text-align: center;
+  color: $color1;
+  text-transform: uppercase;
+}
 
 
 
@@ -76,10 +87,16 @@ width: 100%;
   figure:hover {
     box-shadow: 1px 0px 20px 0px $color1;
   }
-}
+
 
 
 .maj_profil{
+  .btn
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .card{
     padding-bottom: 100px;
     .photoprofil{
@@ -90,22 +107,100 @@ width: 100%;
         width:270px;
         height:370px;
       }
-
     }
-
     p {
-      padding-left: 196px;
+      padding-left: 19px;
       font-size: 18px;
       color: $color1;
       font-family: "PT Sans", sans-serif;
       //font-weight: bolder;
       line-height: 28px;
       margin: 0 0 15px 0;
-
       span{
         color: black;
         font-weight:bolder;
       }
+
     }
   }
 }
+
+
+
+.dark-wrapper {
+  background-color: #111111
+}
+
+.dark-wrapper.opaqued,
+.dark-opaqued {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dark-wrapper.dark-grey-wrapper.opaqued,
+.dark-wrapper.dark-grey-opaqued {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#headerwrap.opaqued {
+  background-color: rgba(68, 34, 69, 0.9);
+}
+
+.remove-opacqued-bg .dark-opaqued {
+  background-color: transparent;
+}
+
+.dark-wrapper h1,
+.dark-wrapper h2,
+.dark-wrapper h3,
+.dark-wrapper h4,
+.dark-wrapper h5,
+.dark-wrapper h6,
+.dark-wrapper p,
+.dark-wrapper a,
+.dark-wrapper,
+.dark-wrapper * {
+  color: #f3f3f3
+}
+
+.dark-content h1,
+.dark-content h2,
+.dark-content h3,
+.dark-content h4,
+.dark-content h5,
+.dark-content h6,
+.dark-content p,
+.dark-content a,
+.dark-content,
+.dark-content * {
+  color: #222
+}
+
+.section-inner {
+  padding: 120px 0
+}
+
+.contact-section-inner {
+  padding: 200px 0 120px;
+}
+
+section h2.section-heading,
+.section-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 42px;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+
+section h3.section-subheading {
+  text-transform: lowercase;
+  font-size: 20px;
+  font-weight: 400;
+  clear: both;
+  display: block;
+  padding-top: 0;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+}
+

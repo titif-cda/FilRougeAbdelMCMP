@@ -113,8 +113,9 @@
                                                         <a class="dropdown-item" href="page-nouvelles-add">Ajouter news</a>
                                                         <a class="dropdown-item" href="page-addactivite-add">Ajouter Activité</a>
                                                         <a class="dropdown-item" href="page-inscription-activites-add">Inscriptions Activités</a>
+                                                        <a class="dropdown-item" href="http://cda28.s1.2isa.org/matomo">Statistiques du site</a>
                                                     <?php } ?>
-                                                    <a class="dropdown-item" href="page-1">Deconnexion <span class="fa fa-sign-out"></span></a>
+                                                    <a class="dropdown-item" href="./index.php?deconnexion=1">Deconnexion <span class="fa fa-sign-out"></span></a>
                                                 </div>
                                             </div>
                                         <?php }else{ ?>

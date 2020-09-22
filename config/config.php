@@ -1,15 +1,15 @@
 <?php
-
 //Serveur sgbd OVH
-
 $bdd = new PDO(
     'mysql:host=cda28.2isa.org;dbname=cda28_bd1;charset=utf8',
         'cda28',
         '7974cda28'
-
     );
 
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+
+
 
 //initialisation des variables
 //valeurs par defaut

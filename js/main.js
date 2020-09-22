@@ -274,17 +274,10 @@ Created: colorlib
 
     $('#add-news-form').on('submit', function(event){
 
-        // var description = $('#summernote').summernote('code');
-        // var title = $('.wysiwyg input[name=titre]').val();
-        // var dpublication = $('.wysiwyg input[name=dpublication]').val();
         var formElmt = document.getElementById("add-news-form");
-
         if(!formElmt.checkValidity()) return false;
-
         event.preventDefault();
-
-        var data = new FormData(formElmt);
-
+       var data = new FormData(formElmt);
         //methode Ajax
         var request = $.ajax({
             url: "./lib/methode_ajax.php",
@@ -293,7 +286,6 @@ Created: colorlib
             dataType: "json"
         });
 
-        //reussite reponse 200 - Inclu le fait que vous avez pas les permissions requisent
         request.done(function( msg ) {
             //console.log(msg);
             //afichage de la modal

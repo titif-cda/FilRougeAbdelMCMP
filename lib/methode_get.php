@@ -81,10 +81,11 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $tel = $donnees['TELEPHONE'];
                         $adhesion = $donnees['DADHESION'];
                         $organisateur = $donnees['ORGANISATEUR'];
-                        $certif = $donnees['ORGANISATEUR'];
+                        $admin = $donnees['ADMIN'];
                         $image = $donnees['AVATAR'];
                         $type = $donnees['AVATAR_TYPE'];
                         $idadherent = $donnees['IDADHERENT'];
+                        $droitImage = $donnees['DROITIMAGE'];
                         //to be continued
                     }
 

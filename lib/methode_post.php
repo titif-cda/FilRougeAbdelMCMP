@@ -52,7 +52,7 @@ if (!empty($_POST)) {
             }
 
 
-            $droit_image = $_POST["DROITIMAGE"] == 'on' ? 1 : 0;
+            $droit_image = isset($_POST["DROITIMAGE"]) ? 1 : 0;
             $cylindree = isset($_POST["CYLINDREE"]) && !empty($cylindree) ? $_POST["CYLINDREE"] : '';
             $hashed_password = hash('sha256', $_POST["PASSWORD"]);
 
@@ -103,7 +103,7 @@ if (!empty($_POST)) {
                     $message_modal = $e->getMessage();
                 }
 
-
+                $droit_image = isset($_POST["DROITIMAGE"]) ? 1 : 0;
                 $pass_string = '';
                 if (isset($_POST["PASSWORD"]) && !empty($_POST["PASSWORD"])) {
                     $hashed_password = My_Crypt($_POST["PASSWORD"]);
@@ -115,11 +115,11 @@ if (!empty($_POST)) {
                 try {
 
                     $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
-                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?,   CYLINDREE = ? where IDADHERENT= ?';
+                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?, ADMIN=?,  CYLINDREE = ? where IDADHERENT= ?';
                     $queryExec = $bdd->prepare($query);
 
                     $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
-                        $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$_POST["DROITIMAGE"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+                        $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$droit_image ,$_POST["ADMIN"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
 
                     //Attention pensser à mettre a jour les infos de SESSION (fonction ?)
                     $_SESSION['password'] = $hashed_password;
@@ -145,12 +145,12 @@ if (!empty($_POST)) {
 
 
                     //requete d'insertion dans la BD
-                    $query = 'UPDATE NOUVELLE SET IMAGE = :photoName ,TITRE_NOUVELLE = :titre,DESCRIPTION = :description WHERE IDNOUVELLE = :idNouvelle;';
+                    $query = 'UPDATE NOUVELLE SET IMAGE = :photoName ,TITRE_NOUVELLE = :titre,INTRODUCTION = :intro ,DESCRIPTION = :description WHERE IDNOUVELLE = :idNouvelle;';
                     $queryExec = $bdd->prepare($query);
 
                     $queryExec->execute(
                         array(
-                            'photoName' => $photoName, 'titre' => $_POST["titre"], 'description' => $_POST["editordata"],'idNouvelle' => $_POST["IdNouvelle"]
+                            'photoName' => $photoName, 'titre' => $_POST["titre"], 'intro' => $_POST["introduction"], 'description' => $_POST["editordata"],'idNouvelle' => $_POST["IdNouvelle"]
                         )); $message_modal='News mis à jour';
                 }catch (Exception $e) {
                     $message_modal = $e->getMessage();

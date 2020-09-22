@@ -1,9 +1,11 @@
-<main>
-<!-- Map Section Begin -->
-<div class="container-fluid">
-<div id="openmap" class="map">
+<section>
+    <!-- Map Section Begin -->
+    <div class="card map">
+        <div id="openmap" class="map">
 
+        </div>
     </div>
-</div>
-<!-- Map Section End -->
-</main>
+    <!-- Map Section End -->
+</section>
+
+

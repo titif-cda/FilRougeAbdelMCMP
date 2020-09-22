@@ -24,6 +24,10 @@
                 </div>
                 <div class="col-lg-12">
 
+                    <p><?php echo $introduction; ?></p>
+                </div>
+                <div class="col-lg-12">
+
                     <p><?php echo $descriptionNouvelle; ?></p>
                 </div>
             </div>
@@ -56,6 +60,11 @@
                                     <h5>Modifiez le titre de la nouvelle</h5><br>
                                     <input type="text" name="titre" placeholder="Titre de la nouvelle"
                                            value="<?php echo isset($titleNouvelle) ? $titleNouvelle : 'titre de la nouvelle' ?>"required>
+                                </div>
+                                <div class="col-12">
+                                    <h5>Modifiez l'introduction de la nouvelle</h5><br>
+                                    <input type="text" name="titre" placeholder="Titre de la nouvelle"
+                                           value="<?php echo isset($introduction) ? $introduction : 'Introduction de la nouvelle' ?>"required>
                                 </div>
                                 <div class="col-12">
                                     <h5>Saisir votre texte </h5>

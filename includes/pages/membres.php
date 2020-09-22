@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 text-center">
                     <div class="section-title">
-                        <h1><?php echo $ar_pages_var[$page]['h1'] ?></h1>
+                       <!-- <h1><?php /*echo $ar_pages_var[$page]['h1'] */?></h1>-->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                             viverra maecenas accumsan lacus vel facilisis. </p>

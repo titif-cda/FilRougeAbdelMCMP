@@ -84,7 +84,7 @@
                         <div id="majProfil" class="container maj_profil" style="display: none">
                             <h2 class="text-center"><?php echo $title_register; ?></h2>
                             <div class="booking-form profilform">
-                                <form action="page-<?php echo $page ?>-<?php echo isset($id) ? '&id='.$id : ''; ?>-<?php echo str_replace(" ", "", $donnees['NOM']); ?>-<?php echo str_replace(" ", "", $donnees['PRENOM']); ?>" method="post" class="register-form" enctype="multipart/form-data">
+                                <form action="page-<?php echo $page.'-'.$id.'-'.$nom.'-'.$prenom ?>" method="post" class="register-form" enctype="multipart/form-data">
                                     <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
                                     <input type="hidden" name="IDADHERENT" value="<?php echo isset($id) ? $id : ''; ?>"/>
 
@@ -167,7 +167,7 @@
                                         <div class="col-sm-6">
                                             <div class="col-sm">
                                                 <label for="name"> Vous acceptez que votre image soit utilisée sur le site internet.</label>
-                                                <input type="checkbox" id= "droit" name="DROITIMAGE" placeholder="Vous acceptez que votre image soit utilisée sur le site internet">
+                                                <input type="checkbox" id= "droit" name="DROITIMAGE" placeholder="Vous acceptez que votre image soit utilisée sur le site internet" <?= ($droitImage == 0) ? '' : 'checked' ?>>
                                             </div>
                                         </div>
                                         <?php if($user_level > 0){ ?>
@@ -178,19 +178,34 @@
                                             </div>
                                             <?php } ?>
                                         </div>
-
+                                        <?php if($user_level == 2){ ?>
+                                        <div class="col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="ADMIN" id="administrateur"  <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "administrateur") { echo "checked"; } } ?>value=1 >
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    Administrateur
+                                                </label>
+                                            </div>
+                                             <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="ADMIN" id="membre" checked <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "membre") { echo "checked"; } } ?>value=0 >
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    Membre
+                                                </label>
+                                             </div>
+                                            <?php } ?>
+                                            </div>
                                         <div class="col-sm-6">
                                             <label for="name" >Votre cylindrée</label>
                                             <div class="row">
-                                                <div class="col-sm-4">
+                                                <div class="form-check">
                                                     <label for="name" >125 cm3</label>
                                                     <input type="radio"  name="CYLINDREE"value="125 cm3"  <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?>/>
                                                 </div>
-                                                <div class="col-sm-4">
+                                                <div class="form-check">
                                                     <label for="name" >250 cm3</label>
                                                     <input type="radio"  name="CYLINDREE" value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?>/>
                                                 </div>
-                                                <div class="col-sm-4">
+                                                <div class="form-check">
                                                     <label for="name" >> 250 cm3</label>
                                                     <input type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>/>
                                                 </div>

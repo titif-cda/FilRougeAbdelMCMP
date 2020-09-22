@@ -6,10 +6,8 @@
     <meta name="description" content="<?php echo $description?>">
     <meta name="keywords" content="<?php echo $keywords?>">
     <title><?php echo $title?></title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
@@ -24,14 +22,15 @@
     <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="./vendor/summernote-0.8.18-dist/summernote-bs4.css" type="text/css">
     <!-- Css open street map -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+
     <!-- Css Wysiwyg -->
     <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
 
 
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css?v=1.<?= time(); ?>" type="text/css">
-
     <link rel="canonical" href="http://www.cda28.s1.2isa.test-<?= $ar_pages_var[$page]['KEY_TITLE']; ?>-<?= isset($_GET['id']) ? $_GET['id'] : ""; ?>-<?= isset($_GET['titre'] ) ? "-" . $_GET['titre'] . ".html" : ""; ?>-" />
 
 
@@ -59,10 +58,8 @@
 
     </div>
 </div>
-
 <!-- modal:fenetre de message d'information-->
 <?php include ('./includes/tempt/modal.php'); ?>
-
 <!-- Header Section Begin -->
 <header class="header-section">
     <div class="container-fluid">
@@ -110,7 +107,7 @@
                                                     <a class="dropdown-item" href="page-membres">Liste des membres</a>
                                                     <a class="dropdown-item" href="page-addphoto-add">Ajouter une Photo</a>
                                                     <?php if($user_level == 2){ ?>
-                                                        <a class="dropdown-item" href="page-nouvelles-add">Ajouter news</a>
+                                                        <a class="dropdown-item" href="page-nouvelles-add">Ajouter nouvelle</a>
                                                         <a class="dropdown-item" href="page-addactivite-add">Ajouter Activité</a>
                                                         <a class="dropdown-item" href="page-inscription-activites-add">Inscriptions Activités</a>
                                                         <a class="dropdown-item" href="http://cda28.s1.2isa.org/matomo">Statistiques du site</a>
@@ -133,6 +130,4 @@
             </div>
         </div>
     </div>
-
-
 </header>

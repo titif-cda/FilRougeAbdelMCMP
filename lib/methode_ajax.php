@@ -15,26 +15,10 @@ if($user_level == 2){
             if(isset($_POST['data']) && !empty($_POST['data'])){
                 $data = json_decode($_POST['data']);
 
-                $query = 'INSERT INTO NOUVELLE(
-                         TITRE_NOUVELLE,
-                         DIFFUSION_LEVEL,
-                         INTRODUCTION,
-                         /*DPUBLICATION,*/
-                         DESCRIPTION
-                    ) 
-                    VALUES (
-                        :titre,
-                        :publicDiffusion,
-                        :intro
-                        :description       
-                    )';
+                $query = 'INSERT INTO NOUVELLE(TITRE_NOUVELLE,DIFFUSION_LEVEL,INTRODUCTION,/*DPUBLICATION,*/DESCRIPTION) 
+                    VALUES (:titre,:publicDiffusion,:intro, :description )';
                 $queryExec = $bdd->prepare($query);
-                $queryExec->execute([
-                    'titre' => $data->{"titre"},
-                   'publicDiffusion' => $data->{"status"},
-                'intro' => $data->{"introduction"},
-                    'description' => $data->{"editordata"}
-                ]);
+                $queryExec->execute(['titre' => $data->{"titre"},'publicDiffusion' => $data->{"status"},'intro' => $data->{"introduction"}, 'description' => $data->{"editordata"}]);
 
                 //Récupère l'id crée automatiquement
                 $newId =  $bdd->lastInsertId();
@@ -45,7 +29,6 @@ if($user_level == 2){
                 $newNews = $result->fetch();
                 $newNews['DPUBLICATION'] = date("d-m-Y", strtotime($newNews['DPUBLICATION']));;
 
-
                 $retour = array(
                     "error" => false,
                     "data" => array(
@@ -54,13 +37,7 @@ if($user_level == 2){
                     )
                 );
                 echo json_encode($retour);
-
-                //include ('../includes/tempt/single_news.php');
-
-               // echo 'Ajout d\'une nouvelle.';
-
             }
-
         }
         else  if (isset($_POST['action']) && $_POST['action'] == 'deleteMember'){
 

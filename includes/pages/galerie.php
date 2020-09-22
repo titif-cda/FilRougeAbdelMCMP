@@ -8,3 +8,23 @@ include('./includes/tempt/gallery.php');
 
 ?>
 </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

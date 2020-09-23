@@ -203,4 +203,31 @@ section h3.section-subheading {
   margin: 0;
   position: relative;
 }
+.classes-section {
+h3{
+  color: black;
+  padding-bottom: 20px;
+}
 
+ h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  p{
+    text-transform: lowercase;
+
+  }
+
+    .single-classes-item {
+      border: whitesmoke 2px solid;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      height: 54px;
+      width: 200px;
+
+  }
+
+}

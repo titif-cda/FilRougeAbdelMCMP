@@ -106,7 +106,9 @@ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh
                                                     <a class="dropdown-item" href="page-profil_adherent-<?php echo $_SESSION['IDADHERENT'] ?>" class="primary-btn signup-btn">Mon profil</a>
                                                     <a class="dropdown-item" href="page-membres">Liste des membres</a>
                                                     <a class="dropdown-item" href="page-addphoto-add">Ajouter une Photo</a>
+                                                    <a class="dropdown-item" href="page-ressources">Ressources</a>
                                                     <?php if($user_level == 2){ ?>
+                                                        <a class="dropdown-item" href="page-addressources-add">Ajouter fichier</a>
                                                         <a class="dropdown-item" href="page-nouvelles-add">Ajouter nouvelle</a>
                                                         <a class="dropdown-item" href="page-addactivite-add">Ajouter Activité</a>
                                                         <a class="dropdown-item" href="page-inscription-activites-add">Inscriptions Activités</a>

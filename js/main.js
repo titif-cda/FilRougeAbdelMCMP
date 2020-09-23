@@ -356,7 +356,16 @@ Created: colorlib
         type: 'image'
     });
 
-
+    $('#upload-img-wrapper').on('click', function () {
+        $('#upload-img-input').click();
+    })
+    $('#upload-img-input').on('change', function () {
+        var reader = new FileReader();
+        reader.addEventListener("load", ()=>{
+            $('#upload-img-preview').attr("src", reader.result);
+        })
+        reader.readAsDataURL(this.files[0]);
+    })
     //fonction prepend
     function afficher(btnCls,par1,title) {
         $(btnCls).on("click", function () {

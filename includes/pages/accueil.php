@@ -7,8 +7,9 @@
 
     <?php
     include('./includes/tempt/entete.php');
-    include('./includes/tempt/lifestyle-section.php');
 
+    include('./includes/tempt/lifestyle-section.php');
+    include('./includes/tempt/inutilisé/mcmpBrillant.php');
     if($user_level == 0){
     include('./includes/tempt/inutilisé/slider_intro.php');
     }
@@ -19,7 +20,7 @@
     include('./includes/tempt/inutilisé/about-team.php');
     include('./includes/tempt/inutilisé/activite.php');
 
-    include('./includes/tempt/inutilisé/classes-section.php');
+
     include('./includes/tempt/inutilisé/client-says.php');
     include('./includes/tempt/inutilisé/elements-section.php');
 

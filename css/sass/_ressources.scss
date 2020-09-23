@@ -1,0 +1,32 @@
+.filesupload{
+
+  h3 {
+    padding-top: 20px;
+    text-transform: none;
+  } h2{
+    font-size: 18px;
+  text-transform: none;
+  ;
+
+  }
+  p{
+    text-transform: none;
+    text-align: left;
+    font-size: 16px;
+
+  }
+
+    .openFiles span , .downloadFiles span {
+    visibility: hidden;
+  }
+
+    .openFiles:hover span ,  .downloadFiles:hover span{
+      visibility: visible;
+      font-size: 10px;
+    }
+  }
+
+.iconFiles img {
+  height: 49px;
+  width: 82px !important;
+}

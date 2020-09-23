@@ -4061,3 +4061,137 @@ Stack trace:
 [22-Sep-2020 15:09:19 UTC] PHP Notice:  Undefined variable: droitImage in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 170
 [22-Sep-2020 15:09:19 UTC] PHP Notice:  Undefined variable: btn_register in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 216
 [22-Sep-2020 15:10:07 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE), expecting ',' or ';' in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form-register.php on line 87
+[23-Sep-2020 07:49:38 UTC] PHP Warning:  include(./includes/tempt/inutilisÃ©/classes-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 10
+[23-Sep-2020 07:49:38 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisÃ©/classes-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 10
+[23-Sep-2020 08:23:32 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 122
+[23-Sep-2020 08:25:01 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 122
+[23-Sep-2020 09:33:22 UTC] PHP Notice:  Undefined index: PASSWORD in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 113
+[23-Sep-2020 09:34:11 UTC] PHP Notice:  Undefined index: PASSWORD in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 114
+[23-Sep-2020 11:59:32 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 335
+[23-Sep-2020 12:12:56 UTC] PHP Warning:  mime_content_type(POO en C# - Progression (support).pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:12:56 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:12:56 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:14:18 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:14:18 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:14:18 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:16:16 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:16:16 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:16:16 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:17:51 UTC] PHP Warning:  mime_content_type(Abdellatif_Eljid_ProjetFilRouge_jalon2_RÃ©sumÃ©V1.docx): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:17:51 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:17:51 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:18:11 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:18:11 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:18:11 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:22:53 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:22:53 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:22:53 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:27:16 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:27:16 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:27:16 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:29:06 UTC] PHP Warning:  mime_content_type(AS.xlsx): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:29:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:29:06 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:30:23 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:30:23 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 757
+[23-Sep-2020 12:30:23 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:30:23 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:31:27 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:31:27 UTC] PHP Notice:  Undefined variable: typeFile in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:31:27 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:31:27 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:32:30 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:32:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:32:30 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:45:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function upload_fichier(), 3 passed in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 335 and exactly 4 expected in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:89
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php(335): upload_fichier('./img/upload/re...', 'NOMFICHIER', 'file')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(12): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 89
+[23-Sep-2020 12:45:21 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:45:21 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:45:21 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:45:32 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:45:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:45:32 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:47:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[23-Sep-2020 12:47:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[23-Sep-2020 12:48:30 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:48:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:48:30 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:48:42 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:48:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:48:42 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:50:49 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 756
+[23-Sep-2020 12:50:49 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 761
+[23-Sep-2020 12:50:49 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 807
+[23-Sep-2020 12:54:08 UTC] PHP Warning:  mime_content_type(CV_Abdellatif_Eljid.PDF.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 757
+[23-Sep-2020 12:54:08 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 762
+[23-Sep-2020 12:54:08 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 808
+[23-Sep-2020 12:55:59 UTC] PHP Warning:  mime_content_type(eljid_abdellatif_fil_rouge_jalon2_resume_FR.pdf): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 757
+[23-Sep-2020 12:55:59 UTC] PHP Warning:  array_search() expects parameter 2 to be array, string given in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 762
+[23-Sep-2020 12:55:59 UTC] PHP Notice:  Undefined variable: resultat in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 808
+[23-Sep-2020 13:27:35 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 92
+[23-Sep-2020 14:19:37 UTC] PHP Notice:  Undefined index: NomFichier in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 31
+[23-Sep-2020 14:56:12 UTC] PHP Notice:  Undefined variable: query in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 16
+[23-Sep-2020 14:56:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:16
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include()
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 16
+[23-Sep-2020 14:56:58 UTC] PHP Notice:  Undefined variable: query in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 16
+[23-Sep-2020 14:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:16
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include()
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 16
+[23-Sep-2020 14:58:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 14:58:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 14:58:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 14:58:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 14:58:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 14:59:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from' at line 1 in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php:19
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php(19): PDO->query('SELECT * FROM R...')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(24): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 19
+[23-Sep-2020 15:00:39 UTC] PHP Parse error:  syntax error, unexpected ''.</BR> le '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\ressources.php on line 28

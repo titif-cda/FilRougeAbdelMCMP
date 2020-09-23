@@ -16,7 +16,8 @@
             </div>
         </div>
 
-
+        <?php if($user_level == 2){
+        include('./includes/tempt/classes-section.php');} ?>
 
         <div class="container">
             <div id="fiche">

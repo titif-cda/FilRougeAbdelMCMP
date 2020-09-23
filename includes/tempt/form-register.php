@@ -1,5 +1,5 @@
 <section><!-- Contact Section Begin -->
-    <div class="booking-form maj_profil">
+    <div class=" maj_profil">
         <?php if ($user_level > 0){?>
             <div class="member_connect container ">
                 <div class="row">
@@ -18,7 +18,7 @@
                         <?php endif; ?>
 
 
-                        <div class="card card_maj">
+                        <div class="card booking-form card_maj">
                             <div class="row">
                                 <div class="col-sm-12 text-center photoprofil img-fluid ">
 
@@ -98,11 +98,11 @@
                                             </div>
                                             <div class="col-sm">
                                                 <label > Votre mot de passe</label>
-                                                <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="admin">
+                                                <input type="password" id= "PASSWORD" name="PASSWORD" placeholder="Votre Mot de passe" value="">
                                             </div>
                                             <div class="col-sm">
                                                 <label > Confirmez votre mot de passe</label>
-                                                <input type="password_confirm" id= "PASSWORD" name="PASSWORD_CONFIRM" placeholder="Votre Mot de passe" value="admin">
+                                                <input type="password_confirm" id= "PASSWORD" name="PASSWORD_CONFIRM" placeholder="Votre Mot de passe" value="">
                                             </div>
                                         </div>
                                     </div>
@@ -173,44 +173,88 @@
                                         <?php if($user_level > 0){ ?>
                                         <div class="col-sm-6">
                                             <div class="col-sm">
-                                                <label for="name"> Telechargez une photo.</label>
-                                                <input type="file" name="image">
+                                                <label for="image" style="display: block"> Telechargez une photo.</label>
+                                                <input id="upload-img-input" hidden type="file" name="image">
+                                                <div id="upload-img-wrapper">
+                                                    <img id="upload-img-preview" src="/img/default-avatar.png" alt="">
+                                                    <span id="upload-img-hover">+</span>
+                                                </div>
                                             </div>
                                             <?php } ?>
                                         </div>
                                         <?php if($user_level == 2){ ?>
                                         <div class="col-sm-6">
+                                            <label for="name" >Valider Inscription </label>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="VALID" id="administrateur"  <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == "Valider") { echo "checked"; } } ?>value=1 >
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    Valider
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="VALID" id="membre" checked <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == " Ne pas valider") { echo "checked"; } } ?>value=0 >
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    Ne pas valider
+                                                </label>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-6">
+                                            <label for="name" >Status Membre</label>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="ADMIN" id="administrateur"  <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "administrateur") { echo "checked"; } } ?>value=1 >
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Administrateur
                                                 </label>
                                             </div>
-                                             <div class="form-check">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="ADMIN" id="membre" checked <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "membre") { echo "checked"; } } ?>value=0 >
                                                 <label class="form-check-label" for="exampleRadios2">
                                                     Membre
                                                 </label>
-                                             </div>
-                                            <?php } ?>
                                             </div>
+                                            <?php } ?>
+                                        </div>
                                         <div class="col-sm-6">
+                                            <label for="name" >Votre cylindrée</label>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="CYLINDREE" id="125" value="125 cm3"  checked <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?> >
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    125 cm3
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="CYLINDREE" id="250"  value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?> >
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    250 cm3
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="CYLINDREE" id="+250"  value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>>
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    > 250 cm3
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                        <!--<div class="col-sm-6">
                                             <label for="name" >Votre cylindrée</label>
                                             <div class="row">
                                                 <div class="form-check">
-                                                    <label for="name" >125 cm3</label>
-                                                    <input type="radio"  name="CYLINDREE"value="125 cm3"  <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?>/>
+                                                    <label class="form-check-label"  for="name" >125 cm3</label>
+                                                    <input class="form-check-input" type="radio"  name="CYLINDREE"value="125 cm3"  <?php /*echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  */?>/>
                                                 </div>
                                                 <div class="form-check">
-                                                    <label for="name" >250 cm3</label>
-                                                    <input type="radio"  name="CYLINDREE" value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?>/>
+                                                    <label class="form-check-label" for="name" >250 cm3</label>
+                                                    <input class="form-check-input" type="radio"  name="CYLINDREE" value="250 cm3" <?php /*echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  */?>/>
                                                 </div>
                                                 <div class="form-check">
-                                                    <label for="name" >> 250 cm3</label>
-                                                    <input type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>/>
+                                                    <label class="form-check-label" for="name" >> 250 cm3</label>
+                                                    <input class="form-check-input" type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php /*echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  */?>/>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
                                         <div class="col-sm-12">
                                             <div class="col-sm">
                                                 <button type="submit" class="submit-btn primary-btn" ><?php echo $btn_register; ?></button>
@@ -345,20 +389,25 @@
 
                                             <div class="col-sm-6">
                                                 <label for="name" >Votre cylindrée</label>
-                                                <div class="row">
-                                                    <div class="col-sm-4">
-                                                        <label for="name" >125 cm3</label>
-                                                        <input type="radio"  name="CYLINDREE"value="125 cm3"  <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?>/>
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        <label for="name" >250 cm3</label>
-                                                        <input type="radio"  name="CYLINDREE" value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?>/>
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        <label for="name" >> 250 cm3</label>
-                                                        <input type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>/>
-                                                    </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="CYLINDREE" id="125" value="125 cm3"   <?php echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  ?> >
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        125 cm3
+                                                    </label>
                                                 </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="CYLINDREE" id="250"  value="250 cm3" <?php echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  ?> >
+                                                    <label class="form-check-label" for="exampleRadios2">
+                                                        250 cm3
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="CYLINDREE" id="+250"  value="> 250 cm3"  <?php echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  ?>>
+                                                    <label class="form-check-label" for="exampleRadios2">
+                                                        > 250 cm3
+                                                    </label>
+                                                </div>
+
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="col-sm">
@@ -378,5 +427,3 @@
         </div>
     </div>
 </section>
-
-

@@ -109,20 +109,25 @@ if (!empty($_POST)) {
                     $hashed_password = My_Crypt($_POST["PASSWORD"]);
                     //complétion de la requete update
                     $pass_string = 'PASSWORD = "' . $hashed_password . '",';
-                }else{
-                    $hashed_password =$_SESSION['PASSWORD'];
-                }
-                try {
 
                     $query = 'UPDATE ADHERENT SET LOGIN= ? , PASSWORD = ? ,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
-                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?, ADMIN=?,  CYLINDREE = ? where IDADHERENT= ?';
+                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?, ADMIN=?, CONFIRMATION=?, CYLINDREE = ? where IDADHERENT= ?';
+
                     $queryExec = $bdd->prepare($query);
 
-                    $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string,$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
-                        $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$droit_image ,$_POST["ADMIN"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+                    $result = $queryExec->execute(array($_POST["LOGIN"], $pass_string, $_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
+                        $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$droit_image ,$_POST["ADMIN"],$_POST["VALID"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+                }else{
 
-                    //Attention pensser à mettre a jour les infos de SESSION (fonction ?)
-                    $_SESSION['password'] = $hashed_password;
+                    $query = 'UPDATE ADHERENT SET LOGIN= ?,  NOM = ?,PRENOM = ?,DNAISSANCE=?, 
+                    ADRESSE1 =?, ADRESSE2 =?, CDPOST=?,VILLE =? , EMAIL =?, TELEPHONE = ?,  DROITIMAGE =?, ADMIN=?, CONFIRMATION=?, CYLINDREE = ? where IDADHERENT= ?';
+
+                    $queryExec = $bdd->prepare($query);
+
+                    $result = $queryExec->execute(array($_POST["LOGIN"],$_POST["NOM"], $_POST["PRENOM"],$_POST["DNAISSANCE"],$_POST["ADRESSE1"], $_POST["ADRESSE2"],
+                        $_POST["CDPOST"],$_POST["VILLE"],$_POST["EMAIL"],$_POST["TELEPHONE"],$droit_image ,$_POST["ADMIN"],$_POST["VALID"],$_POST["CYLINDREE"], $_POST["IDADHERENT"]));
+                }
+                try {
 
                     $message_modal = 'Votre profil est mis à jour.'; }
 
@@ -324,7 +329,28 @@ if (!empty($_POST)) {
                 $message_modal = 'erreur ajout gallerie';
             }
 
-        }else if ($_POST['formulaire'] == 'update_photo') {
+        }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_fichier'){
+            if (isset($_FILES['notreFichier']) && !empty($_FILES['notreFichier'])) {
+                try {
+                    list($message_modal,$notreFichier) = upload_fichier($directory_ressources,"file",["application","image"]);
+
+                    $queryFiles = ('insert into RESSOURCES (NOMRESSOURCE, FICHIERRESSOURCE, IDADHERENT) 
+                                    values (:titre,:nomfichier,:idadherent)');
+
+                    $queryExec = $bdd->prepare( $queryFiles);
+
+                    $queryExec->execute(array('titre' => $_POST["TITREFICHIER"],'nomfichier' => $notreFichier,'idadherent'=> $_SESSION['IDADHERENT']));
+                    $message_modal='fichier téléchargé';
+                } catch (Exception $e) {
+                    $message_modal = $e->getMessage();
+                }
+
+            }else{
+                $message_modal = 'erreur ajout fichier';
+            }
+
+        }
+        else if ($_POST['formulaire'] == 'update_photo') {
 
             if ( $user_level == 2) {
                 if (isset($_FILES['NOMFICHIER']) && !empty($_FILES['NOMFICHIER'])) {

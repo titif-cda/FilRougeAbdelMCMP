@@ -1,11 +1,12 @@
 .partenaires{
   h2{
-    margin: 20px 0px;
+    margin: 20px 0;
     color: $color1;
     font-weight: bold;
   }
   .slick-slide {
-    margin: 0px 20px;
+
+    margin: 0 20px;
   }
 
   .slick-slide img {
@@ -16,6 +17,8 @@
 
   .slick-slider
   {
+    box-shadow: 8px 8px 12px #aaa;
+    padding-top: 30px;
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -24,7 +27,7 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-touch-callout: none;
-    -khtml-user-select: none;
+
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
@@ -45,7 +48,7 @@
   .slick-list.dragging
   {
     cursor: pointer;
-    cursor: hand;
+
   }
 
   .slick-slider .slick-track,

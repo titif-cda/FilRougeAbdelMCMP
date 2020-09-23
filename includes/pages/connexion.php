@@ -9,10 +9,10 @@
                         <input type="hidden" name="formulaire" value="connexion" />
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" name="LOGIN" placeholder="Votre identifiant">
+                                <input type="text" name="LOGIN" placeholder="Votre identifiant" autocomplete="username">
                             </div>
                             <div class="col-lg-6">
-                                <input type="password" name="PASSWORD" placeholder="Votre mot de passe">
+                                <input type="password" name="PASSWORD" placeholder="Votre mot de passe" autocomplete="current-password">
                             </div>
                             <div class="col-lg-12">
                                 <button type="submit" value="Submit" class="submit-btn">Connexion </button>

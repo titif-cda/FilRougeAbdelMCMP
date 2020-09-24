@@ -111,7 +111,7 @@ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh
                                                         <a class="dropdown-item" href="page-addressources-add">Ajouter fichier</a>
                                                         <a class="dropdown-item" href="page-nouvelles-add">Ajouter nouvelle</a>
                                                         <a class="dropdown-item" href="page-addactivite-add">Ajouter Activité</a>
-                                                        <a class="dropdown-item" href="page-inscription-activites-add">Inscriptions Activités</a>
+                                                        <a class="dropdown-item" href="page-inscription_activites-add">Inscriptions Activités</a>
                                                         <a class="dropdown-item" href="http://cda28.s1.2isa.org/matomo">Statistiques du site</a>
                                                     <?php } ?>
                                                     <a class="dropdown-item" href="./index.php?deconnexion=1">Deconnexion <span class="fa fa-sign-out"></span></a>

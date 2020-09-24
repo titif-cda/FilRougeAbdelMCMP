@@ -1,3 +1,10 @@
+
+<?php
+
+include('./includes/tempt/inutilisé/tableau_inscri.php');
+
+?>
+
 <section>
     <div id="ajoutInscription" class="booking-classes">
         <div class="container">

@@ -38,7 +38,7 @@
                                 </div>
 
                                 <div class="col-sm-6">
-                                    <p > <span >Nom :</span> <?php echo $nom ?></p>
+                                    <p > <span >Nom :</span> <?php echo $donnees['NOM'] ?></p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p > <span >Prénom :</span> <?php echo $prenom ?></p>

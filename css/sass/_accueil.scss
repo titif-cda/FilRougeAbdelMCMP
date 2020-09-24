@@ -1,0 +1,70 @@
+.accueilpage{
+height: 300px;
+  position: relative;
+  text-align: center;
+  color: white;
+
+  .centered {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .center-top{
+    position: absolute;
+    top: 9%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    img{
+      border-radius: 8%;
+    }
+  }
+  .mcmp{
+    width: max-content;
+    height: auto;
+
+    padding: 0;
+    margin: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+      color: $color1;
+      font-size: 60px;
+      font-weight: bold;
+      font-family: monospace;
+      letter-spacing: 7px;
+      cursor: pointer
+    }
+    h2 span{
+      transition: .5s linear
+    }
+    h2:hover span:nth-child(1){
+      margin-right: 5px
+    }
+    h2:hover span:nth-child(2){
+      margin-left: 30px
+    }
+    h2:hover span{
+      color: #fff;
+      text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #fff;
+    }
+  }
+  .image{
+    #fondecran {
+      /* Fixe l'image en haut à gauche de la page */
+      position: fixed;
+      top: 0;
+      left: 0;
+      /* Préserve le ratio de l'image */
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+}
+
+
+

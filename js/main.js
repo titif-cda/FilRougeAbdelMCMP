@@ -62,9 +62,10 @@ Created: colorlib
         animateOut: 'fadeOut',
     	animateIn: 'fadeIn',
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        smartSpeed: 1200,
+        smartSpeed: 200,
         autoHeight: false,
-        autoplay: false,
+        autoplay: true
+        ,
     });
 
     /*------------------
@@ -237,35 +238,30 @@ Created: colorlib
 
     ShowDialog("Confirmation de suppression", "Êtes-vous sûr de vouloir supprimer?",
         ()=> {
-
-
         },
         ()=> {
-
         let request = $.ajax({
             url: "./lib/methode_ajax.php",
             method: "POST",
             data: {action: "deleteMember", idMembre: name},
             dataType: "json" //JSON = reponse attendu en array() ou HTML, reponse de type string
         });
-
         request.done(function( msg ) {
+
+            console.log("hello world !!! ");
             //console.log(msg);
             //afichage de la modal ave
-            $('#my-modal .modal-body p').html(msg.modal);
-            $("#member-"+name).remove();
+            $('#my-modal .modal-body p').html(msg.data.modalMessage);
+            if(!msg.error) document.getElementById("member-"+name).remove();
             $("#my-modal").show();
             //$( "#log" ).html( msg );
         });
-
-        //erreur 404 ou 500 - le serveur ne repond pas, erreur PHP ?
-        request.fail(function( jqXHR, textStatus ) {
+            request.fail(function( jqXHR, textStatus ) {
             console.log( "Request failed: " + textStatus );
-        });
 
+        });
     });
 
-    //stopper le comportement normal d'une balise de type <a>
     return false;
 
 });
@@ -273,7 +269,6 @@ Created: colorlib
 
 
     $('#add-news-form').on('submit', function(event){
-
         var formElmt = document.getElementById("add-news-form");
         if(!formElmt.checkValidity()) return false;
         event.preventDefault();
@@ -285,7 +280,6 @@ Created: colorlib
             data: { action : "ADD_NEWS", data: JSON.stringify(Object.fromEntries(data))},
             dataType: "json"
         });
-
         request.done(function( msg ) {
             //console.log(msg);
             //afichage de la modal
@@ -301,11 +295,7 @@ Created: colorlib
                     <div class="blog-text">
                         <span class="blog-time">${msg.data.news.DPUBLICATION}</span>
                         <h4><a href="./index.php?page=news&id=${msg.data.news.IDNOUVELLE}">${msg.data.news.TITRE_NOUVELLE}</a></h4>
-            
-                        <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
-                            convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
                         <div class="blog-widget">
-                          
                         </div>
                     </div>
                 </div>
@@ -328,21 +318,17 @@ Created: colorlib
         return false;
 
     });
+    //Filtre gallerie
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
-
         if(value == "all")
         {
-            //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
         }
         else
         {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
             $(".filter").not('.'+value).hide('3000');
             $('.filter').filter('.'+value).show('3000');
-
         }
     });
 

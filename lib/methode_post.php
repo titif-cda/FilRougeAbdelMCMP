@@ -310,21 +310,16 @@ if (!empty($_POST)) {
         }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_photo'){
             if (isset($_FILES['NOMFICHIER']) && !empty($_FILES['NOMFICHIER'])) {
                 try {
-                    list($photoName) = upload_img($directory_image_gallerie, "NOMFICHIER");
+                    list($photoName) =upload_fichier($directory_image_gallerie, 'file', 'image' );
                     $queryphot = ('insert into PHOTO (TITREPHOTO, IDACTIVITE,IDADHERENT,NOMFICHIER) 
                                     values (:titre, :idactivite,:idadherent,:nomphoto)');
-
                     $queryExec = $bdd->prepare($queryphot);
-
-
                     $queryExec->execute(array('titre' => $_POST["TITREPHOTO"],
                         'idactivite' => $_POST["IDACTIVITE"],'idadherent'=> $_SESSION['IDADHERENT'],'nomphoto' => $photoName));
-
                     $message_modal='reussi';
                 } catch (Exception $e) {
                     $message_modal = $e->getMessage();
                 }
-
             }else{
                 $message_modal = 'erreur ajout gallerie';
             }
@@ -333,35 +328,28 @@ if (!empty($_POST)) {
             if (isset($_FILES['notreFichier']) && !empty($_FILES['notreFichier'])) {
                 try {
                     list($message_modal,$notreFichier) = upload_fichier($directory_ressources,"file",["application","image"]);
-
                     $queryFiles = ('insert into RESSOURCES (NOMRESSOURCE, FICHIERRESSOURCE, IDADHERENT) 
                                     values (:titre,:nomfichier,:idadherent)');
-
                     $queryExec = $bdd->prepare( $queryFiles);
-
                     $queryExec->execute(array('titre' => $_POST["TITREFICHIER"],'nomfichier' => $notreFichier,'idadherent'=> $_SESSION['IDADHERENT']));
                     $message_modal='fichier téléchargé';
                 } catch (Exception $e) {
                     $message_modal = $e->getMessage();
                 }
-
             }else{
                 $message_modal = 'erreur ajout fichier';
             }
 
         }
         else if ($_POST['formulaire'] == 'update_photo') {
-
             if ( $user_level == 2) {
                 if (isset($_FILES['NOMFICHIER']) && !empty($_FILES['NOMFICHIER'])) {
                     try {
-                        list($photoName) = upload_img($directory_image_gallerie);
-
+                        list($photoName) = upload_fichier($directory_image_gallerie, 'file', 'image' );
                         //requete d'insertion dans la BD
                         $query = 'UPDATE PHOTO SET :titre,, :dphoto ,:idactivite,:idadherent,:nomphoto
                               WHERE IDPHOTO = :idPhoto;';
                         $queryExec = $bdd->prepare($query);
-
                         $queryExec->execute(
                             array('titre' => $_POST["TITREPHOTO"],'dphoto' =>$_POST["DPHOTO"] ,
                                 'idactivite' => $_POST["IDACTIVITE"],'idadherent'=> $_SESSION['IDADHERENT'],'nomphoto' => $photoName,'idPhoto'=>$_POST["IDPHOTO"] ));
@@ -375,11 +363,7 @@ if (!empty($_POST)) {
             } else {
                 $msg['modal'] = 'Vous n\'etes pas authorisé à appeller cette methode.';
             }
-
-
         }
-
-
     }
 
 }

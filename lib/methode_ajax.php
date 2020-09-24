@@ -45,11 +45,35 @@ if($user_level == 2){
 
                     $query = 'DELETE FROM ADHERENT WHERE IDADHERENT = ?';
                     $queryExec = $bdd->prepare($query);
-                    $result = $queryExec->execute([$_POST['idMembre']]);
-
-                    //information modal html
-                    $message_modal = 'Utilisateur '.$_POST['idMembre'].' supprimé.';
-
+                    try {
+                        $result = $queryExec->execute([$_POST['idMembre']]);
+                        if($result) {
+                            $retour = array(
+                                "error" => false,
+                                "data" => array(
+                                    "modalMessage" => 'Utilisateur '.$_POST['idMembre'].' supprimé.'
+                                )
+                            );
+                        }
+                        else {
+                            $retour = array(
+                                "error" => true,
+                                "data" => array(
+                                    "modalMessage" => 'Une erreur est survenue.'
+                                )
+                            );
+                        }
+                        echo json_encode($retour);
+                    }
+                    catch (Exception $e){
+                        $retour = array(
+                            "error" => true,
+                            "data" => array(
+                                "modalMessage" => 'Impossible de supprimé ce membre.'
+                            )
+                        );
+                        echo json_encode($retour);
+                    }
 
                 }
         else  if (isset($_POST['action']) && $_POST['action'] == 'inscriptionAct-form'){

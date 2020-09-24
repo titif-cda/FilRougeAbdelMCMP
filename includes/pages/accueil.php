@@ -6,13 +6,13 @@
 
 
     <?php
-    include('./includes/tempt/entete.php');
+    include('./includes/tempt/inutilisé/intro.php');
+    include('./includes/tempt/inutilisé/mcmpBrillant.php');
+ /*   include('./includes/tempt/entete.php');*/
 
     include('./includes/tempt/lifestyle-section.php');
-    include('./includes/tempt/inutilisé/mcmpBrillant.php');
-    if($user_level == 0){
-    include('./includes/tempt/inutilisé/slider_intro.php');
-    }
+
+
     include('./includes/tempt/inutilisé/callto-section.php');
 
 

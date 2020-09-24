@@ -410,3 +410,136 @@ Stack trace:
 #0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(21): PDOStatement->execute(Array)
 #1 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 21
+[24-Sep-2020 13:20:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:21:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:22:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:23:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:23:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:25:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:25:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:25:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:26:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:27:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:27:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 13:28:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`INSCRIPTION`, CONSTRAINT `FK_EST_INSCRIT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 14:16:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cda28_bd1`.`ACTIVITE`, CONSTRAINT `FK_CONTACT` FOREIGN KEY (`IDADHERENT`) REFERENCES `ADHERENT` (`IDADHERENT`)) in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:48
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 48
+[24-Sep-2020 14:23:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:23:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:23:16 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:23:16 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:23:32 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:23:32 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:25:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[24-Sep-2020 14:25:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54

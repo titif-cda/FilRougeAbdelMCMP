@@ -1,5 +1,5 @@
-<a href="page-profil_adherent-<?php echo $donnees['IDADHERENT']; ?>-<?php echo $donnees['NOM']; ?>-<?php echo $donnees['PRENOM']; ?> "   >
-    <div class="col-md-4 " id="member-<?=  $donnees['IDADHERENT']; ?> ">
+<a href="page-profil_adherent-<?php echo $donnees['IDADHERENT']; ?>-<?php echo $donnees['NOM']; ?>-<?php echo $donnees['PRENOM']; ?>"   >
+    <div class="col-md-4 " id="member-<?= $donnees['IDADHERENT']; ?>">
         <div id="ficheMembre" class="team-member">
             <figure>
                 <?php
@@ -41,8 +41,13 @@
                         <?php if ($user_level == 2) { ?>
                                              <a href="./index.php?page=membres&action=delete&id=<?php echo $donnees['IDADHERENT']; ?>"
                                                    alt="Supprimer" title="Supprimer" class="primary-btn deleatadh_get ">Supprimer</a>
-                            <a href="javascript::void(0);"
-                               alt="Supprimer" data-id="<?php echo $donnees['IDADHERENT']; ?>"  title="Supprimer"  class="btn primary-btn deleteadh">Supprimer</a>
+
+
+
+
+
+                     <a href="javascript::void(0);"alt="Supprimer" data-id="<?php echo $donnees['IDADHERENT']; ?>"
+                        title="Supprimer"  class="btn primary-btn deleteadh">Supprimer</a>
 
                         <?php } ?>
 

@@ -367,7 +367,7 @@ a:hover {
 
 .mcmp h2 {
   color: #800000;
-  font-size: 90px;
+  font-size: 50px;
   font-weight: bold;
   font-family: monospace;
   letter-spacing: 7px;
@@ -573,6 +573,21 @@ a:hover {
   opacity: inherit;
   float: right;
   font-family: "Oswald", sans-serif;
+}
+
+.single-hero-item {
+  height: 789px;
+}
+
+.single-hero-item h2 {
+  font-size: 80px;
+  padding-bottom: 60px;
+  color: whitesmoke;
+  text-shadow: 5px 11px 9px #800000;
+}
+
+.owl-nav {
+  display: none;
 }
 
 .team-member {
@@ -831,6 +846,11 @@ section h3.section-subheading {
   color: whitesmoke;
   background-color: #800000;
   font-weight: bolder;
+}
+
+.dropdown-menu {
+  height: 500px;
+  overflow-y: auto;
 }
 
 .partenaires h2 {

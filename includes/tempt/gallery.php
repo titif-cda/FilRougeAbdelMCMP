@@ -22,7 +22,6 @@
                 include('./includes/tempt/single_photo.php');
             }
             ?>
-
         </div>
     </div>
 </section>

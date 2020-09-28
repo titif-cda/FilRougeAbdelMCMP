@@ -145,9 +145,7 @@ input {
 
 .accueilpage .mcmp h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff,
- 0 0 20px #fff,
- 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
 .accueilpage .image #fondecran {
@@ -317,8 +315,12 @@ a:hover {
   }
 }
 
+.onefile {
+  box-shadow: 1px 0px 20px 0px #800000;
+}
+
 .filesupload h3 {
-  padding-top: 20px;
+  padding: 40px 0px;
   text-transform: none;
 }
 
@@ -507,9 +509,7 @@ a:hover {
 
 .presentationAccueil .mcmp h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff,
- 0 0 20px #fff,
- 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
 #activite {
@@ -1068,6 +1068,10 @@ section h3.section-subheading {
   margin: auto;
 }
 
+.partenaires .single-blog-item.plain-text {
+  background: none;
+  margin: 100px;
+}
 
 .partenaires .carousel-caption {
   position: initial;
@@ -1267,7 +1271,8 @@ h5 {
   margin-left: -15px;
   margin-right: -15px;
   height: 100%;
-  padding-bottom: 36px;
+  padding-bottom: 36px 0px;
+  padding: 36px 0px;
 }
 
 .boxes-section .boxes-item h2 {

@@ -22,18 +22,18 @@
                     $reponse = $bdd->query('SELECT * FROM RESSOURCES R join ADHERENT A ON A.IDADHERENT = R.IDADHERENT LIMIT 10 ');
 
                     while ($donnees = $reponse->fetch()) : ?>
-                        <div class="col-3 text-center ">
+                        <div class="col-3 text-center onefile ">
 
                             <img  src="<?php echo $directory_ressources. '/pdf.jpg' ;?>" alt="Image placeholder" class="img-fluid text-center" width="50%" height="50%">
                             <h2> <?php echo ucfirst($donnees['NOMRESSOURCE']) ?></h2>
                             <p>Publié par <?php echo ucfirst($donnees['NOM']). ' '. ucfirst($donnees['PRENOM']).'</BR> le '. date("d-m-Y", strtotime($donnees['DATEAJOUT'])) ?></p>
                             <div class="row iconFiles justify-content-center">
-                                <div class="col-2 openFiles">
+                                <div class="col-6 openFiles">
                                     <a href="<?php echo $directory_ressources .$donnees['FICHIERRESSOURCE']  ?> "target="_blank">
-                                        <img src="./img/upload/open.png" alt="" style=" width:80px height:80px" ></a>
+                                        <img src="./img/upload/open.png" alt=""  ></a>
                                     <span>Ouvrir</span>
                                 </div>
-                                <div class="col-2 downloadFiles ">
+                                <div class="col-6 downloadFiles ">
                                     <a href="<?php echo $directory_ressources .$donnees['FICHIERRESSOURCE']  ?>" download="<?php $donnees['FICHIERRESSOURCE'] ?>" >
                                         <img src="./img/upload/download.png" alt=""  ></a>
                                     <span>Télécharger</span>

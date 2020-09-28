@@ -19,13 +19,13 @@
 
 
 
-
+/*
     include('./includes/tempt/inutilisé/client-says.php');
     include('./includes/tempt/inutilisé/elements-section.php');
 
     include('./includes/tempt/inutilisé/booking-class.php');
     include('./includes/tempt/inutilisé/wod-section.php');
-    include('./includes/tempt/inutilisé/classes-time-section.php');
+    include('./includes/tempt/inutilisé/classes-time-section.php');*/
 
     ?>
 

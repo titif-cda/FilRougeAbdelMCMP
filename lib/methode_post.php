@@ -310,7 +310,8 @@ if (!empty($_POST)) {
         }else if(isset($_POST['formulaire']) && $_POST['formulaire'] == 'ajout_photo'){
             if (isset($_FILES['NOMFICHIER']) && !empty($_FILES['NOMFICHIER'])) {
                 try {
-                    list($photoName) =upload_fichier($directory_image_gallerie, 'file', 'image' );
+
+                    list($photoName) =upload_img($directory_image_gallerie, "NOMFICHIER");
                     $queryphot = ('insert into PHOTO (TITREPHOTO, IDACTIVITE,IDADHERENT,NOMFICHIER) 
                                     values (:titre, :idactivite,:idadherent,:nomphoto)');
                     $queryExec = $bdd->prepare($queryphot);

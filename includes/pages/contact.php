@@ -21,7 +21,7 @@
             }
         }
         include('./includes/tempt/entete.php');
-        ?> <div class="classes-time-section spad set-bg" data-setbg="./img/viaduc3.jpg">  <?php
+        ?> <div class="classes-time-section spad set-bg" data-setbg="./img/viaduc.jpg">  <?php
             include('./includes/tempt/contact-section.php');
 
 

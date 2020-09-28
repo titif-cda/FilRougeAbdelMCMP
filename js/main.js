@@ -231,7 +231,42 @@ Created: colorlib
     //
     // });
 
+    //suppression membre
+    $('.deleinscr').on('click', function() {
+        console.log('btn table ready !');
+        var inscriptionAd = $(this).data('id');
 
+        ShowDialog("Confirmation de suppression", "Êtes-vous sûr de vouloir supprimer?",
+            ()=> {
+            },
+            ()=> {
+                let request = $.ajax({
+                    url: "./lib/methode_ajax.php",
+                    method: "POST",
+                    data: {action: "deleteInscription", idInscription: inscriptionAd},
+                    dataType: "json" //JSON = reponse attendu en array() ou HTML, reponse de type string
+                });
+                request.done(function( msg ) {
+
+                    console.log("hello world !!! ");
+                    //console.log(msg);
+                    //afichage de la modal ave
+                    $('#my-modal .modal-body p').html(msg.data.modalMessage);
+                    if(!msg.error) document.getElementById("inscription-"+name).remove();
+                    $("#my-modal").show();
+                    //$( "#log" ).html( msg );
+                });
+                request.fail(function( jqXHR, textStatus ) {
+                    console.log( "Request failed: " + textStatus );
+
+                });
+            });
+
+        return false;
+
+    });
+
+//suppression membre
     $('.deleteadh').on('click', function() {
     console.log('btn ficheMembre ready !');
     var name = $(this).data('id');
@@ -266,26 +301,62 @@ Created: colorlib
 
 });
 
+//suppression news
+    $('.suprnews').on('click', function() {
+        console.log('btn simplenews ready !');
+        var news = $(this).data('id');
 
+        ShowDialog("Confirmation de suppression", "Êtes-vous sûr de vouloir supprimer?",
+            ()=> {
+            },
+            ()=> {
+                let request = $.ajax({
+                    url: "./lib/methode_ajax.php",
+                    method: "POST",
+                    data: {action: "deleteNews", idNews: news},
+                    dataType: "json" //JSON = reponse attendu en array() ou HTML, reponse de type string
+                });
+                request.done(function( msg ) {
 
+                    console.log("hello world !!! ");
+                    //console.log(msg);
+                    //afichage de la modal ave
+                    $('#my-modal .modal-body p').html(msg.data.modalMessage);
+                    if(!msg.error) document.getElementById("news-"+news).remove();
+                    $("#my-modal").show();
+                    //$( "#log" ).html( msg );
+                });
+                request.fail(function( jqXHR, textStatus ) {
+                    console.log( "Request failed: " + textStatus );
+
+                });
+            });
+
+        return false;
+
+    });
+//ajout formulaire wysiwig
     $('#add-news-form').on('submit', function(event){
         var formElmt = document.getElementById("add-news-form");
         if(!formElmt.checkValidity()) return false;
         event.preventDefault();
        var data = new FormData(formElmt);
+       data.append("action", "ADD_NEWS");
         //methode Ajax
         var request = $.ajax({
             url: "./lib/methode_ajax.php",
             method: "POST",
-            data: { action : "ADD_NEWS", data: JSON.stringify(Object.fromEntries(data))},
-            dataType: "json"
+            contentType: false,
+            enctype: 'multipart/form-data',
+            processData: false,
+            data: data,
         });
         request.done(function( msg ) {
-            //console.log(msg);
+            msg = JSON.parse(msg);
             //afichage de la modal
             $('#my-modal .modal-body p').html(msg.data.modalMessage);
             if(!msg.error) {
-                $('#single_news').append(
+                $('#single_news').prepend(
                     `
                 <div class="col-lg-3 col-md-6">
                 <div class="single-blog-item blog-item">
@@ -306,6 +377,7 @@ Created: colorlib
 
             $('#my-modal').show();
             //$( "#log" ).html( msg );
+            formElmt.reset();
         });
 
         //erreur 404 ou 500 - le serveur ne repond pas, erreur PHP ?

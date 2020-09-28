@@ -543,3 +543,38 @@ Stack trace:
 [24-Sep-2020 14:23:32 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
 [24-Sep-2020 14:25:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
 [24-Sep-2020 14:25:10 UTC] PHP Notice:  Undefined variable: donnees in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 54
+[28-Sep-2020 08:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload_fichier() in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 17
+[28-Sep-2020 08:25:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload_fichier() in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 17
+[28-Sep-2020 09:51:46 UTC] PHP Notice:  Undefined index: data in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 17
+[28-Sep-2020 09:51:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload_img() in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 20
+[28-Sep-2020 09:52:58 UTC] PHP Notice:  Undefined index: data in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 16
+[28-Sep-2020 09:52:58 UTC] PHP Fatal error:  Uncaught Exception: Pas de fichier Upload in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:63
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(19): upload_img('./img/upload/ne...')
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 63
+[28-Sep-2020 09:54:24 UTC] PHP Fatal error:  Uncaught Exception: Pas de fichier Upload in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:63
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php(17): upload_img('./img/upload/ne...')
+#1 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 63
+[28-Sep-2020 09:55:16 UTC] PHP Warning:  move_uploaded_file(./img/upload/news/1601286916.jpg): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:55:16 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\php4CDE.tmp' to './img/upload/news/1601286916.jpg' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:55:42 UTC] PHP Warning:  move_uploaded_file(./img/upload/news/1601286942.jpg): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:55:42 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\phpB51E.tmp' to './img/upload/news/1601286942.jpg' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:57:03 UTC] PHP Warning:  move_uploaded_file(./img/upload/news/1601287023.jpg): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:57:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\phpEFD2.tmp' to './img/upload/news/1601287023.jpg' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:57:20 UTC] PHP Warning:  move_uploaded_file(./img/upload/news/1601287040.jpg): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:57:20 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\php345E.tmp' to './img/upload/news/1601287040.jpg' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:58:03 UTC] PHP Warning:  move_uploaded_file(./img/upload/news/1601287083.jpg): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 09:58:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\phpD830.tmp' to './img/upload/news/1601287083.jpg' in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 49
+[28-Sep-2020 12:25:51 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_ajax.php on line 92

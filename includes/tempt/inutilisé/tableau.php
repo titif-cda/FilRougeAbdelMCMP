@@ -1,6 +1,6 @@
 <div class="container">
-    <h2>Liste des inscriptions</h2>
-    <table class="table table-dark">
+    <h2>Liste des 15 dernières inscriptions</h2>
+    <table class="table table-dark" id="inscription-<?=$inscr['IDINSCRIPTION']?>">
         <thead>
         <tr>
             <th>DINSCRIPTION</th>
@@ -15,9 +15,10 @@
 
         </tr>
         </thead>
-//SOUCIS AVEC REQUETE
+
             <?php
-            $query = $bdd->prepare('SELECT I.IDADHERENT,I.IDACTIVITE,I.DINSCRIPTION ,I.NBPARTICIPANTS ,A.NOM ,A.PRENOM , AC.INTITULEACTIVITE, AC.DDEBUT FROM INSCRIPTION I JOIN ADHERENT A ON I.IDADHERENT = A.IDADHERENT JOIN ACTIVITE AC ON A.IDADHERENT = AC.IDADHERENT GROUP BY I.IDACTIVITE');
+            $query = $bdd->prepare('SELECT IDINSCRIPTION ,I.IDADHERENT,I.IDACTIVITE,DINSCRIPTION ,NBPARTICIPANTS ,A.NOM ,A.PRENOM ,AC.INTITULEACTIVITE ,AC.DDEBUT FROM INSCRIPTION I LEFT JOIN  ADHERENT A ON I.IDADHERENT = A.IDADHERENT 
+ join ACTIVITE AC ON I.IDACTIVITE =AC.IDACTIVITE ORDER by DINSCRIPTION DESC LIMIT 15');
             $query->execute() ;
             //boucle les données récupérées
             while ($inscr = $query->fetch()) {?>
@@ -31,8 +32,10 @@
             <td><?php echo $inscr['NBPARTICIPANTS']?></td>
             <td><?php echo $inscr['INTITULEACTIVITE']?></td>
             <td><?php echo date("d-m-Y", strtotime($inscr['DDEBUT']))?></td>
-            <td><button type="button" class="btn btn-warning">Supprimer</button></td>
-            <?php }?>
+
+            <td><a href="javascript:void(0);"alt="Supprimer" data-id="<?php echo $inscr['IDINSCRIPTION']; ?>"
+                   title="Supprimer"  class="btn btn_modif btn-primary deleteinscr ">Supprimer</a>      <?php } ?>
+
         </tr>
 
         </tbody>

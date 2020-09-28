@@ -127,7 +127,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
 //                boucle les données récupérées
                 while ($donnees = $queryExec->fetch()) {
-
+                    $idnews=$donnees['IDNOUVELLE'];
                     $titleNouvelle = $donnees['TITRE_NOUVELLE'];
                     $introduction = $donnees['INTRODUCTION'];
                     $descriptionNouvelle = $donnees['DESCRIPTION'];

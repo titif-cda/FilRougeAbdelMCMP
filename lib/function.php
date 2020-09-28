@@ -46,7 +46,7 @@ function upload_img($directory, $property = "image", $methode = 'file'){
 
                 }else{
                     //fonction d'upload sur le serveur
-                    move_uploaded_file($fileTmp, $directory . $photoName);
+                    move_uploaded_file($fileTmp, $_SERVER['DOCUMENT_ROOT'].$directory . $photoName);
 
                 }
 
@@ -774,7 +774,7 @@ function upload_fichier($directory, $methode, $typeFile ) {
 
                     //nommage du fichier et migration vers destination
                     $fileNameNew = uniqid('', true) . $extension;
-                    $fileDestination = $directory . $fileNameNew;
+                    $fileDestination = $_SERVER['DOCUMENT_ROOT'].$directory . $fileNameNew;
 
                     $resultat = false;
                     if ($methode == 'blob') {

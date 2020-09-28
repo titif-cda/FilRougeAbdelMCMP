@@ -39,9 +39,11 @@
             <div class="container ">
                 <div class="row">
 
-                    <div class="col-lg-12">
-                        <button class="btn btn_modif btn-primary">Modifiez votre news?</button>
+                    <div class="col-lg-6">
+                        <button class="btn btn_modif btn-primary">Modifiez votre news</button>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -63,7 +65,7 @@
                                 </div>
                                 <div class="col-12">
                                     <h5>Modifiez l'introduction de la nouvelle</h5><br>
-                                    <input type="text" name="titre" placeholder="Titre de la nouvelle"
+                                    <input type="text" name="introduction" placeholder="Introduction de la nouvelle"
                                            value="<?php echo isset($introduction) ? $introduction : 'Introduction de la nouvelle' ?>"required>
                                 </div>
                                 <div class="col-12">

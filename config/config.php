@@ -19,12 +19,12 @@ $message_modal ='';
 $user_level = 0;
 
 $wysiwyg = false;
-$directory_image_news = "./img/upload/news/";
-$directory_image_adherent = "./img/upload/adherent/";
-$directory_image_activites = "./img/upload/activites/";
-$directory_image_gallerie= "./img/upload/gallerie/";
-$directory_ressources= "./img/upload/ressources/";
-$repblob="./lib/blob.php?user=";
+$directory_image_news = "/img/upload/news/";
+$directory_image_adherent = "/img/upload/adherent/";
+$directory_image_activites = "/img/upload/activites/";
+$directory_image_gallerie= "/img/upload/gallerie/";
+$directory_ressources= "/img/upload/ressources/";
+$repblob="/lib/blob.php?user=";
 
 /* level = 0 = non-connecté */
 /* level = 1 = connecté */

@@ -35,7 +35,7 @@
             </div>
             <div class="container overlayMoto col-4">
                 <div class="grossesCylindrees">
-                    <img src="./img/design/repas.jpg" alt="Avatar" class="image" style="width:100%">
+                    <img src="./img/design/repas.jpg" alt="Avatar" class="image" style="height: 227.84px;">
                     <div class="middle">
                         <div class="text">Repas</div>
                     </div>

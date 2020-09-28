@@ -5766,3 +5766,166 @@ Stack trace:
 [28-Sep-2020 13:48:11 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
 [28-Sep-2020 13:49:02 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
 [28-Sep-2020 13:49:10 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:12:59 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:12:59 UTC] PHP Stack trace:
+[28-Sep-2020 19:12:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:12:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:12:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:12:59 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:12:59 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:26:57 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:26:57 UTC] PHP Stack trace:
+[28-Sep-2020 19:26:57 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:26:57 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:26:57 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:26:57 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:26:57 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:27:57 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:27:57 UTC] PHP Stack trace:
+[28-Sep-2020 19:27:57 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:27:57 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:27:57 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:27:57 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:27:57 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:29:09 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:29:09 UTC] PHP Stack trace:
+[28-Sep-2020 19:29:09 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:29:09 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:29:09 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:29:09 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:29:09 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:39:09 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:39:09 UTC] PHP Stack trace:
+[28-Sep-2020 19:39:09 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:39:09 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:39:09 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:39:09 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:39:09 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:40:00 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:40:00 UTC] PHP Stack trace:
+[28-Sep-2020 19:40:00 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:40:00 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:40:00 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:40:00 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:40:00 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:43:05 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:43:05 UTC] PHP Stack trace:
+[28-Sep-2020 19:43:05 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:43:05 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:43:05 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:43:05 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:43:05 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:46:32 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:46:32 UTC] PHP Stack trace:
+[28-Sep-2020 19:46:32 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:46:32 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:46:32 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:46:32 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:46:32 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:47:04 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:47:04 UTC] PHP Stack trace:
+[28-Sep-2020 19:47:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:47:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:47:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:47:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:47:04 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:47:52 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:47:52 UTC] PHP Stack trace:
+[28-Sep-2020 19:47:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:47:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:47:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:47:52 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:47:52 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:48:08 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:48:08 UTC] PHP Stack trace:
+[28-Sep-2020 19:48:08 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:48:08 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:48:08 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:48:08 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:48:08 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:48:59 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:48:59 UTC] PHP Stack trace:
+[28-Sep-2020 19:48:59 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:48:59 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:48:59 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:48:59 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:48:59 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:49:20 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:49:20 UTC] PHP Stack trace:
+[28-Sep-2020 19:49:20 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:49:20 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:49:20 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:49:20 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:49:20 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:49:52 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:49:52 UTC] PHP Stack trace:
+[28-Sep-2020 19:49:52 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:49:52 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:49:52 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:49:52 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:49:52 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:50:13 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:50:13 UTC] PHP Stack trace:
+[28-Sep-2020 19:50:13 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:50:13 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:50:13 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:50:13 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:50:13 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:50:28 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:50:28 UTC] PHP Stack trace:
+[28-Sep-2020 19:50:28 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:50:28 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:50:28 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:50:28 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:50:28 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:51:18 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:51:18 UTC] PHP Stack trace:
+[28-Sep-2020 19:51:18 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:51:18 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:51:18 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:51:18 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:51:18 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 19:51:27 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 19:51:27 UTC] PHP Stack trace:
+[28-Sep-2020 19:51:27 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 19:51:27 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 19:51:27 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 19:51:27 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 19:51:27 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 20:16:51 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 20:16:51 UTC] PHP Stack trace:
+[28-Sep-2020 20:16:51 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 20:16:51 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 20:16:51 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 20:16:51 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 20:16:51 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 20:22:54 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 3
+[28-Sep-2020 20:22:54 UTC] PHP Stack trace:
+[28-Sep-2020 20:22:54 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 20:22:54 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 20:22:54 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 20:22:54 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 20:22:54 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 20:27:14 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 8
+[28-Sep-2020 20:27:14 UTC] PHP Stack trace:
+[28-Sep-2020 20:27:14 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 20:27:14 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 20:27:14 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 20:27:14 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 20:27:14 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 20:33:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 45
+[28-Sep-2020 20:36:30 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau.php on line 8
+[28-Sep-2020 20:36:30 UTC] PHP Stack trace:
+[28-Sep-2020 20:36:30 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 20:36:30 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:24
+[28-Sep-2020 20:36:30 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[28-Sep-2020 20:36:30 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php:4
+[28-Sep-2020 20:36:30 UTC] PHP   5. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\inutilisé\tableau_inscri.php:3
+[28-Sep-2020 21:17:20 UTC] PHP Notice:  Undefined index: IDTYPE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 263
+[28-Sep-2020 21:17:20 UTC] PHP Stack trace:
+[28-Sep-2020 21:17:20 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 21:17:20 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[28-Sep-2020 21:18:36 UTC] PHP Notice:  Undefined index: IDTYPE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 263
+[28-Sep-2020 21:18:36 UTC] PHP Stack trace:
+[28-Sep-2020 21:18:36 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[28-Sep-2020 21:18:36 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12

@@ -9,7 +9,7 @@
 
                         <form action="./index.php?page=addactivite" method="post" class="register-form" enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="ajout_activite"/>
-
+                            <input type="hidden" id= "id" name="IDADHERENT" placeholder="Date limite" value="">
                         <div class="row">
 
                             <div class="col-sm">
@@ -27,10 +27,18 @@
                                 <input type="number" id= "number" name="TARIFINVITE" placeholder ="Tarif Invité " value="">
                                 <label> Date limite d'inscription</label>
                                 <input type="date" id= "dlimit" name="DLIMITEINSCRIPTION" placeholder="Date limite" value="">
-                                <label> Identifiant de l'adhérent</label>
-                                <input type="number" id= "id" name="IDADHERENT" placeholder="Date limite" value="">
+
+
                                 <label> Type d'activité</label>
-                                <input type="number" id= "id" name="IDTYPE" placeholder="Id type" value="">
+                                <select class="liste_deroulante" name="IDTYPE" id ="IDTYPE" >
+                                    <?php
+                                    $act = $bdd->query('SELECT IDTYPE ,INTITULETYPE FROM TYPE_ACTIVITE  ');
+                                    while ($data = $act-> fetch())
+
+                                    {echo'<option value="'.$data['IDTYPE'].'">'.$data['INTITULETYPE'].'</option>';}
+                                    ?>
+                                </select>
+
                                 <div class="col-sm-6">
                                     <div class="col-sm">
                                         <label for="name" > Telechargez une photo.</label>

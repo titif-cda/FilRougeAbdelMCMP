@@ -232,7 +232,7 @@ Created: colorlib
     // });
 
     //suppression membre
-    $('.deleinscr').on('click', function() {
+    /*$('.deleteinscr').on('click', function() {
         console.log('btn table ready !');
         var inscriptionAd = $(this).data('id');
 
@@ -264,7 +264,7 @@ Created: colorlib
 
         return false;
 
-    });
+    });*/
 
 //suppression membre
     $('.deleteadh').on('click', function() {

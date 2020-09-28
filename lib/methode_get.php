@@ -263,6 +263,37 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                         } else
                             $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';
+
+                    } else if ($page == 'inscription_activites') {
+                        if ($user_level == 2) {
+                            if(isset($_GET['token']) && !empty($_GET['token'])){
+
+                                if($_GET['token'] == $_SESSION['token']){
+
+
+                                    //lancement de la requete
+
+                                    $query = 'DELETE FROM INSCRIPTION WHERE IDINSCRIPTION = ?';
+                                    $queryExec = $bdd->prepare($query);
+                                    $result = $queryExec->execute(array($_GET['id']));
+
+                                    //information modal html
+                                    $message_modal = 'l\'inscription '.$_GET['id'].' est supprimée.';
+
+
+                                }
+
+                            }else{
+                                $token = time();
+                                $_SESSION['token'] = $token;
+                                $message_modal = 'Confirmer suppression ? <a href="index.php?page=inscription_activites&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
+
+                            }
+
+
+                        } else
+                            $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';
+
                     }
                 }
             }

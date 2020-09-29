@@ -3,6 +3,8 @@ RewriteEngine On
 
 #mon fichier statique erreur 404
 ErrorDocument 404 /page-404
+#erreur 404 dans le dossier image
+ErrorDocument 404 /img/news/001.jpg
 
 #exemple avec une reecriture de type statique
 #RewriteRule	^informations	index.php?page=informations	[L]

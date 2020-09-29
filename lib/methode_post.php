@@ -210,10 +210,18 @@ if (!empty($_POST)) {
                         }
                         $_SESSION['user_level'] = $user_level;
 
-                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
-                        //Retour page par defaut
-                        $page = $homepage;
-
+//                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
+//                        //Retour page par defaut
+//                        $page = $homepage;
+//                        $cookie_name = "ticket";
+//                        // On génère quelque chose d'aléatoire
+//                        $ticket = session_id().microtime().rand(0, 9999999999);
+//                        // on hash pour avoir quelque chose de propre qui aura toujours la même forme
+//                        $ticket = hash('sha512', $ticket);
+//                        // On enregistre des deux cotés
+//                        setcookie($cookie_name, $ticket, time() + (60 * 20)); // Expire au bout de 20 min
+//                        //On stock le ticket dans une Session (on verifiera en permanence que le ticket session et cookie est identique)
+//                                    $_SESSION['ticket'] = $ticket;
 
 
                     } else {

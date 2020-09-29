@@ -256,7 +256,8 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                             }else{
                                 $token = time();
                                 $_SESSION['token'] = $token;
-                                $message_modal = 'Confirmer suppression ? <a href="index.php?page=activites&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
+                                $message_modal = 'Confirmer suppression ? 
+                                <a href="index.php?page=activites&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
 
                             }
 

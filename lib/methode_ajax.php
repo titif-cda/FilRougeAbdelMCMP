@@ -18,12 +18,11 @@ if($user_level == 2){
                     $query = 'INSERT INTO NOUVELLE(TITRE_NOUVELLE,DIFFUSION_LEVEL,INTRODUCTION,/*DPUBLICATION,*/DESCRIPTION, IMAGE) 
                     VALUES (:titre,:publicDiffusion,:intro, :description, :img )';
                     $queryExec = $bdd->prepare($query);
-                    $queryExec->execute(['titre' => $data["titre"], 'publicDiffusion' => $data["status"], 'intro' => $data["introduction"], 'description' => $data["editordata"], 'img' => $photoName]);
-
+                    $queryExec->execute(['titre' => $data["titre"], 'publicDiffusion' => $data["status"], 'intro' => $data["introduction"],
+                        'description' => $data["editordata"], 'img' => $photoName]);
                     //Récupère l'id crée automatiquement
                     $newId = $bdd->lastInsertId();
                     $query = "SELECT IDNOUVELLE, TITRE_NOUVELLE, DESCRIPTION, DPUBLICATION, IMAGE from NOUVELLE WHERE IDNOUVELLE = $newId;";
-
                     //Ajout d'une nouvelle.
                     $result = $bdd->query($query);
                     $newNews = $result->fetch();

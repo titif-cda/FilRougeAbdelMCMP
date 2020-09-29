@@ -65,12 +65,12 @@ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh
     <div class="container-fluid">
         <div class="inner-header">
             <div class="row">
-                <div class="col-2">
+                <div class="col-2 col-sm-2	col-md-2 col-lg-2 col-xl-2">
                     <div class="logo">
                         <a href="./index.php?page=accueil"><img src="./img/logo/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-10">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
                     <div class="row">
                         <div class="col">
                             <nav class="main-menu mobile-menu">

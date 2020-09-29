@@ -28,7 +28,10 @@ h2{
 
   .single-blog-item.plain-text {
    background: none;
-    margin: 100px;
+   padding-top: 0;
+  }
+  .carousel-item{
+    height: max-content;
   }
   .carousel-caption {
     position: initial;

@@ -231,7 +231,7 @@ Created: colorlib
     //
     // });
 
-    //suppression membre
+    //suppression inscription
     /*$('.deleteinscr').on('click', function() {
         console.log('btn table ready !');
         var inscriptionAd = $(this).data('id');

@@ -14,7 +14,8 @@
                             //Liste déroulante me permettant de rajouter une photo uniquement pour les activités qui ont dèjà eu lieu
                             <select class="liste_deroulante" name="IDACTIVITE" id ="INTITULEACTIVITE" >
                                 <?php
-                                $activites = $bdd->query('SELECT IDACTIVITE ,INTITULEACTIVITE FROM ACTIVITE  WHERE DLIMITEINSCRIPTION < NOW() order by DDEBUT asc');
+                                $activites = $bdd->query('SELECT IDACTIVITE ,INTITULEACTIVITE FROM ACTIVITE  
+                                WHERE DLIMITEINSCRIPTION < NOW() order by DDEBUT asc');
                                 while ($data = $activites-> fetch())
                                 {echo'<option value="'.$data['IDACTIVITE'].'">'.$data['INTITULEACTIVITE'].'</option>';}
                                 ?>

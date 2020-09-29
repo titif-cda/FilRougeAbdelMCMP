@@ -5929,3 +5929,27 @@ Stack trace:
 [28-Sep-2020 21:18:36 UTC] PHP Stack trace:
 [28-Sep-2020 21:18:36 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
 [28-Sep-2020 21:18:36 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:12
+[29-Sep-2020 09:07:05 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[29-Sep-2020 09:08:26 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6

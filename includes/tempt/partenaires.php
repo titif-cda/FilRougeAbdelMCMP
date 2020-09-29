@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <h2 class="text-center">Ils nous font confiance !!</h2>
         <div class="row">
-            <div class="col-4 ">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="single-blog-item plain-text text-center">
                     <div class="blog-text">
                         <h3>“ Je tiens aujourd'hui à témoigner toute la reconnaissance de notre association pour la générosité.<br />
@@ -13,7 +13,7 @@
 
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                 <div id="demo" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">

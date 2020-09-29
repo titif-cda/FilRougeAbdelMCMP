@@ -15,7 +15,8 @@
         <div class="row gallery-filter">
             <?php
             //la requete
-            $query = 'SELECT P.TITREPHOTO,P.DPHOTO,P.NOMFICHIER, P.IDACTIVITE, A.IDACTIVITE, A.IDTYPE  FROM PHOTO P JOIN ACTIVITE A WHERE P.IDACTIVITE = A.IDACTIVITE  ' ;
+            $query = 'SELECT P.TITREPHOTO,P.DPHOTO,P.NOMFICHIER, P.IDACTIVITE, A.IDACTIVITE, A.IDTYPE  
+            FROM PHOTO P JOIN ACTIVITE A WHERE P.IDACTIVITE = A.IDACTIVITE  ' ;
             $reponse = $bdd->query($query);
             while($row = $reponse -> fetch()){
 

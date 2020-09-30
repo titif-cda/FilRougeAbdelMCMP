@@ -11,3 +11,22 @@
      font-weight: bolder;
    }
  }
+
+.listInscription{
+  .booking-form{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  h2{
+    text-transform: none;
+    padding: 15px;
+  }
+  th{
+    text-transform: none;
+  }
+.table td, .table th {
+  padding: 4px;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+}

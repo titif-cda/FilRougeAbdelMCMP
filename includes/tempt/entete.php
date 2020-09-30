@@ -1,4 +1,4 @@
-<div class="hero-section set-bg" data-setbg="./img/hero2.png">
+<div class="hero-section set-bg" data-setbg="./img/design/hero2.png">
     <div class="container">
         <div class="row">
             <div class="col-12">

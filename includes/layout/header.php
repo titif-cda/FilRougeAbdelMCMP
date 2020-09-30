@@ -14,24 +14,27 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="./vendor/summernote-0.8.18-dist/summernote-bs4.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" async>
+    <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css"async>
+    <link rel="stylesheet" href="./css/flaticon.css" type="text/css"async>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css"async>
+    <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css"async>
+    <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css"async>
+    <link rel="stylesheet" href="./vendor/summernote-0.8.18-dist/summernote-bs4.css" type="text/css"async>
     <!-- Css open street map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
-integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" async />
 
     <!-- Css Wysiwyg -->
-    <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css' async>
 
 
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <link rel="stylesheet" href="./css/main.css?v=1.<?= time(); ?>" type="text/css">
-    <link rel="canonical" href="http://www.cda28.s1.2isa.test-<?= $ar_pages_var[$page]['KEY_TITLE']; ?>-<?= isset($_GET['id']) ? $_GET['id'] : ""; ?>-<?= isset($_GET['titre'] ) ? "-" . $_GET['titre'] . ".html" : ""; ?>-" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" async>
+    <link rel="stylesheet" href="./css/main.css?v=1.0" type="text/css" async>
+
+
+    <!-- URL canonicale dynamique -->
+    <link rel="canonical" href="http://cda28.s1.2isa.org/page-<?php echo $page; echo $id = (empty($_GET['id'])) ? '' : "-".$_GET['id'] ?>">
 
 
     <!-- Matomo -->

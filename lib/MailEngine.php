@@ -24,6 +24,7 @@ class MailEngine{
         $mail -> Password = Configuration::smtpConfig['Password'];
         $mail -> SMTPSecure = Configuration::smtpConfig['SMTPSecure'];
         $mail -> Port = Configuration::smtpConfig['Port'];
+        $mail -> CharSet = 'UTF-8';
 
         //copie administrateur
         $mail -> setFrom(Configuration::smtpConfig['From']['Address'],Configuration::smtpConfig['From']['Name']);

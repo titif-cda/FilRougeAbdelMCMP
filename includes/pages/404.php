@@ -17,7 +17,7 @@ include('./includes/tempt/entete.php');
             </div>
             <div class="col-6">
                 <div class="about-img">
-                    <img src="./img/404.jpg" alt="">
+                    <img src="./img/design/404.jpg" alt="">
                 </div>
             </div>
         </div>

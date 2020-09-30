@@ -1,4 +1,4 @@
-<a href="./index.php?page=activiteseule&id=<?php echo $row['IDACTIVITE']; ?>&titre=<?php echo str_replace(" ", "", $row['INTITULEACTIVITE'])?>">
+<a href="page-activiteseule-<?php echo $row['IDACTIVITE']; ?>-<?php echo str_replace(" ", "", $row['INTITULEACTIVITE'])?>">
 
     <div  class="col-lg-3 col-md-6 filter <?php echo $row['IDTYPE']; ?>">
 

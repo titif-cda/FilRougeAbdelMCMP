@@ -21,7 +21,7 @@ session_start();
 }*/
 include('./config/config.php');
 //Mes fonctions
-include('./lib/utils.php');
+/*include('./lib/utils.php');*/
 include('./lib/function.php');
 //Mes libtrairies php
 

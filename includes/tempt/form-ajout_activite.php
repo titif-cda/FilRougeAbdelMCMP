@@ -1,7 +1,7 @@
 <section><!-- Contact Section Begin -->
     <div class="booking-classes">
 
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Ajout activité</h2>

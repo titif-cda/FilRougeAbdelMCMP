@@ -184,7 +184,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                 //je transforme le H1 prévu coté BD
                 $ar_pages_var[$page]['h1'] = $titleActivite;
                 $id = $_GET['id'];
-                $idAd = $_SESSION['IDADHERENT'];
+
                 $title_register = 'Mise à jour de votre profil';
                 $btn_register = 'Mettre à jour';
                 $action = 'update_profil';

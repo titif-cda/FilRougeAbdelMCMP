@@ -10,7 +10,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <?php  include('./includes/tempt/boxes-section.php'); ?>
+                <?php  include('./includes/tempt/listActivites.php'); ?>
             </div>
         </div>
     </div>

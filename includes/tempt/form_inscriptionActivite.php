@@ -1,12 +1,12 @@
 
 <?php
 
-include('./includes/tempt/inutilisé/tableau_inscri.php');
+
 
 ?>
 
 <section>
-    <div id="ajoutInscription" class="booking-classes">
+    <div id="ajoutInscription" class="booking-classes ">
         <div class="container">
             <div class="row forminscr">
                 <div class="col-lg-12">

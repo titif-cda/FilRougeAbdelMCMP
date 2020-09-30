@@ -112,3 +112,32 @@ h2{
     opacity: unset
   }
 }
+
+#reglement{
+
+  padding: 50px;
+
+
+
+.reglementText , .reglementPieces{
+  box-shadow: 1px 0px 20px 0px $color1;
+  h2{
+    color: $color1;
+    padding: 20px 20px;
+  }
+  h4{
+    text-align: left;
+  }
+
+
+  p,li{
+    font-weight: normal;
+    color: black;
+    word-spacing: 3px;
+    text-transform: none;
+    text-align: left;
+  }
+
+}
+  .reglementPieces{margin-top: 50px;}
+}

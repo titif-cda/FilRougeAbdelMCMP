@@ -203,16 +203,26 @@ if (!empty($_POST)) {
 
 
                         //ou 2 si admin (to be continued)
-
+                        $user_level = 0;
+                        if ($donnees['ADMIN'] == 0) {
+                            $user_level = 1;
+                            $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte membre!";
+                        }
+                        else if ($donnees['ADMIN'] == 1) {
+                            $user_level = 2;
+                            $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte administrateur!";
+                        }
                         $user_level = 1;
                         if ($donnees['ADMIN'] == 1) {
                             $user_level = 2;
                         }
                         $_SESSION['user_level'] = $user_level;
+                        //Retour page par defaut
+                        $page = $homepage;
+
 
 //                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
-//                        //Retour page par defaut
-//                        $page = $homepage;
+//
 //                        $cookie_name = "ticket";
 //                        // On génère quelque chose d'aléatoire
 //                        $ticket = session_id().microtime().rand(0, 9999999999);

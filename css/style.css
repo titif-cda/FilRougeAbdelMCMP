@@ -344,9 +344,6 @@ ol {
 	margin-right: 30px;
 }
 
-.inner-header .main-menu ul li:nth-child(5) {
-	margin-right: 60px;
-}
 
 .inner-header .main-menu ul li a {
 	font-size: 15px;
@@ -354,7 +351,7 @@ ol {
 	font-weight: 500;
 	color: #081624;
 	text-transform: uppercase;
-	padding: 36px 20px;
+padding: 36px 3px;
 	position: relative;
 	z-index: 1;
 }

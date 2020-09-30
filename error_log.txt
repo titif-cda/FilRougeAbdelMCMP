@@ -5953,3 +5953,26 @@ Stack trace:
 #1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(4): include('C:\\wamp64\\www\\F...')
 #2 {main}
   thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 10:10:13 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 187
+[30-Sep-2020 10:11:40 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 187
+[30-Sep-2020 10:11:44 UTC] PHP Notice:  Undefined index: IDADHERENT in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_get.php on line 187
+[30-Sep-2020 14:23:55 UTC] PHP Warning:  include(./includes/tempt/inutilisé/tableau_inscri.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 4
+[30-Sep-2020 14:23:55 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/tableau_inscri.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\form_inscriptionActivite.php on line 4
+[30-Sep-2020 14:25:33 UTC] PHP Warning:  include(./includes/tempt/inutilisé/tableau.php.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 14:25:33 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/tableau.php.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 14:25:41 UTC] PHP Warning:  include(./includes/tempt/inutilisé/tableau.php
+    ): failed to open stream: Permission denied in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 14:25:41 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/tableau.php
+    ' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 14:25:51 UTC] PHP Warning:  include(./includes/tempt/inutilisé/tableau_inscri.php
+    ): failed to open stream: Permission denied in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 14:25:51 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/tableau_inscri.php
+    ' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 15:15:20 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:15:20 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:15:21 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:15:21 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:15:23 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:15:23 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
+[30-Sep-2020 15:19:42 UTC] PHP Warning:  include(./includes/tempt/inutilisé/tableau_inscri.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 15:19:42 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/tableau_inscri.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4

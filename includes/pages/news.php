@@ -53,7 +53,7 @@
                 <div class="row">
 
                     <div class="col-lg-12">
-                        <form action="index.php?page=news&id=<?php echo $id; ?>&titre=<?php echo str_replace(" ", "", $titleNouvelle)?>" method="post"
+                        <form action="page-news-<?php echo $id; ?>-<?php echo str_replace(" ", "", $titleNouvelle)?>" method="post"
                               enctype="multipart/form-data">
                             <input type="hidden" name="formulaire" value="update_news">
                             <input type="hidden" name="IdNouvelle" value="<?php echo $id; ?>">

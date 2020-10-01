@@ -64,9 +64,7 @@
 
 </footer>
 <!-- Footer Section End -->
-<!-- Search model -->
 
-<!-- Search model end -->
 
 <!-- Js Plugins -->
 <script src="./js/jquery-3.3.1.min.js" ></script>

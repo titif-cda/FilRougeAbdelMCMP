@@ -186,13 +186,13 @@
                                         <div class="col-sm-6">
                                             <label for="name" >Valider Inscription </label>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="VALID" id="administrateur"  <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == "Valider") { echo "checked"; } } ?>value=1 >
+                                                <input class="form-check-input" type="radio" name="VALID" id="administrateur" checked <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == "Valider") { echo "checked"; } } ?>value=1 >
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Valider
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="VALID" id="membre" checked <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == " Ne pas valider") { echo "checked"; } } ?>value=0 >
+                                                <input class="form-check-input" type="radio" name="VALID" id="membre"  <?php if (isset($_POST["VALID"])) { if ($_POST["VALID"] == " Ne pas valider") { echo "checked"; } } ?>value=0 >
                                                 <label class="form-check-label" for="exampleRadios2">
                                                     Ne pas valider
                                                 </label>

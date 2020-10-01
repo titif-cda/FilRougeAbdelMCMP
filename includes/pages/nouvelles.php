@@ -1,9 +1,20 @@
 <main>
+
     <?php
     include('./includes/tempt/entete.php');
 
     ?>
+
     <div class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <div class="section-title">
+                        <h2>Toutes nos informations</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div id="single_news" class="row">
                 <?php

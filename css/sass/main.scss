@@ -111,12 +111,26 @@ h5{
   }
   }
 }
-.map{
+.carte{
  padding: 0px;
   border: none;
-#openmap{
+  p{
+    color: black;
+    font-weight: bolder;
+  }
+.booking-form{
+
+  background-color: #F3F4FF;
+  margin: 50px auto;
+  height: max-content;
+  margin-top: 68px;
+  padding: 15px 15px;
+  box-shadow: 1px 0px 20px 0px #800000;
+
+}
+  #openmap{
   height: 380px;
-  width: 800px;
+  width: 100%;
   display: block;
   margin: auto;
   border:2px solid rgba(0,0,0,.125);
@@ -129,4 +143,18 @@ h5{
   img{
     height: 379px;
   }
+}
+.services-section {
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+.contact-text .contact-widget ul li {
+  list-style: none;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #081624;
+  line-height: 27px;
+  margin-bottom: 30px;
+  position: relative;
 }

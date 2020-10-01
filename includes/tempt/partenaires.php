@@ -1,8 +1,8 @@
 
 <div class="partenaires">
-    <div class="container-fluid">
+    <div class="container ">
         <h2 class="text-center">Ils nous font confiance !!</h2>
-        <div class="row">
+        <div class="row booking-form">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="single-blog-item plain-text text-center">
                     <div class="blog-text">

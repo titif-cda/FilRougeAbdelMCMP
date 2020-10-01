@@ -15,11 +15,6 @@
 
                 <span class="blog-time"><?php echo $row['DDEBUT']; ?></span>
                 <h4><?php echo $row['INTITULEACTIVITE']; ?></h4>
-
-                <!--<p>In viverra urna in orci imperdiet, aliquam suscipit risus consequat. Sed auctor, urna ac
-                    convallis laoreet, diam nibh dignissim ante, ac finibus.</p> -->
-
-
             </div>
         </div>
     </div>

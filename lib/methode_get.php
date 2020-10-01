@@ -210,7 +210,6 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                                 if($_GET['token'] == $_SESSION['token']){
 
-
                                     //lancement de la requete
 
                                     $query = 'DELETE FROM ADHERENT WHERE IDADHERENT = ?';
@@ -219,7 +218,6 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                                     //information modal html
                                     $message_modal = 'Utilisateur '.$_GET['id'].' supprimé.';
-
 
                                 }
 
@@ -271,16 +269,13 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
 
                                 if($_GET['token'] == $_SESSION['token']){
 
-
                                     //lancement de la requete
 
                                     $query = 'DELETE FROM INSCRIPTION WHERE IDINSCRIPTION = ?';
                                     $queryExec = $bdd->prepare($query);
                                     $result = $queryExec->execute(array($_GET['id']));
-
                                     //information modal html
                                     $message_modal = 'l\'inscription '.$_GET['id'].' est supprimée.';
-
 
                                 }
 
@@ -290,7 +285,6 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                                 $message_modal = 'Confirmer suppression ? <a href="index.php?page=inscription_activites&action=delete&id='.$_GET['id'].'&token='.$token.'">VALIDER SUPPRESSION</a>';
 
                             }
-
 
                         } else
                             $message_modal = 'Vous n\'êtes pas autorisé a supprimmer';

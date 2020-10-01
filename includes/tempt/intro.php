@@ -6,10 +6,9 @@
                     <div class="col-lg-8">
                         <div class="hero-text">
                             <h2>Bienvenue Sur le Site de MCMP</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                            <a href="../../index.php" class="primary-btn">Venez nous découvrir</a>
+                            <p>Venez faire connaissance avec notre association, nous vous réservons beaucoup de surprises.<br>
+                            Comme nous, vous êtes passionné par les 2 roues alors vous êtes au bon endroit </p>
+                            <a href="page-accueil" class="primary-btn">Venez nous découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -21,10 +20,8 @@
                     <div class="col-lg-8">
                         <div class="hero-text">
                             <h2>Partez à l'aventure avec nous</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                            <a href="../../index.php" class="primary-btn">Nos activités</a>
+                            <p>Venez partager des moments sympas avec l'ensemble des membres de l'association</p>
+                            <a href="page-activites" class="primary-btn">Nos activités</a>
                         </div>
                     </div>
                 </div>
@@ -36,10 +33,8 @@
                     <div class="col-lg-8">
                         <div class="hero-text">
                             <h2>Restez à l'affut des dernieres News</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                            <a href="../../index.php" class="primary-btn">Les dernières nouvelles</a>
+                            <p>Nous proposons des actualités liées au monde du 2 roue, mise à jour régulièrement </p>
+                            <a href="page-nouvelles" class="primary-btn">Les dernières nouvelles</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +47,7 @@
                         <div class="hero-text">
                             <h2>Inscrivez vous</h2>
 
-                            <a href="../../index.php" class="primary-btn">Adhérez à l'association</a>
+                            <a href="page-inscription" class="primary-btn">Adhérez à l'association</a>
 
 
 
@@ -69,7 +64,7 @@
                             <h2>Consultez notre galerie photo</h2>
 
 
-                                <a href="../../index.php" class="primary-btn">Galerie photo</a>
+                                <a href="page-galerie" class="primary-btn">Galerie photo</a>
 
 
 

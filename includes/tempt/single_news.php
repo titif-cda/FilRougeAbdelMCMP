@@ -16,8 +16,8 @@
 
                 <?php if($user_level == 2){?>
                     <div class="col-lg-12">
-                        <?php if ($user_level == 2) { ?>  <a href="javascript::void(0);"alt="Supprimer" data-id="<?php echo $row['IDNOUVELLE']; ?>"
-                           title="Supprimer"  class="btn primary-btn deleteadh ">Supprimer</a>      <?php } ?>
+                        <?php if ($user_level == 2) { ?>  <a href="javascript::void(0);" alt="Supprimer" data-id="<?php echo $row['IDNOUVELLE']; ?>"
+                           title="Supprimer"  class="btn primary-btn suprnews ">Supprimer</a>      <?php } ?>
                     </div>
                 <?php } ?>
 

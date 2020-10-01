@@ -6126,3 +6126,167 @@ Stack trace:
 [01-Oct-2020 12:36:53 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 22
 [01-Oct-2020 12:36:53 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\index.php on line 22
 [01-Oct-2020 12:37:00 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\classes-section.php on line 16
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:03 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:03 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:03 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:03 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:03 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:03 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:06:04 UTC] PHP Notice:  Undefined index: IDNOUVELLE in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\single_activite.php on line 21
+[01-Oct-2020 17:06:04 UTC] PHP Stack trace:
+[01-Oct-2020 17:06:04 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:06:04 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:06:04 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\activites.php:8
+[01-Oct-2020 17:06:04 UTC] PHP   4. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\activitelist.php:29
+[01-Oct-2020 17:16:26 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 13
+[01-Oct-2020 17:16:26 UTC] PHP Stack trace:
+[01-Oct-2020 17:16:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:16:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:16:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[01-Oct-2020 17:18:02 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 56
+[01-Oct-2020 17:18:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 56
+[01-Oct-2020 17:18:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 56
+[01-Oct-2020 17:18:43 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 56
+[01-Oct-2020 17:19:11 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 56
+[01-Oct-2020 17:19:26 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 13
+[01-Oct-2020 17:19:26 UTC] PHP Stack trace:
+[01-Oct-2020 17:19:26 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:19:26 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:19:26 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4
+[01-Oct-2020 17:19:40 UTC] PHP Notice:  Undefined variable: inscr in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\tableau_inscri.php on line 13
+[01-Oct-2020 17:19:40 UTC] PHP Stack trace:
+[01-Oct-2020 17:19:40 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[01-Oct-2020 17:19:40 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:43
+[01-Oct-2020 17:19:40 UTC] PHP   3. include() C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php:4

@@ -3,6 +3,7 @@
     <h3 class="text-center ">Membres en attente de validation de compte</h3>
     <div class="container">
         <div class="row">
+
             <?php
             //la requete
             $query = 'SELECT * FROM ADHERENT where CONFIRMATION = :confirm;';
@@ -15,7 +16,7 @@
             //boucle les donneees recuperees
             while($donnees = $reponse -> fetch()){
             ?>
-            <div class="col-2">
+            <div class="col-sm-12 col-lg-4">
                 <a href="page-profil_adherent-<?php echo  $donnees["IDADHERENT"] ?> "   >
                 <div class="single-classes-item">
                     <h4><?php echo $donnees["NOM"]. ' ' .$donnees["PRENOM"] ?></h4>

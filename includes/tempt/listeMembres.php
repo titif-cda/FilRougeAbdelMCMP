@@ -17,10 +17,7 @@
                     include('./includes/tempt/membre.php');
 
                 }
-                /*include('./includes/tempt/membre.php');
-                include('./includes/tempt/membre.php');
-                include('./includes/tempt/membre.php');
-                include('./includes/tempt/membre.php');*/
+
                 ?>
             </div>
         </div>

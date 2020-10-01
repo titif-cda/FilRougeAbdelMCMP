@@ -21,15 +21,31 @@
             }
         }
         include('./includes/tempt/entete.php');
-        ?> <div class="classes-time-section spad set-bg" data-setbg="./img/design/viaduc.jpg">  <?php
+        ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <div class="section-title titreSection">
+                        <h2>Contactez nous</h2>
+                    </div>
+                </div>
+            </div>
+
+        <div class="classes-time-section spad set-bg" data-setbg="./img/design/viaduc.jpg">  <?php
             include('./includes/tempt/contact-section.php');
 
 
             ?>
-
+<div class="card  carte">
+    <div class="row">
+        <div class="col-8 text-center booking-form">
             <div id="openmap" class="map">
 
             </div>
+        </div>
+    </div>
+</div>
+
         </div>
     </div>
 </main>

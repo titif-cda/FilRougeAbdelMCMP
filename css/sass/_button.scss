@@ -13,7 +13,7 @@
   margin-right: 0;
   font-family: "Oswald", sans-serif;
   a{color: white;
-      }
+  }
   .inscr-btn:hover{
     color: gray;
     border-color: gray;
@@ -94,8 +94,16 @@ input{
     padding: 0px;
   }
 }
-#news{
-  .primary-btn{
-    color: darkred;
+#simplenews{
+
+  .primary-btn {
+    height: 30px;
+    background-color: #800000;
+    padding: 3px 7px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 11px;
+
+    float: right;
   }
 }

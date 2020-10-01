@@ -1,4 +1,13 @@
 <section class="gallery-section spad">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-9 m-auto text-center">
+                <div class="section-title titreSection">
+                    <h2>Toutes nos informations</h2>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

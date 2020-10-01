@@ -1,24 +1,25 @@
 <?php
 //Démarrage dede session
 session_start();
-
-/*if (isset($_SESSION['Id'])) {
+if(isset($_SESSION['id'])){
     //Si le $_COOKIE ticket est identique à $_SESSION ticket, alors on regènere le ticket valable 20 min
-    if (isset($_COOKIE['ticket']) and $_COOKIE['ticket'] == $_SESSION['ticket']) {
-        $ticket = session_id().microtime().rand(0, 9999999999);
+    if (isset($_COOKIE['ticket']) AND $_COOKIE['ticket'] == $_SESSION['ticket'])
+    {
+        $ticket = session_id().microtime().rand(0,9999999999);
         $ticket = hash('sha512', $ticket);
         $_SESSION['ticket'] = $ticket;
-        setcookie('ticket', $ticket, time() + (60 * 20)); // Expire au bout de 20 min
-    } else {
-        //Sinon
+        setcookie('ticket', $ticket, time() + (60 * 5)); // Expire au bout de 5 min
+    }
+    else
+    {
         // On détruit la session
-        //On réinitialise le tableau des $_SESSION à vide
-        $_SESSION = array();
+        //$_SESSION = array();
         session_destroy();
         unset($_COOKIE['ticket']);
         header('location:index.php');
     }
-}*/
+}
+
 include('./config/config.php');
 //Mes fonctions
 /*include('./lib/utils.php');*/

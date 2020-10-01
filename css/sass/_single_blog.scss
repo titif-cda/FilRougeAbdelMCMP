@@ -23,7 +23,7 @@
       }
 
     }
-    .blog-text{
+
        span.blog-time {
         display: inline-block;
         font-size: 16px;
@@ -42,7 +42,7 @@
         display: none;
       }
     }
-  }
+
 }
 
 #activite{
@@ -59,4 +59,18 @@ height: 470px;}
 
 #single_act{
   justify-content: center;
+}
+#simplenews{
+  .primary-btn{
+    height: 30px;
+    /* color: #800000; */
+    background-color: $color1;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-bottom: 0px;
+
+    margin-top: 11px;
+    margin-left: 126px;
+  }
+
 }

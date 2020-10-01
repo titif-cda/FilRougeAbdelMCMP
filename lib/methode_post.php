@@ -212,27 +212,23 @@ if (!empty($_POST)) {
                             $user_level = 2;
                             $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte administrateur!";
                         }
+                        //Retour page par defaut
                         header('Location: page-accueil');
                         $user_level = 1;
                         if ($donnees['ADMIN'] == 1) {
                             $user_level = 2;
                         }
                         $_SESSION['user_level'] = $user_level;
-                        //Retour page par defaut
 
-
-
-//                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
-//
-//                        $cookie_name = "ticket";
-//                        // On génère quelque chose d'aléatoire
-//                        $ticket = session_id().microtime().rand(0, 9999999999);
-//                        // on hash pour avoir quelque chose de propre qui aura toujours la même forme
-//                        $ticket = hash('sha512', $ticket);
-//                        // On enregistre des deux cotés
-//                        setcookie($cookie_name, $ticket, time() + (60 * 20)); // Expire au bout de 20 min
-//                        //On stock le ticket dans une Session (on verifiera en permanence que le ticket session et cookie est identique)
-//                                    $_SESSION['ticket'] = $ticket;
+                        $cookie_name = "ticket";
+                        // On génère quelque chose d'aléatoire
+                        $ticket = session_id() . microtime() . rand(0, 9999999999);
+                        // on hash pour avoir quelque chose de propre qui aura toujours la même forme
+                        $ticket = hash('sha512', $ticket);
+                        // On stocke le ticket dans une Session (on verifiera en permanence que le ticket session et c
+                        //ookie est identique)
+                        setcookie($cookie_name, $ticket, time() + (60 * 5)); // Expire au bout de 5 min
+                        $_SESSION['ticket'] = $ticket;
 
 
                     }

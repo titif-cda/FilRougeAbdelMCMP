@@ -190,7 +190,9 @@ input {
 /* line 49, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff,
+ 0 0 20px #fff,
+ 0 0 40px #fff;
 }
 
 /* line 57, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
@@ -546,7 +548,9 @@ a:hover {
 /* line 83, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .piedPage .mcmp h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff,
+ 0 0 20px #fff,
+ 0 0 40px #fff;
 }
 
 /* line 92, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
@@ -693,7 +697,9 @@ a:hover {
 /* line 56, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff,
+ 0 0 20px #fff,
+ 0 0 40px #fff;
 }
 
 /* line 64, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
@@ -1738,5 +1744,3 @@ h5 {
   margin-bottom: 30px;
   position: relative;
 }
-
-/*# sourceMappingURL=main.css.map */

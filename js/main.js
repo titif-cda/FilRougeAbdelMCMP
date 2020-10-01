@@ -119,7 +119,7 @@ Created: colorlib
     /*------------------
         Progress Loader
     --------------------*/
-	$('.circle-progress').each(function() {
+/*	$('.circle-progress').each(function() {
 		var cpvalue = $(this).data("cpvalue");
 		var cpcolor = $(this).data("cpcolor");
 		var cpid 	= $(this).data("cpid");
@@ -145,15 +145,15 @@ Created: colorlib
 				emptyFill: "rgba(0, 0, 0, 0)"
 			});
 		}
-	});
+	});*/
 
 
     /*------------------
             Mon JS
    --------------------*/
-    $('.carousel-inner').carousel({
+  /*  $('.carousel-inner').carousel({
         interval: 5000
-    })
+    })*/
 
 
 

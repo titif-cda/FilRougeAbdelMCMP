@@ -212,13 +212,14 @@ if (!empty($_POST)) {
                             $user_level = 2;
                             $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte administrateur!";
                         }
+                        header('Location: page-accueil');
                         $user_level = 1;
                         if ($donnees['ADMIN'] == 1) {
                             $user_level = 2;
                         }
                         $_SESSION['user_level'] = $user_level;
                         //Retour page par defaut
-                        $page = $homepage;
+
 
 
 //                        $message_modal = "Bravo " . $prenom . " " . $nom . " vous êtes connecté!";
@@ -234,7 +235,9 @@ if (!empty($_POST)) {
 //                                    $_SESSION['ticket'] = $ticket;
 
 
-                    } else {
+                    }
+
+                else {
                         $message_modal = "Identifiant ou mot de passe invalide!";
                     };
 

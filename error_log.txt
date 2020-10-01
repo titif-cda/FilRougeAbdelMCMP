@@ -5976,3 +5976,116 @@ Stack trace:
 [30-Sep-2020 15:15:23 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisÃ©/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\accueil.php on line 9
 [30-Sep-2020 15:19:42 UTC] PHP Warning:  include(./includes/tempt/inutilisÃ©/tableau_inscri.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
 [30-Sep-2020 15:19:42 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisÃ©/tableau_inscri.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\inscription_activites.php on line 4
+[30-Sep-2020 18:32:20 UTC] PHP Warning:  mime_content_type(): Empty filename or path in C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php on line 20
+[30-Sep-2020 18:32:20 UTC] PHP Stack trace:
+[30-Sep-2020 18:32:20 UTC] PHP   1. {main}() C:\wamp64\www\FilRougeAbdelMCMP\index.php:0
+[30-Sep-2020 18:32:20 UTC] PHP   2. include() C:\wamp64\www\FilRougeAbdelMCMP\index.php:30
+[30-Sep-2020 18:32:21 UTC] PHP   3. upload_img() C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php:145
+[30-Sep-2020 18:32:21 UTC] PHP   4. mime_content_type() C:\wamp64\www\FilRougeAbdelMCMP\lib\function.php:20
+[30-Sep-2020 18:34:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:34:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:34:59 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:34:59 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:35:05 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:35:06 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:35:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:36:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:36:16 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:36:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+ in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6
+[30-Sep-2020 18:36:33 UTC] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Hï¿½te inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu.  in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php:6
+Stack trace:
+#0 C:\wamp64\www\FilRougeAbdelMCMP\config\config.php(6): PDO->__construct('mysql:host=cda2...', 'cda28', '7974cda28')
+#1 C:\wamp64\www\FilRougeAbdelMCMP\index.php(22): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\FilRougeAbdelMCMP\config\config.php on line 6

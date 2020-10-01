@@ -1,9 +1,11 @@
 @charset "UTF-8";
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn_modif {
   float: right;
   cursor: pointer;
 }
 
+/* line 6, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn_modif, .inscr-btn {
   font-size: 20px;
   background: var(--primary-color);
@@ -15,15 +17,18 @@
   font-family: "Oswald", sans-serif;
 }
 
+/* line 15, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn_modif a, .inscr-btn a {
   color: white;
 }
 
+/* line 17, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn_modif .inscr-btn:hover, .inscr-btn .inscr-btn:hover {
   color: gray;
   border-color: gray;
 }
 
+/* line 25, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .liste_deroulante {
   font-size: 24px;
   margin: 0;
@@ -33,18 +38,21 @@
   margin-bottom: 25px;
 }
 
+/* line 33, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn-primary {
   color: #fff;
   background-color: #800000;
   border-color: #800000;
 }
 
+/* line 38, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .btn-primary:hover {
   color: #fff;
   background-color: grey;
   /* border-color: #0062cc; */
 }
 
+/* line 44, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .blog-time {
   background: #fcfcfc;
   background: linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
@@ -52,11 +60,13 @@
   background: -webkit-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
 }
 
+/* line 52, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .maj .btn-primary {
   display: block;
   margin: auto;
 }
 
+/* line 58, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .deleteadh {
   padding: 5px 0px;
   height: 34px;
@@ -64,6 +74,7 @@
   size: 10px;
 }
 
+/* line 66, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .deleatadh_get {
   background-color: darkblue;
   padding: 5px 0px;
@@ -73,27 +84,33 @@
   text-align: center;
 }
 
+/* line 75, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .form-check {
   margin: 20px 0;
 }
 
+/* line 78, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .form-check label {
   display: block;
   margin-bottom: .5rem;
 }
 
+/* line 84, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 input {
   margin: 22px 0;
 }
 
+/* line 88, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .booking-form .submit-btn {
   height: 40px;
 }
 
+/* line 93, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_button.scss */
 .table .primary-btn {
   padding: 0px;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage {
   height: 300px;
   position: relative;
@@ -101,6 +118,7 @@ input {
   color: white;
 }
 
+/* line 7, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .centered {
   position: absolute;
   top: 81%;
@@ -108,6 +126,7 @@ input {
   transform: translate(-50%, -50%);
 }
 
+/* line 13, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .center-top {
   position: absolute;
   top: 9%;
@@ -115,10 +134,12 @@ input {
   transform: translate(-50%, -50%);
 }
 
+/* line 18, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .center-top img {
   border-radius: 8%;
 }
 
+/* line 22, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp {
   width: max-content;
   height: auto;
@@ -130,6 +151,7 @@ input {
   justify-content: center;
 }
 
+/* line 32, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2 {
   color: #800000;
   font-size: 60px;
@@ -139,23 +161,28 @@ input {
   cursor: pointer;
 }
 
+/* line 40, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2 span {
   transition: .5s linear;
 }
 
+/* line 43, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2:hover span:nth-child(1) {
   margin-right: 5px;
 }
 
+/* line 46, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2:hover span:nth-child(2) {
   margin-left: 30px;
 }
 
+/* line 49, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .mcmp h2:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
+/* line 57, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_accueil.scss */
 .accueilpage .image #fondecran {
   /* Fixe l'image en haut à gauche de la page */
   position: fixed;
@@ -166,30 +193,36 @@ input {
   min-height: 100%;
 }
 
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news a {
   display: contents;
 }
 
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news h4 {
   font-size: 20px;
   color: #800000;
 }
 
+/* line 9, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news .single-blog-item.blog-item:hover {
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 12, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news .single-blog-item.blog-item {
   min-height: 300px;
   height: 450px;
 }
 
+/* line 19, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news .single-blog-item.blog-item .blog .single-blog-item.blog-item .blog-text {
   position: relative;
   padding: 16px;
   height: calc(330px - 169px);
 }
 
+/* line 27, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news .single-blog-item.blog-item .blog-text span.blog-time {
   display: inline-block;
   font-size: 16px;
@@ -199,34 +232,41 @@ input {
   margin-bottom: 0;
 }
 
+/* line 39, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_news .single-blog-item.blog-item .blog-text .blog-widget {
   position: absolute;
   bottom: 0px;
   display: none;
 }
 
+/* line 48, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #activite {
   width: 350px;
   height: 470px;
 }
 
+/* line 51, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 .single-blog-item.blog-item:hover {
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 55, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 .single-blog-item.blog-item .blog-img img {
   width: 100%;
   height: 300px;
 }
 
+/* line 60, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_single_blog.scss */
 #single_act {
   justify-content: center;
 }
 
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 header .slicknav_nav {
   background: white;
 }
 
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 header .slicknav_nav a {
   font-size: 15px;
   font-family: "Oswald", sans-serif;
@@ -238,18 +278,22 @@ header .slicknav_nav a {
   z-index: 1;
 }
 
+/* line 19, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 a {
   text-transform: uppercase;
 }
 
+/* line 23, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .carousel-item {
   height: 500px;
 }
 
+/* line 28, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header {
   padding-top: 22px;
 }
 
+/* line 30, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header .primary-btn {
   display: inline-block;
   font-size: 14px;
@@ -262,6 +306,7 @@ a {
   text-transform: uppercase;
 }
 
+/* line 40, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header .logo {
   padding: 16px 0;
   -webkit-font-smoothing: antialiased;
@@ -270,6 +315,7 @@ a {
   height: 100%;
 }
 
+/* line 49, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header .active a {
   font-size: 15px;
   font-family: "Oswald", sans-serif;
@@ -280,95 +326,115 @@ a {
   z-index: 1;
 }
 
+/* line 58, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header .active li {
   margin-right: 30px;
 }
 
+/* line 62, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 .inner-header .active li:active {
   color: blue;
 }
 
+/* line 68, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_header.scss */
 a:hover {
   text-decoration: underline;
 }
 
 @media only screen and (max-width: 767px) {
+  /* line 4, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .hero-section .hero-text h1 {
     font-size: 25px;
     text-align: right;
     text-transform: uppercase;
   }
+  /* line 10, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .hero-section .hero-text h2 {
     font-size: 20px;
     text-align: right;
     text-transform: uppercase;
   }
+  /* line 17, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .section-title h2 {
     font-size: 20px;
   }
+  /* line 20, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .inner-header .main-menu {
     display: none;
   }
+  /* line 24, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .slicknav_menu .slicknav_btn {
     top: 15px;
   }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1240px) {
+  /* line 33, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .hero-section .hero-text h1 {
     font-size: 35px;
     text-align: right;
     text-transform: uppercase;
   }
+  /* line 39, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .hero-section .hero-text h2 {
     font-size: 30px;
     text-align: right;
     text-transform: uppercase;
   }
+  /* line 46, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_query.scss */
   .section-title h2 {
     font-size: 30px;
   }
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .onefile {
   margin: 0px 0px 20px 20px;
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 7, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .filesupload h3 {
   padding: 40px 0px;
   text-transform: none;
 }
 
+/* line 10, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .filesupload h2 {
   font-size: 18px;
   text-transform: none;
 }
 
+/* line 16, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .filesupload p {
   text-transform: none;
   text-align: left;
   font-size: 16px;
 }
 
+/* line 23, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .filesupload .openFiles span, .filesupload .downloadFiles span {
   visibility: hidden;
 }
 
+/* line 27, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .filesupload .openFiles:hover span, .filesupload .downloadFiles:hover span {
   visibility: visible;
   font-size: 10px;
 }
 
+/* line 33, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_ressources.scss */
 .iconFiles img {
   height: 49px;
   width: 82px !important;
 }
 
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section {
   background-color: black;
 }
 
+/* line 4, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .reserved {
   opacity: 100%;
   font-size: 19px;
@@ -376,47 +442,103 @@ a:hover {
   float: none;
 }
 
+/* line 9, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .reserved p {
   color: #858585;
   font-size: 15px;
 }
 
+/* line 14, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .reserved li {
   display: inline;
 }
 
+/* line 16, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .reserved a {
   text-transform: uppercase;
   padding: 6px 7px;
-  color: #800000;
+  color: #858585;
   font-size: 14px;
 }
 
+/* line 23, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.footer-section .reserved a:hover {
+  color: #800000;
+}
+
+/* line 28, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .social-links a {
   font-size: 30px;
   color: #858585;
 }
 
+/* line 35, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .menu2 a {
   color: #858585;
 }
 
+/* line 38, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
 .footer-section .menu2 a:hover {
   color: var(--primary-color);
 }
 
-.footer-section .meteo iframe {
-  display: block;
-  width: 158px;
-  height: 50px;
+/* line 46, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp {
+  height: 67px;
+  padding: 12px;
+  margin: 0px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin-bottom: 30px;
 }
 
+/* line 61, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp h2 {
+  color: #800000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+/* line 70, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp h2 span {
+  transition: .5s linear;
+}
+
+/* line 74, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp h2:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+/* line 79, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp h2:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+/* line 83, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.piedPage .mcmp h2:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+/* line 92, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_footer.scss */
+.meteo {
+  border: 5px solid black;
+}
+
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 .booking-form h4 {
   text-align: center;
   padding-bottom: 30px;
   color: var(--primary-color);
 }
 
+/* line 10, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 .booking-form .submit-btn {
   font-size: 20px;
   margin: auto;
@@ -424,18 +546,22 @@ a:hover {
   width: 100%;
 }
 
+/* line 16, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 .booking-form label {
   font-weight: bolder;
 }
 
+/* line 20, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 .booking-form input {
   height: 22px;
 }
 
+/* line 23, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 .booking-form .form-check-label {
   font-weight: normal;
 }
 
+/* line 28, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 #upload-img-wrapper {
   position: relative;
   cursor: pointer;
@@ -446,11 +572,13 @@ a:hover {
   width: 150px;
 }
 
+/* line 36, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 #upload-img-wrapper img {
   position: relative;
   height: auto;
 }
 
+/* line 41, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 #upload-img-wrapper span {
   display: flex;
   flex-direction: column;
@@ -465,11 +593,13 @@ a:hover {
   user-select: none;
 }
 
+/* line 55, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_register.scss */
 #upload-img-wrapper:hover span {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil {
   height: 330px;
   position: relative;
@@ -478,6 +608,7 @@ a:hover {
   margin-bottom: 50px;
 }
 
+/* line 8, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .centered {
   position: absolute;
   top: 100%;
@@ -485,6 +616,7 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+/* line 14, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .center-top {
   position: absolute;
   top: 9%;
@@ -492,10 +624,12 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+/* line 19, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .center-top img {
   border-radius: 8%;
 }
 
+/* line 22, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp {
   height: 67px;
   padding: 12px;
@@ -508,6 +642,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
+/* line 37, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2 {
   color: #800000;
   font-size: 30px;
@@ -517,47 +652,57 @@ a:hover {
   cursor: pointer;
 }
 
+/* line 45, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2 span {
   transition: .5s linear;
 }
 
+/* line 48, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2:hover span:nth-child(1) {
   margin-right: 5px;
 }
 
+/* line 53, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2:hover span:nth-child(2) {
   margin-left: 30px;
 }
 
+/* line 56, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .presentationAccueil .mcmp h2:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
+/* line 64, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 #activite {
   width: 350px;
   height: 470px;
 }
 
+/* line 67, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .single-blog-item.blog-item:hover {
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 71, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .single-blog-item.blog-item .blog-img img {
   width: 100%;
   height: 300px;
 }
 
+/* line 76, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 #single_act {
   justify-content: center;
 }
 
+/* line 81, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .overlayMoto {
   padding: 20px;
   position: relative;
   width: 50%;
 }
 
+/* line 87, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .image {
   opacity: 1;
   display: block;
@@ -567,6 +712,7 @@ a:hover {
   backface-visibility: hidden;
 }
 
+/* line 96, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .middle {
   transition: .5s ease;
   opacity: 0;
@@ -578,14 +724,17 @@ a:hover {
   text-align: center;
 }
 
+/* line 107, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .overlayMoto:hover .image {
   opacity: 0.3;
 }
 
+/* line 111, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .overlayMoto:hover .middle {
   opacity: 1;
 }
 
+/* line 115, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallerie.scss */
 .boxes-section .text {
   background-color: #800000;
   color: white;
@@ -593,20 +742,24 @@ a:hover {
   padding: 16px 32px;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-section {
   padding-bottom: 70px;
   padding-top: 10px;
 }
 
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-section .blog-section {
   padding: 0px 0px 30px 0px;
 }
 
+/* line 11, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls {
   text-align: center;
   margin-bottom: 45px;
 }
 
+/* line 15, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls ul li {
   list-style: none;
   font-size: 16px;
@@ -620,14 +773,17 @@ a:hover {
   position: relative;
 }
 
+/* line 28, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls ul li.active {
   color: #800000;
 }
 
+/* line 32, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls ul li.active:after {
   opacity: 1;
 }
 
+/* line 36, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls ul li:after {
   position: absolute;
   left: 0;
@@ -639,10 +795,12 @@ a:hover {
   opacity: 0;
 }
 
+/* line 47, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-controls ul li:last-child {
   margin-right: 0;
 }
 
+/* line 51, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item {
   text-align: center;
   position: relative;
@@ -650,16 +808,19 @@ a:hover {
   margin-bottom: 30px;
 }
 
+/* line 58, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item:hover:after,
 .gallery-item:hover:before {
   opacity: 1;
 }
 
+/* line 63, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item:hover .gi-hover {
   opacity: 1;
   visibility: visible;
 }
 
+/* line 68, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item:before {
   position: absolute;
   left: 0;
@@ -675,6 +836,7 @@ a:hover {
   transition: all 0.3s;
 }
 
+/* line 83, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item:after {
   position: absolute;
   left: 0;
@@ -690,6 +852,7 @@ a:hover {
   transition: all 0.3s;
 }
 
+/* line 98, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover-warp {
   position: absolute;
   width: 100%;
@@ -708,6 +871,7 @@ a:hover {
   z-index: 9;
 }
 
+/* line 116, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover {
   opacity: 0;
   visibility: hidden;
@@ -716,6 +880,7 @@ a:hover {
   transition: all 0.3s;
 }
 
+/* line 124, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover a {
   height: 60px;
   width: 60px;
@@ -728,46 +893,55 @@ a:hover {
   color: #ffffff;
 }
 
+/* line 136, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover a:first-child {
   margin-right: 15px;
 }
 
+/* line 140, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover h6 {
   color: #ffffff;
   margin-top: 25px;
 }
 
+/* line 145, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gi-hover-warp h4 {
   padding-top: 30px;
   color: whitesmoke;
   text-transform: uppercase;
 }
 
+/* line 151, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item .gi-hover h6 span {
   font-family: "Nunito Sans", sans-serif;
   margin-top: 7px;
   display: block;
 }
 
+/* line 157, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: pointer;
 }
 
+/* line 161, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .gallery-item img {
   height: 400px;
   width: 347px;
 }
 
+/* line 169, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_gallery.scss */
 .about-us-section .about-img img {
   max-width: 70%;
   max-height: 70%;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_entete.scss */
 .hero-section {
   height: 315px;
 }
 
+/* line 3, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_entete.scss */
 .hero-section h1 {
   width: 100%;
   text-shadow: 8px 8px 8px var(--primary-color);
@@ -777,10 +951,12 @@ a:hover {
   font-family: "Oswald", sans-serif;
 }
 
+/* line 15, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_entete.scss */
 .single-hero-item {
   height: 760px;
 }
 
+/* line 17, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_entete.scss */
 .single-hero-item h2 {
   font-size: 80px;
   padding-bottom: 60px;
@@ -788,10 +964,12 @@ a:hover {
   text-shadow: 5px 11px 9px #800000;
 }
 
+/* line 28, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_entete.scss */
 .owl-nav {
   display: none;
 }
 
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member {
   width: 100%;
   height: 100%;
@@ -803,16 +981,19 @@ a:hover {
   padding: 0;
 }
 
+/* line 11, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member span {
   color: black;
   font-weight: bolder;
 }
 
+/* line 15, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member h4 {
   text-align: center;
   color: #800000;
 }
 
+/* line 19, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member img {
   margin-left: auto;
   margin-right: auto;
@@ -820,6 +1001,7 @@ a:hover {
   height: 387px;
 }
 
+/* line 26, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member ul {
   list-style: none;
   margin: 0;
@@ -831,11 +1013,13 @@ a:hover {
   transition: all 0.18s ease-in-out;
 }
 
+/* line 37, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member ul li {
   display: inline;
   padding: 10px;
 }
 
+/* line 43, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member .nameMember {
   text-align: center;
   font-size: 20px;
@@ -843,22 +1027,26 @@ a:hover {
   padding: 0;
 }
 
+/* line 50, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .team-member .nameMember a {
   color: #800000;
   font-weight: bolder;
   padding-bottom: 8px;
 }
 
+/* line 59, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 p {
   font-size: 16px;
 }
 
+/* line 64, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 a:hover {
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 70, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .text-center {
   font-weight: bold;
   text-align: center;
@@ -866,36 +1054,43 @@ a:hover {
   text-transform: uppercase;
 }
 
+/* line 79, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .recup li {
   color: black;
   display: block;
 }
 
+/* line 87, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 figure:hover {
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 94, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* line 100, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .card {
   padding-bottom: 100px;
 }
 
+/* line 102, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .card .photoprofil {
   padding-bottom: 100px;
   padding-top: 20px;
 }
 
+/* line 105, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .card .photoprofil img {
   border-radius: 95%;
   width: 270px;
   height: 370px;
 }
 
+/* line 111, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .card p {
   padding-left: 19px;
   font-size: 18px;
@@ -905,33 +1100,40 @@ figure:hover {
   margin: 0 0 15px 0;
 }
 
+/* line 119, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .maj_profil .card p span {
   color: black;
   font-weight: bolder;
 }
 
+/* line 130, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .dark-wrapper {
   background-color: #111111;
 }
 
+/* line 134, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .dark-wrapper.opaqued,
 .dark-opaqued {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* line 139, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .dark-wrapper.dark-grey-wrapper.opaqued,
 .dark-wrapper.dark-grey-opaqued {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* line 144, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 #headerwrap.opaqued {
   background-color: rgba(68, 34, 69, 0.9);
 }
 
+/* line 148, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .remove-opacqued-bg .dark-opaqued {
   background-color: transparent;
 }
 
+/* line 152, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .dark-wrapper h1,
 .dark-wrapper h2,
 .dark-wrapper h3,
@@ -945,6 +1147,7 @@ figure:hover {
   color: #f3f3f3;
 }
 
+/* line 165, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .dark-content h1,
 .dark-content h2,
 .dark-content h3,
@@ -958,14 +1161,17 @@ figure:hover {
   color: #222;
 }
 
+/* line 178, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .section-inner {
   padding: 120px 0;
 }
 
+/* line 182, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .contact-section-inner {
   padding: 200px 0 120px;
 }
 
+/* line 186, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 section h2.section-heading,
 .section-heading {
   margin-top: 0;
@@ -975,6 +1181,7 @@ section h2.section-heading,
   font-weight: 700;
 }
 
+/* line 195, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 section h3.section-subheading {
   text-transform: lowercase;
   font-size: 20px;
@@ -987,21 +1194,25 @@ section h3.section-subheading {
   position: relative;
 }
 
+/* line 207, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .classes-section h3 {
   color: black;
   padding-bottom: 20px;
 }
 
+/* line 212, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .classes-section h4 {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
 
+/* line 217, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .classes-section p {
   text-transform: lowercase;
 }
 
+/* line 222, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_members.scss */
 .classes-section .single-classes-item {
   border: whitesmoke 2px solid;
   margin-right: 10px;
@@ -1012,14 +1223,17 @@ section h3.section-subheading {
   width: 200px;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content {
   background: whitesmoke;
 }
 
+/* line 3, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-header {
   border: none;
 }
 
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-header h5 {
   text-align: center;
   text-decoration: underline;
@@ -1027,12 +1241,14 @@ section h3.section-subheading {
   font-size: 30px;
 }
 
+/* line 11, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-header .close {
   color: #800000;
   font-size: 2.5rem;
   opacity: 100%;
 }
 
+/* line 18, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-body p {
   text-align: center;
   color: #800000;
@@ -1040,21 +1256,25 @@ section h3.section-subheading {
   font-weight: bolder;
 }
 
+/* line 25, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-footer {
   border: none;
 }
 
+/* line 27, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_modal.scss */
 .modal-content .modal-footer .btn {
   color: whitesmoke;
   background-color: #800000;
   font-weight: bolder;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_menu.scss */
 .dropdown-menu {
   height: 500px;
   overflow-y: auto;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires {
   min-height: 62vh;
   display: flex;
@@ -1062,38 +1282,45 @@ section h3.section-subheading {
   background-color: wheat;
 }
 
+/* line 7, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires h2 {
   padding: 20px;
   text-transform: none;
 }
 
+/* line 14, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires h3 {
   text-transform: none;
   font-size: 25px;
   font-style: italic;
 }
 
+/* line 18, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .slick-slide img {
   width: 100%;
   height: 150px;
   display: block;
 }
 
+/* line 23, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires #demo {
   background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
   max-width: 800px;
   margin: auto;
 }
 
+/* line 29, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .single-blog-item.plain-text {
   background: none;
   padding-top: 0;
 }
 
+/* line 33, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-item {
   height: max-content;
 }
 
+/* line 36, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-caption {
   position: initial;
   z-index: 10;
@@ -1107,6 +1334,7 @@ section h3.section-subheading {
 }
 
 @media (max-width: 767px) {
+  /* line 49, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
   .partenaires .carousel-caption {
     position: initial;
     z-index: 10;
@@ -1120,6 +1348,7 @@ section h3.section-subheading {
   }
 }
 
+/* line 62, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-caption img {
   width: 10rem;
   border-radius: 5rem;
@@ -1127,6 +1356,7 @@ section h3.section-subheading {
 }
 
 @media (max-width: 767px) {
+  /* line 69, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
   .partenaires .carousel-caption img {
     width: 4rem;
     border-radius: 4rem;
@@ -1134,6 +1364,7 @@ section h3.section-subheading {
   }
 }
 
+/* line 76, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires #image-caption {
   font-style: normal;
   font-size: 1rem;
@@ -1141,6 +1372,7 @@ section h3.section-subheading {
 }
 
 @media (max-width: 767px) {
+  /* line 83, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
   .partenaires #image-caption {
     font-style: normal;
     font-size: 0.6rem;
@@ -1148,48 +1380,58 @@ section h3.section-subheading {
   }
 }
 
+/* line 90, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires i {
   background-color: #800000;
   padding: 1.4rem;
 }
 
 @media (max-width: 767px) {
+  /* line 96, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
   .partenaires i {
     padding: 0.8rem;
   }
 }
 
+/* line 101, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-control-prev {
   justify-content: flex-start;
 }
 
+/* line 105, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-control-next {
   justify-content: flex-end;
 }
 
+/* line 109, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 .partenaires .carousel-control-prev,
 .partenaires .carousel-control-next {
   transition: none;
   opacity: unset;
 }
 
+/* line 116, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement {
   padding: 50px;
 }
 
+/* line 122, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement .reglementText, #reglement .reglementPieces {
   box-shadow: 1px 0px 20px 0px #800000;
 }
 
+/* line 124, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement .reglementText h2, #reglement .reglementPieces h2 {
   color: #800000;
   padding: 20px 20px;
 }
 
+/* line 128, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement .reglementText h4, #reglement .reglementPieces h4 {
   text-align: left;
 }
 
+/* line 133, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement .reglementText p, #reglement .reglementText li, #reglement .reglementPieces p, #reglement .reglementPieces li {
   font-weight: normal;
   color: black;
@@ -1198,10 +1440,12 @@ section h3.section-subheading {
   text-align: left;
 }
 
+/* line 142, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_partenaires.scss */
 #reglement .reglementPieces {
   margin-top: 50px;
 }
 
+/* line 1, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 .booking-form {
   box-shadow: 8px 8px 12px #aaa;
   background-color: #F3F4FF;
@@ -1209,44 +1453,53 @@ section h3.section-subheading {
   height: max-content;
 }
 
+/* line 8, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 #connexion h4 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: bolder;
 }
 
+/* line 16, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 .listInscription .booking-form {
   padding-top: 0px;
   padding-bottom: 20px;
 }
 
+/* line 20, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 .listInscription h2 {
   text-transform: none;
   padding: 15px;
 }
 
+/* line 24, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 .listInscription th {
   text-transform: none;
 }
 
+/* line 27, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/_connexion.scss */
 .listInscription .table td, .listInscription .table th {
   padding: 4px;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
 
+/* line 2, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 h1, h2, h3, h4, h5 {
   text-transform: none;
 }
 
+/* line 5, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 h5 {
   margin-top: 22px;
 }
 
+/* line 9, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 #my-modal {
   background: rgba(0, 0, 0, 0.5);
 }
 
+/* line 13, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team {
   text-align: center;
   position: relative;
@@ -1257,16 +1510,19 @@ h5 {
   background-color: whitesmoke;
 }
 
+/* line 21, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team h3 a {
   text-shadow: 8px 8px 8px var(--primary-color);
   color: wheat;
 }
 
+/* line 27, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team img {
   max-height: 30%;
   border-radius: 50%;
 }
 
+/* line 34, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .content {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -1283,12 +1539,14 @@ h5 {
   border-radius: 50%;
 }
 
+/* line 49, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team:hover .content,
 .our-team.active .content {
   opacity: 1;
   transform: perspective(400px) rotateX(0deg);
 }
 
+/* line 54, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .content .title {
   margin: 0 0 10px;
   display: block;
@@ -1296,22 +1554,26 @@ h5 {
   font-weight: 600;
 }
 
+/* line 60, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .content .post {
   margin: 0 0 25px;
   display: block;
   font-size: 15px;
 }
 
+/* line 65, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .social {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
+/* line 70, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .social li {
   display: inline-block;
 }
 
+/* line 73, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .social li a {
   display: block;
   color: #fff;
@@ -1326,17 +1588,20 @@ h5 {
   position: relative;
 }
 
+/* line 86, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .our-team .social li a:hover, .our-team.active .social li a {
   border-radius: 50%;
   text-decoration: none;
 }
 
 @media screen and (max-width: 990px) {
+  /* line 91, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
   .our-team {
     margin-bottom: 30px;
   }
 }
 
+/* line 96, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .boxes-section .boxes-item {
   margin-left: -15px;
   margin-right: -15px;
@@ -1345,6 +1610,7 @@ h5 {
   padding: 36px 0px;
 }
 
+/* line 103, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .boxes-section .boxes-item h2 {
   font-size: 36px;
   font-weight: bolder;
@@ -1355,11 +1621,13 @@ h5 {
   font-family: "Oswald", sans-serif;
 }
 
+/* line 114, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .map {
   padding: 0px;
   border: none;
 }
 
+/* line 117, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .map #openmap {
   height: 380px;
   width: 800px;
@@ -1368,10 +1636,14 @@ h5 {
   border: 2px solid rgba(0, 0, 0, 0.125);
 }
 
+/* line 125, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .forminscr {
   display: block;
 }
 
+/* line 129, C:/wamp64/www/FilRougeAbdelMCMP/css/sass/main.scss */
 .presentationAccueil img {
   height: 379px;
 }
+
+/*# sourceMappingURL=main.css.map */

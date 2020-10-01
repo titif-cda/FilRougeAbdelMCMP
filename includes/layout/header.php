@@ -34,7 +34,7 @@ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh
 
 
     <!-- URL canonicale dynamique -->
-    <link rel="canonical" href="http://cda28.s1.2isa.org/page-<?php echo $page; echo $id = (empty($_GET['id'])) ? '' : "-".$_GET['id'] ?>">
+    <link rel="canonical" href="http://cda28.s1.2isa.org/page-<?php echo $page; echo $id = (empty($_GET['id'])) ? '' : $_GET['id'] ?>">
 
 
     <!-- Matomo -->
@@ -56,11 +56,11 @@ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh
 </head>
 <body>
 <!-- Page Preloder -->
-<div id="preloder">
+<!--<div id="preloder">
     <div class="loader">
 
     </div>
-</div>
+</div>-->
 <!-- modal:fenetre de message d'information-->
 <?php include ('./includes/tempt/modal.php'); ?>
 <!-- Header Section Begin -->

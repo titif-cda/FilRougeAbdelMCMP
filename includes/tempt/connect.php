@@ -3,7 +3,7 @@
         <div id="connexion"  class="col-lg-12">
             <div class="booking-form">
                 <h4>Veuillez vous identifier</h4>
-                <form action="./index.php?page=connexion" method="post">
+                <form action="./index.php" method="post">
                     <input type="hidden" name="formulaire" value="connexion" />
                     <div class="row">
                         <div class="col-lg-6">

@@ -86,6 +86,7 @@ if(isset($_GET['page']) && !empty($_GET['page']) ){
                         $type = $donnees['AVATAR_TYPE'];
                         $idadherent = $donnees['IDADHERENT'];
                         $droitImage = $donnees['DROITIMAGE'];
+                        $confirmation= $donnees['CONFIRMATION'];
                         //to be continued
                     }
 

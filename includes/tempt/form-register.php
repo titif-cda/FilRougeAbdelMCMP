@@ -203,13 +203,13 @@
                                         <div class="col-sm-6">
                                             <label for="name" >Status Membre</label>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="ADMIN" id="administrateur"  <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "administrateur") { echo "checked"; } } ?>value=1 >
+                                                <input class="form-check-input" type="radio" name="ADMIN" id="administrateur" value=1   <?php echo isset($admin) && $admin == "1" ? 'checked' : '';  ?> >
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Administrateur
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="ADMIN" id="membre" checked <?php if (isset($_POST["ADMIN"])) { if ($_POST["ADMIN"] == "membre") { echo "checked"; } } ?>value=0 >
+                                                <input class="form-check-input" type="radio" name="ADMIN" id="membre"  value="0" <?php echo isset($admin) && $admin == 0 ? 'checked' : '';  ?> >
                                                 <label class="form-check-label" for="exampleRadios2">
                                                     Membre
                                                 </label>
@@ -238,23 +238,7 @@
                                             </div>
 
                                         </div>
-                                        <!--<div class="col-sm-6">
-                                            <label for="name" >Votre cylindrée</label>
-                                            <div class="row">
-                                                <div class="form-check">
-                                                    <label class="form-check-label"  for="name" >125 cm3</label>
-                                                    <input class="form-check-input" type="radio"  name="CYLINDREE"value="125 cm3"  <?php /*echo isset($cylindree) && $cylindree == "125 cm3" ? 'checked' : '';  */?>/>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label" for="name" >250 cm3</label>
-                                                    <input class="form-check-input" type="radio"  name="CYLINDREE" value="250 cm3" <?php /*echo isset($cylindree) && $cylindree == "250 cm3" ? 'checked' : '';  */?>/>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label" for="name" >> 250 cm3</label>
-                                                    <input class="form-check-input" type="radio"  name="CYLINDREE"value="> 250 cm3"  <?php /*echo isset($cylindree) && $cylindree == " > 250" ? 'checked' : '';  */?>/>
-                                                </div>
-                                            </div>
-                                        </div>-->
+
                                         <div class="col-sm-12">
                                             <div class="col-sm">
                                                 <button type="submit" class="submit-btn primary-btn" ><?php echo $btn_register; ?></button>
@@ -292,7 +276,7 @@
                             <div class="container" >
                                 <h2 class="text-center"><?php echo $title_register; ?></h2>
                                 <div class="booking-form ">
-                                    <form action="./index.php?page=<?php echo $page ?><?php echo isset($id) ? '&id='.$id : ''; ?>&prenom=<?php echo str_replace(" ", "", $donnees['PRENOM']); ?>" method="post" class="register-form" enctype="multipart/form-data">
+                                    <form action="./index.php?page-acceuil?>&prenom=<?php echo str_replace(" ", "", $donnees['PRENOM']); ?>" method="post" class="register-form" enctype="multipart/form-data">
                                         <input type="hidden" name="formulaire" value="<?php echo $action; ?>"/>
                                         <input type="hidden" name="IDADHERENT" value="<?php echo isset($id) ? $id : ''; ?>"/>
 
@@ -310,7 +294,7 @@
                                                 </div>
                                                 <div class="col-sm">
                                                     <label > Confirmez votre mot de passe</label>
-                                                    <input type="password_confirm" id= "PASSWORD" name="PASSWORD_CONFIRM" placeholder="Votre Mot de passe" value="admin">
+                                                    <input type="password" id= "PASSWORD" name="PASSWORD_CONFIRM" placeholder="Votre Mot de passe" value="admin">
                                                 </div>
                                             </div>
                                         </div>
@@ -366,12 +350,7 @@
                                                     <input type="text" id= "mobile" name="TELEPHONE"  placeholder="e" value="<?php echo isset($tel) ? $tel : '0606060606' ?>">
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6">
-                                                <div class="col-sm">
-                                                    <label for="name" >Certificat Médical (-6mois)</label>
-                                                    <input type="file" id= "certificat" name="CERTIFICAT"  placeholder="Téléchargez votre certificat médical" value=0>
-                                                </div>
-                                            </div>
+
                                             <div class="col-sm-6">
                                                 <div class="col-sm">
                                                     <label for="name"> Vous acceptez que votre image soit utilisée sur le site internet.</label>

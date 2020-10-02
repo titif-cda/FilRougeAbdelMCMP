@@ -57,8 +57,8 @@ if (!empty($_POST)) {
             $hashed_password = hash('sha256', $_POST["PASSWORD"]);
 
             if (empty($errors)){
-                $query = ('insert into ADHERENT( LOGIN, PASSWORD, NOM, PRENOM, CDPOST, DNAISSANCE, ADRESSE1, ADRESSE2, VILLE, EMAIL, TELEPHONE, CERTIFICAT, DROITIMAGE, CYLINDREE, VALIDATION_CLEF) 
-                                    values (:login ,:password,:nom, :prenom, :cdpost, :dnaissance, :adress1, :adress2,:ville, :email, :tel, :certif, :droit, :cylindree, :clef )');
+                $query = ('insert into ADHERENT( LOGIN, PASSWORD, NOM, PRENOM, CDPOST, DNAISSANCE, ADRESSE1, ADRESSE2, VILLE, EMAIL, TELEPHONE,  DROITIMAGE, CYLINDREE, VALIDATION_CLEF) 
+                                    values (:login ,:password,:nom, :prenom, :cdpost, :dnaissance, :adress1, :adress2,:ville, :email, :tel,  :droit, :cylindree, :clef )');
 
                 $queryExec = $bdd->prepare($query);
                 $clefValidation = validationKey(60);
@@ -68,7 +68,7 @@ if (!empty($_POST)) {
                         'nom' => $_POST["NOM"],'prenom' => $_POST["PRENOM"],'cdpost' => $_POST["CDPOST"],
                         'dnaissance' => $_POST["DNAISSANCE"],'adress1' => $_POST["ADRESSE1"],
                         'adress2' => $_POST["ADRESSE2"], 'ville' => $_POST["VILLE"],'email' => $_POST["EMAIL"],
-                        'tel' => $_POST["TELEPHONE"], 'certif' => 1,'droit' => $droit_image, 'cylindree' => $_POST["CYLINDREE"],'clef' => $clefValidation));
+                        'tel' => $_POST["TELEPHONE"], 'droit' => $droit_image, 'cylindree' => $_POST["CYLINDREE"],'clef' => $clefValidation));
 
                 $user_id= $bdd->lastInsertId();
                 $from = 'abdellatif.eljid@2isa.net';
@@ -78,14 +78,15 @@ if (!empty($_POST)) {
 
                 try {
                     \Lib\MailEngine::send($subject, $from, $to, $message);
-                    header('Location: page-connection');
+
                     $message_modal = 'Un email de confirmation vous a été envoyé pour valider votre compte.';
+//                    header('Location: page-connection');
+                    $page = $homepage;
                 }
                 catch(Exception $e){
                     error_log($e ->getMessage());
                 }
             }
-            debug($errors);
 
         } else if ($_POST['formulaire'] == 'update_profil') {
             if (isset($_FILES['image']) && !empty($_FILES['image'])) {
@@ -207,18 +208,22 @@ if (!empty($_POST)) {
                         if ($donnees['ADMIN'] == 0) {
                             $user_level = 1;
                             $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte membre!";
+
+
                         }
                         else if ($donnees['ADMIN'] == 1) {
                             $user_level = 2;
                             $message_modal = "Bienvenue, " . $prenom . " " . $nom . " , vous êtes connecté sur votre compte administrateur!";
+
                         }
                         //Retour page par defaut
-                        header('Location: page-accueil');
+
                         $user_level = 1;
                         if ($donnees['ADMIN'] == 1) {
                             $user_level = 2;
                         }
                         $_SESSION['user_level'] = $user_level;
+
 
                         $cookie_name = "ticket";
                         // On génère quelque chose d'aléatoire
@@ -248,10 +253,7 @@ if (!empty($_POST)) {
             try{
                 $query = ('insert into INSCRIPTION ( IDADHERENT, IDACTIVITE, NBPARTICIPANTS) 
                                         values (:idadherent ,:idactivite, :nbinvit )');
-
                 $queryExec = $bdd->prepare($query);
-
-
                 $queryExec->execute(
                     array('idadherent' => $_POST['idadherent'],'idactivite' => $_POST['idactivite'],'nbinvit' => $_POST["nbpers"]));
                 $message_modal= 'Inscription enregistrée';

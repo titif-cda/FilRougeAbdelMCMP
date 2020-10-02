@@ -119,7 +119,7 @@ Created: colorlib
     /*------------------
         Progress Loader
     --------------------*/
-/*	$('.circle-progress').each(function() {
+	$('.circle-progress').each(function() {
 		var cpvalue = $(this).data("cpvalue");
 		var cpcolor = $(this).data("cpcolor");
 		var cpid 	= $(this).data("cpid");
@@ -145,15 +145,15 @@ Created: colorlib
 				emptyFill: "rgba(0, 0, 0, 0)"
 			});
 		}
-	});*/
+	});
 
 
     /*------------------
             Mon JS
    --------------------*/
-  /*  $('.carousel-inner').carousel({
+ $('.carousel-inner').carousel({
         interval: 5000
-    })*/
+    })
 
 
 
@@ -266,7 +266,7 @@ Created: colorlib
 
     });*/
 
-//suppression membre
+    //suppression membre
     $('.deleteadh').on('click', function() {
     console.log('btn ficheMembre ready !');
     var name = $(this).data('id');
@@ -301,7 +301,7 @@ Created: colorlib
 
 });
 
-//suppression news
+    //suppression news
     $('.suprnews').on('click', function() {
         console.log('btn simplenews ready !');
         var news = $(this).data('id');
@@ -335,7 +335,8 @@ Created: colorlib
         return false;
 
     });
-//ajout formulaire wysiwig
+
+    //ajout formulaire wysiwig
     $('#add-news-form').on('submit', function(event){
         var formElmt = document.getElementById("add-news-form");
         if(!formElmt.checkValidity()) return false;
@@ -390,6 +391,7 @@ Created: colorlib
         return false;
 
     });
+
     //Filtre gallerie
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
@@ -413,7 +415,6 @@ Created: colorlib
     $('.image-popup').magnificPopup({
         type: 'image'
     });
-
     $('#upload-img-wrapper').on('click', function () {
         $('#upload-img-input').click();
     })
@@ -424,6 +425,7 @@ Created: colorlib
         })
         reader.readAsDataURL(this.files[0]);
     })
+
     //fonction prepend
     function afficher(btnCls,par1,title) {
         $(btnCls).on("click", function () {

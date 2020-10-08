@@ -6314,3 +6314,15 @@ Stack trace:
 [02-Oct-2020 07:53:39 UTC] PHP Notice:  Undefined index: ADMIN in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 128
 [02-Oct-2020 08:12:06 UTC] PHP Notice:  Undefined index: CYLINDREE in C:\wamp64\www\FilRougeAbdelMCMP\lib\methode_post.php on line 71
 [02-Oct-2020 09:31:54 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\FilRougeAbdelMCMP\includes\tempt\modal.php on line 11
+[06-Oct-2020 07:13:52 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:13:52 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:00 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:00 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:13 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:13 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:24 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[06-Oct-2020 07:14:24 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[08-Oct-2020 07:22:54 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[08-Oct-2020 07:22:54 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[08-Oct-2020 07:23:03 UTC] PHP Warning:  include(./includes/tempt/inutilisé/callto-section.php): failed to open stream: No such file or directory in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6
+[08-Oct-2020 07:23:03 UTC] PHP Warning:  include(): Failed opening './includes/tempt/inutilisé/callto-section.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\FilRougeAbdelMCMP\includes\pages\addphoto.php on line 6

@@ -8,7 +8,7 @@
         <div class="row">
 
 
-            <div class="col-sm-3">
+            <div class="col-3">
 
                 <!-- weather widget start -->
                 <!-- widget meteo -->
@@ -26,11 +26,11 @@
             </div>
             <!-- widget meteo -->
 
-            <div class="col-sm-3">
+            <div class="col-3">
 
                 <img src="./img/logo/logo3.png" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-6">
                 <div class="footer-text">
                     <div class="reserved"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p><a href="page-reglement" class="text-capitalize">Reglement</a> / Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Crée  par <a >Moto Club Millau Passion </a>

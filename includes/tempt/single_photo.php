@@ -1,7 +1,12 @@
 <div class="col-lg-4 col-sm-6 filter <?php echo $row['IDTYPE']; ?>">
     <div class="gallery-item">
         <div class="blog-img">
-            <img src="<?php echo $directory_image_gallerie.$row['NOMFICHIER']?>" alt="">
+            <?php
+            $img = !empty($row['NOMFICHIER']) ? $row['NOMFICHIER'] : 'upload_galerie_photo.jpg';
+            ?>
+
+            <img src="<?php echo $directory_image_gallerie.$img?>" alt="">
+
         </div>
         <div class="gi-hover-warp">
             <div class="gi-hover">
